@@ -1,0 +1,164 @@
+{
+  "title": "Frogs Hop, Swim, and Grow",
+  "slug": "frogs",
+  "targetAge": 5,
+  "theme": {
+    "primaryColor": "#2F6F4F",
+    "secondaryColor": "#7FBF6A",
+    "backgroundColor": "#F2F7E8",
+    "accentColor": "#F46F3A",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "A calm pond at dusk with springy shapes, soft ripples, and leafy places to perch.",
+    "decorativeMotif": "Lily pads, pond ripples, reeds, and curved hop paths that make pages feel bouncy and alive."
+  },
+  "cover": {
+    "title": "Frogs Hop, Swim, and Grow",
+    "subtitle": "A pond-to-tree look at frog life",
+    "image": "images/red-eyed-leaf-frog.jpg"
+  },
+  "pages": [
+    {
+      "text": "Frogs are amphibians. Many have big eyes and strong back legs.",
+      "extras": [
+        "Adult frogs do not have tails."
+      ],
+      "images": [
+        {
+          "src": "images/red-eyed-leaf-frog.jpg",
+          "alt": "A red-eyed leaf frog resting on a bright green leaf."
+        }
+      ],
+      "layoutHint": "Opening portrait page with one large frog and roomy text, like a frog pausing on a lily pad."
+    },
+    {
+      "text": "Many frogs jump. Many can swim too. They often stay near fresh water or other damp places.",
+      "extras": [
+        "Frogs live in many places around the world."
+      ],
+      "images": [
+        {
+          "src": "images/american-green-tree-frog.jpg",
+          "alt": "A close-up of an American green tree frog."
+        },
+        {
+          "src": "images/gray-tree-frog.jpg",
+          "alt": "A gray tree frog resting on rough tree bark."
+        }
+      ],
+      "layoutHint": "Two-photo spread with a gentle curve between images, suggesting a hop from one perch to another."
+    },
+    {
+      "text": "Some frogs live in trees. Tree frogs often have sticky toe pads that help them hold on.",
+      "extras": [
+        "Frog skin can be smooth, bumpy, bright, or camouflaged."
+      ],
+      "images": [
+        {
+          "src": "images/european-tree-frog.jpg",
+          "alt": "A European tree frog clinging to a plant stem."
+        },
+        {
+          "src": "images/american-green-tree-frog.jpg",
+          "alt": "An American green tree frog seen close up on a perch."
+        }
+      ],
+      "layoutHint": "Vertical climbing layout with text tucked beside the frogs, as if rising through reeds and branches."
+    },
+    {
+      "text": "Frogs make calls. Adult frogs often eat small animals such as insects.",
+      "extras": [
+        "Frogs make many calls during breeding season."
+      ],
+      "images": [
+        {
+          "src": "images/red-eyed-leaf-frog.jpg",
+          "alt": "A red-eyed leaf frog posed on a leaf, ready to call."
+        }
+      ],
+      "layoutHint": "Low-text page with ripples or sound-wave styling around a single frog portrait."
+    },
+    {
+      "text": "Many frogs lay their eggs in water. Frog eggs are often called frogspawn.",
+      "extras": [
+        "The life cycle begins in water for many frogs."
+      ],
+      "images": [
+        {
+          "src": "images/frog-spawn.jpg",
+          "alt": "Clear frogspawn floating in shallow water."
+        }
+      ],
+      "layoutHint": "Wide, airy pond page with plenty of space around the egg clusters."
+    },
+    {
+      "text": "The eggs hatch into tadpoles. Tadpoles live in water and have tails for swimming.",
+      "extras": [
+        "As tadpoles grow, they begin to grow legs."
+      ],
+      "images": [
+        {
+          "src": "images/tadpole-rana-temporaria.jpg",
+          "alt": "A common frog tadpole in the water just before metamorphosis."
+        }
+      ],
+      "layoutHint": "Underwater-feeling page with the text flowing along a tail-like curve."
+    },
+    {
+      "text": "A tadpole changes into a frog in metamorphosis. The tail shrinks, and lungs develop.",
+      "extras": [
+        "This big change happens as the young frog grows."
+      ],
+      "images": [
+        {
+          "src": "images/tadpole-rana-temporaria.jpg",
+          "alt": "A tadpole with a tail, showing the water stage of frog life."
+        },
+        {
+          "src": "images/european-tree-frog.jpg",
+          "alt": "A tree frog showing the later stage after metamorphosis."
+        }
+      ],
+      "layoutHint": "Before-and-after comparison spread with a clear left-to-right growth path."
+    },
+    {
+      "text": "There are thousands of frog species. Some are tiny, and some are much bigger.",
+      "extras": [
+        "Some frogs use bright colors to warn other animals to leave them alone."
+      ],
+      "images": [
+        {
+          "src": "images/red-eyed-leaf-frog.jpg",
+          "alt": "A colorful red-eyed leaf frog on a leaf."
+        },
+        {
+          "src": "images/gray-tree-frog.jpg",
+          "alt": "A gray tree frog blending in against bark."
+        }
+      ],
+      "layoutHint": "Comparison page pairing a bright frog with a camouflaged frog to show variety."
+    },
+    {
+      "text": "Frogs are an important part of food webs. Many frog species are in trouble and need safe places to live.",
+      "extras": [
+        "Wet places, ponds, and forests can help frogs."
+      ],
+      "images": [
+        {
+          "src": "images/american-green-tree-frog.jpg",
+          "alt": "An American green tree frog looking out from a green perch."
+        },
+        {
+          "src": "images/frog-spawn.jpg",
+          "alt": "Frogspawn in shallow water, showing one stage that needs a safe habitat."
+        }
+      ],
+      "layoutHint": "Gentle closing spread with a protective pond feeling and space for a hopeful ending."
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true,
+    "notes": "Theme direction: rounded headings, calm body text, pond-ripple spacing, and lily-pad or reed accents to give this frog book its own springy rhythm."
+  }
+}
