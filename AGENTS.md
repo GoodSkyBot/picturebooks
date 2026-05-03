@@ -1,10 +1,12 @@
 # Agent Contract
 
-This repository uses three manual OpenCode agent runs per book:
+This repository uses three manual agent runs per book:
 
 1. research
 2. author
 3. build
+
+Agents can be invoked via OpenCode (`/research`, `/author`, `/build`) or VS Code Copilot prompt files (`.github/prompts/`). Full agent instructions live in `agents/`.
 
 All agents must follow these rules.
 
