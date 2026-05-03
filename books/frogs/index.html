@@ -1,335 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frogs Hop, Swim, and Grow</title>
-    <meta
-      name="description"
-      content="A gentle nonfiction picture book about frogs for young readers."
-    >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@500;700;800&display=swap"
-      rel="stylesheet"
-    >
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="pond-backdrop" aria-hidden="true"></div>
-    <main class="book-shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">Picture Book</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frogs Hop, Swim, and Grow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="book" aria-label="Frog picture book">
+    <!-- Cover -->
+    <article class="page page-cover" data-page="0">
+      <div class="cover-layout">
+        <div class="cover-text">
+          <p class="cover-eyebrow">Picture Book</p>
           <h1>Frogs Hop, Swim, and Grow</h1>
+          <p class="cover-subtitle">A pond-to-tree look at frog life</p>
+          <button class="btn-start" id="startReading">Start Reading</button>
         </div>
-        <div class="progress-panel" aria-live="polite">
-          <p class="progress-label" id="progressLabel">Cover</p>
-          <div class="progress-track" aria-hidden="true">
-            <div class="progress-fill" id="progressFill"></div>
-          </div>
+        <figure class="cover-image">
+          <img src="images/red-eyed-leaf-frog.jpg" alt="A red-eyed leaf frog resting on a bright green leaf.">
+          <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Page 1 -->
+    <article class="page page-content layout-hero-right" data-page="1" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">Frogs are amphibians. Many have big eyes and strong back legs.</p>
+          <ul class="extras"><li>Adult frogs do not have tails.</li></ul>
         </div>
-      </header>
+        <figure class="page-image image-single">
+          <img src="images/red-eyed-leaf-frog.jpg" alt="A red-eyed leaf frog resting on a bright green leaf.">
+          <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
+        </figure>
+      </div>
+    </article>
 
-      <section class="stage-frame">
-        <div class="book-stage" id="bookStage" aria-label="Frog picture book">
-          <article class="sheet cover-sheet is-current" data-index="0" data-kind="cover">
-            <div class="sheet-surface">
-              <div class="cover-copy">
-                <p class="eyebrow">A pond-to-tree look at frog life</p>
-                <h2>Frogs Hop, Swim, and Grow</h2>
-                <p class="cover-text">
-                  Meet frogs as they hop, swim, cling, call, and change from tadpoles into adults.
-                </p>
-                <button class="start-reading" type="button" data-jump="1">Start Reading</button>
-              </div>
-              <figure class="cover-figure image-card image-card-leaf">
-                <img src="images/red-eyed-leaf-frog.jpg" alt="A red-eyed leaf frog resting on a bright green leaf.">
-                <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
-              </figure>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-single-hero" data-index="1" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body text-roomy">
-                <div class="story-block">
-                  <p class="page-text">Frogs are amphibians. Many have big eyes and strong back legs.</p>
-                  <ul class="extras-list">
-                    <li>Adult frogs do not have tails.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-1 hero-grid">
-                  <figure class="image-card image-card-leaf">
-                    <img src="images/red-eyed-leaf-frog.jpg" alt="A red-eyed leaf frog resting on a bright green leaf.">
-                    <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-duo-split" data-index="2" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body split-bounce">
-                <div class="story-block">
-                  <p class="page-text">
-                    Many frogs jump. Many can swim too. They often stay near fresh water or other damp places.
-                  </p>
-                  <ul class="extras-list">
-                    <li>Frogs live in many places around the world.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-2 hop-grid">
-                  <figure class="image-card image-card-round">
-                    <img src="images/american-green-tree-frog.jpg" alt="A close-up of an American green tree frog.">
-                    <figcaption>Photo: Slimmdiggity, CC BY-SA 4.0</figcaption>
-                  </figure>
-                  <figure class="image-card image-card-bark">
-                    <img src="images/gray-tree-frog.jpg" alt="A gray tree frog resting on rough tree bark.">
-                    <figcaption>Photo: Peter Paplanus, CC BY 2.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-vertical-climb" data-index="3" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body climb-layout">
-                <div class="image-grid columns-2 climb-grid">
-                  <figure class="image-card image-card-tall">
-                    <img src="images/european-tree-frog.jpg" alt="A European tree frog clinging to a plant stem.">
-                    <figcaption>Photo: Christoph Leeb, CC BY-SA 3.0</figcaption>
-                  </figure>
-                  <figure class="image-card image-card-round offset-up">
-                    <img src="images/american-green-tree-frog.jpg" alt="An American green tree frog seen close up on a perch.">
-                    <figcaption>Photo: Slimmdiggity, CC BY-SA 4.0</figcaption>
-                  </figure>
-                </div>
-                <div class="story-block story-block-climb">
-                  <p class="page-text">
-                    Some frogs live in trees. Tree frogs often have sticky toe pads that help them hold on.
-                  </p>
-                  <ul class="extras-list">
-                    <li>Frog skin can be smooth, bumpy, bright, or camouflaged.</li>
-                  </ul>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-call-ripple" data-index="4" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body call-layout">
-                <div class="story-block story-centered">
-                  <p class="page-text">Frogs make calls. Adult frogs often eat small animals such as insects.</p>
-                  <ul class="extras-list">
-                    <li>Frogs make many calls during breeding season.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-1 ripple-grid">
-                  <figure class="image-card image-card-round ripple-frame">
-                    <img src="images/red-eyed-leaf-frog.jpg" alt="A red-eyed leaf frog posed on a leaf, ready to call.">
-                    <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-wide-water" data-index="5" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body wide-water-layout">
-                <div class="story-block story-water">
-                  <p class="page-text">
-                    Many frogs lay their eggs in water. Frog eggs are often called frogspawn.
-                  </p>
-                  <ul class="extras-list">
-                    <li>The life cycle begins in water for many frogs.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-1 water-grid">
-                  <figure class="image-card image-card-wide">
-                    <img src="images/frog-spawn.jpg" alt="Clear frogspawn floating in shallow water.">
-                    <figcaption>Photo: Tiia Monto, CC BY-SA 3.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-underwater" data-index="6" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body underwater-layout">
-                <div class="image-grid columns-1 tadpole-grid">
-                  <figure class="image-card image-card-round water-glow">
-                    <img src="images/tadpole-rana-temporaria.jpg" alt="A common frog tadpole in the water just before metamorphosis.">
-                    <figcaption>Photo: Viridiflavus, CC BY-SA 3.0</figcaption>
-                  </figure>
-                </div>
-                <div class="story-block story-underwater">
-                  <p class="page-text">
-                    The eggs hatch into tadpoles. Tadpoles live in water and have tails for swimming.
-                  </p>
-                  <ul class="extras-list">
-                    <li>As tadpoles grow, they begin to grow legs.</li>
-                  </ul>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-metamorphosis" data-index="7" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body metamorphosis-layout">
-                <div class="story-block">
-                  <p class="page-text">
-                    A tadpole changes into a frog in metamorphosis. The tail shrinks, and lungs develop.
-                  </p>
-                  <ul class="extras-list">
-                    <li>This big change happens as the young frog grows.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-2 compare-grid">
-                  <figure class="image-card image-card-round">
-                    <img src="images/tadpole-rana-temporaria.jpg" alt="A tadpole with a tail, showing the water stage of frog life.">
-                    <figcaption>Photo: Viridiflavus, CC BY-SA 3.0</figcaption>
-                  </figure>
-                  <figure class="image-card image-card-leaf">
-                    <img src="images/european-tree-frog.jpg" alt="A tree frog showing the later stage after metamorphosis.">
-                    <figcaption>Photo: Christoph Leeb, CC BY-SA 3.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-variety" data-index="8" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body split-bounce">
-                <div class="story-block">
-                  <p class="page-text">
-                    There are thousands of frog species. Some are tiny, and some are much bigger.
-                  </p>
-                  <ul class="extras-list">
-                    <li>Some frogs use bright colors to warn other animals to leave them alone.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-2 contrast-grid">
-                  <figure class="image-card image-card-leaf">
-                    <img src="images/red-eyed-leaf-frog.jpg" alt="A colorful red-eyed leaf frog on a leaf.">
-                    <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
-                  </figure>
-                  <figure class="image-card image-card-bark">
-                    <img src="images/gray-tree-frog.jpg" alt="A gray tree frog blending in against bark.">
-                    <figcaption>Photo: Peter Paplanus, CC BY 2.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet page-sheet layout-closing" data-index="9" data-kind="page" hidden>
-            <div class="sheet-surface">
-              <section class="page-body closing-layout">
-                <div class="story-block story-closing">
-                  <p class="page-text">
-                    Frogs are an important part of food webs. Many frog species are in trouble and need safe places to live.
-                  </p>
-                  <ul class="extras-list">
-                    <li>Wet places, ponds, and forests can help frogs.</li>
-                  </ul>
-                </div>
-                <div class="image-grid columns-2 closing-grid">
-                  <figure class="image-card image-card-round">
-                    <img src="images/american-green-tree-frog.jpg" alt="An American green tree frog looking out from a green perch.">
-                    <figcaption>Photo: Slimmdiggity, CC BY-SA 4.0</figcaption>
-                  </figure>
-                  <figure class="image-card image-card-wide">
-                    <img src="images/frog-spawn.jpg" alt="Frogspawn in shallow water, showing one stage that needs a safe habitat.">
-                    <figcaption>Photo: Tiia Monto, CC BY-SA 3.0</figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-          </article>
-
-          <article class="sheet credits-sheet" data-index="10" data-kind="backmatter" hidden>
-            <div class="sheet-surface credits-surface">
-              <div class="credits-intro">
-                <p class="eyebrow">Back Matter</p>
-                <h2>Credits and Sources</h2>
-                <p>
-                  Rounded headings, soft pond colors, reed accents, and ripple paths shape this frog book's springy, calm feel.
-                </p>
-              </div>
-              <div class="credits-columns">
-                <section>
-                  <h3>Facts and Research</h3>
-                  <ol class="source-list">
-                    <li>
-                      <a href="https://en.wikipedia.org/wiki/Frog">Frog - Wikipedia</a>
-                      <span>Accessed 2026-05-02</span>
-                    </li>
-                    <li>
-                      <a href="https://en.wikipedia.org/wiki/Tadpole">Tadpole - Wikipedia</a>
-                      <span>Accessed 2026-05-02</span>
-                    </li>
-                    <li>
-                      <a href="https://en.wikipedia.org/wiki/Tree_frog">Tree frog - Wikipedia</a>
-                      <span>Accessed 2026-05-02</span>
-                    </li>
-                  </ol>
-                </section>
-                <section>
-                  <h3>Image Credits</h3>
-                  <ul class="credit-list">
-                    <li>
-                      <strong>Red-eyed leaf frog</strong>
-                      <span>Charlie Jackson, <a href="https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg">Wikimedia Commons</a>, CC BY 2.0</span>
-                    </li>
-                    <li>
-                      <strong>Common frog tadpole</strong>
-                      <span>Viridiflavus, <a href="https://commons.wikimedia.org/wiki/File:RanaTemporariaLarva2.jpg">Wikimedia Commons</a>, CC BY-SA 3.0</span>
-                    </li>
-                    <li>
-                      <strong>European tree frog</strong>
-                      <span>Christoph Leeb, <a href="https://commons.wikimedia.org/wiki/File:Laubfrosch_cropped.jpg">Wikimedia Commons</a>, CC BY-SA 3.0</span>
-                    </li>
-                    <li>
-                      <strong>American green tree frog</strong>
-                      <span>Slimmdiggity, <a href="https://commons.wikimedia.org/wiki/File:Hyla_cinerea_(American_Green_Tree_Frog).jpg">Wikimedia Commons</a>, CC BY-SA 4.0</span>
-                    </li>
-                    <li>
-                      <strong>Frogspawn</strong>
-                      <span>Tiia Monto, <a href="https://commons.wikimedia.org/wiki/File:Frog_spawn.jpg">Wikimedia Commons</a>, CC BY-SA 3.0</span>
-                    </li>
-                    <li>
-                      <strong>Gray tree frog</strong>
-                      <span>Peter Paplanus, <a href="https://commons.wikimedia.org/wiki/File:Gray_Tree_Frog_(Hyla_versicolor)_(8716723960).jpg">Wikimedia Commons</a>, CC BY 2.0</span>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-            </div>
-          </article>
+    <!-- Page 2 -->
+    <article class="page page-content layout-split" data-page="2" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">Many frogs jump. Many can swim too. They often stay near fresh water or other damp places.</p>
+          <ul class="extras"><li>Frogs live in many places around the world.</li></ul>
         </div>
-      </section>
+        <div class="image-pair hop-pair">
+          <figure class="page-image">
+            <img src="images/american-green-tree-frog.jpg" alt="A close-up of an American green tree frog.">
+            <figcaption>Photo: Slimmdiggity, CC BY-SA 4.0</figcaption>
+          </figure>
+          <figure class="page-image">
+            <img src="images/gray-tree-frog.jpg" alt="A gray tree frog resting on rough tree bark.">
+            <figcaption>Photo: Peter Paplanus, CC BY 2.0</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
 
-      <nav class="nav-controls" aria-label="Book navigation">
-        <button class="nav-button" id="prevButton" type="button" aria-label="Go to previous page">
-          <span aria-hidden="true">&#8592;</span>
-          <span>Back</span>
-        </button>
-        <p class="nav-hint">Swipe or use arrow keys</p>
-        <button class="nav-button" id="nextButton" type="button" aria-label="Go to next page">
-          <span>Next</span>
-          <span aria-hidden="true">&#8594;</span>
-        </button>
-      </nav>
-    </main>
-  </body>
+    <!-- Page 3 -->
+    <article class="page page-content layout-climb" data-page="3" hidden>
+      <div class="page-inner">
+        <div class="image-pair climb-pair">
+          <figure class="page-image">
+            <img src="images/european-tree-frog.jpg" alt="A European tree frog clinging to a plant stem.">
+            <figcaption>Photo: Christoph Leeb, CC BY-SA 3.0</figcaption>
+          </figure>
+          <figure class="page-image">
+            <img src="images/american-green-tree-frog.jpg" alt="An American green tree frog seen close up on a perch.">
+            <figcaption>Photo: Slimmdiggity, CC BY-SA 4.0</figcaption>
+          </figure>
+        </div>
+        <div class="story-block">
+          <p class="page-text">Some frogs live in trees. Tree frogs often have sticky toe pads that help them hold on.</p>
+          <ul class="extras"><li>Frog skin can be smooth, bumpy, bright, or camouflaged.</li></ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Page 4 -->
+    <article class="page page-content layout-center" data-page="4" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">Frogs make calls. Adult frogs often eat small animals such as insects.</p>
+          <ul class="extras"><li>Frogs make many calls during breeding season.</li></ul>
+        </div>
+        <figure class="page-image image-single ripple-frame">
+          <img src="images/red-eyed-leaf-frog.jpg" alt="A red-eyed leaf frog posed on a leaf, ready to call.">
+          <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Page 5 -->
+    <article class="page page-content layout-hero-right" data-page="5" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">Many frogs lay their eggs in water. Frog eggs are often called frogspawn.</p>
+          <ul class="extras"><li>The life cycle begins in water for many frogs.</li></ul>
+        </div>
+        <figure class="page-image image-single image-wide">
+          <img src="images/frog-spawn.jpg" alt="Clear frogspawn floating in shallow water.">
+          <figcaption>Photo: Tiia Monto, CC BY-SA 3.0</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Page 6 -->
+    <article class="page page-content layout-hero-left" data-page="6" hidden>
+      <div class="page-inner">
+        <figure class="page-image image-single water-glow">
+          <img src="images/tadpole-rana-temporaria.jpg" alt="A common frog tadpole in the water just before metamorphosis.">
+          <figcaption>Photo: Viridiflavus, CC BY-SA 3.0</figcaption>
+        </figure>
+        <div class="story-block">
+          <p class="page-text">The eggs hatch into tadpoles. Tadpoles live in water and have tails for swimming.</p>
+          <ul class="extras"><li>As tadpoles grow, they begin to grow legs.</li></ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Page 7 -->
+    <article class="page page-content layout-split" data-page="7" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">A tadpole changes into a frog in metamorphosis. The tail shrinks, and lungs develop.</p>
+          <ul class="extras"><li>This big change happens as the young frog grows.</li></ul>
+        </div>
+        <div class="image-pair compare-pair">
+          <figure class="page-image">
+            <img src="images/tadpole-rana-temporaria.jpg" alt="A tadpole with a tail, showing the water stage of frog life.">
+            <figcaption>Photo: Viridiflavus, CC BY-SA 3.0</figcaption>
+          </figure>
+          <figure class="page-image">
+            <img src="images/european-tree-frog.jpg" alt="A tree frog showing the later stage after metamorphosis.">
+            <figcaption>Photo: Christoph Leeb, CC BY-SA 3.0</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- Page 8 -->
+    <article class="page page-content layout-split" data-page="8" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">There are thousands of frog species. Some are tiny, and some are much bigger.</p>
+          <ul class="extras"><li>Some frogs use bright colors to warn other animals to leave them alone.</li></ul>
+        </div>
+        <div class="image-pair contrast-pair">
+          <figure class="page-image">
+            <img src="images/red-eyed-leaf-frog.jpg" alt="A colorful red-eyed leaf frog on a leaf.">
+            <figcaption>Photo: Charlie Jackson, CC BY 2.0</figcaption>
+          </figure>
+          <figure class="page-image">
+            <img src="images/gray-tree-frog.jpg" alt="A gray tree frog blending in against bark.">
+            <figcaption>Photo: Peter Paplanus, CC BY 2.0</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- Page 9 -->
+    <article class="page page-content layout-split" data-page="9" hidden>
+      <div class="page-inner">
+        <div class="story-block">
+          <p class="page-text">Frogs are an important part of food webs. Many frog species are in trouble and need safe places to live.</p>
+          <ul class="extras"><li>Wet places, ponds, and forests can help frogs.</li></ul>
+        </div>
+        <div class="image-pair">
+          <figure class="page-image">
+            <img src="images/american-green-tree-frog.jpg" alt="An American green tree frog looking out from a green perch.">
+            <figcaption>Photo: Slimmdiggity, CC BY-SA 4.0</figcaption>
+          </figure>
+          <figure class="page-image">
+            <img src="images/frog-spawn.jpg" alt="Frogspawn in shallow water, showing one stage that needs a safe habitat.">
+            <figcaption>Photo: Tiia Monto, CC BY-SA 3.0</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- Credits -->
+    <article class="page page-credits" data-page="10" hidden>
+      <div class="credits-inner">
+        <h2>Credits and Sources</h2>
+        <div class="credits-columns">
+          <section>
+            <h3>Facts and Research</h3>
+            <ul class="source-list">
+              <li><a href="https://en.wikipedia.org/wiki/Frog">Frog - Wikipedia</a><span>Accessed 2026-05-02</span></li>
+              <li><a href="https://en.wikipedia.org/wiki/Tadpole">Tadpole - Wikipedia</a><span>Accessed 2026-05-02</span></li>
+              <li><a href="https://en.wikipedia.org/wiki/Tree_frog">Tree frog - Wikipedia</a><span>Accessed 2026-05-02</span></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Image Credits</h3>
+            <ul class="credit-list">
+              <li><strong>Red-eyed leaf frog</strong><span>Charlie Jackson, <a href="https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg">Wikimedia Commons</a>, CC BY 2.0</span></li>
+              <li><strong>Common frog tadpole</strong><span>Viridiflavus, <a href="https://commons.wikimedia.org/wiki/File:RanaTemporariaLarva2.jpg">Wikimedia Commons</a>, CC BY-SA 3.0</span></li>
+              <li><strong>European tree frog</strong><span>Christoph Leeb, <a href="https://commons.wikimedia.org/wiki/File:Laubfrosch_cropped.jpg">Wikimedia Commons</a>, CC BY-SA 3.0</span></li>
+              <li><strong>American green tree frog</strong><span>Slimmdiggity, <a href="https://commons.wikimedia.org/wiki/File:Hyla_cinerea_(American_Green_Tree_Frog).jpg">Wikimedia Commons</a>, CC BY-SA 4.0</span></li>
+              <li><strong>Frogspawn</strong><span>Tiia Monto, <a href="https://commons.wikimedia.org/wiki/File:Frog_spawn.jpg">Wikimedia Commons</a>, CC BY-SA 3.0</span></li>
+              <li><strong>Gray tree frog</strong><span>Peter Paplanus, <a href="https://commons.wikimedia.org/wiki/File:Gray_Tree_Frog_(Hyla_versicolor)_(8716723960).jpg">Wikimedia Commons</a>, CC BY 2.0</span></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Navigation overlays -->
+  <button class="nav-btn nav-prev" id="prevBtn" aria-label="Go to previous page" disabled>
+    <span class="nav-arrow">&#8249;</span>
+  </button>
+  <button class="nav-btn nav-next" id="nextBtn" aria-label="Go to next page">
+    <span class="nav-arrow">&#8250;</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
 </html>

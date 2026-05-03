@@ -6,7 +6,13 @@ Every book must support:
 - previous and next buttons
 - swipe navigation on touch devices
 - keyboard navigation with left and right arrows
-- visible page progress
+
+## Navigation Chrome
+
+- Do not show a persistent title bar or page progress indicator on every page. Maximize content area.
+- Render previous/next buttons as overlays on the left and right edges of the content area.
+- Buttons should be semi-transparent and unobtrusive but still easily tappable by young children.
+- Do not add a separate header or footer bar that consumes vertical space.
 
 ## Touch Targets
 

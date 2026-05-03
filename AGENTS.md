@@ -38,10 +38,12 @@ All agents must follow these rules.
 
 ## UX Rules
 
+- Every page must fit within the viewport without scrolling on all screen sizes.
 - Every final book must support previous/next buttons.
+- Render nav buttons as overlays on the left/right edges of the content, not in a separate bar.
 - Buttons must be large enough for young children to use.
 - Support swipe gestures and keyboard navigation.
-- Include page progress.
+- Do not show a persistent title bar or page progress indicator on content pages.
 - Respect `prefers-reduced-motion`.
 - Include image alt text.
 - Include visible credits and sources in the book.

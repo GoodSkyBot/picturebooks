@@ -1,8 +1,10 @@
 # Design Guidelines
 
-## Core Principle
+## Core Principles
 
 Each book should feel designed for its topic, not generated from the same template.
+
+Every page must fit entirely within the viewport without scrolling. This applies to all screen sizes including mobile. Layouts should use the full available screen space rather than leaving large empty areas. Never require the reader to scroll to see content or controls on a single page.
 
 ## Theme Expectations
 
