@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 description: Write a kids nonfiction picture book from researched content
 ---
 

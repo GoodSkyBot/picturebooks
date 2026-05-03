@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 description: Build the final static kids picture-book site from book.json
 ---
 

@@ -228,6 +228,22 @@
       "author": "Peter Paplanus",
       "license": "CC BY 2.0",
       "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "filename": "images/a-green-tree-frog-on-a-lily-pad-watercolor-illustration.png",
+      "description": "A green tree frog on a lily pad, watercolor illustration",
+      "source_url": "Generated via OpenAI Images API",
+      "author": "OpenAI gpt-image-1",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    },
+    {
+      "filename": "images/a-photo-realistic-close-up-of-a-tadpole-swimming-in-clear-sh.png",
+      "description": "A photo realistic close-up of a tadpole swimming in clear shallow water, showing its developing legs and translucent tail",
+      "source_url": "Generated via OpenAI Images API",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
     }
   ]
 }

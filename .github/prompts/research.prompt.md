@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 description: Research a nonfiction topic and gather attributed images for a kids picture book
 tools:
   - fetch_webpage
