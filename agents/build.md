@@ -33,15 +33,30 @@ Read and follow before starting:
 - Support touch, keyboard, and reduced-motion behavior.
 - Respect `layoutHint` values from each page when choosing composition.
 
+## Mobile Build Rules
+
+- Include `<meta name="viewport" content="width=device-width, initial-scale=1">`.
+- Apply `env(safe-area-inset-*)` padding to the outermost container to handle notches and home-indicator gesture zones.
+- On viewports narrower than 480px, remove horizontal margins on the book container. Content fills edge-to-edge, respecting only safe-area insets.
+- Use `@media (orientation: portrait)` to trigger stacked image-above-text layouts.
+- Use `@media (orientation: landscape)` to allow side-by-side layouts even on small screens.
+- Implement invisible full-height tap zones on left/right edges at narrow viewports instead of visible nav buttons.
+- Body text must never render smaller than 1rem on mobile.
+- All interactive elements must have a visible `:active` state (scale or color shift).
+- Scale down or hide decorative pseudo-elements that consume layout space on viewports narrower than 480px.
+
 ## Required UX
 
-- Large previous/next buttons rendered as overlays on left/right edges.
-- Swipe navigation on touch devices.
+- Large previous/next buttons rendered as overlays on left/right edges on viewports 480px and wider.
+- On viewports narrower than 480px, replace visible buttons with invisible full-height tap zones on the left/right 20% of the screen (minimum 64px wide). Show a brief visual feedback ripple on tap.
+- Display a transient swipe-to-read hint on first page load (animated hand icon or similar). Auto-dismiss after a few seconds or on the first interaction.
+- Swipe navigation on touch devices (primary interaction on mobile).
 - Keyboard navigation (arrow keys).
 - No persistent title bar or page progress indicator on content pages.
 - Skeuomorphic page-flip animation when motion is allowed.
 - Simple crossfade when `prefers-reduced-motion` is active.
 - Credits and sources page in back matter.
+- Offer a fullscreen toggle (Fullscreen API) on the cover page. Auto-hide the control after activation.
 
 ## Accessibility
 
@@ -71,6 +86,12 @@ Before finishing, verify:
 - All navigation modes work (buttons, keyboard, swipe).
 - The HTML is valid and semantic.
 - No scrolling is required on any single page.
+- No scrolling at 375x667 (iPhone SE) and 390x844 (iPhone 14) portrait viewports.
+- Invisible tap zones are at least 64px wide on the narrowest supported viewport (375px).
+- The swipe hint appears on first load and auto-dismisses.
+- Safe-area insets do not cause content to overlap or be clipped.
+- Body text is at least 1rem on mobile viewports.
+- `:active` states are visible on all interactive elements.
 
 ## Boundaries
 

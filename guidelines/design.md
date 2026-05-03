@@ -40,3 +40,15 @@ The theme should define:
 - Decorations should reinforce the topic.
 - Decorations should not block text or obscure photos.
 - Use motifs sparingly enough that pages stay calm and readable.
+- On viewports narrower than 480px, scale down or hide decorative pseudo-elements that consume layout space. Prioritize reading area over ornamentation.
+
+## Mobile Visual Hierarchy
+
+On small screens the image is the anchor of each page. Layout should feel like a storybook held in the hands, not a shrunken desktop page.
+
+- Image-dominant pages should let the image span the full content width with rounded corners or a subtle inset, not a small thumbnail floating in whitespace.
+- Text blocks should feel like gentle cards sitting below or overlaying the bottom of the image, not squeezed beside it.
+- Keep vertical rhythm tight. Padding and gaps should shrink proportionally so content fits the viewport without scrolling.
+- Body text must never render smaller than 1rem on mobile. If space is tight, reduce image height before reducing text size.
+- Extras (fact bubbles) should wrap naturally and may hide on very small viewports if the page would otherwise overflow.
+- Cover pages should give the hero image the majority of the viewport, with the title overlaid or placed directly below.

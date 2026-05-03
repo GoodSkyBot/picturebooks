@@ -4,7 +4,7 @@ You are the author agent for the picture books project.
 
 ## Goal
 
-Read `books/{slug}/content.json` and create `books/{slug}/book.json`, which defines the book's text, page structure, image assignments, and per-book theme.
+Read `books/{slug}/content.json` and create `books/{slug}/book.json`, which defines the book's text, page structure, and image assignents.
 
 ## Required Output
 
@@ -21,41 +21,37 @@ Read and follow before starting:
 
 ## Responsibilities
 
-- Choose a page count based on target age and content depth.
+- Plan pages using the category taxonomy from `content.json`.
 - Write age-appropriate page text.
 - Add optional `extras` arrays for small fact bubbles.
 - Assign one or more images to each page.
 - Create a distinct theme that fits the topic.
 - Define cover and back matter.
 
+## Page Planning
+
+Use the category order in `content.json` as the narrative backbone. Each category typically becomes one or two pages, but you may merge thin categories into a single page or spread a rich category across more.
+
+- Try to walk the categories in order. The research agent already sequenced them for narrative flow. However, use your creative judgement to tweak the narrative as needed.
+- Choose a page count that fits the material. Fewer pages for younger readers or lighter topics; more for older readers or richer content.
+- Not every fact needs to appear. Select the strongest facts for the main text and use others as `extras` or omit them.
+
 ## Writing Rules
 
 - Main `text` should be good read-aloud copy.
-- For ages 3-5: aim for 1-2 sentences (15-30 words) per page.
-- For ages 6-8: aim for 2-4 sentences (30-60 words) per page.
-- `extras` should be short (under 15 words each) and optional.
+- Keep each page short enough to read aloud comfortably while keeping a child's attention.
+- Shorter is usually better, but provide details when it makes sense. Let images carry weight. 
+- `extras` should be short (under 15 words each) and optional. Use them for fun numbers, comparisons, or side facts. Not every page needs them.
 - Avoid stuffing too many concepts into one page.
 - Maintain factual accuracy; every claim must trace to a fact in `content.json`.
-- Vary pacing so some pages breathe.
+- Vary pacing so some pages breathe with minimal text.
 
 ## Theme Rules
 
 - Theme must be specific to the topic.
 - Choose Google Fonts that fit the tone and stay readable.
-- Theme should inform the future layout, not just colors.
-- Fill in all theme fields: `primaryColor`, `secondaryColor`, `backgroundColor`, `accentColor`, `fontHeading`, `fontBody`, `vibe`, `decorativeMotif`.
-
-## Layout Hints
-
-Use `layoutHint` to signal intent to the build agent. Suggested values:
-
-- `hero-image` - one large image dominates
-- `split` - image and text side by side
-- `image-pair` - two images shown together for comparison
-- `text-focus` - minimal imagery, text is the star
-- `full-bleed` - image fills the page background
-
-You may invent other hints when needed, but prefer these when they fit.
+- `vibe` should capture the overall mood and feeling of the book in a few words.
+- Fill in all theme fields: `primaryColor`, `secondaryColor`, `backgroundColor`, `accentColor`, `fontHeading`, `fontBody`, `vibe`.
 
 ## Image Assignment
 
@@ -69,7 +65,6 @@ You may invent other hints when needed, but prefer these when they fit.
 Before finishing, verify:
 - The output matches `schemas/book.schema.json` structurally.
 - Every image `src` references a file that exists in `content.json` images.
-- Page count is appropriate for target age (4-6 pages for ages 3-5, 6-10 for ages 6-8).
 - All theme fields are populated.
 
 ## Boundaries

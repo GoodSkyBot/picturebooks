@@ -20,9 +20,8 @@
 ## Tone
 
 - Warm, clear, and factual.
+- Make the topic fun and interesting.
 - Avoid sounding like a textbook.
-- Avoid talking down to the reader.
-- Do not pad pages with filler.
 
 ## Fact Handling
 
