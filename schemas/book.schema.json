@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://picturebooks.local/schemas/book.schema.json",
+  "title": "Picture Book Authoring Output",
+  "type": "object",
+  "required": [
+    "title",
+    "slug",
+    "targetAge",
+    "theme",
+    "cover",
+    "pages",
+    "backMatter"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "targetAge": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 8
+    },
+    "theme": {
+      "type": "object",
+      "required": [
+        "primaryColor",
+        "secondaryColor",
+        "backgroundColor",
+        "accentColor",
+        "fontHeading",
+        "fontBody",
+        "vibe",
+        "decorativeMotif"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "primaryColor": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "secondaryColor": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "backgroundColor": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "accentColor": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "fontHeading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fontBody": {
+          "type": "string",
+          "minLength": 1
+        },
+        "vibe": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decorativeMotif": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "cover": {
+      "type": "object",
+      "required": ["title", "image"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["text", "images"],
+        "additionalProperties": false,
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "extras": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "maxItems": 4
+          },
+          "images": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["src", "alt"],
+              "additionalProperties": false,
+              "properties": {
+                "src": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "alt": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "layoutHint": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "backMatter": {
+      "type": "object",
+      "required": ["showCredits", "showSources"],
+      "additionalProperties": false,
+      "properties": {
+        "showCredits": {
+          "type": "boolean"
+        },
+        "showSources": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

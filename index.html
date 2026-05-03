@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Picture Books</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #f6f1df;
+        color: #233124;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 24px 72px;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+      }
+
+      p {
+        max-width: 44rem;
+        line-height: 1.6;
+        font-size: 1.1rem;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 32px 0 0;
+        display: grid;
+        gap: 16px;
+      }
+
+      a {
+        display: block;
+        padding: 18px 20px;
+        border-radius: 18px;
+        background: #ffffff;
+        color: inherit;
+        text-decoration: none;
+        border: 2px solid #d8cfaa;
+      }
+
+      a:hover,
+      a:focus-visible {
+        border-color: #7f9c6b;
+        outline: none;
+      }
+
+      strong {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 1.1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Picture Books</h1>
+      <p>
+        This repository generates nonfiction picture-book websites for kids. Each book is built as a self-contained static site.
+      </p>
+      <ul>
+        <li>
+          <a href="/books/frogs/">
+            <strong>Frogs</strong>
+            Example content and book JSON live in <code>examples/frogs/</code>.
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+  </html>

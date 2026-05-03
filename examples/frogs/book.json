@@ -1,0 +1,91 @@
+{
+  "title": "All About Frogs",
+  "slug": "frogs",
+  "targetAge": 5,
+  "theme": {
+    "primaryColor": "#427a52",
+    "secondaryColor": "#9cd3a6",
+    "backgroundColor": "#f1f7ea",
+    "accentColor": "#f7a93b",
+    "fontHeading": "Fredoka",
+    "fontBody": "Quicksand",
+    "vibe": "lush, splashy, pond-side, playful",
+    "decorativeMotif": "lily pads, ripples, and round pebbles"
+  },
+  "cover": {
+    "title": "All About Frogs",
+    "subtitle": "Hops, ponds, and tiny tadpoles",
+    "image": "images/red-eyed-tree-frog.jpg"
+  },
+  "pages": [
+    {
+      "text": "Frogs are amphibians. Many live near ponds and streams.",
+      "extras": [
+        "Amphibians often need water when they are young."
+      ],
+      "images": [
+        {
+          "src": "images/red-eyed-tree-frog.jpg",
+          "alt": "A red-eyed tree frog sitting on a leaf."
+        },
+        {
+          "src": "images/frog-pond.jpg",
+          "alt": "A pond with reeds and lily pads."
+        }
+      ],
+      "layoutHint": "hero-with-supporting-image"
+    },
+    {
+      "text": "A frog's strong back legs help it leap and swim.",
+      "extras": [
+        "Some frogs climb, too."
+      ],
+      "images": [
+        {
+          "src": "images/red-eyed-tree-frog.jpg",
+          "alt": "A frog gripping a leaf with its toes."
+        }
+      ],
+      "layoutHint": "single-image-focus"
+    },
+    {
+      "text": "Baby frogs begin as eggs in water. Then they hatch into tadpoles.",
+      "extras": [
+        "Tadpoles start life with tails and no legs."
+      ],
+      "images": [
+        {
+          "src": "images/frogspawn.jpg",
+          "alt": "Many frog eggs floating together in shallow water."
+        },
+        {
+          "src": "images/tadpole.jpg",
+          "alt": "A tadpole swimming in water."
+        }
+      ],
+      "layoutHint": "life-cycle-comparison"
+    },
+    {
+      "text": "Frogs come in many colors and patterns around the world.",
+      "extras": [
+        "Bright colors can be a warning in some species."
+      ],
+      "images": [
+        {
+          "src": "images/poison-dart-frog.jpg",
+          "alt": "A bright blue and red poison dart frog on the forest floor."
+        },
+        {
+          "src": "images/red-eyed-tree-frog.jpg",
+          "alt": "A green frog with bright red eyes on a leaf."
+        }
+      ],
+      "layoutHint": "color-showcase"
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true,
+    "notes": "Use content.json to build attribution and sources pages."
+  }
+}
