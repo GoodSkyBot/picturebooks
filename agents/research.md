@@ -73,8 +73,9 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 
 1. Find the image on Wikimedia Commons.
 2. Get the direct file URL from the file description page.
-3. Download with: `curl -L -o books/{slug}/images/{filename} "{direct_url}"`
-4. Verify the file is non-empty.
+3. Download with: `curl -L -A "PictureBooks/1.0 (https://github.com/GoodSkyBot/picturebooks; goodsky6@yahoo.com)" -o books/{slug}/images/{filename} "{direct_url}"`
+4. Wait at least 1 second between downloads to respect Wikimedia rate limits.
+5. Verify the file is non-empty and is a valid image (not HTML).
 
 ## Output Shape
 

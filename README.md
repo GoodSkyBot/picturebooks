@@ -1,8 +1,8 @@
 # Picture Books
 
-Create nonfiction picture-book websites for kids ages 3-8 using OpenCode agents.
+Create nonfiction picture-book websites for kids ages 3-8 using AI agents.
 
-Each book is published as a self-contained static site. The initial deploy scaffold serves books at paths such as `/books/frogs/` or `/books/snakes/`.
+Each book is published as a self-contained static site under `books/{slug}/`.
 
 ## Workflow
 
@@ -11,20 +11,30 @@ Each book is published as a self-contained static site. The initial deploy scaff
 3. Run the author agent to write the book and generate a theme.
 4. Review or edit `books/{slug}/book.json`.
 5. Run the build agent to generate the final static site.
-6. Deploy to Dokku.
 
 ## Repository Layout
 
 ```text
 .
-├── AGENTS.md
-├── README.md
-├── books/
-├── deploy/
-├── examples/
-├── guidelines/
-├── prompts/
-└── schemas/
+├── AGENTS.md              # Shared agent contract and rules
+├── index.html             # Home page listing all books
+├── serve.sh               # Local dev server
+├── agents/                # Agent instructions
+│   ├── research.md
+│   ├── author.md
+│   └── build.md
+├── guidelines/            # Writing and design standards
+│   ├── content.md
+│   ├── design.md
+│   └── ux.md
+├── schemas/               # JSON schema definitions
+│   ├── content.schema.json
+│   └── book.schema.json
+├── scripts/               # Automation utilities
+│   ├── generate_image.py
+│   └── generate_speech.py
+└── books/                 # Generated books
+    └── {slug}/
 ```
 
 ## Book Creation
@@ -40,10 +50,13 @@ Outputs:
 - `books/{slug}/style.css`
 - `books/{slug}/script.js`
 - `books/{slug}/images/*`
+- `books/{slug}/audio/*`
 
 Image references stored in JSON should use relative paths with folders, for example `images/tree-frog.jpg`.
 
 ## Agents
+
+Agent instructions live in `agents/`. Guidelines live in `guidelines/`.
 
 ### Research Agent
 
@@ -66,6 +79,8 @@ It decides:
 - image assignments
 - theme metadata
 
+Can generate missing images via `scripts/generate_image.py`.
+
 ### Build Agent
 
 Reads `book.json` and generates plain HTML, CSS, and JS.
@@ -76,12 +91,14 @@ It must:
 - work on phones and tablets
 - produce a visually distinct book instead of a generic reskin
 
-## Slash Commands
+Generates narration audio via `scripts/generate_speech.py`.
 
-Project-local OpenCode slash commands live in `.opencode/commands/`:
-- `/research`
-- `/author`
-- `/build`
+## Invocation
+
+Agents can be invoked two ways:
+
+- **OpenCode** slash commands in `.opencode/commands/`: `/research`, `/author`, `/build`
+- **VS Code Copilot** prompt files in `.github/prompts/`: `research.prompt.md`, `author.prompt.md`, `build.prompt.md`
 
 Use them in order with human review between stages.
 
@@ -91,18 +108,10 @@ Schemas live in `schemas/`:
 - `content.schema.json`
 - `book.schema.json`
 
-## Deployment
+## Local Preview
 
-Dokku serves the generated `books/` directory as a static site.
+```bash
+./serve.sh [port]
+```
 
-Current path routing:
-- `/` lists available books
-- `/books/{slug}/` serves `books/{slug}/index.html`
-
-Clean `/{slug}` routing can be added later with explicit nginx rewrites or a publish step that mirrors generated book folders to the repo root.
-
-Deployment notes live in `deploy/deploy.md`.
-
-## Development Strategy
-
-Start with one book, then generate a second very different topic to prove the prompts, schemas, and build constraints are not overfit to the first example.
+Starts a local server (default port 8000). Visit `/` for the book listing or `/books/{slug}/` for a specific book.

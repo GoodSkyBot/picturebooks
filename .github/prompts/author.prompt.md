@@ -1,6 +1,7 @@
 ---
 agent: agent
 description: Write a kids nonfiction picture book from researched content
+tools: [execute, read, agent, edit, search, web/fetch, todo]
 ---
 
 If the user did not specify a slug, ask for it before proceeding.

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fabulous Frogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="book" id="book">
+
+    <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/a-bright-green-tree-frog-mid-leap-above-a-pond-water-droplet.png"
+             alt="A bright green tree frog leaping above a pond">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">Fabulous Frogs</h1>
+        <p class="cover-subtitle">A Hop into the World of Frogs</p>
+        <button class="btn-start" aria-label="Start reading">Let's Go!</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+    <!-- Page 1: What frogs are -->
+    <article class="page page--single-img" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/common-frog.jpg" alt="A European common frog sitting on a mossy surface">
+        <figcaption>Photo: Richard Bartz / CC BY-SA 2.5</figcaption>
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Frogs are amphibians. That means they can live in water and on land! Frogs have been around for a very, very long time -- even longer than dinosaurs.</p>
+        <div class="extras">
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: There are over 7,700 kinds of frogs!">
+            <span class="extra-icon">&#127775;</span> There are over 7,700 kinds of frogs!
+          </button>
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 2: How they look -->
+    <article class="page page--single-img" data-page="2" hidden>
+      <figure class="page-figure">
+        <img src="images/european-tree-frog.jpg" alt="A bright green European tree frog clinging to a stem">
+        <figcaption>Photo: Christoph Leeb / CC BY-SA 3.0</figcaption>
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Frogs have smooth, wet skin that helps them breathe. They have big eyes on top of their heads so they can see in almost every direction. And their long, sticky tongue can catch a bug faster than you can blink!</p>
+        <div class="extras">
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: The smallest frog is as tiny as your fingernail.">
+            <span class="extra-icon">&#129295;</span> The smallest frog is as tiny as your fingernail.
+          </button>
+          <button class="extra" data-audio="audio/page-02-extra-2.mp3" aria-label="Fun fact: The biggest frog weighs as much as a baby!">
+            <span class="extra-icon">&#128166;</span> The biggest frog weighs as much as a baby!
+          </button>
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 3: Where they live (2 images) -->
+    <article class="page page--dual-img" data-page="3" hidden>
+      <div class="page-images-pair">
+        <figure class="page-figure">
+          <img src="images/green-tree-frog.jpg" alt="An Australian green tree frog sitting calmly on a branch">
+          <figcaption>Photo: LiquidGhoul / Public domain</figcaption>
+        </figure>
+        <figure class="page-figure">
+          <img src="images/wood-frog.jpg" alt="A wood frog sitting on leaf litter on the forest floor">
+          <figcaption>Photo: Jasper Shide / CC0</figcaption>
+        </figure>
+      </div>
+      <div class="page-body">
+        <p class="page-text">Frogs live all over the world -- except Antarctica! Many frogs live near ponds, rivers, and swamps. Some live high up in rainforest trees and never come down to the ground.</p>
+        <div class="extras">
+          <button class="extra" data-audio="audio/page-03-extra-1.mp3" aria-label="Fun fact: Wood frogs can freeze solid in winter and hop away in spring!">
+            <span class="extra-icon">&#10052;&#65039;</span> Wood frogs can freeze solid in winter and hop away in spring!
+          </button>
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 4: What they eat -->
+    <article class="page page--single-img" data-page="4" hidden>
+      <figure class="page-figure">
+        <img src="images/agile-frog.jpg" alt="An agile frog in profile showing its long hind legs">
+        <figcaption>Photo: Franco Andreone / CC BY-SA 2.5</figcaption>
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Frogs love to eat bugs! Flies, mosquitoes, and crickets are all yummy frog food. A frog catches its dinner with a long, sticky tongue -- snap! It is so fast you would miss it if you blinked.</p>
+      </div>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 5: Eggs and tadpoles (2 images) -->
+    <article class="page page--dual-img" data-page="5" hidden>
+      <div class="page-images-pair">
+        <figure class="page-figure">
+          <img src="images/frogspawn-closeup.jpg" alt="Close-up of frogspawn showing round eggs in clear jelly">
+          <figcaption>Photo: Tarquin / CC BY-SA 3.0</figcaption>
+        </figure>
+        <figure class="page-figure">
+          <img src="images/tadpoles-eating.jpg" alt="Tadpoles eating together in shallow water">
+          <figcaption>Photo: Mariomassone / CC BY-SA 3.0</figcaption>
+        </figure>
+      </div>
+      <div class="page-body">
+        <p class="page-text">Frogs lay their eggs in water. The eggs look like a squishy blob of jelly called frogspawn. Baby frogs are called tadpoles. They have long tails and no legs, and they eat tiny plants in the water.</p>
+      </div>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 6: Metamorphosis -->
+    <article class="page page--single-img" data-page="6" hidden>
+      <figure class="page-figure">
+        <img src="images/tadpole-late-stage.jpg" alt="A tadpole with legs growing and its tail shrinking during metamorphosis">
+        <figcaption>Photo: Viridiflavus / CC BY-SA 3.0</figcaption>
+      </figure>
+      <div class="page-body">
+        <p class="page-text">As a tadpole grows, something amazing happens. It sprouts legs! Its tail gets shorter and shorter. Soon it looks just like a frog. This big change is called metamorphosis.</p>
+        <div class="extras">
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: It can take weeks or even months!">
+            <span class="extra-icon">&#9200;</span> It can take weeks or even months!
+          </button>
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 7: Jumping and climbing (2 images) -->
+    <article class="page page--dual-img" data-page="7" hidden>
+      <div class="page-images-pair">
+        <figure class="page-figure">
+          <img src="images/frog-jumping.jpg" alt="A small frog caught mid-jump with powerful back legs extended">
+          <figcaption>Photo: Brian Gratwicke / CC BY 2.0</figcaption>
+        </figure>
+        <figure class="page-figure">
+          <img src="images/webbed-foot.jpg" alt="Close-up of a frog's webbed foot showing skin between its toes">
+          <figcaption>Photo: David Perez / CC BY 3.0</figcaption>
+        </figure>
+      </div>
+      <div class="page-body">
+        <p class="page-text">Frogs are amazing jumpers! Their strong back legs help them leap really far. Tree frogs have sticky pads on their toes that work like suction cups to help them climb.</p>
+        <div class="extras">
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: Some frogs can glide through the air!">
+            <span class="extra-icon">&#129431;</span> Some frogs can glide through the air!
+          </button>
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 8: Cool frogs (2 images) -->
+    <article class="page page--dual-img" data-page="8" hidden>
+      <div class="page-images-pair">
+        <figure class="page-figure">
+          <img src="images/strawberry-poison-dart-frog.jpg" alt="A bright red strawberry poison dart frog on the forest floor">
+          <figcaption>Photo: Pstevendactylus / Public domain</figcaption>
+        </figure>
+        <figure class="page-figure">
+          <img src="images/flying-frog.jpg" alt="A flying frog with large webbed feet spread out for gliding between trees">
+          <figcaption>Photo: Rushenb / CC BY-SA 4.0</figcaption>
+        </figure>
+      </div>
+      <div class="page-body">
+        <p class="page-text">There are so many cool frogs! Poison dart frogs are tiny with bright colors that say "stay away!" Flying frogs spread their big webbed feet and glide from tree to tree.</p>
+      </div>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Page 9: Staying safe (2 images) -->
+    <article class="page page--dual-img" data-page="9" hidden>
+      <div class="page-images-pair">
+        <figure class="page-figure">
+          <img src="images/northern-leopard-frog.jpg" alt="A northern leopard frog with a spotted pattern that helps it blend in">
+          <figcaption>Photo: Mokele / CC BY 3.0</figcaption>
+        </figure>
+        <figure class="page-figure">
+          <img src="images/tree-frog-calling.jpg" alt="A green tree frog with its vocal sac inflated, calling loudly">
+          <figcaption>Photo: Froggydarb / CC BY-SA 3.0</figcaption>
+        </figure>
+      </div>
+      <div class="page-body">
+        <p class="page-text">Frogs have clever ways to stay safe. Some blend in with leaves and mud so other animals cannot see them. Frogs sing loud songs to find their friends. Frogs help us too -- they eat lots of pesky mosquitoes!</p>
+        <div class="extras">
+          <button class="extra" data-audio="audio/page-09-extra-1.mp3" aria-label="Fun fact: Every kind of frog has its own special song.">
+            <span class="extra-icon">&#127925;</span> Every kind of frog has its own special song.
+          </button>
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-09-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    <!-- Credits Page -->
+    <article class="page page--credits" data-page="10" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          <li><a href="https://en.wikipedia.org/wiki/Frog" target="_blank" rel="noopener">Frog -- Wikipedia</a></li>
+          <li><a href="https://simple.wikipedia.org/wiki/Frog" target="_blank" rel="noopener">Frog -- Simple English Wikipedia</a></li>
+        </ul>
+
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          <li><strong>European common frog</strong> -- Richard Bartz, <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a></li>
+          <li><strong>European tree frog</strong> -- Christoph Leeb, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+          <li><strong>Australian green tree frog</strong> -- LiquidGhoul, Public domain</li>
+          <li><strong>Wood frog</strong> -- Jasper Shide, <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a></li>
+          <li><strong>Agile frog</strong> -- Franco Andreone, <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a></li>
+          <li><strong>Frogspawn</strong> -- Tarquin, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+          <li><strong>Tadpoles eating</strong> -- Mariomassone, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+          <li><strong>Tadpole metamorphosis</strong> -- Viridiflavus, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+          <li><strong>Frog jumping</strong> -- Brian Gratwicke, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a></li>
+          <li><strong>Webbed foot</strong> -- David Perez, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a></li>
+          <li><strong>Strawberry poison dart frog</strong> -- Pstevendactylus, Public domain</li>
+          <li><strong>Flying frog</strong> -- Rushenb, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+          <li><strong>Northern leopard frog</strong> -- Mokele, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a></li>
+          <li><strong>Tree frog calling</strong> -- Froggydarb, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+          <li><strong>Cover image</strong> -- OpenAI gpt-image-2, Generated</li>
+        </ul>
+
+        <p class="credits-footer">Made with love for curious kids everywhere.</p>
+      </div>
+    </article>
+
+    <!-- Nav overlays (hidden on mobile <480px, replaced by tap zones) -->
+    <button class="nav-btn nav-prev" id="nav-prev" aria-label="Previous page" hidden>
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+    </button>
+    <button class="nav-btn nav-next" id="nav-next" aria-label="Next page">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </button>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand">&#128070;</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

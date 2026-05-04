@@ -79,6 +79,21 @@ Swiping is the primary interaction on touch devices. Buttons are a secondary aff
 - Provide a way to exit fullscreen (e.g., tap a corner icon or press Escape).
 - Do not require fullscreen for the book to work correctly.
 
+## Print
+
+- Add a print button on the cover page, near the fullscreen toggle.
+- The button should call `window.print()`.
+- Hide the print button itself from print output.
+- Add a `@media print` stylesheet that:
+  - Unhides all pages (`[hidden] { display: block !important }`).
+  - Removes fixed positioning on the book container so pages flow vertically.
+  - Places a `page-break-after: always` on each page article.
+  - Uses `break-inside: avoid` on image figures to prevent splitting an image across pages.
+  - Hides navigation controls, swipe hints, decorative pseudo-elements, and audio controls.
+  - Strips background gradients and decorative borders to save ink.
+  - Keeps images, captions, and attribution text visible.
+- Do not require print support for the book to work correctly on screen.
+
 ## Accessibility
 
 - Add alt text to every image.

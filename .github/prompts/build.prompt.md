@@ -1,6 +1,8 @@
 ---
 agent: agent
 description: Build the final static kids picture-book site from book.json
+tools: [execute, read, agent, edit, search, web/fetch, todo]
+
 ---
 
 If the user did not specify a slug, ask for it before proceeding.
