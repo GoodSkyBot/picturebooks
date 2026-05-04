@@ -2,19 +2,19 @@
 """Generate speech audio using OpenAI's TTS API for picture book voice-overs.
 
 Usage:
+    python scripts/generate_speech.py --slug frogs
+    python scripts/generate_speech.py --slug frogs --voice nova --speed 0.9
     python scripts/generate_speech.py --batch batch.json
-    python scripts/generate_speech.py --batch batch.json --voice nova --speed 0.9
 
-Batch file format (JSON array):
+The --slug mode reads books/{slug}/book.json and generates audio for every
+page text and extra, saving files to books/{slug}/audio/.
+
+The --batch mode accepts a custom JSON file with an array of items:
     [
       {
         "text": "Frogs are amphibians.",
         "output": "books/frogs/audio/page-01-text.mp3",
         "instructions": "Speak in a warm storytelling voice for a 5-year-old."
-      },
-      {
-        "text": "Adult frogs do not have tails.",
-        "output": "books/frogs/audio/page-01-extra-1.mp3"
       }
     ]
 
@@ -157,13 +157,54 @@ def process_batch(batch: list[dict], args: argparse.Namespace) -> None:
         print(f"[{i}/{total}] Saved: {dest} ({dest.stat().st_size} bytes)", file=sys.stderr)
 
 
+def batch_from_book(slug: str, audio_format: str) -> list[dict]:
+    """Build a batch list from a book.json file."""
+    repo_root = Path(__file__).resolve().parent.parent
+    book_path = repo_root / "books" / slug / "book.json"
+
+    if not book_path.is_file():
+        print(f"Error: book.json not found at {book_path}", file=sys.stderr)
+        sys.exit(1)
+
+    with open(book_path) as f:
+        book = json.load(f)
+
+    audio_dir = f"books/{slug}/audio"
+    batch: list[dict] = []
+
+    for page_num, page in enumerate(book.get("pages", []), start=1):
+        page_label = f"{page_num:02d}"
+
+        if page.get("text"):
+            batch.append({
+                "text": page["text"],
+                "output": f"{audio_dir}/page-{page_label}-text.{audio_format}",
+            })
+
+        for extra_num, extra in enumerate(page.get("extras", []), start=1):
+            batch.append({
+                "text": extra,
+                "output": f"{audio_dir}/page-{page_label}-extra-{extra_num}.{audio_format}",
+            })
+
+    if not batch:
+        print("Error: no text found in book.json pages.", file=sys.stderr)
+        sys.exit(1)
+
+    return batch
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate picture book voice-over audio via OpenAI TTS API."
     )
-    parser.add_argument(
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument(
+        "--slug",
+        help="Book slug. Reads books/{slug}/book.json and generates audio for all pages.",
+    )
+    source.add_argument(
         "--batch",
-        required=True,
         help="Path to a JSON file containing an array of {text, output, instructions?} items.",
     )
     parser.add_argument(
@@ -198,20 +239,23 @@ def main():
         print("Error: --speed must be between 0.25 and 4.0.", file=sys.stderr)
         sys.exit(1)
 
-    batch_path = Path(args.batch)
-    if not batch_path.is_file():
-        print(f"Error: batch file not found: {batch_path}", file=sys.stderr)
-        sys.exit(1)
+    if args.slug:
+        batch = batch_from_book(args.slug, args.format)
+    else:
+        batch_path = Path(args.batch)
+        if not batch_path.is_file():
+            print(f"Error: batch file not found: {batch_path}", file=sys.stderr)
+            sys.exit(1)
 
-    try:
-        batch = json.loads(batch_path.read_text())
-    except (json.JSONDecodeError, OSError) as e:
-        print(f"Error reading batch file: {e}", file=sys.stderr)
-        sys.exit(1)
+        try:
+            batch = json.loads(batch_path.read_text())
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"Error reading batch file: {e}", file=sys.stderr)
+            sys.exit(1)
 
-    if not isinstance(batch, list) or not batch:
-        print("Error: batch file must contain a non-empty JSON array.", file=sys.stderr)
-        sys.exit(1)
+        if not isinstance(batch, list) or not batch:
+            print("Error: batch file must contain a non-empty JSON array.", file=sys.stderr)
+            sys.exit(1)
 
     process_batch(batch, args)
     print(f"Done. Generated {len(batch)} audio file(s).", file=sys.stderr)

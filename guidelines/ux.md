@@ -37,7 +37,7 @@ Every book must support:
 - The book should work on phones, tablets, and desktop screens.
 - Tablet and phone use are primary targets.
 - Avoid hover-only interactions.
-- The smallest supported viewport is 375x667 (iPhone SE). Every page must fit without scrolling at this size.
+- The smallest supported viewport is 412x915 (Pixel 7). Every page must fit without scrolling at this size.
 
 ## Mobile Layout
 

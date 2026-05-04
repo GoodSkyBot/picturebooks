@@ -91,8 +91,6 @@ Schemas live in `schemas/`:
 - `content.schema.json`
 - `book.schema.json`
 
-Example payloads live in `examples/frogs/`.
-
 ## Deployment
 
 Dokku serves the generated `books/` directory as a static site.

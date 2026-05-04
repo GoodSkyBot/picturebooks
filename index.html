@@ -1,9 +1,40 @@
+<!--
+  Home page - Book listing
+
+  To add a new book, insert an <li> inside <ul class="books">.
+  No CSS changes are needed. Use this template:
+
+  <li>
+    <a class="book-card" href="/books/{slug}/" style="- -accent: {primaryColor}">
+      <img src="/books/{slug}/{cover.image}"
+           alt="{cover image alt text}"
+           loading="lazy">
+      <div class="book-info">
+        <p class="book-title">{cover.title}</p>
+        <p class="book-subtitle">{cover.subtitle}</p>
+      </div>
+    </a>
+  </li>
+
+  Values in braces come from the book's book.json:
+    {slug}         - book slug (also the folder name under books/)
+    {primaryColor} - theme.primaryColor
+    {cover.image}  - cover.image
+    {cover.title}  - cover.title
+    {cover.subtitle} - cover.subtitle
+
+  Note: remove the space in "- -accent" above; it is split to avoid
+  closing this comment prematurely in some parsers.
+-->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Picture Books</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
     <style>
       :root {
         color-scheme: light;
@@ -18,67 +49,105 @@
       }
 
       main {
-        max-width: 900px;
+        max-width: 960px;
         margin: 0 auto;
         padding: 48px 24px 72px;
       }
 
       h1 {
-        margin: 0 0 16px;
-        font-size: clamp(2rem, 4vw, 3.5rem);
+        margin: 0 0 12px;
+        font-family: "Baloo 2", cursive;
+        font-size: clamp(2.2rem, 5vw, 3.5rem);
+        font-weight: 700;
       }
 
-      p {
+      .intro {
         max-width: 44rem;
         line-height: 1.6;
         font-size: 1.1rem;
+        margin: 0 0 36px;
       }
 
-      ul {
+      .books {
         list-style: none;
         padding: 0;
-        margin: 32px 0 0;
+        margin: 0;
         display: grid;
-        gap: 16px;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 24px;
       }
 
-      a {
+      .book-card {
         display: block;
-        padding: 18px 20px;
-        border-radius: 18px;
+        border-radius: 20px;
         background: #ffffff;
         color: inherit;
         text-decoration: none;
         border: 2px solid #d8cfaa;
+        border-left: 6px solid var(--accent);
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
       }
 
-      a:hover,
-      a:focus-visible {
-        border-color: #7f9c6b;
+      .book-card:hover,
+      .book-card:focus-visible {
+        transform: scale(1.03);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        border-color: var(--accent);
         outline: none;
       }
 
-      strong {
+      .book-card img {
         display: block;
-        margin-bottom: 6px;
-        font-size: 1.1rem;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .book-info {
+        padding: 20px 22px 24px;
+      }
+
+      .book-title {
+        margin: 0 0 6px;
+        font-family: "Baloo 2", cursive;
+        font-size: 1.4rem;
+        font-weight: 700;
+      }
+
+      .book-subtitle {
+        margin: 0;
+        font-size: 1rem;
+        color: #55674e;
+        line-height: 1.4;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .book-card {
+          transition: none;
+        }
       }
     </style>
   </head>
   <body>
     <main>
       <h1>Picture Books</h1>
-      <p>
-        This repository generates nonfiction picture-book websites for kids. Each book is built as a self-contained static site.
+      <p class="intro">
+        Nonfiction picture books for kids, built as self-contained websites.
       </p>
-      <ul>
+      <ul class="books">
         <li>
-          <a href="/books/frogs/">
-            <strong>Frogs</strong>
-            Example content and book JSON live in <code>examples/frogs/</code>.
+          <a class="book-card" href="/books/frogs/" style="--accent: #2F6F4F">
+            <img src="/books/frogs/images/red-eyed-leaf-frog.jpg"
+                 alt="A red-eyed leaf frog resting on a bright green leaf."
+                 loading="lazy">
+            <div class="book-info">
+              <p class="book-title">Frogs Hop, Swim, and Grow</p>
+              <p class="book-subtitle">A pond-to-tree look at frog life</p>
+            </div>
           </a>
         </li>
       </ul>
     </main>
   </body>
-  </html>
+</html>

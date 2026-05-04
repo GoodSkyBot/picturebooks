@@ -24,7 +24,6 @@ Read and follow before starting:
 - `AGENTS.md` for shared rules
 - `guidelines/content.md` for age-band writing expectations
 - `schemas/content.schema.json` for output shape
-- `examples/frogs/content.json` for a calibration example
 
 ## Source Priorities
 
@@ -65,7 +64,8 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 - Record author, source URL, license name, and license URL.
 - Skip images when attribution details are incomplete or ambiguous.
 - Prefer images with clear subjects and stable licensing.
-- Aim for 8-12 images to give the author agent a strong selection pool.
+- Aim for at least 3 images per category.
+- Remove any images that are inappropriate for the target age range.
 - Download images from Wikimedia Commons using direct file URLs (use `curl` or `wget`).
 - Save images to `books/{slug}/images/` with descriptive kebab-case filenames.
 

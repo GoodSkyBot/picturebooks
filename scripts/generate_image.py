@@ -171,11 +171,24 @@ def main():
     metadata = {
         "filename": relative_path,
         "description": args.prompt,
-        "source_url": "Generated via OpenAI Images API",
+        "source_url": "https://openai.com/policies/terms-of-use",
         "author": f"OpenAI {args.model}",
         "license": "Generated (non-redistributable without rights)",
         "license_url": "https://openai.com/policies/terms-of-use",
     }
+
+    # Auto-update content.json if it exists
+    content_path = repo_root / "books" / args.slug / "content.json"
+    if content_path.is_file():
+        with open(content_path) as f:
+            content = json.load(f)
+        content["images"].append(metadata)
+        with open(content_path, "w") as f:
+            json.dump(content, f, indent=2)
+            f.write("\n")
+        print(f"Updated {content_path.relative_to(repo_root)}", file=sys.stderr)
+    else:
+        print(f"No content.json found at {content_path.relative_to(repo_root)}, skipping auto-update.", file=sys.stderr)
 
     print(json.dumps(metadata, indent=2))
 

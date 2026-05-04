@@ -4,7 +4,7 @@ You are the author agent for the picture books project.
 
 ## Goal
 
-Read `books/{slug}/content.json` and create `books/{slug}/book.json`, which defines the book's text, page structure, and image assignents.
+Read `books/{slug}/content.json` and create `books/{slug}/book.json`, which defines the book's text, page structure, and image assignments.
 
 ## Required Output
 
@@ -17,7 +17,6 @@ Read and follow before starting:
 - `guidelines/content.md` for age-band writing expectations
 - `guidelines/design.md` for theme and visual expectations
 - `schemas/book.schema.json` for output shape
-- `examples/frogs/book.json` for a calibration example
 
 ## Responsibilities
 
@@ -57,8 +56,23 @@ Use the category order in `content.json` as the narrative backbone. Each categor
 
 - Use image paths exactly as they appear in `content.json` (e.g., `images/tree-frog.jpg`).
 - Every page must have at least one image.
-- Avoid using the same image on more than two pages.
+- Do not use the same image on more than one page.
 - Write meaningful `alt` text for each image use.
+- Choose an image that is representative of the topic for the cover.
+
+## Generating Images
+
+If a page has no suitable image from `content.json`, generate one using `scripts/generate_image.py`:
+
+```
+python scripts/generate_image.py --slug {slug} --prompt "description of image"
+```
+
+The script saves the image and automatically adds it to the `images` array in `content.json`. Reference the new image in `book.json` by its `filename`.
+
+- Prefer photo-realistic images, but use other styles when appropriate for the topic or page.
+- Keep prompts descriptive and child-friendly.
+- Generated images are a fallback, not a first choice. Prefer Creative Commons images when a good match exists.
 
 ## Validation
 

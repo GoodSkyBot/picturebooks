@@ -140,9 +140,6 @@
         },
         "showSources": {
           "type": "boolean"
-        },
-        "notes": {
-          "type": "string"
         }
       }
     }
