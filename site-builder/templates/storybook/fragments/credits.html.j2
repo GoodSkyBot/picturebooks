@@ -1,0 +1,29 @@
+    <!-- Credits -->
+    <article class="page page--credits" data-page="{{ book.pages | length + 1 }}" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        {% if content.sources %}
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          {% for source in content.sources %}
+          <li><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          {% for img in content.get('images', []) %}
+          <li>
+            <strong>{{ img.description | truncate(60, True) }}</strong> --
+            {{ img.author }}{% if img.license %},
+            {% if img.license_url %}<a href="{{ img.license_url }}" target="_blank" rel="noopener">{{ img.license }}</a>{% else %}{{ img.license }}{% endif %}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+
+        <p class="credits-footer">Made with love for curious kids everywhere.</p>
+      </div>
+    </article>
