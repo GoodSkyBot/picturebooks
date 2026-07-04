@@ -9,6 +9,13 @@ const { chromium } = require("playwright");
 
 const ROOT = path.resolve(__dirname, "..");
 const DEFAULT_CHROMIUM = "/usr/bin/chromium";
+const CHROMIUM_CANDIDATES = [
+  DEFAULT_CHROMIUM,
+  "/usr/bin/google-chrome",
+  "/usr/bin/google-chrome-stable",
+  "/usr/bin/chromium-browser",
+  "/snap/bin/chromium",
+];
 const DEFAULT_PORT = 8123;
 const VIEWPORTS = [
   { name: "mobile", width: 390, height: 844, isMobile: true, hasTouch: true },
@@ -20,13 +27,23 @@ function usage() {
   console.error("Usage: node scripts/visual_qa.js <slug> [--port 8123] [--base-url http://host:port] [--out tmp/screenshots] [--chromium /usr/bin/chromium]");
 }
 
+function findChromiumPath() {
+  if (process.env.CHROMIUM_PATH) return process.env.CHROMIUM_PATH;
+
+  for (const candidate of CHROMIUM_CANDIDATES) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+
+  return DEFAULT_CHROMIUM;
+}
+
 function parseArgs(argv) {
   const args = {
     slug: null,
     port: DEFAULT_PORT,
     baseUrl: null,
     outDir: path.join(ROOT, "tmp", "screenshots"),
-    chromiumPath: process.env.CHROMIUM_PATH || DEFAULT_CHROMIUM,
+    chromiumPath: findChromiumPath(),
   };
 
   for (let i = 2; i < argv.length; i += 1) {
