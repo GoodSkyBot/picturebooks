@@ -1,0 +1,465 @@
+{
+  "topic": "Triassic period dinosaurs",
+  "slug": "triassic-period-dinosaurs",
+  "targetAge": 7,
+  "sources": [
+    {
+      "title": "Triassic - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Triassic",
+      "accessed": "2026-07-04",
+      "notes": "Overview of the Triassic Period, its dates, climate, Pangaea, life, and end extinction."
+    },
+    {
+      "title": "Dinosaur - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dinosaur",
+      "accessed": "2026-07-04",
+      "notes": "Overview of dinosaurs, their origin, body features, diversity, and relationship to birds."
+    },
+    {
+      "title": "Eoraptor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eoraptor",
+      "accessed": "2026-07-04",
+      "notes": "Information on Eoraptor age, discovery, size, teeth, and Ischigualasto paleoenvironment."
+    },
+    {
+      "title": "Herrerasaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Herrerasaurus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Herrerasaurus age, size, body form, diet, and paleoecology."
+    },
+    {
+      "title": "Coelophysis - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coelophysis",
+      "accessed": "2026-07-04",
+      "notes": "Information on Coelophysis age, size, Ghost Ranch fossils, body form, and diet."
+    },
+    {
+      "title": "Plateosaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plateosaurus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Plateosaurus age, size, herbivory, posture, and fossil record."
+    },
+    {
+      "title": "Ischigualasto Formation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ischigualasto_Formation",
+      "accessed": "2026-07-04",
+      "notes": "Information on the Late Triassic Argentine fossil formation, early dinosaurs, climate, and fossil setting."
+    },
+    {
+      "title": "Triassic-Jurassic extinction - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Triassic%E2%80%93Jurassic_extinction",
+      "accessed": "2026-07-04",
+      "notes": "Information on the end-Triassic extinction and its effects on dinosaurs and other land animals."
+    },
+    {
+      "title": "Chinle Formation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinle_Formation",
+      "accessed": "2026-07-04",
+      "notes": "Information on the Late Triassic Chinle Formation and Ghost Ranch Coelophysis quarry."
+    }
+  ],
+  "facts": [
+    {
+      "category": "the-triassic-world",
+      "text": "The Triassic Period lasted from about 251.9 million years ago to 201.4 million years ago.",
+      "source": 0
+    },
+    {
+      "category": "the-triassic-world",
+      "text": "The Triassic was the first period of the Mesozoic Era and came before the Jurassic Period.",
+      "source": 0
+    },
+    {
+      "category": "the-triassic-world",
+      "text": "During much of the Triassic, Earth's continents were joined together in one huge supercontinent called Pangaea.",
+      "source": 0
+    },
+    {
+      "category": "the-triassic-world",
+      "text": "The Triassic climate was mostly hot and dry, with large deserts across the middle of Pangaea.",
+      "source": 0
+    },
+    {
+      "category": "the-triassic-world",
+      "text": "As Pangaea began to split near the end of the Triassic, some places became wetter.",
+      "source": 0
+    },
+    {
+      "category": "first-dinosaurs",
+      "text": "Dinosaurs first appeared during the Triassic Period.",
+      "source": 1
+    },
+    {
+      "category": "first-dinosaurs",
+      "text": "The first dinosaurs were not the biggest animals around; many were small compared with later Jurassic giants.",
+      "source": 1
+    },
+    {
+      "category": "first-dinosaurs",
+      "text": "Early dinosaurs had legs held under their bodies, which helped them stand and move differently from sprawling reptiles.",
+      "source": 1
+    },
+    {
+      "category": "first-dinosaurs",
+      "text": "Most early dinosaurs walked on two legs, though later dinosaur groups included many four-legged animals.",
+      "source": 1
+    },
+    {
+      "category": "first-dinosaurs",
+      "text": "Dinosaurs were only one branch of a larger reptile group called archosaurs.",
+      "source": 1
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Eoraptor lived about 231 to 228 million years ago in what is now northwestern Argentina.",
+      "source": 2
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Eoraptor was small and lightly built, measuring about 1.2 to 1.3 meters long.",
+      "source": 2
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Eoraptor had different tooth shapes, which suggests it may have eaten both plants and small animals.",
+      "source": 2
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Herrerasaurus lived in the Late Triassic in what is now northwestern Argentina.",
+      "source": 3
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Herrerasaurus could grow up to about 6 meters long and was a meat-eater.",
+      "source": 3
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Coelophysis lived about 215 to 201.4 million years ago in what is now the southwestern United States.",
+      "source": 4
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Coelophysis was a small, slender meat-eating dinosaur that could grow up to about 3 meters long.",
+      "source": 4
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Plateosaurus lived in the Late Triassic in what is now central and northern Europe.",
+      "source": 5
+    },
+    {
+      "category": "meet-the-early-dinosaurs",
+      "text": "Plateosaurus was an early sauropodomorph dinosaur with a long neck, small head, and plant-crushing teeth.",
+      "source": 5
+    },
+    {
+      "category": "dinosaur-bodies",
+      "text": "Eoraptor ran upright on its hind legs, and its hind limbs were much longer than its forelimbs.",
+      "source": 2
+    },
+    {
+      "category": "dinosaur-bodies",
+      "text": "Eoraptor had five fingers on each hand, with three long fingers ending in large claws.",
+      "source": 2
+    },
+    {
+      "category": "dinosaur-bodies",
+      "text": "Herrerasaurus had strong hind limbs, long feet, and a stiffened tail that helped it balance while moving fast.",
+      "source": 3
+    },
+    {
+      "category": "dinosaur-bodies",
+      "text": "Herrerasaurus had sharp serrated teeth for eating meat.",
+      "source": 3
+    },
+    {
+      "category": "dinosaur-bodies",
+      "text": "Plateosaurus had leaf-shaped teeth suited for crushing plant material.",
+      "source": 5
+    },
+    {
+      "category": "dinosaur-bodies",
+      "text": "Plateosaurus adults could be very different sizes, from about 4.8 to 10 meters long.",
+      "source": 5
+    },
+    {
+      "category": "not-alone",
+      "text": "Early dinosaurs shared Triassic habitats with many other reptiles and mammal relatives.",
+      "source": 0
+    },
+    {
+      "category": "not-alone",
+      "text": "In the Triassic, crocodile-line archosaurs called pseudosuchians were very important land animals.",
+      "source": 0
+    },
+    {
+      "category": "not-alone",
+      "text": "The first pterosaurs, flying reptiles that were not dinosaurs, appeared during the Triassic.",
+      "source": 0
+    },
+    {
+      "category": "not-alone",
+      "text": "The first mammal-line animals close to true mammals appeared during the Triassic.",
+      "source": 0
+    },
+    {
+      "category": "not-alone",
+      "text": "In the Ischigualasto Formation, non-dinosaur plant eaters were more common than early dinosaurs.",
+      "source": 2
+    },
+    {
+      "category": "fossil-clues",
+      "text": "The Ischigualasto Formation in Argentina preserves some of the earliest clear dinosaur fossils.",
+      "source": 6
+    },
+    {
+      "category": "fossil-clues",
+      "text": "The Ischigualasto Formation was a river-dominated floodplain with seasonal rainfall.",
+      "source": 6
+    },
+    {
+      "category": "fossil-clues",
+      "text": "Eoraptor is known from an almost complete, well-preserved skeleton and other fragmentary fossils.",
+      "source": 2
+    },
+    {
+      "category": "fossil-clues",
+      "text": "At Ghost Ranch in New Mexico, scientists found hundreds of Coelophysis skeletons in one famous quarry.",
+      "source": 4
+    },
+    {
+      "category": "fossil-clues",
+      "text": "The Chinle Formation in the western United States contains many Late Triassic fossils, including early dinosaurs and petrified wood.",
+      "source": 8
+    },
+    {
+      "category": "what-changed-next",
+      "text": "The Triassic ended with a major extinction event about 201.4 million years ago.",
+      "source": 7
+    },
+    {
+      "category": "what-changed-next",
+      "text": "Many land reptile groups disappeared at or near the end of the Triassic, but dinosaurs survived.",
+      "source": 7
+    },
+    {
+      "category": "what-changed-next",
+      "text": "After the Triassic-Jurassic extinction, dinosaurs spread into more habitats and became the dominant large land animals of the Jurassic.",
+      "source": 7
+    },
+    {
+      "category": "what-changed-next",
+      "text": "Scientists generally connect the end-Triassic extinction with huge volcanic eruptions in the Central Atlantic Magmatic Province.",
+      "source": 7
+    },
+    {
+      "category": "what-changed-next",
+      "text": "Birds are living dinosaurs, but birds evolved much later than the Triassic, during the Jurassic.",
+      "source": 1
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/pangaea-map.png",
+      "description": "Map of Earth about 225 million years ago during the Late Triassic.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_225_Ma_(Norian_Age).png",
+      "author": "Scotese, Christopher R.; Verard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Adam T.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 3610,
+      "height": 1810
+    },
+    {
+      "filename": "images/pangaea-230-million-years-ago.png",
+      "description": "Physical map of Pangaea around 230 million years ago.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pangaea_(230_million_years_ago).png",
+      "author": "Dropzink",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 550,
+      "height": 400
+    },
+    {
+      "filename": "images/eoraptor-skeleton.jpg",
+      "description": "Reconstructed Eoraptor skeleton at the National Museum of Natural History of Chile.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eoraptor_Lunensis_20250105.jpg",
+      "author": "Rjcastillo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 4963,
+      "height": 3691
+    },
+    {
+      "filename": "images/eoraptor-fossil.jpg",
+      "description": "Eoraptor fossil skeleton on display.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eoraptor_fossil.jpg",
+      "author": "Kumiko from Tokyo, Japan",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 2840,
+      "height": 2009
+    },
+    {
+      "filename": "images/eoraptor-size.svg",
+      "description": "Size comparison of Eoraptor with a human silhouette.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eoraptor_Scale.svg",
+      "author": "Slate Weasel",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 286,
+      "height": 244
+    },
+    {
+      "filename": "images/herrerasaurus-skeleton.jpg",
+      "description": "Skeleton of Herrerasaurus on display.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Herrerasaurus_skeleton.jpg",
+      "author": "Kumiko",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1200,
+      "height": 612
+    },
+    {
+      "filename": "images/herrerasaurus-illustration.jpg",
+      "description": "Scientific reconstruction of Herrerasaurus ischigualastensis.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Herrerasaurus_ischigualastensis_Illustration.jpg",
+      "author": "Fred Wierum",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 3650,
+      "height": 2482
+    },
+    {
+      "filename": "images/early-dinosaur-skeletons.jpg",
+      "description": "Herrerasaurus and Eoraptor skeletons with a Plateosaurus skull.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Herrerasaurusskeleton.jpg",
+      "author": "Zach Tirrell from Plymouth, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 2549,
+      "height": 1604
+    },
+    {
+      "filename": "images/coelophysis-skeleton.jpg",
+      "description": "Mounted Coelophysis bauri skeleton from the Triassic of New Mexico.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coelophysis_bauri_mount.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2814,
+      "height": 1447
+    },
+    {
+      "filename": "images/ghost-ranch-quarry.jpg",
+      "description": "View of the famous Coelophysis Quarry at Ghost Ranch, New Mexico.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ghost_Ranch_Coelophysis_Quarry.jpg",
+      "author": "Neil Pezzoni",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "filename": "images/plateosaurus-skeleton.jpg",
+      "description": "Plateosaurus trossingensis skeleton at the American Museum of Natural History.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plateosaurus_trossingensis_-_AMNH_-_DSC06290.JPG",
+      "author": "Daderot",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 4320,
+      "height": 3240
+    },
+    {
+      "filename": "images/herrerasaurus-living.jpg",
+      "description": "Life reconstruction of Herrerasaurus ischigualastensis.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Herrerasaurus_NT_small.jpg",
+      "author": "Nobu Tamura",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 741,
+      "height": 439
+    },
+    {
+      "filename": "images/coelophysis-illustration.svg",
+      "description": "Simple profile illustration of Coelophysis.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coelophysis_illustration_by_Ritterbush.svg",
+      "author": "Kathleen A. Ritterbush",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1435,
+      "height": 395
+    },
+    {
+      "filename": "images/coelophysis-size.jpg",
+      "description": "Living reconstruction and size comparison of Coelophysis bauri.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coelophysis_size.jpg",
+      "author": "Dr. Jeff Martz/NPS; uploaded from Petrified Forest National Park",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 2000,
+      "height": 1182
+    },
+    {
+      "filename": "images/first-dinosaurs-scene.svg",
+      "description": "Original child-friendly illustration of small early dinosaurs running across a Triassic desert.",
+      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
+      "author": "OpenCode for this project",
+      "license": "Project asset",
+      "license_url": "https://picturebooks.local/licenses/project-asset",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "filename": "images/eoraptor-living.svg",
+      "description": "Original child-friendly illustration of Eoraptor walking in a Triassic floodplain.",
+      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
+      "author": "OpenCode for this project",
+      "license": "Project asset",
+      "license_url": "https://picturebooks.local/licenses/project-asset",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "filename": "images/plateosaurus-browsing.svg",
+      "description": "Original child-friendly illustration of Plateosaurus browsing Triassic plants.",
+      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
+      "author": "OpenCode for this project",
+      "license": "Project asset",
+      "license_url": "https://picturebooks.local/licenses/project-asset",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "filename": "images/triassic-jurassic-transition.svg",
+      "description": "Original child-friendly illustration of dinosaurs surviving from the Triassic into the Jurassic.",
+      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
+      "author": "OpenCode for this project",
+      "license": "Project asset",
+      "license_url": "https://picturebooks.local/licenses/project-asset",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "filename": "images/triassic-dinosaur-lineup.svg",
+      "description": "Original child-friendly cover lineup of Eoraptor, Herrerasaurus, Coelophysis, and Plateosaurus.",
+      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
+      "author": "OpenCode for this project",
+      "license": "Project asset",
+      "license_url": "https://picturebooks.local/licenses/project-asset",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "filename": "images/triassic-neighbors.svg",
+      "description": "Original child-friendly illustration of an early dinosaur sharing a Triassic habitat with other reptile and mammal-line animals.",
+      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
+      "author": "OpenCode for this project",
+      "license": "Project asset",
+      "license_url": "https://picturebooks.local/licenses/project-asset",
+      "width": 1200,
+      "height": 800
+    }
+  ]
+}

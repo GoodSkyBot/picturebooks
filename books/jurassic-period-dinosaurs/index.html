@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>When Earth Became Jurassic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Atkinson+Hyperlegible:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #315C48;
+      --secondary-color: #8A5A2B;
+      --background-color: #F3E2BD;
+      --accent-color: #D67A2C;
+      --font-heading: 'Fredoka', sans-serif;
+      --font-body: 'Atkinson Hyperlegible', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/jurassic-forest-scene.jpg" alt="When Earth Became Jurassic">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">When Earth Became Jurassic</h1>
+        
+        <p class="cover-subtitle">Dinosaurs in a Changing World</p>
+        
+        <button class="btn-start" aria-label="Start reading">Let's Go!</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+    
+        <!-- Page 1: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/jurassic-earth-map.png" alt="A map showing Earth during the Middle Jurassic, about 170 million years ago" style="object-fit: contain;">
+        
+        <figcaption>Photo: Scotese, Christopher R.; Verard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Adam T. / CC BY 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">The Jurassic was a middle time in dinosaur history. It came after the Triassic and before the Cretaceous. While dinosaurs spread, Earth itself was changing.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: About 201.4 to 143.1 million years ago.">
+            <span class="extra-icon">&#127775;</span> About 201.4 to 143.1 million years ago.
+          </button>
+          
+          <button class="extra" data-audio="audio/page-01-extra-2.mp3" aria-label="Fun fact: Pangaea was starting to split apart.">
+            <span class="extra-icon">&#127775;</span> Pangaea was starting to split apart.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 2: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="2" hidden>
+      <figure class="page-figure">
+        <img src="images/jurassic-forest-scene.jpg" alt="A Jurassic forest scene with dinosaurs among conifers and tree ferns">
+        
+        <figcaption>Photo: Gerhard Boeggemann / CC BY-SA 2.5</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">The Jurassic world was warm, with no ice caps. Ferns, tree ferns, conifers, ginkgos, cycads, and horsetails made green places for animals to live.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: There were no grass lawns yet.">
+            <span class="extra-icon">&#127775;</span> There were no grass lawns yet.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 3: 1 image, layout B (text left, image right) -->
+    <article class="page page--content page--layout-b" data-page="3" hidden>
+      <div class="page-body">
+        <p class="page-text">Rivers and floodplains left layers of rock full of clues. In western North America, the Morrison Formation saved many Late Jurassic dinosaur fossils.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-03-extra-1.mp3" aria-label="Fun fact: Fossils are clues from deep time.">
+            <span class="extra-icon">&#127775;</span> Fossils are clues from deep time.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/morrison-formation.jpg" alt="Layered Morrison Formation rocks near Green River, Utah">
+        
+        <figcaption>Photo: Michael Overton / CC BY-SA 2.5</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 4: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="4" hidden>
+      <figure class="page-figure">
+        <img src="images/brachiosaurus-mount.jpg" alt="A mounted Brachiosaurus skeleton showing its long neck and high shoulders" style="object-fit: contain;">
+        
+        <figcaption>Photo: Matt Wedel / CC BY 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Brachiosaurus was a high browser. Its front legs were longer than its back legs, so its shoulders rose high like a living lookout tower.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: It could reach very high plants.">
+            <span class="extra-icon">&#127775;</span> It could reach very high plants.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 5: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="5" hidden>
+      <figure class="page-figure">
+        <img src="images/apatosaurus-restoration.jpg" alt="A restoration of Apatosaurus with a long neck and long tail">
+        
+        <figcaption>Photo: Durbed / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Apatosaurus was another giant plant-eater. It walked on four sturdy legs, carried a long neck, and swung a long whip-like tail behind it.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-05-extra-1.mp3" aria-label="Fun fact: Its skull was small for its huge body.">
+            <span class="extra-icon">&#127775;</span> Its skull was small for its huge body.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 6: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="6" hidden>
+      <figure class="page-figure">
+        <img src="images/diplodocus-mount.jpg" alt="A mounted Diplodocus skeleton with a very long neck and tail" style="object-fit: contain;">
+        
+        <figcaption>Photo: ScottRobertAnselmo / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Diplodocus was built long and low. Its tiny peg-like teeth sat near the front of its jaws, and its tail made up a huge part of its length.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: Some skeletons were about 24 to 26 meters long.">
+            <span class="extra-icon">&#127775;</span> Some skeletons were about 24 to 26 meters long.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 7: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="7" hidden>
+      <figure class="page-figure">
+        <img src="images/stegosaurus-sophie.jpg" alt="A mounted Stegosaurus skeleton with upright back plates and tail spikes" style="object-fit: contain;">
+        
+        <figcaption>Photo: Susannah Maidment et al. and Natural History Museum, London / CC BY 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Stegosaurus wore tall plates along its back. Near the end of its tail were sharp spikes that probably helped protect it from hungry predators.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: Stegosaurus ate plants.">
+            <span class="extra-icon">&#127775;</span> Stegosaurus ate plants.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 8: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="8" hidden>
+      <figure class="page-figure">
+        <img src="images/stegosaurus-size.svg" alt="A Stegosaurus size chart comparing the dinosaur with a human" style="object-fit: contain;">
+        
+        <figcaption>Photo: KoprX / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Stegosaurus was not built like a runner. It had a small head, a short neck, and a heavy plant-eating body balanced on four legs.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-08-extra-1.mp3" aria-label="Fun fact: Some grew more than 7 meters long.">
+            <span class="extra-icon">&#127775;</span> Some grew more than 7 meters long.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 9: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="9" hidden>
+      <figure class="page-figure">
+        <img src="images/allosaurus-mount.jpg" alt="A mounted Allosaurus skeleton showing its big skull, two legs, and long tail" style="object-fit: contain;">
+        
+        <figcaption>Photo: The_Wookies / CC BY 2.5</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Allosaurus was a big Jurassic hunter. It ran on two strong legs, balanced with a long tail, and had many sharp teeth for biting meat.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-09-extra-1.mp3" aria-label="Fun fact: It was a common large Morrison predator.">
+            <span class="extra-icon">&#127775;</span> It was a common large Morrison predator.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-09-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 10: 1 image, layout B (text left, image right) -->
+    <article class="page page--content page--layout-b" data-page="10" hidden>
+      <div class="page-body">
+        <p class="page-text">Allosaurus was large, but the giant plant-eaters were much larger. In Jurassic habitats, size could help protect a dinosaur from danger.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-10-extra-1.mp3" aria-label="Fun fact: Predator and prey lived in the same rocks.">
+            <span class="extra-icon">&#127775;</span> Predator and prey lived in the same rocks.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/allosaurus-size.svg" alt="An Allosaurus size chart comparing the dinosaur with a human" style="object-fit: contain;">
+        
+        <figcaption>Photo: Steveoc 86, Marmelad, Scott Hartman, and Henrique Paes / CC BY-SA 2.5</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-10-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 11: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="11" hidden>
+      <figure class="page-figure">
+        <img src="images/archaeopteryx-berlin.jpg" alt="The Berlin Archaeopteryx fossil showing bones and feather impressions" style="object-fit: contain;">
+        
+        <figcaption>Photo: H. Raab (User: Vesta) / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Near the end of the Jurassic, some small theropod dinosaurs were bird-like. Archaeopteryx had feathers and wings, but also teeth, claws, and a long bony tail.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-11-extra-1.mp3" aria-label="Fun fact: Birds are living dinosaurs.">
+            <span class="extra-icon">&#127775;</span> Birds are living dinosaurs.
+          </button>
+          
+          <button class="extra" data-audio="audio/page-11-extra-2.mp3" aria-label="Fun fact: Every fossil is a piece of the story.">
+            <span class="extra-icon">&#127775;</span> Every fossil is a piece of the story.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-11-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="12" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          
+          <li><a href="https://en.wikipedia.org/wiki/Jurassic" target="_blank" rel="noopener">Jurassic - Wikipedia</a></li>
+          
+          <li><a href="https://simple.wikipedia.org/wiki/Jurassic" target="_blank" rel="noopener">Jurassic - Simple English Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Morrison_Formation" target="_blank" rel="noopener">Morrison Formation - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Brachiosaurus" target="_blank" rel="noopener">Brachiosaurus - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Apatosaurus" target="_blank" rel="noopener">Apatosaurus - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Diplodocus" target="_blank" rel="noopener">Diplodocus - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Stegosaurus" target="_blank" rel="noopener">Stegosaurus - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Allosaurus" target="_blank" rel="noopener">Allosaurus - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Archaeopteryx" target="_blank" rel="noopener">Archaeopteryx - Wikipedia</a></li>
+          
+        </ul>
+        
+
+        
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          
+          <li>
+            <strong>Map of Earth about 170 million years ago during the Middl...</strong> --
+            Scotese, Christopher R.; Verard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Adam T.,
+            <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">CC BY 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Layered rocks of the Morrison Formation near Green River, Utah.</strong> --
+            Michael Overton,
+            <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+            
+          </li>
+          
+          <li>
+            <strong>Reconstruction of Jurassic dinosaurs among conifers and t...</strong> --
+            Gerhard Boeggemann,
+            <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+            
+          </li>
+          
+          <li>
+            <strong>Mounted Brachiosaurus skeleton replica outside the Field Museum.</strong> --
+            Matt Wedel,
+            <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Artistic restoration of Apatosaurus louisae.</strong> --
+            Durbed,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Mounted Diplodocus carnegii skeleton at the Carnegie Muse...</strong> --
+            ScottRobertAnselmo,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Mounted skeleton of Sophie the Stegosaurus at the Natural...</strong> --
+            Susannah Maidment et al. and Natural History Museum, London,
+            <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">CC BY 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Size comparison of Stegosaurus species with a human silhouette.</strong> --
+            KoprX,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Mounted Allosaurus cast at the Houston Museum of Natural Science.</strong> --
+            The_Wookies,
+            <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener">CC BY 2.5</a>
+            
+          </li>
+          
+          <li>
+            <strong>Size comparison of Allosaurus with a human silhouette.</strong> --
+            Steveoc 86, Marmelad, Scott Hartman, and Henrique Paes,
+            <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+            
+          </li>
+          
+          <li>
+            <strong>Berlin Archaeopteryx fossil showing feather impressions.</strong> --
+            H. Raab (User: Vesta),
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </article>
+
+
+    <!-- Home button -->
+    <a class="btn-home" href="../../" aria-label="Back to all books">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    </a>
+
+    <!-- Nav overlays (hidden on mobile <480px, replaced by tap zones) -->
+    <button class="nav-btn nav-prev" id="nav-prev" aria-label="Previous page" hidden>
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+    </button>
+    <button class="nav-btn nav-next" id="nav-next" aria-label="Next page">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </button>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <svg class="swipe-hint-hand" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true" focusable="false">
+        <path d="M14 4l-5 5h3v10h4V9h3l-5-5z" fill="currentColor"/>
+        <path d="M7 20h14v3H7z" fill="currentColor" opacity="0.7"/>
+      </svg>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,380 @@
+{
+  "topic": "Jurassic period dinosaurs",
+  "slug": "jurassic-period-dinosaurs",
+  "targetAge": 6,
+  "sources": [
+    {
+      "title": "Jurassic - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jurassic",
+      "accessed": "2026-07-04",
+      "notes": "Overview of Jurassic dates, climate, Pangaea breakup, life, plants, and major animal groups."
+    },
+    {
+      "title": "Jurassic - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Jurassic",
+      "accessed": "2026-07-04",
+      "notes": "Age-appropriate overview of Jurassic timing, warmer climate, Pangaea breakup, plants, and reptiles."
+    },
+    {
+      "title": "Morrison Formation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Morrison_Formation",
+      "accessed": "2026-07-04",
+      "notes": "Information on the Late Jurassic Morrison Formation, fossil habitats, plants, rivers, and dinosaur fauna."
+    },
+    {
+      "title": "Brachiosaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brachiosaurus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Brachiosaurus age, size, body shape, long forelimbs, high browsing, and Morrison fossils."
+    },
+    {
+      "title": "Apatosaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apatosaurus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Apatosaurus age, size, long neck, tail, diet, and Morrison habitat."
+    },
+    {
+      "title": "Diplodocus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diplodocus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Diplodocus age, size, long tail, small skull, teeth, and Morrison ecosystem."
+    },
+    {
+      "title": "Stegosaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stegosaurus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Stegosaurus age, plates, tail spikes, diet, size, and Morrison companions."
+    },
+    {
+      "title": "Allosaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Allosaurus",
+      "accessed": "2026-07-04",
+      "notes": "Information on Allosaurus age, size, teeth, body form, predation, and Morrison fossils."
+    },
+    {
+      "title": "Archaeopteryx - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archaeopteryx",
+      "accessed": "2026-07-04",
+      "notes": "Information on Archaeopteryx age, feathers, bird-like dinosaur features, size, and Solnhofen fossils."
+    }
+  ],
+  "facts": [
+    {
+      "category": "a-new-middle-time",
+      "text": "The Jurassic Period lasted from about 201.4 million years ago to about 143.1 million years ago.",
+      "source": 0
+    },
+    {
+      "category": "a-new-middle-time",
+      "text": "The Jurassic was the middle period of the Mesozoic Era, after the Triassic and before the Cretaceous.",
+      "source": 0
+    },
+    {
+      "category": "a-new-middle-time",
+      "text": "The Jurassic is named after the Jura Mountains, where rocks from this period were studied.",
+      "source": 0
+    },
+    {
+      "category": "a-new-middle-time",
+      "text": "At the beginning of the Jurassic, a major extinction had recently changed life on Earth.",
+      "source": 0
+    },
+    {
+      "category": "earth-breaks-apart",
+      "text": "During the Jurassic, the supercontinent Pangaea was beginning to split apart.",
+      "source": 0
+    },
+    {
+      "category": "earth-breaks-apart",
+      "text": "Pangaea split into northern Laurasia and southern Gondwana during the Jurassic.",
+      "source": 0
+    },
+    {
+      "category": "earth-breaks-apart",
+      "text": "By the end of the Jurassic, South America had begun to move away from Africa.",
+      "source": 1
+    },
+    {
+      "category": "earth-breaks-apart",
+      "text": "A narrow Atlantic Ocean began opening as Pangaea pulled apart.",
+      "source": 1
+    },
+    {
+      "category": "warm-green-world",
+      "text": "The Jurassic climate was warmer than today's climate.",
+      "source": 0
+    },
+    {
+      "category": "warm-green-world",
+      "text": "There were no ice caps during the Jurassic.",
+      "source": 0
+    },
+    {
+      "category": "warm-green-world",
+      "text": "Jurassic plants included ferns, tree ferns, conifers, ginkgos, cycads, and horsetails.",
+      "source": 1
+    },
+    {
+      "category": "warm-green-world",
+      "text": "The Morrison Formation preserves Late Jurassic river and floodplain habitats in western North America.",
+      "source": 2
+    },
+    {
+      "category": "warm-green-world",
+      "text": "The Morrison Formation ecosystem included fish, frogs, salamanders, lizards, crocodiles, turtles, pterosaurs, small mammal relatives, and many dinosaurs.",
+      "source": 2
+    },
+    {
+      "category": "dinosaurs-take-over",
+      "text": "On land, Jurassic animal life became dominated by dinosaurs.",
+      "source": 0
+    },
+    {
+      "category": "dinosaurs-take-over",
+      "text": "The Jurassic saw sauropods become larger than any land animals that had lived before them.",
+      "source": 1
+    },
+    {
+      "category": "dinosaurs-take-over",
+      "text": "Jurassic dinosaurs included long-necked sauropods, plated stegosaurs, meat-eating theropods, and early bird-like dinosaurs.",
+      "source": 0
+    },
+    {
+      "category": "dinosaurs-take-over",
+      "text": "The Morrison Formation is one of North America's richest sources of dinosaur fossils.",
+      "source": 2
+    },
+    {
+      "category": "brachiosaurus-high-browser",
+      "text": "Brachiosaurus lived in North America during the Late Jurassic, about 155.6 to 145.5 million years ago.",
+      "source": 3
+    },
+    {
+      "category": "brachiosaurus-high-browser",
+      "text": "Brachiosaurus had longer front legs than back legs, giving its body a high-shouldered shape.",
+      "source": 3
+    },
+    {
+      "category": "brachiosaurus-high-browser",
+      "text": "Brachiosaurus may have eaten plants as high as about 9 meters above the ground.",
+      "source": 3
+    },
+    {
+      "category": "brachiosaurus-high-browser",
+      "text": "Brachiosaurus was a sauropod with a long neck, small skull, and huge body.",
+      "source": 3
+    },
+    {
+      "category": "apatosaurus-heavy-giant",
+      "text": "Apatosaurus lived in North America during the Late Jurassic, about 152 to 151 million years ago.",
+      "source": 4
+    },
+    {
+      "category": "apatosaurus-heavy-giant",
+      "text": "Apatosaurus was a large, four-legged sauropod with a long neck and a long whip-like tail.",
+      "source": 4
+    },
+    {
+      "category": "apatosaurus-heavy-giant",
+      "text": "Apatosaurus had a small skull compared with its huge body.",
+      "source": 4
+    },
+    {
+      "category": "apatosaurus-heavy-giant",
+      "text": "Apatosaurus ate plants.",
+      "source": 4
+    },
+    {
+      "category": "diplodocus-long-tail",
+      "text": "Diplodocus lived in western North America near the end of the Jurassic Period.",
+      "source": 5
+    },
+    {
+      "category": "diplodocus-long-tail",
+      "text": "Diplodocus was a very long sauropod with a long neck and an especially long tail.",
+      "source": 5
+    },
+    {
+      "category": "diplodocus-long-tail",
+      "text": "Diplodocus carnegii is known from a nearly complete skeleton and could reach about 24 to 26 meters long.",
+      "source": 5
+    },
+    {
+      "category": "diplodocus-long-tail",
+      "text": "Diplodocus had small peg-like teeth near the front of its jaws.",
+      "source": 5
+    },
+    {
+      "category": "stegosaurus-plates-and-spikes",
+      "text": "Stegosaurus lived during the Late Jurassic, about 155 to 145 million years ago.",
+      "source": 6
+    },
+    {
+      "category": "stegosaurus-plates-and-spikes",
+      "text": "Stegosaurus had upright plates along its back and spikes near the end of its tail.",
+      "source": 6
+    },
+    {
+      "category": "stegosaurus-plates-and-spikes",
+      "text": "Scientists think Stegosaurus tail spikes were probably used for defense.",
+      "source": 6
+    },
+    {
+      "category": "stegosaurus-plates-and-spikes",
+      "text": "Stegosaurus was a plant-eating, four-legged dinosaur with a small head and short neck.",
+      "source": 6
+    },
+    {
+      "category": "allosaurus-hunter",
+      "text": "Allosaurus lived about 155 to 143 million years ago during the Late Jurassic.",
+      "source": 7
+    },
+    {
+      "category": "allosaurus-hunter",
+      "text": "Allosaurus was a large two-legged predator with a strong skull and many sharp serrated teeth.",
+      "source": 7
+    },
+    {
+      "category": "allosaurus-hunter",
+      "text": "Allosaurus had powerful hind legs, a long balancing tail, and three-fingered hands.",
+      "source": 7
+    },
+    {
+      "category": "allosaurus-hunter",
+      "text": "Allosaurus was one of the most common large predators in the Morrison Formation.",
+      "source": 7
+    },
+    {
+      "category": "first-bird-like-dinosaurs",
+      "text": "The first stem-group birds appeared during the Jurassic, evolving from theropod dinosaurs.",
+      "source": 0
+    },
+    {
+      "category": "first-bird-like-dinosaurs",
+      "text": "Archaeopteryx lived around 150 million years ago in what is now southern Germany.",
+      "source": 8
+    },
+    {
+      "category": "first-bird-like-dinosaurs",
+      "text": "Archaeopteryx was about the size of a magpie, with larger individuals perhaps about the size of a raven.",
+      "source": 8
+    },
+    {
+      "category": "first-bird-like-dinosaurs",
+      "text": "Archaeopteryx had feathers and wings, but also teeth, clawed fingers, and a long bony tail.",
+      "source": 8
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/jurassic-earth-map.png",
+      "description": "Map of Earth about 170 million years ago during the Middle Jurassic.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_170_Ma_(Bajocian_Age).png",
+      "author": "Scotese, Christopher R.; Verard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Adam T.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 3610,
+      "height": 1810
+    },
+    {
+      "filename": "images/morrison-formation.jpg",
+      "description": "Layered rocks of the Morrison Formation near Green River, Utah.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Green_River_UT_2005-10-14_2104.jpg",
+      "author": "Michael Overton",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 2400,
+      "height": 1800
+    },
+    {
+      "filename": "images/jurassic-forest-scene.jpg",
+      "description": "Reconstruction of Jurassic dinosaurs among conifers and tree ferns.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Europasaurus_holgeri_Scene_2.jpg",
+      "author": "Gerhard Boeggemann",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 2576,
+      "height": 1932
+    },
+    {
+      "filename": "images/brachiosaurus-mount.jpg",
+      "description": "Mounted Brachiosaurus skeleton replica outside the Field Museum.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Brachiosaurus_mount.jpg",
+      "author": "Matt Wedel",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "width": 2000,
+      "height": 1673
+    },
+    {
+      "filename": "images/apatosaurus-restoration.jpg",
+      "description": "Artistic restoration of Apatosaurus louisae.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apatosaurus_louisae_by_durbed.jpg",
+      "author": "Durbed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1376,
+      "height": 640
+    },
+    {
+      "filename": "images/diplodocus-mount.jpg",
+      "description": "Mounted Diplodocus carnegii skeleton at the Carnegie Museum of Natural History.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CM_Diplodocus.jpg",
+      "author": "ScottRobertAnselmo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "filename": "images/stegosaurus-sophie.jpg",
+      "description": "Mounted skeleton of Sophie the Stegosaurus at the Natural History Museum, London.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Journal.pone.0138352.g001A.jpg",
+      "author": "Susannah Maidment et al. and Natural History Museum, London",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1956,
+      "height": 1176
+    },
+    {
+      "filename": "images/stegosaurus-size.svg",
+      "description": "Size comparison of Stegosaurus species with a human silhouette.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Stegosaurus_size_comparison.svg",
+      "author": "KoprX",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2430,
+      "height": 1080
+    },
+    {
+      "filename": "images/allosaurus-mount.jpg",
+      "description": "Mounted Allosaurus cast at the Houston Museum of Natural Science.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WLA_hmns_Allosaurus_White_Background.jpg",
+      "author": "The_Wookies",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "width": 2818,
+      "height": 2277
+    },
+    {
+      "filename": "images/allosaurus-size.svg",
+      "description": "Size comparison of Allosaurus with a human silhouette.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Allosaurus_size_comparison.svg",
+      "author": "Steveoc 86, Marmelad, Scott Hartman, and Henrique Paes",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 1920,
+      "height": 1024
+    },
+    {
+      "filename": "images/archaeopteryx-berlin.jpg",
+      "description": "Berlin Archaeopteryx fossil showing feather impressions.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_(Berlin_specimen).jpg",
+      "author": "H. Raab (User: Vesta)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1888,
+      "height": 2552
+    }
+  ]
+}
