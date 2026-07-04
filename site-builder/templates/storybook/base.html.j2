@@ -23,13 +23,13 @@
 
   <div class="book" id="book">
 
-    {{ cover_html }}
+    {{ cover_html | safe }}
 
     {% for page_html in pages_html %}
-    {{ page_html }}
+    {{ page_html | safe }}
     {% endfor %}
 
-    {{ credits_html }}
+    {{ credits_html | safe }}
 
     <!-- Home button -->
     <a class="btn-home" href="../../" aria-label="Back to all books">

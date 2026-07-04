@@ -17,8 +17,13 @@ REPO_ROOT = SITE_BUILDER_DIR.parent
 
 
 def load_json(path: Path) -> dict:
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        sys.exit(f"Error: {path} contains invalid JSON: {e}")
+    except OSError as e:
+        sys.exit(f"Error: cannot read {path}: {e}")
 
 
 def load_template_manifest(template_name: str) -> dict:
@@ -95,7 +100,11 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
         sys.exit(f"Error: {book_path} not found")
 
     book = load_json(book_path)
-    content = load_json(content_path) if content_path.exists() else {}
+    if not content_path.exists():
+        print(f"Warning: {content_path} not found; credits and captions will be empty", file=sys.stderr)
+        content = {}
+    else:
+        content = load_json(content_path)
 
     manifest = load_template_manifest(template_name)
     template_dir = TEMPLATES_DIR / template_name
@@ -105,7 +114,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
     # Set up Jinja2 environment
     env = Environment(
         loader=FileSystemLoader([str(template_dir), str(template_dir / "fragments")]),
-        autoescape=False,
+        autoescape=True,
         keep_trailing_newline=True,
     )
 
@@ -174,17 +183,25 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
     )
 
     # Render credits
-    credits_template = env.get_template("credits.html.j2")
-    rendered_credits = credits_template.render(
-        content=content,
-        attribution_map=attribution_map,
-        book=book,
-        theme=book.get("theme", {}),
-    )
+    back_matter = book.get("backMatter", {})
+    show_credits = back_matter.get("showCredits", True)
+    show_sources = back_matter.get("showSources", True)
+
+    rendered_credits = ""
+    if show_credits or show_sources:
+        credits_template = env.get_template("credits.html.j2")
+        rendered_credits = credits_template.render(
+            content=content,
+            attribution_map=attribution_map,
+            book=book,
+            theme=book.get("theme", {}),
+            show_credits=show_credits,
+            show_sources=show_sources,
+        )
 
     # Render base HTML
     base_template = env.get_template("base.html.j2")
-    total_pages = len(rendered_pages) + 2  # cover + pages + credits
+    total_pages = len(rendered_pages) + 1 + (1 if rendered_credits else 0)  # cover + pages [+ credits]
     html_output = base_template.render(
         book=book,
         theme=book.get("theme", {}),

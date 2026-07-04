@@ -3,7 +3,7 @@
       <div class="credits-content">
         <h2 class="credits-title">Credits &amp; Sources</h2>
 
-        {% if content.sources %}
+        {% if show_sources and content.sources %}
         <h3>Sources</h3>
         <ul class="credits-sources">
           {% for source in content.sources %}
@@ -12,6 +12,7 @@
         </ul>
         {% endif %}
 
+        {% if show_credits %}
         <h3>Image Credits</h3>
         <ul class="credits-images">
           {% for img in content.get('images', []) %}
@@ -23,6 +24,7 @@
           </li>
           {% endfor %}
         </ul>
+        {% endif %}
 
         <p class="credits-footer">Made with love for curious kids everywhere.</p>
       </div>
