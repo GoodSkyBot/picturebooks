@@ -52,6 +52,15 @@ python site-builder/build.py --slug {slug} --template {template}
 
 Check `site-builder/templates/` for available templates. Each template has a `template.json` with a name and description.
 
+Use the template descriptions and the book's `theme.vibe` to guide selection. Current broad style options include:
+
+- `minimalist` for clean, image-forward books where the photos should carry the page.
+- `nighttime` for dark, calm, glowing topics such as space, ocean, nocturnal life, or bedtime reading.
+- `storybook` for a warm traditional book-spread feeling.
+- `playmat` for bright preschool-friendly books that benefit from chunky color blocks, large touch targets, and cheerful motion.
+- `gallery-walk` for calm nonfiction books that invite careful looking, comparison, or a museum-display feeling.
+- `field-kit` for hands-on discovery books where images should feel like photos or specimens glued into an explorer notebook.
+
 ### Strict Mode
 
 Use `--strict` if you want the build to fail when content would be dropped (e.g., a page has more images than the template supports). Without `--strict`, the script warns on stderr but continues.

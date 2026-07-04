@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{ book.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family={{ theme.fontHeading | replace(' ', '+') }}:wght@400;600;700&family={{ theme.fontBody | replace(' ', '+') }}:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: {{ theme.primaryColor }};
+      --secondary-color: {{ theme.secondaryColor }};
+      --background-color: {{ theme.backgroundColor }};
+      --accent-color: {{ theme.accentColor }};
+      --font-heading: '{{ theme.fontHeading }}', sans-serif;
+      --font-body: '{{ theme.fontBody }}', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+    {{ cover_html | safe }}
+
+    {% for page_html in pages_html %}
+    {{ page_html | safe }}
+    {% endfor %}
+
+    {{ credits_html | safe }}
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
