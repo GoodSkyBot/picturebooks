@@ -65,6 +65,28 @@ After the build completes, verify:
 - Body text is not smaller than 1rem at any breakpoint.
 - All interactive elements have `:active` styles (provided by the template CSS).
 
+### Visual QA Pipeline
+
+After building, run the Playwright visual QA script:
+
+```
+npm run visual-qa -- {slug}
+```
+
+The script uses system Chromium, opens the generated book, flips through every `.page`, and captures screenshots at mobile, tablet, and desktop sizes under `tmp/screenshots/{slug}/`. It also writes `tmp/screenshots/{slug}/report.json` with failed requests, console errors, broken images, visible-page checks, and overflow checks.
+
+Review the generated screenshots, not just the JSON report. Look for visual layout issues that automated checks may miss, including:
+- Images cropped in a way that removes essential information, especially maps, diagrams, labels, faces, or key subjects.
+- Excessive empty space that makes a cover or page feel unfinished.
+- Text that feels crowded, too small, too low-contrast, or awkwardly positioned.
+- Captions overlapping important image content or becoming unreadable.
+- Navigation or read-aloud controls covering meaningful content.
+- Credits pages that are technically valid but visually too dense or hard to scan.
+
+If visual QA reveals a layout issue, fix the source template CSS, template fragments, or builder logic, then rebuild and rerun `npm run visual-qa -- {slug}`. Do not manually edit generated `books/{slug}/index.html`, `style.css`, or `script.js`.
+
+For images that must preserve full context, such as maps or diagrams, prefer containment over cropping. For example, SVG maps often need `object-fit: contain` rather than `object-fit: cover` so labels and geographic context are not cut off.
+
 ## Boundaries
 
 - `book.json` is the source of truth for content and structure.
