@@ -115,3 +115,14 @@ Schemas live in `schemas/`:
 ```
 
 Starts a local server (default port 8000). Visit `/` for the book listing or `/books/{slug}/` for a specific book.
+
+## Visual QA
+
+Install Chromium with apt, then run:
+
+```bash
+npm install
+npm run visual-qa -- american-revolution
+```
+
+The QA script uses system Chromium at `/usr/bin/chromium`, flips through every `.page` at mobile, tablet, and desktop sizes, and writes screenshots plus `report.json` under `tmp/screenshots/{slug}/`.

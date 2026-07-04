@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "visual-qa": "node scripts/visual_qa.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
