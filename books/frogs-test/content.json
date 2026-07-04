@@ -1,0 +1,338 @@
+{
+  "topic": "frogs",
+  "slug": "frogs",
+  "targetAge": 5,
+  "sources": [
+    {
+      "title": "Frog \u2013 Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frog",
+      "accessed": "2026-05-03"
+    },
+    {
+      "title": "Frog \u2013 Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Frog",
+      "accessed": "2026-05-03"
+    }
+  ],
+  "facts": [
+    {
+      "category": "what-frogs-are",
+      "text": "Frogs are amphibians, which means they can live both in water and on land.",
+      "source": 1
+    },
+    {
+      "category": "what-frogs-are",
+      "text": "Frogs are cold-blooded, so their body temperature matches the air or water around them.",
+      "source": 0
+    },
+    {
+      "category": "what-frogs-are",
+      "text": "There are more than 7,700 different kinds of frogs in the world.",
+      "source": 0
+    },
+    {
+      "category": "what-frogs-are",
+      "text": "Frogs have been around for about 200 million years, even longer than dinosaurs.",
+      "source": 0
+    },
+    {
+      "category": "how-they-look",
+      "text": "Frogs have smooth, wet skin that helps them breathe and drink water right through it.",
+      "source": 1
+    },
+    {
+      "category": "how-they-look",
+      "text": "The smallest frog in the world is only about as big as a fingernail.",
+      "source": 0
+    },
+    {
+      "category": "how-they-look",
+      "text": "The biggest frog is the goliath frog, which can weigh as much as a newborn baby.",
+      "source": 0
+    },
+    {
+      "category": "how-they-look",
+      "text": "Frogs have big bulging eyes on top of their heads that let them see in almost every direction at once.",
+      "source": 0
+    },
+    {
+      "category": "how-they-look",
+      "text": "A frog's long, sticky tongue can snap out and catch a bug faster than you can blink.",
+      "source": 0
+    },
+    {
+      "category": "where-they-live",
+      "text": "Frogs live on every continent in the world except Antarctica.",
+      "source": 0
+    },
+    {
+      "category": "where-they-live",
+      "text": "Many frogs live near ponds, swamps, rivers, and lakes because they need water to lay their eggs.",
+      "source": 1
+    },
+    {
+      "category": "where-they-live",
+      "text": "Some frogs live high up in trees in the rainforest and never come down to the ground.",
+      "source": 0
+    },
+    {
+      "category": "where-they-live",
+      "text": "The wood frog can survive being frozen solid in winter and then thaw out and hop away in spring.",
+      "source": 0
+    },
+    {
+      "category": "what-they-eat",
+      "text": "Frogs eat insects like flies, mosquitoes, and crickets.",
+      "source": 1
+    },
+    {
+      "category": "what-they-eat",
+      "text": "A frog catches food with its sticky tongue in less than one second.",
+      "source": 0
+    },
+    {
+      "category": "what-they-eat",
+      "text": "Frogs use their eyes to help push food down their throat when they swallow.",
+      "source": 0
+    },
+    {
+      "category": "what-they-eat",
+      "text": "Baby frogs, called tadpoles, eat tiny plants called algae that grow in the water.",
+      "source": 1
+    },
+    {
+      "category": "how-they-grow",
+      "text": "Frogs lay their eggs in water, and the eggs look like a squishy blob of jelly called frogspawn.",
+      "source": 1
+    },
+    {
+      "category": "how-they-grow",
+      "text": "Baby frogs start out as tadpoles with long tails and no legs, and they breathe with gills like fish.",
+      "source": 1
+    },
+    {
+      "category": "how-they-grow",
+      "text": "As a tadpole grows, it sprouts legs, loses its tail, and turns into a frog in a change called metamorphosis.",
+      "source": 0
+    },
+    {
+      "category": "how-they-grow",
+      "text": "It can take a tadpole a few weeks to many months to finish turning into a frog.",
+      "source": 0
+    },
+    {
+      "category": "how-they-move",
+      "text": "Frogs are some of the best jumpers in the animal world and can leap more than 50 times their own body length.",
+      "source": 0
+    },
+    {
+      "category": "how-they-move",
+      "text": "Frogs have long, strong back legs that are built for jumping and swimming.",
+      "source": 1
+    },
+    {
+      "category": "how-they-move",
+      "text": "Tree frogs have sticky pads on their toes that work like suction cups to help them climb.",
+      "source": 0
+    },
+    {
+      "category": "how-they-move",
+      "text": "Some frogs called flying frogs can spread their webbed feet wide and glide through the air between trees.",
+      "source": 0
+    },
+    {
+      "category": "types-of-frogs",
+      "text": "Poison dart frogs are tiny and come in bright colors like red, blue, and yellow to warn other animals to stay away.",
+      "source": 0
+    },
+    {
+      "category": "types-of-frogs",
+      "text": "The red-eyed tree frog has bright red eyes that can startle predators and give it time to escape.",
+      "source": 0
+    },
+    {
+      "category": "types-of-frogs",
+      "text": "The American bullfrog is one of the biggest frogs in North America and makes a deep sound like \"jug-o-rum.\"",
+      "source": 0
+    },
+    {
+      "category": "types-of-frogs",
+      "text": "The European common frog is one of the most widespread frogs and can be found in gardens, forests, and meadows.",
+      "source": 0
+    },
+    {
+      "category": "staying-safe",
+      "text": "Many frogs use camouflage, which means their colors and patterns help them blend in and hide from predators.",
+      "source": 0
+    },
+    {
+      "category": "staying-safe",
+      "text": "Male frogs croak and sing loudly to call for a mate, and each kind of frog has its own special song.",
+      "source": 0
+    },
+    {
+      "category": "staying-safe",
+      "text": "Frog populations around the world are getting smaller because of pollution and habitat loss.",
+      "source": 0
+    },
+    {
+      "category": "staying-safe",
+      "text": "Frogs help people by eating lots of mosquitoes and other pest insects.",
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/common-frog.jpg",
+      "description": "European common frog sitting on a mossy surface",
+      "source_url": "https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria.jpg",
+      "author": "Richard Bartz",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "filename": "images/red-eyed-tree-frog.jpg",
+      "description": "Red-eyed tree frog perched on a branch showing its vivid red eyes and green body",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red_eyed_tree_frog_edit2.jpg",
+      "author": "Carey James Balboa",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/strawberry-poison-dart-frog.jpg",
+      "description": "Bright red strawberry poison dart frog on a forest floor",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dendrobates_pumilio.jpg",
+      "author": "Pstevendactylus",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/goliath-frog.jpg",
+      "description": "Goliath frog, the largest frog in the world, being held to show its enormous size",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Goliath_Frog.jpg",
+      "author": "Ryan Somma",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "filename": "images/webbed-foot.jpg",
+      "description": "Close-up of a common frog's webbed foot showing the skin between its toes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rana_temporaria_04_by-dpc.jpg",
+      "author": "David Perez",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "filename": "images/green-tree-frog.jpg",
+      "description": "Australian green tree frog sitting calmly on a branch",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Litoria_caerulea.jpg",
+      "author": "LiquidGhoul",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/wood-frog.jpg",
+      "description": "Wood frog sitting on leaf litter, a species that can survive being frozen in winter",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lithobates_sylvaticus_-_Wood_Frog_02.jpg",
+      "author": "Jasper Shide",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "filename": "images/european-tree-frog.jpg",
+      "description": "European tree frog clinging to a green stem, showing its bright green skin",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Laubfrosch.jpg",
+      "author": "Christoph Leeb",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "filename": "images/frogspawn-closeup.jpg",
+      "description": "Close-up of frogspawn showing round eggs in clear jelly",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Frogspawn_closeup.jpg",
+      "author": "Tarquin",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "filename": "images/tadpoles-eating.jpg",
+      "description": "Tadpoles of the common frog eating together in shallow water",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rana_temporaria_tadpoles_eating_6.jpg",
+      "author": "Mariomassone",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "filename": "images/tadpole-late-stage.jpg",
+      "description": "Tadpole in its final stage of metamorphosis, with legs growing and tail shrinking",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rana_Temporaria_-_Larva_Final_Stage.jpg",
+      "author": "Viridiflavus",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "filename": "images/frog-jumping.jpg",
+      "description": "A small frog caught mid-jump in the air, showing powerful back legs extended",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Colostethus_flotator_jumping.jpg",
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "filename": "images/flying-frog.jpg",
+      "description": "Wallace's flying frog with large webbed feet spread out, used for gliding between trees",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus.jpg",
+      "author": "Rushenb",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "filename": "images/agile-frog.jpg",
+      "description": "Agile frog in profile, a slender frog with long hind legs for jumping",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rana_dalmatina.jpg",
+      "author": "Franco Andreone",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "filename": "images/tree-frog-calling.jpg",
+      "description": "Green tree frog with its vocal sac inflated, calling loudly for a mate",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Litoria_chloris_calling.jpg",
+      "author": "Froggydarb",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "filename": "images/northern-leopard-frog.jpg",
+      "description": "Northern leopard frog shedding its skin, showing the spotted pattern that provides camouflage",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ranapipiensmoulting.jpg",
+      "author": "Mokele",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "filename": "images/common-toad-migration.jpg",
+      "description": "Common toads migrating together, showing how amphibians travel to breeding ponds",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_couple_during_migration(2005).jpg",
+      "author": "Janekpfeifer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "filename": "images/a-vibrant-cheerful-bright-green-frog-leaping-joyfully-throug.png",
+      "description": "A vibrant, cheerful bright green frog leaping joyfully through the air above a lush tropical pond, surrounded by colorful lily pads, water splashing, vivid tropical flowers and lush green foliage in the background, bright sunlight, photo-realistic, exciting and energetic, children's book cover style",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    },
+    {
+      "filename": "images/a-bright-green-tree-frog-mid-leap-above-a-pond-water-droplet.png",
+      "description": "A bright green tree frog mid-leap above a pond, water droplets frozen in the air, lily pads and tropical vegetation in soft bokeh background, warm golden sunlight, wildlife photography, National Geographic style, no text, no words, no letters, no watermarks",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    }
+  ]
+}

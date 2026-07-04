@@ -108,31 +108,19 @@
         Nonfiction picture books for kids, built as self-contained websites.
       </p>
       <ul class="books">
-        
+        {% for book in books %}
         <li>
-          <a class="book-card" href="/books/frogs/" style="--accent: #2E7D32">
-            <img src="/books/frogs/images/a-bright-green-tree-frog-mid-leap-above-a-pond-water-droplet.png"
-                 alt="Fabulous Frogs"
+          <a class="book-card" href="/books/{{ book.slug }}/" style="--accent: {{ book.primary_color }}">
+            <img src="/books/{{ book.slug }}/{{ book.cover_image }}"
+                 alt="{{ book.cover_alt }}"
                  loading="lazy">
             <div class="book-info">
-              <p class="book-title">Fabulous Frogs</p>
-              <p class="book-subtitle">A Hop into the World of Frogs</p>
+              <p class="book-title">{{ book.title }}</p>
+              <p class="book-subtitle">{{ book.subtitle }}</p>
             </div>
           </a>
         </li>
-        
-        <li>
-          <a class="book-card" href="/books/frogs-test/" style="--accent: #2E7D32">
-            <img src="/books/frogs-test/images/a-bright-green-tree-frog-mid-leap-above-a-pond-water-droplet.png"
-                 alt="Fabulous Frogs"
-                 loading="lazy">
-            <div class="book-info">
-              <p class="book-title">Fabulous Frogs</p>
-              <p class="book-subtitle">A Hop into the World of Frogs</p>
-            </div>
-          </a>
-        </li>
-        
+        {% endfor %}
       </ul>
     </main>
   </body>

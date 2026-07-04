@@ -1,0 +1,9 @@
+{
+  "name": "minimalist",
+  "description": "A clean, modern layout with no skeuomorphism. Full-screen images, generous whitespace, and simple slide transitions. The content speaks for itself.",
+  "maxImagesPerPage": 2,
+  "fragments": {
+    "1": ["page-1img-a.html.j2", "page-1img-b.html.j2"],
+    "2": ["page-2img-a.html.j2"]
+  }
+}

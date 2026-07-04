@@ -91,6 +91,39 @@ def get_image_caption(image_src: str, attribution_map: dict) -> str:
     return ""
 
 
+def build_index() -> None:
+    """Regenerate the root index.html from all books/*/book.json files."""
+    books_dir = REPO_ROOT / "books"
+    books = []
+
+    for book_json_path in sorted(books_dir.glob("*/book.json")):
+        book = load_json(book_json_path)
+        cover = book.get("cover", {})
+        theme = book.get("theme", {})
+        books.append({
+            "slug": book.get("slug", book_json_path.parent.name),
+            "title": cover.get("title", book.get("title", "")),
+            "subtitle": cover.get("subtitle", ""),
+            "cover_image": cover.get("image", ""),
+            "cover_alt": cover.get("alt", cover.get("title", "")),
+            "primary_color": theme.get("primaryColor", "#333"),
+        })
+
+    books.sort(key=lambda b: b["title"].lower())
+
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=True,
+        keep_trailing_newline=True,
+    )
+    template = env.get_template("index.html.j2")
+    html = template.render(books=books)
+
+    index_path = REPO_ROOT / "index.html"
+    index_path.write_text(html, encoding="utf-8")
+    print(f"Updated root index.html with {len(books)} book(s)")
+
+
 def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None:
     book_dir = REPO_ROOT / "books" / slug
     book_path = book_dir / "book.json"
@@ -230,13 +263,25 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
 
 def main():
     parser = argparse.ArgumentParser(description="Build a picture book static site")
-    parser.add_argument("--slug", required=True, help="Book slug (directory name under books/)")
-    parser.add_argument("--template", required=True, help="Template name to use")
+    parser.add_argument("--slug", help="Book slug (directory name under books/)")
+    parser.add_argument("--template", help="Template name to use")
     parser.add_argument("--seed", type=int, default=None, help="Random seed for reproducible fragment selection")
     parser.add_argument("--strict", action="store_true", help="Exit non-zero if any content is dropped")
+    parser.add_argument("--update-index", action="store_true", help="Regenerate root index.html from all books")
+    parser.add_argument("--no-update-index", action="store_true", help="Skip automatic index update after build")
     args = parser.parse_args()
 
+    if args.update_index:
+        build_index()
+        return
+
+    if not args.slug or not args.template:
+        parser.error("--slug and --template are required when not using --update-index")
+
     build(args.slug, args.template, args.seed, args.strict)
+
+    if not args.no_update_index:
+        build_index()
 
 
 if __name__ == "__main__":

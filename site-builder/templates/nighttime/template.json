@@ -1,0 +1,9 @@
+{
+  "name": "nighttime",
+  "description": "A dark, calming reading experience with deep navy backgrounds, soft glowing text, and luminous image borders. Book theme colors are used as glow tints. Ideal for space, ocean, nocturnal, or bedtime topics.",
+  "maxImagesPerPage": 2,
+  "fragments": {
+    "1": ["page-1img-a.html.j2", "page-1img-b.html.j2"],
+    "2": ["page-2img-a.html.j2"]
+  }
+}
