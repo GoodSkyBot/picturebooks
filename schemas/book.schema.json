@@ -123,6 +123,21 @@
                 "alt": {
                   "type": "string",
                   "minLength": 1
+                },
+                "fit": {
+                  "type": "string",
+                  "enum": ["cover", "contain", "scale-down"],
+                  "description": "CSS object-fit value. Use contain for maps/documents, cover (default) for photos."
+                },
+                "position": {
+                  "type": "string",
+                  "enum": ["center", "top", "bottom", "left", "right"],
+                  "description": "CSS object-position value. Use top for portraits to avoid clipping heads."
+                },
+                "orientation": {
+                  "type": "string",
+                  "enum": ["landscape", "portrait", "square"],
+                  "description": "Image aspect ratio class. Used by the build system to select appropriate page layouts."
                 }
               }
             }

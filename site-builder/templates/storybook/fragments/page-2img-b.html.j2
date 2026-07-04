@@ -15,7 +15,7 @@
       <div class="page-images-pair">
         {% for img in page.images %}
         <figure class="page-figure">
-          <img src="{{ img.src }}" alt="{{ img.alt }}">
+          <img src="{{ img.src }}" alt="{{ img.alt }}"{% if img.fit or img.position %} style="{% if img.fit %}object-fit: {{ img.fit }};{% endif %}{% if img.position %}{% if img.fit %} {% endif %}object-position: {{ img.position }};{% endif %}"{% endif %}>
           {% if img.caption %}
           <figcaption>{{ img.caption }}</figcaption>
           {% endif %}

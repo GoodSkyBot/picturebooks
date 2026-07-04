@@ -38,28 +38,52 @@ def classify_page(page: dict) -> int:
     return len(page.get("images", []))
 
 
-def select_fragment(manifest: dict, image_count: int, rng: random.Random) -> str:
-    """Select a random fragment filename for a given image count.
+def get_orientations(images: list) -> list:
+    """Return the list of orientations for a set of images."""
+    return [img.get("orientation", "landscape") for img in images]
 
-    Falls back to the highest available image-count bucket if the page has
-    more images than the template supports.
+
+def slot_matches(slot: str, orientation: str) -> bool:
+    """Check if an image orientation matches a slot constraint."""
+    if slot == "*":
+        return True
+    return slot == orientation
+
+
+def select_fragment(manifest: dict, images: list, rng: random.Random) -> str:
+    """Select a fragment filename based on image count and orientations.
+
+    Matching priority:
+    1. Exact orientation match (slot constraints match image orientations)
+    2. Wildcard slots that accept the right number of images
+    3. Any fragment with the right slot count (fallback)
     """
-    fragments = manifest.get("fragments", {})
+    fragments = manifest.get("fragments", [])
+    image_count = len(images)
+    orientations = get_orientations(images)
 
-    # Try exact match first
-    key = str(image_count)
-    if key in fragments:
-        return rng.choice(fragments[key])
+    # Filter to fragments with the right number of slots
+    candidates = [f for f in fragments if len(f["slots"]) == image_count]
 
-    # Fall back to highest available bucket
-    available = sorted(int(k) for k in fragments.keys())
-    if not available:
-        sys.exit("Error: template has no page fragments defined")
+    if not candidates:
+        # Fall back to closest slot count
+        all_counts = sorted(set(len(f["slots"]) for f in fragments))
+        if not all_counts:
+            sys.exit("Error: template has no page fragments defined")
+        best = max((c for c in all_counts if c <= image_count), default=max(all_counts))
+        candidates = [f for f in fragments if len(f["slots"]) == best]
 
-    best = max(k for k in available if k <= image_count) if any(
-        k <= image_count for k in available
-    ) else max(available)
-    return rng.choice(fragments[str(best)])
+    # Filter to fragments whose slots accept these orientations
+    compatible = [
+        f for f in candidates
+        if all(slot_matches(s, o) for s, o in zip(f["slots"], orientations))
+    ]
+
+    if compatible:
+        return rng.choice(compatible)["file"]
+
+    # Last resort: any candidate with the right slot count
+    return rng.choice(candidates)["file"]
 
 
 def build_attribution_map(content: dict) -> dict:
@@ -176,7 +200,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
             print(f"Warning: {msg}", file=sys.stderr)
             image_count = max_images
 
-        fragment_file = select_fragment(manifest, image_count, rng)
+        fragment_file = select_fragment(manifest, images_to_render, rng)
 
         # Add captions to images
         images_with_captions = []

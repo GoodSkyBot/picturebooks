@@ -60,6 +60,30 @@ Use the category order in `content.json` as the narrative backbone. Each categor
 - Write meaningful `alt` text for each image use.
 - Choose an image that is representative of the topic for the cover.
 
+### Image Display Hints
+
+Each image object supports optional `fit`, `position`, and `orientation` fields that control how the image is displayed in the template.
+
+- **`orientation`** — Required. Describes the image's aspect ratio class. Values: `landscape`, `portrait`, `square`.
+  - Derive from `width`/`height` in `content.json`: if width > height \* 1.2 it is landscape; if height > width \* 1.2 it is portrait; otherwise square.
+  - The build system uses orientation to select page layouts that match the image shape, avoiding awkward cropping.
+- **`fit`** — Optional. Controls CSS `object-fit`. Values: `cover` (default), `contain`, `scale-down`.
+  - Use `contain` for maps, documents, diagrams, or any image where the entire content must be visible.
+  - Use `cover` (or omit) for atmospheric photos and illustrations that look good cropped.
+  - Use `scale-down` for small or low-resolution images that should not be upscaled.
+- **`position`** — Optional. Controls CSS `object-position`. Values: `center` (default), `top`, `bottom`, `left`, `right`.
+  - Use `top` for portraits and headshots so faces/foreheads are not clipped.
+  - Use `bottom` for images with important content at the bottom edge.
+  - Use `left` or `right` for images with a subject off-center horizontally.
+
+Only set `fit` and `position` when the default (`cover` + `center`) would produce a bad result. Always set `orientation`. Examples:
+
+```json
+{ "src": "images/thomas-jefferson-portrait.jpg", "alt": "...", "orientation": "portrait", "position": "top" }
+{ "src": "images/thirteen-colonies-map.svg", "alt": "...", "orientation": "landscape", "fit": "contain" }
+{ "src": "images/fireworks.jpg", "alt": "...", "orientation": "landscape" }
+```
+
 ## Generating Images
 
 If a page has no suitable image from `content.json`, generate one using `scripts/generate_image.py`:

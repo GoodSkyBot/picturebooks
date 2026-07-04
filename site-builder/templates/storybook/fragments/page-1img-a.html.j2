@@ -1,7 +1,7 @@
     <!-- Page {{ page_number }}: 1 image, layout A (image left, text right) -->
     <article class="page page--content page--layout-a" data-page="{{ page_number }}" hidden>
       <figure class="page-figure">
-        <img src="{{ page.images[0].src }}" alt="{{ page.images[0].alt }}">
+        <img src="{{ page.images[0].src }}" alt="{{ page.images[0].alt }}"{% if page.images[0].fit or page.images[0].position %} style="{% if page.images[0].fit %}object-fit: {{ page.images[0].fit }};{% endif %}{% if page.images[0].position %}{% if page.images[0].fit %} {% endif %}object-position: {{ page.images[0].position }};{% endif %}"{% endif %}>
         {% if page.images[0].caption %}
         <figcaption>{{ page.images[0].caption }}</figcaption>
         {% endif %}

@@ -2,8 +2,41 @@
   "name": "storybook",
   "description": "A warm, book-like reading experience with two-page spreads on desktop and stacked layouts on mobile. Spine shadow, crossfade page turns, and rounded image frames.",
   "maxImagesPerPage": 2,
-  "fragments": {
-    "1": ["page-1img-a.html.j2", "page-1img-b.html.j2"],
-    "2": ["page-2img-a.html.j2", "page-2img-b.html.j2"]
-  }
+  "fragments": [
+    {
+      "file": "page-1img-a.html.j2",
+      "slots": ["*"],
+      "description": "1 image left, text right"
+    },
+    {
+      "file": "page-1img-b.html.j2",
+      "slots": ["*"],
+      "description": "text left, 1 image right"
+    },
+    {
+      "file": "page-2img-a.html.j2",
+      "slots": ["landscape", "landscape"],
+      "description": "2 images stacked vertically on left, text right"
+    },
+    {
+      "file": "page-2img-b.html.j2",
+      "slots": ["landscape", "landscape"],
+      "description": "text left, 2 images stacked vertically on right"
+    },
+    {
+      "file": "page-2img-portrait.html.j2",
+      "slots": ["portrait", "portrait"],
+      "description": "2 portrait images side by side on left, text right"
+    },
+    {
+      "file": "page-2img-mixed.html.j2",
+      "slots": ["*", "*"],
+      "description": "2 images stacked vertically on left, text right (flexible slots)"
+    },
+    {
+      "file": "page-2img-pl.html.j2",
+      "slots": ["portrait", "landscape"],
+      "description": "Portrait image left, landscape image over text right"
+    }
+  ]
 }

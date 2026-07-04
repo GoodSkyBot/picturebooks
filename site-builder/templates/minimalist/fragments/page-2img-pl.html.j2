@@ -1,0 +1,32 @@
+    <!-- Page {{ page_number }}: portrait left + landscape over text right -->
+    <article class="page page--content page--layout-pl" data-page="{{ page_number }}" hidden>
+      <figure class="page-figure page-figure--portrait">
+        <img src="{{ page.images[0].src }}" alt="{{ page.images[0].alt }}"{% if page.images[0].fit or page.images[0].position %} style="{% if page.images[0].fit %}object-fit: {{ page.images[0].fit }};{% endif %}{% if page.images[0].position %}{% if page.images[0].fit %} {% endif %}object-position: {{ page.images[0].position }};{% endif %}"{% endif %}>
+        {% if page.images[0].caption %}
+        <figcaption>{{ page.images[0].caption }}</figcaption>
+        {% endif %}
+      </figure>
+      <div class="page-right">
+        <figure class="page-figure page-figure--landscape">
+          <img src="{{ page.images[1].src }}" alt="{{ page.images[1].alt }}"{% if page.images[1].fit or page.images[1].position %} style="{% if page.images[1].fit %}object-fit: {{ page.images[1].fit }};{% endif %}{% if page.images[1].position %}{% if page.images[1].fit %} {% endif %}object-position: {{ page.images[1].position }};{% endif %}"{% endif %}>
+          {% if page.images[1].caption %}
+          <figcaption>{{ page.images[1].caption }}</figcaption>
+          {% endif %}
+        </figure>
+        <div class="page-body">
+          <p class="page-text">{{ page.text }}</p>
+          {% if page.extras %}
+          <div class="extras">
+            {% for extra in page.extras %}
+            <button class="extra" data-audio="audio/page-{{ '%02d' % page_number }}-extra-{{ loop.index }}.mp3" aria-label="Fun fact: {{ extra }}">
+              <span class="extra-icon">&#9679;</span> {{ extra }}
+            </button>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      <button class="btn-read" data-audio="audio/page-{{ '%02d' % page_number }}-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>

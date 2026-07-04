@@ -384,6 +384,142 @@ a {
   overflow: hidden;
 }
 
+/* ===== Dual Image Layout: Portrait (side by side on left, text right) ===== */
+.page--layout-2portrait .page-images-pair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 3vh, 32px);
+  overflow: hidden;
+}
+
+.page--layout-2portrait .page-figure {
+  position: static;
+  width: auto;
+  height: 100%;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.page--layout-2portrait .page-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 3vh, 40px) clamp(24px, 3vw, 48px);
+  text-align: center;
+}
+
+/* ===== Dual Image Layout: Mixed/Flexible (stacked left, contain fit) ===== */
+.page--layout-2mixed .page-images-pair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 3vh, 32px);
+  overflow: hidden;
+}
+
+.page--layout-2mixed .page-figure {
+  position: static;
+  width: 100%;
+  height: auto;
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.page--layout-2mixed .page-figure img {
+  object-fit: contain;
+}
+
+.page--layout-2mixed .page-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 3vh, 40px) clamp(24px, 3vw, 48px);
+  text-align: center;
+}
+
+/* ===== Mixed Orientation: Portrait Left + Landscape/Text Right ===== */
+.page--layout-pl .page-figure--portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: clamp(16px, 3vh, 32px);
+}
+
+.page--layout-pl .page-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--layout-pl .page-figure--landscape {
+  flex: 1 1 50%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: clamp(12px, 2vh, 24px) clamp(12px, 2vw, 24px) 4px;
+}
+
+.page--layout-pl .page-body {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px clamp(16px, 2vw, 32px) clamp(12px, 2vh, 24px);
+  text-align: center;
+}
+
 /* ===== Shared image styles ===== */
 .page-figure img {
   max-height: 85%;
@@ -752,6 +888,84 @@ a {
   .page--layout-2b .page-figure {
     flex: 1 1 0;
     padding: 0;
+  }
+
+  /* Layout 2portrait: images side by side on top, text bottom */
+  .page--layout-2portrait .page-images-pair {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 55%;
+    min-height: 0;
+    flex-direction: row;
+    padding: 12px 12px 4px;
+  }
+
+  .page--layout-2portrait .page-figure {
+    flex: 1 1 0;
+    padding: 0;
+  }
+
+  .page--layout-2portrait .page-body {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 0 1 45%;
+    padding: 8px 16px 16px;
+    justify-content: flex-start;
+  }
+
+  /* Layout 2mixed: images side by side on top, text bottom */
+  .page--layout-2mixed .page-images-pair {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 55%;
+    min-height: 0;
+    flex-direction: row;
+    padding: 12px 12px 4px;
+  }
+
+  .page--layout-2mixed .page-figure {
+    flex: 1 1 0;
+    padding: 0;
+  }
+
+  .page--layout-2mixed .page-body {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 0 1 45%;
+    padding: 8px 16px 16px;
+    justify-content: flex-start;
+  }
+
+  /* Layout PL: portrait on top, landscape + text below */
+  .page--layout-pl .page-figure--portrait {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 40%;
+    min-height: 0;
+    padding: 12px 12px 4px;
+  }
+
+  .page--layout-pl .page-right {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 60%;
+  }
+
+  .page--layout-pl .page-figure--landscape {
+    flex: 1 1 50%;
+    padding: 4px 12px;
+  }
+
+  .page--layout-pl .page-body {
+    flex: 1 1 50%;
+    padding: 4px 16px 12px;
+    justify-content: flex-start;
   }
 }
 

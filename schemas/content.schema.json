@@ -114,6 +114,16 @@
           "license_url": {
             "type": "string",
             "format": "uri"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Image width in pixels"
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Image height in pixels"
           }
         }
       }

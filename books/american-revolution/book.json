@@ -22,7 +22,8 @@
       "images": [
         {
           "src": "images/july-fourth-fireworks-washington.jpg",
-          "alt": "Bright fireworks lighting up the sky over the Washington Monument on the Fourth of July"
+          "alt": "Bright fireworks lighting up the sky over the Washington Monument on the Fourth of July",
+          "orientation": "portrait"
         }
       ]
     },
@@ -31,7 +32,8 @@
       "images": [
         {
           "src": "images/indigenous-village.png",
-          "alt": "A peaceful village with longhouses by a river, with people and children"
+          "alt": "A peaceful village with longhouses by a river, with people and children",
+          "orientation": "square"
         }
       ]
     },
@@ -43,7 +45,9 @@
       "images": [
         {
           "src": "images/thirteen-colonies-map.svg",
-          "alt": "A map showing thirteen colonies along the east coast of North America"
+          "alt": "A map showing thirteen colonies along the east coast of North America",
+          "fit": "contain",
+          "orientation": "portrait"
         }
       ]
     },
@@ -55,11 +59,13 @@
       "images": [
         {
           "src": "images/boston-tea-party.jpg",
-          "alt": "People throwing big boxes of tea off a ship into the water at night"
+          "alt": "People throwing big boxes of tea off a ship into the water at night",
+          "orientation": "landscape"
         },
         {
           "src": "images/boston-massacre.jpg",
-          "alt": "A drawing of British soldiers and angry people in the streets of Boston"
+          "alt": "A drawing of British soldiers and angry people in the streets of Boston",
+          "orientation": "landscape"
         }
       ]
     },
@@ -68,11 +74,15 @@
       "images": [
         {
           "src": "images/declaration-of-independence.jpg",
-          "alt": "The original Declaration of Independence letter, written in old-fashioned handwriting"
+          "alt": "The original Declaration of Independence letter, written in old-fashioned handwriting",
+          "fit": "contain",
+          "orientation": "portrait"
         },
         {
           "src": "images/thomas-jefferson-portrait.jpg",
-          "alt": "A painting of Thomas Jefferson, who wrote the Declaration of Independence"
+          "alt": "A painting of Thomas Jefferson, who wrote the Declaration of Independence",
+          "position": "top",
+          "orientation": "portrait"
         }
       ]
     },
@@ -81,7 +91,9 @@
       "images": [
         {
           "src": "images/benjamin-franklin-portrait.jpg",
-          "alt": "A painting of Benjamin Franklin, who helped write the important letter about freedom"
+          "alt": "A painting of Benjamin Franklin, who helped write the important letter about freedom",
+          "position": "top",
+          "orientation": "portrait"
         }
       ]
     },
@@ -93,11 +105,13 @@
       "images": [
         {
           "src": "images/battle-of-lexington.png",
-          "alt": "Soldiers facing each other on a town green in one of the first battles"
+          "alt": "Soldiers facing each other on a town green in one of the first battles",
+          "orientation": "landscape"
         },
         {
           "src": "images/washington-crossing-delaware.jpg",
-          "alt": "George Washington standing bravely in a boat crossing an icy river at night"
+          "alt": "George Washington standing bravely in a boat crossing an icy river at night",
+          "orientation": "landscape"
         }
       ]
     },
@@ -109,11 +123,14 @@
       "images": [
         {
           "src": "images/yorktown-soldiers-deverger.png",
-          "alt": "Black and white soldiers standing together in the army"
+          "alt": "Black and white soldiers standing together in the army",
+          "orientation": "portrait"
         },
         {
           "src": "images/phillis-wheatley.jpg",
-          "alt": "A drawing of Phillis Wheatley, a poet who wrote about freedom"
+          "alt": "A drawing of Phillis Wheatley, a poet who wrote about freedom",
+          "position": "top",
+          "orientation": "portrait"
         }
       ]
     },
@@ -122,11 +139,15 @@
       "images": [
         {
           "src": "images/joseph-brant-romney.jpg",
-          "alt": "A painting of Joseph Brant, a Mohawk leader during the time of the war"
+          "alt": "A painting of Joseph Brant, a Mohawk leader during the time of the war",
+          "position": "top",
+          "orientation": "portrait"
         },
         {
           "src": "images/george-washington-portrait.jpg",
-          "alt": "A painting of George Washington, who led the army and became the first president"
+          "alt": "A painting of George Washington, who led the army and became the first president",
+          "position": "top",
+          "orientation": "portrait"
         }
       ]
     },
@@ -138,11 +159,13 @@
       "images": [
         {
           "src": "images/liberty-bell.jpg",
-          "alt": "The Liberty Bell, a big old bell that is a symbol of freedom"
+          "alt": "The Liberty Bell, a big old bell that is a symbol of freedom",
+          "orientation": "landscape"
         },
         {
           "src": "images/independence-hall.jpg",
-          "alt": "Independence Hall, the building where the important letter was signed"
+          "alt": "Independence Hall, the building where the important letter was signed",
+          "orientation": "landscape"
         }
       ]
     }

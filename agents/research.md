@@ -76,6 +76,15 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 3. Download with: `curl -L -A "PictureBooks/1.0 (https://github.com/GoodSkyBot/picturebooks; goodsky6@yahoo.com)" -o books/{slug}/images/{filename} "{direct_url}"`
 4. Wait at least 1 second between downloads to respect Wikimedia rate limits.
 5. Verify the file is non-empty and is a valid image (not HTML).
+6. Record pixel dimensions (`width` and `height`) in the image entry.
+
+### Getting Image Dimensions
+
+Prefer these methods in order:
+
+1. **Wikimedia API** (best) -- When querying a file page, use `action=query&prop=imageinfo&iiprop=size` to get width/height directly from the API. No download needed.
+2. **Flickr API** -- Photo info responses include `width_o` and `height_o`.
+3. **After download** -- Run `python scripts/image_info.py books/{slug}/images/{filename}` which outputs `filename width height`. Works for JPEG, PNG, GIF, WebP, and SVG with no external dependencies.
 
 ## Output Shape
 
