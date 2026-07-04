@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Velociraptor: The Swift Thief</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #C75B12;
+      --secondary-color: #5D4037;
+      --background-color: #FFF8E7;
+      --accent-color: #F9A825;
+      --font-heading: 'Fredoka', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/velociraptor-cover.png" alt="Velociraptor: The Swift Thief">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">Velociraptor: The Swift Thief</h1>
+        
+        <p class="cover-subtitle">A Real Dinosaur Story</p>
+        
+        <button class="btn-start" aria-label="Start reading">Let's Go!</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+    
+        <!-- Page 1: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/velociraptor-feathered.png" alt="A feathered Velociraptor mongoliensis standing alert">
+        
+        <figcaption>Photo: Fred Wierum / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Meet Velociraptor! Its name means &#39;swift thief.&#39; This little dinosaur lived about 75 million years ago. That is a very, very long time before people were here.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: Velociraptor is often called &#39;raptor&#39; for short.">
+            <span class="extra-icon">&#127775;</span> Velociraptor is often called &#39;raptor&#39; for short.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 2: 1 image, layout B (text left, image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">Velociraptor was small -- about the size of a turkey! It stood only as tall as your knee. Its long tail helped it balance when it ran fast on two legs.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: It weighed about as much as a medium dog.">
+            <span class="extra-icon">&#127775;</span> It weighed about as much as a medium dog.
+          </button>
+          
+          <button class="extra" data-audio="audio/page-02-extra-2.mp3" aria-label="Fun fact: Half its body length was tail!">
+            <span class="extra-icon">&#127775;</span> Half its body length was tail!
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/velociraptor-size-comparison.png" alt="Velociraptor shown next to a human to compare sizes">
+        
+        <figcaption>Photo: PaleoNeolitic / CC0 1.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 3: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="3" hidden>
+      <figure class="page-figure">
+        <img src="images/velociraptor-mongoliensis-jmallon.jpg" alt="Side view of a feathered Velociraptor in running pose">
+        
+        <figcaption>Photo: Matt Martyniuk / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Surprise! Velociraptor had feathers! Scientists found special bumps on its arm bones that show where feathers attached. But it could not fly. Its arms were too short.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-03-extra-1.mp3" aria-label="Fun fact: Feathers may have kept it warm.">
+            <span class="extra-icon">&#127775;</span> Feathers may have kept it warm.
+          </button>
+          
+          <button class="extra" data-audio="audio/page-03-extra-2.mp3" aria-label="Fun fact: Velociraptor was warm-blooded.">
+            <span class="extra-icon">&#127775;</span> Velociraptor was warm-blooded.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 4: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="4" hidden>
+      <figure class="page-figure">
+        <img src="images/sickle-claw-comparison.jpg" alt="Comparison of curved sickle claws from different raptor dinosaurs">
+        
+        <figcaption>Photo: BenWBrooks / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Look at those claws! Each foot had a big curved claw shaped like a sickle. Velociraptor kept this special claw lifted off the ground. It only used it to grab prey.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: The sickle claw was over 6 centimeters long!">
+            <span class="extra-icon">&#127775;</span> The sickle claw was over 6 centimeters long!
+          </button>
+          
+          <button class="extra" data-audio="audio/page-04-extra-2.mp3" aria-label="Fun fact: Each hand had three clawed fingers.">
+            <span class="extra-icon">&#127775;</span> Each hand had three clawed fingers.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 5: 1 image, layout B (text left, image right) -->
+    <article class="page page--content page--layout-b" data-page="5" hidden>
+      <div class="page-body">
+        <p class="page-text">Velociraptor lived in a hot, sandy place that is now Mongolia and China. It was dry like a desert, with sand dunes and small streams. Other dinosaurs lived there too.</p>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/gobi-desert-flaming-cliffs.jpg" alt="The red Flaming Cliffs in Mongolia&#39;s Gobi Desert where Velociraptor fossils were found">
+        
+        <figcaption>Photo: Khuushbat Tserendavaa / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 6: 1 image, layout A (image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="6" hidden>
+      <figure class="page-figure">
+        <img src="images/velociraptor-vs-protoceratops.jpg" alt="Illustration of a Velociraptor battling a Protoceratops">
+        
+        <figcaption>Photo: Durbed / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Velociraptor was a hunter. It ate meat and chased smaller animals. It was smart and fast. One famous fossil shows a Velociraptor fighting a Protoceratops. A sandstorm buried them both!</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: It had about 30 sharp, jagged teeth.">
+            <span class="extra-icon">&#127775;</span> It had about 30 sharp, jagged teeth.
+          </button>
+          
+          <button class="extra" data-audio="audio/page-06-extra-2.mp3" aria-label="Fun fact: The Fighting Dinosaurs fossil is a national treasure of Mongolia.">
+            <span class="extra-icon">&#127775;</span> The Fighting Dinosaurs fossil is a national treasure of Mongolia.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 7: 1 image, layout B (text left, image right) -->
+    <article class="page page--content page--layout-b" data-page="7" hidden>
+      <div class="page-body">
+        <p class="page-text">In 1923, an explorer found the first Velociraptor bones in the Gobi Desert. Since then, scientists have found many more. We learn new things about this dinosaur all the time!</p>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/velociraptor-skeleton.jpg" alt="A complete mounted Velociraptor skeleton on display">
+        
+        <figcaption>Photo: Eduard Sola Vazquez / CC BY 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 8: 1 image, layout B (text left, image right) -->
+    <article class="page page--content page--layout-b" data-page="8" hidden>
+      <div class="page-body">
+        <p class="page-text">You might have seen big, scaly raptors in movies. But real Velociraptors were small and feathery! The movie ones are based on a bigger dinosaur. Now you know the real story!</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-08-extra-1.mp3" aria-label="Fun fact: Real Velociraptor was turkey-sized, not human-sized!">
+            <span class="extra-icon">&#127775;</span> Real Velociraptor was turkey-sized, not human-sized!
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/dromaeosaurid-parade.jpg" alt="A parade of different raptor dinosaurs showing their various sizes">
+        
+        <figcaption>Photo: Durbed / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="9" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          
+          <li><a href="https://en.wikipedia.org/wiki/Velociraptor" target="_blank" rel="noopener">Velociraptor - Wikipedia</a></li>
+          
+          <li><a href="https://simple.wikipedia.org/wiki/Velociraptor" target="_blank" rel="noopener">Velociraptor - Simple English Wikipedia</a></li>
+          
+          <li><a href="https://commons.wikimedia.org/wiki/Category:Velociraptor" target="_blank" rel="noopener">Wikimedia Commons - Category:Velociraptor</a></li>
+          
+        </ul>
+        
+
+        
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          
+          <li>
+            <strong>Artistic life restoration of Velociraptor mongoliensis sh...</strong> --
+            Fred Wierum,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Reconstruction of Velociraptor mongoliensis with feathere...</strong> --
+            Fred Wierum,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Size comparison showing Velociraptor specimens next to a ...</strong> --
+            PaleoNeolitic,
+            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Mounted Velociraptor mongoliensis skeleton cast on white ...</strong> --
+            Eduard Sola Vazquez,
+            <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Artistic illustration of a Velociraptor attacking a Protoceratops</strong> --
+            Durbed,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Illustration of feathered Velociraptor restraining an ovi...</strong> --
+            Durbed,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Skeletal reconstruction of Velociraptor showing full body...</strong> --
+            Scott Hartman,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Side-view life restoration of Velociraptor mongoliensis w...</strong> --
+            Matt Martyniuk,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Comparison of sickle-shaped claws from different dromaeos...</strong> --
+            BenWBrooks,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>The Flaming Cliffs (Bayanzag) in Mongolia&#39;s Gobi Desert w...</strong> --
+            Khuushbat Tserendavaa,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Parade of dromaeosaurid dinosaurs showing relative sizes ...</strong> --
+            Durbed,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>A feathered Velociraptor running across sand dunes, child...</strong> --
+            OpenAI gpt-image-2,
+            <a href="https://openai.com/policies/terms-of-use" target="_blank" rel="noopener">Generated (non-redistributable without rights)</a>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </article>
+
+
+    <!-- Home button -->
+    <a class="btn-home" href="../../" aria-label="Back to all books">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    </a>
+
+    <!-- Nav overlays (hidden on mobile <480px, replaced by tap zones) -->
+    <button class="nav-btn nav-prev" id="nav-prev" aria-label="Previous page" hidden>
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+    </button>
+    <button class="nav-btn nav-next" id="nav-next" aria-label="Next page">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </button>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand">&#128070;</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

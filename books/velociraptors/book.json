@@ -1,0 +1,119 @@
+{
+  "title": "Velociraptor: The Swift Thief",
+  "slug": "velociraptors",
+  "targetAge": 5,
+  "theme": {
+    "primaryColor": "#C75B12",
+    "secondaryColor": "#5D4037",
+    "backgroundColor": "#FFF8E7",
+    "accentColor": "#F9A825",
+    "fontHeading": "Fredoka",
+    "fontBody": "Nunito",
+    "vibe": "Adventurous desert fossil hunt"
+  },
+  "cover": {
+    "title": "Velociraptor: The Swift Thief",
+    "subtitle": "A Real Dinosaur Story",
+    "image": "images/velociraptor-cover.png"
+  },
+  "pages": [
+    {
+      "text": "Meet Velociraptor! Its name means 'swift thief.' This little dinosaur lived about 75 million years ago. That is a very, very long time before people were here.",
+      "extras": [
+        "Velociraptor is often called 'raptor' for short."
+      ],
+      "images": [
+        {
+          "src": "images/velociraptor-feathered.png",
+          "alt": "A feathered Velociraptor mongoliensis standing alert"
+        }
+      ]
+    },
+    {
+      "text": "Velociraptor was small -- about the size of a turkey! It stood only as tall as your knee. Its long tail helped it balance when it ran fast on two legs.",
+      "extras": [
+        "It weighed about as much as a medium dog.",
+        "Half its body length was tail!"
+      ],
+      "images": [
+        {
+          "src": "images/velociraptor-size-comparison.png",
+          "alt": "Velociraptor shown next to a human to compare sizes"
+        }
+      ]
+    },
+    {
+      "text": "Surprise! Velociraptor had feathers! Scientists found special bumps on its arm bones that show where feathers attached. But it could not fly. Its arms were too short.",
+      "extras": [
+        "Feathers may have kept it warm.",
+        "Velociraptor was warm-blooded."
+      ],
+      "images": [
+        {
+          "src": "images/velociraptor-mongoliensis-jmallon.jpg",
+          "alt": "Side view of a feathered Velociraptor in running pose"
+        }
+      ]
+    },
+    {
+      "text": "Look at those claws! Each foot had a big curved claw shaped like a sickle. Velociraptor kept this special claw lifted off the ground. It only used it to grab prey.",
+      "extras": [
+        "The sickle claw was over 6 centimeters long!",
+        "Each hand had three clawed fingers."
+      ],
+      "images": [
+        {
+          "src": "images/sickle-claw-comparison.jpg",
+          "alt": "Comparison of curved sickle claws from different raptor dinosaurs"
+        }
+      ]
+    },
+    {
+      "text": "Velociraptor lived in a hot, sandy place that is now Mongolia and China. It was dry like a desert, with sand dunes and small streams. Other dinosaurs lived there too.",
+      "images": [
+        {
+          "src": "images/gobi-desert-flaming-cliffs.jpg",
+          "alt": "The red Flaming Cliffs in Mongolia's Gobi Desert where Velociraptor fossils were found"
+        }
+      ]
+    },
+    {
+      "text": "Velociraptor was a hunter. It ate meat and chased smaller animals. It was smart and fast. One famous fossil shows a Velociraptor fighting a Protoceratops. A sandstorm buried them both!",
+      "extras": [
+        "It had about 30 sharp, jagged teeth.",
+        "The Fighting Dinosaurs fossil is a national treasure of Mongolia."
+      ],
+      "images": [
+        {
+          "src": "images/velociraptor-vs-protoceratops.jpg",
+          "alt": "Illustration of a Velociraptor battling a Protoceratops"
+        }
+      ]
+    },
+    {
+      "text": "In 1923, an explorer found the first Velociraptor bones in the Gobi Desert. Since then, scientists have found many more. We learn new things about this dinosaur all the time!",
+      "images": [
+        {
+          "src": "images/velociraptor-skeleton.jpg",
+          "alt": "A complete mounted Velociraptor skeleton on display"
+        }
+      ]
+    },
+    {
+      "text": "You might have seen big, scaly raptors in movies. But real Velociraptors were small and feathery! The movie ones are based on a bigger dinosaur. Now you know the real story!",
+      "extras": [
+        "Real Velociraptor was turkey-sized, not human-sized!"
+      ],
+      "images": [
+        {
+          "src": "images/dromaeosaurid-parade.jpg",
+          "alt": "A parade of different raptor dinosaurs showing their various sizes"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
