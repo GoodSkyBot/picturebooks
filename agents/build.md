@@ -94,6 +94,12 @@ Review the generated screenshots, not just the JSON report. Look for visual layo
 
 If visual QA reveals a layout issue, fix the source template CSS, template fragments, or builder logic, then rebuild and rerun `npm run visual-qa -- {slug}`. Do not manually edit generated `books/{slug}/index.html`, `style.css`, or `script.js`.
 
+After reviewing the screenshots and report, delete the visual QA artifacts for the slug so temporary image files do not accumulate:
+
+```
+rm -rf tmp/screenshots/{slug}
+```
+
 For images that must preserve full context, such as maps or diagrams, prefer containment over cropping. For example, SVG maps often need `object-fit: contain` rather than `object-fit: cover` so labels and geographic context are not cut off.
 
 ## Boundaries

@@ -692,12 +692,14 @@ a {
 
   .page--layout-a .page-figure,
   .page--layout-b .page-figure {
+    order: 1;
     flex: 1 1 55%;
     width: 100%;
   }
 
   .page--layout-a .page-body,
   .page--layout-b .page-body {
+    order: 2;
     flex: 0 1 45%;
     width: 100%;
     padding: 16px 20px;
