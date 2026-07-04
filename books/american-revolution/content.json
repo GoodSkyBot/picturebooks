@@ -1,0 +1,298 @@
+{
+  "topic": "The American Revolution and July 4th",
+  "slug": "american-revolution",
+  "targetAge": 5,
+  "sources": [
+    {
+      "title": "American Revolutionary War - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/American_Revolutionary_War",
+      "accessed": "2026-07-03",
+      "notes": "Overview of the war, key events, timeline"
+    },
+    {
+      "title": "United States Declaration of Independence - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+      "accessed": "2026-07-03",
+      "notes": "Declaration text, authors, significance"
+    },
+    {
+      "title": "Independence Day (United States) - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Independence_Day_(United_States)",
+      "accessed": "2026-07-03",
+      "notes": "July 4th celebrations and traditions"
+    },
+    {
+      "title": "Thirteen Colonies - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+      "accessed": "2026-07-03",
+      "notes": "Colonial population, geography, indigenous displacement"
+    },
+    {
+      "title": "African Americans in the Revolutionary War - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/African_Americans_in_the_Revolutionary_War",
+      "accessed": "2026-07-03",
+      "notes": "Black soldiers on both sides, Dunmore's Proclamation, Crispus Attucks"
+    },
+    {
+      "title": "Iroquois - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Iroquois",
+      "accessed": "2026-07-03",
+      "notes": "Haudenosaunee Confederacy, split during Revolution, Sullivan Campaign"
+    }
+  ],
+  "facts": [
+    {
+      "category": "Colonial Life",
+      "text": "Before the American Revolution, there were 13 British colonies along the east coast of North America where about 2.4 million colonists lived.",
+      "source": 3
+    },
+    {
+      "category": "Colonial Life",
+      "text": "The land where the colonies were built had belonged to many different indigenous nations for thousands of years before Europeans arrived.",
+      "source": 3
+    },
+    {
+      "category": "Colonial Life",
+      "text": "The colonists had to follow rules made by the King of England and the British Parliament, even though they lived far away across the ocean.",
+      "source": 0
+    },
+    {
+      "category": "Road to Independence",
+      "text": "Britain made colonists pay new taxes, like the Stamp Act of 1765, to help pay for earlier wars, but the colonists had no say in making these laws.",
+      "source": 0
+    },
+    {
+      "category": "Road to Independence",
+      "text": "In 1770, British soldiers shot and killed five colonists in Boston. Crispus Attucks, a Black man, was among the first to die for American freedom.",
+      "source": 4
+    },
+    {
+      "category": "Road to Independence",
+      "text": "In the Boston Tea Party of 1773, colonists dumped 342 chests of tea into Boston Harbor to protest unfair taxes on tea.",
+      "source": 0
+    },
+    {
+      "category": "Declaration of Independence",
+      "text": "On July 4, 1776, the Continental Congress approved the Declaration of Independence, announcing that the colonies were free from Britain.",
+      "source": 1
+    },
+    {
+      "category": "Declaration of Independence",
+      "text": "Thomas Jefferson was the main writer, but a committee of five people including Benjamin Franklin and John Adams helped create the Declaration.",
+      "source": 1
+    },
+    {
+      "category": "Declaration of Independence",
+      "text": "The Declaration says that all people are created equal with rights to life, liberty, and the pursuit of happiness.",
+      "source": 1
+    },
+    {
+      "category": "The War",
+      "text": "The first battles of the Revolution were fought at Lexington and Concord, Massachusetts, on April 19, 1775.",
+      "source": 0
+    },
+    {
+      "category": "The War",
+      "text": "George Washington led the Continental Army through the whole war, including a famous surprise crossing of the icy Delaware River on Christmas night 1776.",
+      "source": 0
+    },
+    {
+      "category": "The War",
+      "text": "France and Spain helped the American colonies fight against Britain by sending soldiers, ships, and supplies.",
+      "source": 0
+    },
+    {
+      "category": "The War",
+      "text": "The war ended in 1783 when Britain signed the Treaty of Paris and recognized American independence.",
+      "source": 0
+    },
+    {
+      "category": "Enslaved People's Experience",
+      "text": "When the Declaration said all men are created equal, it did not include enslaved people, women, or indigenous peoples. About 500,000 people were enslaved in the colonies.",
+      "source": 4
+    },
+    {
+      "category": "Enslaved People's Experience",
+      "text": "About 20,000 enslaved African Americans joined the British side after Lord Dunmore promised freedom to those who escaped and fought for Britain.",
+      "source": 4
+    },
+    {
+      "category": "Enslaved People's Experience",
+      "text": "About 9,000 Black soldiers fought on the American side, and roughly one out of every five soldiers in the northern Continental Army was Black.",
+      "source": 4
+    },
+    {
+      "category": "Enslaved People's Experience",
+      "text": "Phillis Wheatley, an enslaved woman in Boston, became a famous poet who wrote about liberty and even sent a poem to General George Washington.",
+      "source": 4
+    },
+    {
+      "category": "Indigenous Peoples' Experience",
+      "text": "The powerful Iroquois Confederacy (Six Nations) in New York had governed themselves with their own laws and leaders long before Europeans arrived.",
+      "source": 5
+    },
+    {
+      "category": "Indigenous Peoples' Experience",
+      "text": "The Revolution split the Iroquois Confederacy: the Oneida and Tuscarora sided with the colonists, while the Mohawk, Seneca, Onondaga, and Cayuga sided with Britain.",
+      "source": 5
+    },
+    {
+      "category": "Indigenous Peoples' Experience",
+      "text": "After the war, many indigenous peoples lost their homelands as the new United States expanded westward, even though they had lived on these lands for thousands of years.",
+      "source": 5
+    },
+    {
+      "category": "July 4th Celebrations",
+      "text": "Americans celebrate the Fourth of July every year with fireworks, parades, barbecues, and picnics to remember the day the country declared its independence.",
+      "source": 2
+    },
+    {
+      "category": "July 4th Celebrations",
+      "text": "The Liberty Bell in Philadelphia is a famous symbol of American freedom that was rung to celebrate the first public reading of the Declaration of Independence.",
+      "source": 2
+    },
+    {
+      "category": "July 4th Celebrations",
+      "text": "Independence Hall in Philadelphia is where both the Declaration of Independence and the Constitution were signed, and people visit it from all over the world.",
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/declaration-of-independence.jpg",
+      "description": "The original United States Declaration of Independence document from 1776",
+      "source_url": "https://commons.wikimedia.org/wiki/File:United_States_Declaration_of_Independence.jpg",
+      "author": "United States Congress",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/trumbull-declaration-painting.jpg",
+      "description": "John Trumbull's painting showing the Committee of Five presenting the Declaration of Independence to Congress",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
+      "author": "John Trumbull",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/boston-tea-party.jpg",
+      "description": "Lithograph depicting colonists dumping tea into Boston Harbor during the Boston Tea Party of 1773",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Tea_Party_Currier_colored.jpg",
+      "author": "Nathaniel Currier",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/thirteen-colonies-map.svg",
+      "description": "Map showing the thirteen British colonies in North America in 1775",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Map_Thirteen_Colonies_1775.svg",
+      "author": "User:Urban (Wikimedia Commons)",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/george-washington-portrait.jpg",
+      "description": "Portrait of George Washington, commander of the Continental Army and first President",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "author": "Gilbert Stuart",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/thomas-jefferson-portrait.jpg",
+      "description": "Portrait of Thomas Jefferson, the main author of the Declaration of Independence",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg",
+      "author": "Rembrandt Peale",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/benjamin-franklin-portrait.jpg",
+      "description": "Portrait of Benjamin Franklin, who helped write the Declaration and convinced France to aid the colonies",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
+      "author": "Joseph Duplessis",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/boston-massacre.jpg",
+      "description": "Paul Revere's engraving of the Boston Massacre of 1770, where Crispus Attucks was killed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Massacre_high-res.jpg",
+      "author": "Paul Revere (after Henry Pelham)",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/july-fourth-fireworks-washington.jpg",
+      "description": "Fireworks over the Washington Monument on the Fourth of July",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fourth_of_July_fireworks_behind_the_Washington_Monument,_1986.jpg",
+      "author": "SSGT Lono Kollars, United States Air Force",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/independence-hall.jpg",
+      "description": "Independence Hall in Philadelphia, where the Declaration of Independence was signed in 1776",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Independence_Hall.jpg",
+      "author": "Rdsmith4 (Wikimedia Commons)",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/"
+    },
+    {
+      "filename": "images/liberty-bell.jpg",
+      "description": "The Liberty Bell, a symbol of American independence, located in Philadelphia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_2017.jpg",
+      "author": "William Zhang",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "filename": "images/yorktown-soldiers-deverger.png",
+      "description": "Watercolor showing Black and white Continental Army soldiers at Yorktown in 1781",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Soldats_de_Yorktown.PNG",
+      "author": "Jean-Baptiste-Antoine DeVerger",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/washington-crossing-delaware.jpg",
+      "description": "Emanuel Leutze's painting of George Washington crossing the Delaware River on Christmas night 1776",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Washington_Crossing_the_Delaware_by_Emanuel_Leutze,_MMA-NYC,_1851.jpg",
+      "author": "Emanuel Leutze",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/battle-of-lexington.png",
+      "description": "Engraving of the Battle of Lexington, April 19, 1775, one of the first battles of the Revolution",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington,_1775.png",
+      "author": "Amos Doolittle (after Ralph Earl)",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/phillis-wheatley.jpg",
+      "description": "Portrait of Phillis Wheatley, an enslaved poet who wrote about liberty during the Revolution",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Phillis_Wheatley_frontispiece.jpg",
+      "author": "Scipio Moorhead",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/joseph-brant-romney.jpg",
+      "description": "Portrait of Joseph Brant (Thayendanegea), Mohawk war chief, painted during his visit to England in 1776",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Joseph_Brant_painting_by_George_Romney_1776.jpg",
+      "author": "George Romney",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "filename": "images/indigenous-village.png",
+      "description": "Warm illustration of Native American village with longhouses and people living peacefully by a river, children playing, soft colors, picture book style",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    }
+  ]
+}

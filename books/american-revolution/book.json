@@ -1,0 +1,154 @@
+{
+  "title": "America's Birthday",
+  "slug": "american-revolution",
+  "targetAge": 5,
+  "theme": {
+    "primaryColor": "#1B3A5C",
+    "secondaryColor": "#8B2332",
+    "backgroundColor": "#FDF6E3",
+    "accentColor": "#C8963E",
+    "fontHeading": "Fredoka",
+    "fontBody": "Nunito",
+    "vibe": "Warm and wonder-filled, like a bedtime story about where we come from"
+  },
+  "cover": {
+    "title": "America's Birthday",
+    "subtitle": "The Story of the Fourth of July",
+    "image": "images/trumbull-declaration-painting.jpg"
+  },
+  "pages": [
+    {
+      "text": "You live in a country called America! It has a flag with stars and stripes. But did you ever wonder -- where did this country come from? Was it always here? Was it here when the dinosaurs were here? Nope! So how did it start? Let's find out!",
+      "images": [
+        {
+          "src": "images/july-fourth-fireworks-washington.jpg",
+          "alt": "Bright fireworks lighting up the sky over the Washington Monument on the Fourth of July"
+        }
+      ]
+    },
+    {
+      "text": "A long, long time ago, before there was a country called America, people already lived on this land. They had been here for thousands and thousands of years! They built homes, grew food, told stories, and took care of the land. This was their home.",
+      "images": [
+        {
+          "src": "images/indigenous-village.png",
+          "alt": "A peaceful village with longhouses by a river, with people and children"
+        }
+      ]
+    },
+    {
+      "text": "Then people sailed across the ocean from a faraway place called England. They built towns along the coast. The King of England was their boss. He made all the rules -- even though he lived so, so far away!",
+      "extras": [
+        "They built thirteen towns called colonies."
+      ],
+      "images": [
+        {
+          "src": "images/thirteen-colonies-map.svg",
+          "alt": "A map showing thirteen colonies along the east coast of North America"
+        }
+      ]
+    },
+    {
+      "text": "The King kept making people pay more and more money. But they had no say in the rules! That made them very angry. 'That is not fair!' they said. They even dumped a whole bunch of tea into the ocean to show how mad they were!",
+      "extras": [
+        "This is called the Boston Tea Party!"
+      ],
+      "images": [
+        {
+          "src": "images/boston-tea-party.jpg",
+          "alt": "People throwing big boxes of tea off a ship into the water at night"
+        },
+        {
+          "src": "images/boston-massacre.jpg",
+          "alt": "A drawing of British soldiers and angry people in the streets of Boston"
+        }
+      ]
+    },
+    {
+      "text": "So the people decided to write a very important letter. It said: 'We do not want to follow your rules anymore! We want to be free!' A man named Thomas Jefferson wrote most of it. On July 4, 1776, everyone said YES! That is why we celebrate the Fourth of July!",
+      "images": [
+        {
+          "src": "images/declaration-of-independence.jpg",
+          "alt": "The original Declaration of Independence letter, written in old-fashioned handwriting"
+        },
+        {
+          "src": "images/thomas-jefferson-portrait.jpg",
+          "alt": "A painting of Thomas Jefferson, who wrote the Declaration of Independence"
+        }
+      ]
+    },
+    {
+      "text": "The letter said something beautiful: all people are created equal. Everyone deserves to be free and happy. But here is the sad part. Not everyone was included. Many Black people were forced to work and were not free. And the people who lived here first? They were left out too.",
+      "images": [
+        {
+          "src": "images/benjamin-franklin-portrait.jpg",
+          "alt": "A painting of Benjamin Franklin, who helped write the important letter about freedom"
+        }
+      ]
+    },
+    {
+      "text": "The King said NO! He sent soldiers to fight. The people here had to fight back. George Washington led their army. It was a long, hard fight. But friends from France came to help! After many years, they finally won.",
+      "extras": [
+        "The war lasted eight years!"
+      ],
+      "images": [
+        {
+          "src": "images/battle-of-lexington.png",
+          "alt": "Soldiers facing each other on a town green in one of the first battles"
+        },
+        {
+          "src": "images/washington-crossing-delaware.jpg",
+          "alt": "George Washington standing bravely in a boat crossing an icy river at night"
+        }
+      ]
+    },
+    {
+      "text": "Even though many Black people were not free, some fought bravely in the war. They hoped freedom would come for them too. A woman named Phillis Wheatley wrote beautiful poems about being free -- even though she was not free herself.",
+      "extras": [
+        "Black soldiers fought on both sides of the war."
+      ],
+      "images": [
+        {
+          "src": "images/yorktown-soldiers-deverger.png",
+          "alt": "Black and white soldiers standing together in the army"
+        },
+        {
+          "src": "images/phillis-wheatley.jpg",
+          "alt": "A drawing of Phillis Wheatley, a poet who wrote about freedom"
+        }
+      ]
+    },
+    {
+      "text": "The war was hard for the people who lived here first too. Some helped one side, some helped the other. But after the war, the new country kept taking more and more of their land. That was not fair either.",
+      "images": [
+        {
+          "src": "images/joseph-brant-romney.jpg",
+          "alt": "A painting of Joseph Brant, a Mohawk leader during the time of the war"
+        },
+        {
+          "src": "images/george-washington-portrait.jpg",
+          "alt": "A painting of George Washington, who led the army and became the first president"
+        }
+      ]
+    },
+    {
+      "text": "Today, every Fourth of July, we celebrate America's birthday! We watch fireworks go BOOM in the sky. We have parades and picnics. We remember how this country started. And we remember that the promise of freedom is for everyone -- and we are still working to make that true.",
+      "extras": [
+        "The Liberty Bell rang on the very first July 4th!"
+      ],
+      "images": [
+        {
+          "src": "images/liberty-bell.jpg",
+          "alt": "The Liberty Bell, a big old bell that is a symbol of freedom"
+        },
+        {
+          "src": "images/independence-hall.jpg",
+          "alt": "Independence Hall, the building where the important letter was signed"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
