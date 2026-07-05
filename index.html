@@ -185,58 +185,11 @@
         line-height: 1.45;
       }
 
-      .subject-scroll-wrap {
-        position: relative;
-        margin-bottom: 22px;
-      }
-
       .subject-grid {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 16px;
-        overflow-x: auto;
-        scroll-behavior: smooth;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        padding: 4px 0;
-      }
-
-      .subject-grid::-webkit-scrollbar {
-        display: none;
-      }
-
-      .scroll-arrow {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 1;
-        width: 52px;
-        height: 52px;
-        border-radius: 50%;
-        border: 3.5px solid var(--ink);
-        background: var(--paper);
-        color: var(--ink);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 10px rgba(34, 49, 38, 0.18);
-        transition: opacity 0.2s;
-      }
-
-      .scroll-arrow:hover {
-        background: var(--sun);
-      }
-
-      .scroll-arrow[hidden] {
-        display: none;
-      }
-
-      .scroll-arrow--left {
-        left: -18px;
-      }
-
-      .scroll-arrow--right {
-        right: -18px;
+        margin-bottom: 22px;
       }
 
       .subject-button {
@@ -244,8 +197,6 @@
         justify-items: center;
         gap: 10px;
         min-height: 190px;
-        min-width: 180px;
-        flex-shrink: 0;
         padding: 18px 14px;
         background: #ffffff;
       }
@@ -401,9 +352,12 @@
           height: 22px;
         }
 
+        .subject-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
         .subject-button {
           min-height: 170px;
-          min-width: 150px;
           padding: 14px 8px;
         }
 
@@ -447,41 +401,57 @@
           <span class="field-label">Find a book</span>
           <input class="field-control" id="search-input" type="search" placeholder="Try frogs or fossils" autocomplete="off">
         </label>
-        <button class="clear-button" id="clear-filters" type="button">Clear</button>
+        <button class="clear-button" id="clear-filters" type="button">Show all</button>
       </div>
 
       <section class="panel" id="all-books-panel" role="tabpanel" aria-labelledby="all-mode-tab">
       </section>
 
       <section class="panel" id="subjects-panel" role="tabpanel" aria-labelledby="subjects-mode-tab" hidden>
-        <div class="subject-scroll-wrap">
-          <button class="scroll-arrow scroll-arrow--left" id="scroll-left" type="button" aria-label="Scroll subjects left" hidden>
-            <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="subject-grid" aria-label="Subjects">
+          
+          <button class="subject-button" type="button" data-subject="animals" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F43E.svg" alt="" width="112" height="112">
+            <span class="subject-name">Animals</span>
+            <span class="subject-count">1 book</span>
           </button>
-          <div class="subject-grid" id="subject-grid" aria-label="Subjects">
-            
-            <button class="subject-button" type="button" data-subject="animals" aria-pressed="false">
-              <img class="subject-icon" src="/icons/1F43E.svg" alt="" width="112" height="112">
-              <span class="subject-name">Animals</span>
-              <span class="subject-count">1 book</span>
-            </button>
-            
-            <button class="subject-button" type="button" data-subject="dinosaurs" aria-pressed="false">
-              <img class="subject-icon" src="/icons/1F996.svg" alt="" width="112" height="112">
-              <span class="subject-name">Dinosaurs</span>
-              <span class="subject-count">3 books</span>
-            </button>
-            
-            <button class="subject-button" type="button" data-subject="history" aria-pressed="false">
-              <img class="subject-icon" src="/icons/1F3DB.svg" alt="" width="112" height="112">
-              <span class="subject-name">History</span>
-              <span class="subject-count">1 book</span>
-            </button>
-            
-          </div>
-          <button class="scroll-arrow scroll-arrow--right" id="scroll-right" type="button" aria-label="Scroll subjects right" hidden>
-            <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          
+          <button class="subject-button" type="button" data-subject="dinosaurs" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F996.svg" alt="" width="112" height="112">
+            <span class="subject-name">Dinosaurs</span>
+            <span class="subject-count">3 books</span>
           </button>
+          
+          <button class="subject-button" type="button" data-subject="history" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F3DB.svg" alt="" width="112" height="112">
+            <span class="subject-name">History</span>
+            <span class="subject-count">1 book</span>
+          </button>
+          
+          <button class="subject-button" type="button" data-subject="insects" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F98B.svg" alt="" width="112" height="112">
+            <span class="subject-name">Insects</span>
+            <span class="subject-count">1 book</span>
+          </button>
+          
+          <button class="subject-button" type="button" data-subject="music" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F4DA.svg" alt="" width="112" height="112">
+            <span class="subject-name">Music</span>
+            <span class="subject-count">1 book</span>
+          </button>
+          
+          <button class="subject-button" type="button" data-subject="nature" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F33F.svg" alt="" width="112" height="112">
+            <span class="subject-name">Nature</span>
+            <span class="subject-count">1 book</span>
+          </button>
+          
+          <button class="subject-button" type="button" data-subject="vehicles" aria-pressed="false">
+            <img class="subject-icon" src="/icons/1F697.svg" alt="" width="112" height="112">
+            <span class="subject-name">Vehicles</span>
+            <span class="subject-count">1 book</span>
+          </button>
+          
         </div>
       </section>
 
@@ -500,6 +470,45 @@
           </a>
         </li>
         
+        <li data-book data-category="nature" data-search="bees and flowers: a pollination adventure a sunny story about pollen, nectar, and seeds nature bees-and-flowers bees flowers pollination pollen nectar seeds fruit gardens insects plants">
+          <a class="book-card" href="/books/bees-and-flowers/" style="--accent: #D99A00">
+            <img src="/books/bees-and-flowers/images/bees-gathering-pollen.jpg"
+                 alt="Bees and Flowers: A Pollination Adventure"
+                 loading="lazy">
+            <div class="book-info">
+              <span class="book-category">Nature</span>
+              <p class="book-title">Bees and Flowers: A Pollination Adventure</p>
+              <p class="book-subtitle">A sunny story about pollen, nectar, and seeds</p>
+            </div>
+          </a>
+        </li>
+        
+        <li data-book data-category="vehicles" data-search="bike ride around the block pedal, steer, stop, smile vehicles bike-ride-around-the-block bike bicycle ride wheels pedals helmet safety sidewalk">
+          <a class="book-card" href="/books/bike-ride-around-the-block/" style="--accent: #2F6F4E">
+            <img src="/books/bike-ride-around-the-block/images/ai-warm-child-bike-cover.png"
+                 alt="Bike Ride Around the Block"
+                 loading="lazy">
+            <div class="book-info">
+              <span class="book-category">Vehicles</span>
+              <p class="book-title">Bike Ride Around the Block</p>
+              <p class="book-subtitle">Pedal, steer, stop, smile</p>
+            </div>
+          </a>
+        </li>
+        
+        <li data-book data-category="insects" data-search="busy bees build a hive a honey bee team story insects busy-bees-build-a-hive bees honey bees hive honeycomb honey pollination flowers insects queen bee worker bees">
+          <a class="book-card" href="/books/busy-bees-build-a-hive/" style="--accent: #7A4A12">
+            <img src="/books/busy-bees-build-a-hive/images/worker-bees-on-honeycomb.jpg"
+                 alt="Busy Bees Build a Hive"
+                 loading="lazy">
+            <div class="book-info">
+              <span class="book-category">Insects</span>
+              <p class="book-title">Busy Bees Build a Hive</p>
+              <p class="book-subtitle">A Honey Bee Team Story</p>
+            </div>
+          </a>
+        </li>
+        
         <li data-book data-category="animals" data-search="fabulous frogs a hop into the world of frogs animals frogs frogs amphibians ponds tadpoles wildlife nature">
           <a class="book-card" href="/books/frogs/" style="--accent: #2E7D32">
             <img src="/books/frogs/images/a-bright-green-tree-frog-mid-leap-above-a-pond-water-droplet.png"
@@ -509,6 +518,19 @@
               <span class="book-category">Animals</span>
               <p class="book-title">Fabulous Frogs</p>
               <p class="book-subtitle">A Hop into the World of Frogs</p>
+            </div>
+          </a>
+        </li>
+        
+        <li data-book data-category="music" data-search="the xylophone goes ting-ting-ting tap, listen, play! music xylophone-goes-ting-ting-ting xylophone music instrument percussion mallets bars sound rhythm">
+          <a class="book-card" href="/books/xylophone-goes-ting-ting-ting/" style="--accent: #8B4A18">
+            <img src="/books/xylophone-goes-ting-ting-ting/images/ai-colorful-xylophone-cover.png"
+                 alt="The Xylophone Goes Ting-Ting-Ting"
+                 loading="lazy">
+            <div class="book-info">
+              <span class="book-category">Music</span>
+              <p class="book-title">The Xylophone Goes Ting-Ting-Ting</p>
+              <p class="book-subtitle">Tap, listen, play!</p>
             </div>
           </a>
         </li>
@@ -569,31 +591,9 @@
       const subjectButtons = Array.from(document.querySelectorAll("[data-subject]"));
       const bookItems = Array.from(document.querySelectorAll("[data-book]"));
       const emptyState = document.querySelector("#empty-state");
-      const subjectGrid = document.querySelector("#subject-grid");
-      const scrollLeft = document.querySelector("#scroll-left");
-      const scrollRight = document.querySelector("#scroll-right");
 
       let mode = "all";
       let selectedSubject = "all";
-
-      function updateScrollArrows() {
-        const tolerance = 2;
-        const canScrollLeft = subjectGrid.scrollLeft > tolerance;
-        const canScrollRight = subjectGrid.scrollLeft + subjectGrid.clientWidth < subjectGrid.scrollWidth - tolerance;
-        scrollLeft.hidden = !canScrollLeft;
-        scrollRight.hidden = !canScrollRight;
-      }
-
-      subjectGrid.addEventListener("scroll", updateScrollArrows);
-      window.addEventListener("resize", updateScrollArrows);
-
-      scrollLeft.addEventListener("click", () => {
-        subjectGrid.scrollBy({ left: -200, behavior: "smooth" });
-      });
-
-      scrollRight.addEventListener("click", () => {
-        subjectGrid.scrollBy({ left: 200, behavior: "smooth" });
-      });
 
       function updateMode(nextMode) {
         mode = nextMode;
@@ -606,9 +606,6 @@
         });
         allPanel.hidden = mode !== "all";
         subjectsPanel.hidden = mode !== "subjects";
-        if (mode === "subjects") {
-          setTimeout(updateScrollArrows, 0);
-        }
         applyFilters();
       }
 
@@ -628,8 +625,7 @@
         bookItems.forEach((item) => {
           const matchesSubject = subject === "all" || item.dataset.category === subject;
           const matchesSearch = !query || item.dataset.search.includes(query);
-          const showInMode = mode !== "subjects" || subject !== "all";
-          const isVisible = showInMode && matchesSubject && matchesSearch;
+          const isVisible = matchesSubject && matchesSearch;
           item.hidden = !isVisible;
           if (isVisible) {
             visibleCount += 1;
@@ -640,7 +636,7 @@
           button.setAttribute("aria-pressed", String(subject !== "all" && button.dataset.subject === subject));
         });
 
-        emptyState.hidden = mode === "subjects" && subject === "all" ? true : visibleCount !== 0;
+        emptyState.hidden = visibleCount !== 0;
       }
 
       modeTabs.forEach((tab) => {

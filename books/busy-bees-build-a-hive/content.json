@@ -1,0 +1,384 @@
+{
+  "topic": "Busy Bees Build a Hive",
+  "slug": "busy-bees-build-a-hive",
+  "targetAge": 5,
+  "sources": [
+    {
+      "title": "Honey bee - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Honey_bee",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Honey bee - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Honeycomb - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Honeycomb",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Worker bee - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Queen bee - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Queen_bee",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Drone (bee) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drone_(bee)",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Honey and the Hive - ASU Ask A Biologist",
+      "url": "https://askabiologist.asu.edu/bee-honey",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "About Honey Bees - University of Arkansas System Division of Agriculture Cooperative Extension Service",
+      "url": "https://www.uaex.uada.edu/farm-ranch/special-programs/beekeeping/about-honey-bees.aspx",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "The Social Organization of Honey Bees - University of Florida IFAS Extension",
+      "url": "https://edis.ifas.ufl.edu/publication/IN1102",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Honey - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Honey",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Beeswax - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beeswax",
+      "accessed": "2026-07-05"
+    },
+    {
+      "title": "Waggle dance - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Waggle_dance",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "facts": [
+    {
+      "category": "what-a-hive-is",
+      "text": "A honey bee hive is a busy home where many bees live together as one colony.",
+      "source": 0
+    },
+    {
+      "category": "what-a-hive-is",
+      "text": "Honey bees build nests with wax cells and store honey inside them.",
+      "source": 0
+    },
+    {
+      "category": "what-a-hive-is",
+      "text": "Honey bees are social insects, which means they need the colony to live and work.",
+      "source": 8
+    },
+    {
+      "category": "what-a-hive-is",
+      "text": "Many honey bee colonies like to nest in enclosed spaces, such as hollow trees or beekeeper hives.",
+      "source": 8
+    },
+    {
+      "category": "bee-jobs",
+      "text": "A honey bee colony has three kinds of adult bees: a queen, workers, and drones.",
+      "source": 8
+    },
+    {
+      "category": "bee-jobs",
+      "text": "The queen is usually the mother of the bees in the hive.",
+      "source": 4
+    },
+    {
+      "category": "bee-jobs",
+      "text": "There is normally one adult queen in a honey bee hive.",
+      "source": 4
+    },
+    {
+      "category": "bee-jobs",
+      "text": "Worker bees are female bees, and they do most of the jobs in the hive.",
+      "source": 3
+    },
+    {
+      "category": "bee-jobs",
+      "text": "Drones are male honey bees.",
+      "source": 5
+    },
+    {
+      "category": "bee-jobs",
+      "text": "Drones have very large eyes and do not collect nectar or pollen.",
+      "source": 5
+    },
+    {
+      "category": "building-honeycomb",
+      "text": "Honeycomb is made of many little wax cells.",
+      "source": 2
+    },
+    {
+      "category": "building-honeycomb",
+      "text": "Honeycomb cells often have six sides, making a hexagon shape.",
+      "source": 2
+    },
+    {
+      "category": "building-honeycomb",
+      "text": "Worker bees make beeswax from wax glands on their bodies.",
+      "source": 10
+    },
+    {
+      "category": "building-honeycomb",
+      "text": "Worker bees use beeswax to build cells for honey, pollen, eggs, larvae, and pupae.",
+      "source": 10
+    },
+    {
+      "category": "building-honeycomb",
+      "text": "Bees warm and shape wax with their bodies, antennae, legs, and mouthparts as they build comb.",
+      "source": 2
+    },
+    {
+      "category": "nectar-pollen-and-flowers",
+      "text": "Worker bees fly to flowers to collect nectar and pollen.",
+      "source": 3
+    },
+    {
+      "category": "nectar-pollen-and-flowers",
+      "text": "Nectar is a sugary liquid made by flowers.",
+      "source": 6
+    },
+    {
+      "category": "nectar-pollen-and-flowers",
+      "text": "A honey bee uses its long tongue, called a proboscis, to lap up nectar from flowers.",
+      "source": 7
+    },
+    {
+      "category": "nectar-pollen-and-flowers",
+      "text": "Worker bees carry pollen in pollen baskets on their back legs.",
+      "source": 3
+    },
+    {
+      "category": "nectar-pollen-and-flowers",
+      "text": "Pollen can rub from a bee onto another flower, helping flowers make seeds.",
+      "source": 3
+    },
+    {
+      "category": "making-and-saving-honey",
+      "text": "Bees make honey from nectar.",
+      "source": 9
+    },
+    {
+      "category": "making-and-saving-honey",
+      "text": "A foraging bee carries nectar back to the hive in a honey stomach, also called a honey crop.",
+      "source": 9
+    },
+    {
+      "category": "making-and-saving-honey",
+      "text": "Inside the hive, worker bees pass nectar to other bees and help turn it into honey.",
+      "source": 9
+    },
+    {
+      "category": "making-and-saving-honey",
+      "text": "Worker bees fan their wings to help dry watery nectar into thick honey.",
+      "source": 9
+    },
+    {
+      "category": "making-and-saving-honey",
+      "text": "When honey is ready, bees seal the honeycomb cell with a wax cap.",
+      "source": 9
+    },
+    {
+      "category": "making-and-saving-honey",
+      "text": "Honey is food that helps the colony live when flowers are hard to find.",
+      "source": 9
+    },
+    {
+      "category": "growing-baby-bees",
+      "text": "Honeycomb cells can hold eggs, larvae, and pupae as baby bees grow.",
+      "source": 2
+    },
+    {
+      "category": "growing-baby-bees",
+      "text": "Worker bees care for the queen's young bees.",
+      "source": 8
+    },
+    {
+      "category": "growing-baby-bees",
+      "text": "A worker honey bee begins as an egg and grows through larva and pupa stages before becoming an adult.",
+      "source": 3
+    },
+    {
+      "category": "growing-baby-bees",
+      "text": "Worker bees feed young larvae inside the hive.",
+      "source": 3
+    },
+    {
+      "category": "growing-baby-bees",
+      "text": "A larva that will become a queen is fed special food called royal jelly.",
+      "source": 4
+    },
+    {
+      "category": "teamwork-and-communication",
+      "text": "Young worker bees often clean cells, feed young bees, and tend the queen inside the hive.",
+      "source": 8
+    },
+    {
+      "category": "teamwork-and-communication",
+      "text": "Older worker bees often guard the hive, remove dead bees, and forage outside.",
+      "source": 8
+    },
+    {
+      "category": "teamwork-and-communication",
+      "text": "Worker bees can fan air through the hive to help cool and ventilate it.",
+      "source": 8
+    },
+    {
+      "category": "teamwork-and-communication",
+      "text": "Worker bees can cluster and vibrate their wing muscles to help warm the brood area.",
+      "source": 8
+    },
+    {
+      "category": "teamwork-and-communication",
+      "text": "A successful forager can do a waggle dance that tells other bees about the direction and distance to food.",
+      "source": 11
+    },
+    {
+      "category": "teamwork-and-communication",
+      "text": "A honey bee colony can work like one big living team, with each bee doing part of the work.",
+      "source": 8
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/hive-frame.jpg",
+      "description": "A beehive frame showing brood cells in the center and stored food around the edges",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Frame_from_hive_of_honey_bee_(apis_mellifera).jpg",
+      "author": "John Pons",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "filename": "images/worker-bees-on-honeycomb.jpg",
+      "description": "Worker honey bees crowded on a sheet of honeycomb",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_carnica_worker_honeycomb_3.jpg",
+      "author": "Richard Bartz and Hubert Seibring",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 1467,
+      "height": 2200
+    },
+    {
+      "filename": "images/queen-with-workers.jpg",
+      "description": "A marked queen honey bee surrounded by worker bees",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_scutellata_1355021.jpg",
+      "author": "Scott Bauer, USDA Agricultural Research Service",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1466,
+      "height": 2200
+    },
+    {
+      "filename": "images/drone-in-flight.jpg",
+      "description": "A male drone honey bee flying in the air",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Drohn_im_Flug_08-3.jpg",
+      "author": "Waugsberg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1213,
+      "height": 1081
+    },
+    {
+      "filename": "images/bee-sipping-nectar.jpg",
+      "description": "A honey bee using its long tongue to sip nectar from a flower",
+      "source_url": "https://commons.wikimedia.org/wiki/File:European_honey_bee_extracts_nectar.jpg",
+      "author": "John Severns",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1620,
+      "height": 1280
+    },
+    {
+      "filename": "images/bee-with-pollen.jpg",
+      "description": "A honey bee on a flower with yellow pollen on its legs and body",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honey_bee_with_pollen.jpg",
+      "author": "Parvinder S Parmar",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1920,
+      "height": 1408
+    },
+    {
+      "filename": "images/fresh-honeycomb.jpg",
+      "description": "Fresh honeycomb with honey dripping from hexagonal wax cells",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_honeycomb_dripping_honey_India.jpg",
+      "author": "Vraj Acharya",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1650,
+      "height": 2200
+    },
+    {
+      "filename": "images/honeycomb-closeup.jpg",
+      "description": "A close view of golden honeycomb showing many six-sided cells",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honey_comb.jpg",
+      "author": "Merdal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "filename": "images/bee-flying-pollen-baskets.jpg",
+      "description": "A honey bee flying back with pollen packed in its leg baskets",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_flying.jpg",
+      "author": "Muhammad Mahdi Karim",
+      "license": "GFDL 1.2",
+      "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "width": 1754,
+      "height": 1169
+    },
+    {
+      "filename": "images/beeswax-foundation.jpg",
+      "description": "A sheet of beeswax foundation stamped with a honeycomb pattern",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beeswax_foundation.jpg",
+      "author": "Plantsurfer",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1200,
+      "height": 896
+    },
+    {
+      "filename": "images/brood-comb-eggs-larvae.jpg",
+      "description": "Honeycomb cells opened to show bee eggs and young larvae",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bienenwabe_mit_Eiern_und_Brut_5.jpg",
+      "author": "Waugsberg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1920,
+      "height": 1440
+    },
+    {
+      "filename": "images/western-bee-on-comb.jpg",
+      "description": "A single western honey bee standing on honeycomb",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_on_a_honeycomb.jpg",
+      "author": "Matthew T Rader",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1462
+    },
+    {
+      "filename": "images/ai-bees-fanning-honeycomb.png",
+      "description": "Highly detailed photorealistic educational image for a children's nonfiction bee book: honey bees inside a hive on golden honeycomb cells, several worker bees fanning their wings near uncapped honey cells, warm natural hive light, accurate bee anatomy, no humans, no text, no logos",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    }
+  ]
+}

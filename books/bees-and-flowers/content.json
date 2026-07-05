@@ -1,0 +1,389 @@
+{
+  "topic": "Bees and Flowers: A Pollination Adventure",
+  "slug": "bees-and-flowers",
+  "targetAge": 5,
+  "sources": [
+    {
+      "title": "Pollination - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Pollination",
+      "accessed": "2026-07-05",
+      "notes": "Overview of pollination, bees moving pollen, nectar, and seed/fruit formation."
+    },
+    {
+      "title": "Pollination - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pollination",
+      "accessed": "2026-07-05",
+      "notes": "Detailed cross-check for pollen transfer, pollinating agents, seeds, and agricultural importance."
+    },
+    {
+      "title": "Bee - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bee",
+      "accessed": "2026-07-05",
+      "notes": "Bee anatomy, nectar and pollen feeding, pollen baskets, and diversity."
+    },
+    {
+      "title": "What is Pollination? - US Forest Service",
+      "url": "https://www.fs.usda.gov/managing-land/wildflowers/pollinators/what-is-pollination",
+      "accessed": "2026-07-05",
+      "notes": "Clear child-adaptable explanation of pollen moving from anther to stigma, pollinators, seeds, and fruit."
+    },
+    {
+      "title": "Why is Pollination Important? - US Forest Service",
+      "url": "https://www.fs.usda.gov/managing-land/wildflowers/pollinators/importance",
+      "accessed": "2026-07-05",
+      "notes": "Importance of pollination to seed plants, wildflowers, fruit, crops, water, soil, and ecosystems."
+    },
+    {
+      "title": "Who Are the Pollinators? - US Forest Service",
+      "url": "https://www.fs.usda.gov/managing-land/wildflowers/pollinators/who-are-the-pollinators",
+      "accessed": "2026-07-05",
+      "notes": "Pollinator food needs, flowers, fruit and vegetable production, and bee/ecosystem roles."
+    },
+    {
+      "title": "Gardening for Pollinators - US Forest Service",
+      "url": "https://www.fs.usda.gov/managing-land/wildflowers/pollinators/gardening",
+      "accessed": "2026-07-05",
+      "notes": "Ways people can help pollinators with blooming plants, native plants, and reduced pesticide use."
+    },
+    {
+      "title": "Pollinators - U.S. Fish & Wildlife Service",
+      "url": "https://www.fws.gov/pollinators",
+      "accessed": "2026-07-05",
+      "notes": "Pollinator decline, habitat restoration, and why pollinators matter to people and wildlife."
+    }
+  ],
+  "facts": [
+    {
+      "category": "flower-parts",
+      "text": "Flowers are the parts many plants use to make seeds.",
+      "source": 3
+    },
+    {
+      "category": "flower-parts",
+      "text": "Pollen is a fine powder made by flowers and other seed plants.",
+      "source": 4
+    },
+    {
+      "category": "flower-parts",
+      "text": "A flower's anther makes pollen, and the sticky stigma can catch pollen.",
+      "source": 3
+    },
+    {
+      "category": "flower-parts",
+      "text": "Many flowers have bright colors or sweet smells that help animals find them.",
+      "source": 4
+    },
+    {
+      "category": "what-bees-get",
+      "text": "Bees visit flowers to drink nectar, a sweet liquid made by flowers.",
+      "source": 0
+    },
+    {
+      "category": "what-bees-get",
+      "text": "Bees use nectar as an energy food that helps power their flying bodies.",
+      "source": 5
+    },
+    {
+      "category": "what-bees-get",
+      "text": "Bees also collect pollen, which gives protein and other nutrients to young bees.",
+      "source": 2
+    },
+    {
+      "category": "what-bees-get",
+      "text": "Some bees have special pollen baskets on their back legs to carry pollen home.",
+      "source": 2
+    },
+    {
+      "category": "how-pollen-moves",
+      "text": "Pollination happens when pollen moves from one flower part to another flower part.",
+      "source": 3
+    },
+    {
+      "category": "how-pollen-moves",
+      "text": "When a bee climbs into a flower, pollen can stick to its hairy body.",
+      "source": 0
+    },
+    {
+      "category": "how-pollen-moves",
+      "text": "When the bee visits another flower, some pollen can rub off onto the new flower.",
+      "source": 3
+    },
+    {
+      "category": "how-pollen-moves",
+      "text": "Wind, water, birds, bats, butterflies, and other insects can also move pollen.",
+      "source": 3
+    },
+    {
+      "category": "how-pollen-moves",
+      "text": "Most animal pollinators are looking for food, not trying to help the flower on purpose.",
+      "source": 3
+    },
+    {
+      "category": "making-seeds-and-fruit",
+      "text": "After pollen lands in the right place, the flower may begin making seeds.",
+      "source": 0
+    },
+    {
+      "category": "making-seeds-and-fruit",
+      "text": "In flowering plants, seeds can grow inside a fruit.",
+      "source": 0
+    },
+    {
+      "category": "making-seeds-and-fruit",
+      "text": "Good pollination helps many plants make full, healthy fruit.",
+      "source": 3
+    },
+    {
+      "category": "making-seeds-and-fruit",
+      "text": "Seeds can grow into new plants when they land in a good place.",
+      "source": 3
+    },
+    {
+      "category": "making-seeds-and-fruit",
+      "text": "Some fruits that people eat begin as flowers that needed pollination.",
+      "source": 5
+    },
+    {
+      "category": "bee-and-flower-team",
+      "text": "Bees get food from flowers, and flowers can get help making seeds.",
+      "source": 5
+    },
+    {
+      "category": "bee-and-flower-team",
+      "text": "Many flowering plants need pollinators to help them make seeds and fruit.",
+      "source": 5
+    },
+    {
+      "category": "bee-and-flower-team",
+      "text": "Bees are important pollinators for wild plants, garden plants, and farm crops.",
+      "source": 2
+    },
+    {
+      "category": "bee-and-flower-team",
+      "text": "Flowers can feed bees through spring, summer, and fall when different plants bloom at different times.",
+      "source": 4
+    },
+    {
+      "category": "foods-from-pollination",
+      "text": "Pollinators help many fruits and vegetables grow.",
+      "source": 5
+    },
+    {
+      "category": "foods-from-pollination",
+      "text": "Bees and other pollinators can help make larger, more flavorful fruits on some crops.",
+      "source": 4
+    },
+    {
+      "category": "foods-from-pollination",
+      "text": "More than 150 food crops in the United States depend on pollinators.",
+      "source": 4
+    },
+    {
+      "category": "foods-from-pollination",
+      "text": "Pollinators are linked to about one out of every three bites of food people eat.",
+      "source": 5
+    },
+    {
+      "category": "helping-bees-and-flowers",
+      "text": "People can help bees by planting many kinds of flowers that bloom at different times.",
+      "source": 6
+    },
+    {
+      "category": "helping-bees-and-flowers",
+      "text": "Native plants can be good for native pollinators because they are used to the same place.",
+      "source": 6
+    },
+    {
+      "category": "helping-bees-and-flowers",
+      "text": "Using fewer pesticides can help keep bees and other pollinators safer.",
+      "source": 6
+    },
+    {
+      "category": "helping-bees-and-flowers",
+      "text": "Pollinator populations are declining in many places, so good habitat matters.",
+      "source": 7
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/bees-gathering-pollen.jpg",
+      "description": "Two bees visiting a purple flower while gathering pollen and nectar",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bees_Gathering_Pollen.jpg",
+      "author": "Arturo Mann",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "filename": "images/bee-covered-in-pollen.jpg",
+      "description": "A bee covered with yellow pollen on a flower",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bee_covered_in_pollen.jpg",
+      "author": "Ragesoss",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "filename": "images/bumblebee-in-hibiscus.jpg",
+      "description": "Bumblebee deep inside a hibiscus flower with pollen on its body",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hibiscus_syriacus_Bombus_ruderatus_1_Luc_Viatour.jpg",
+      "author": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1920,
+      "height": 1540
+    },
+    {
+      "filename": "images/honeybee-on-lavender.jpg",
+      "description": "Honeybee resting on purple lavender flowers",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honeybee_on_lavender.jpg",
+      "author": "Gronk Oz",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "filename": "images/pollination-diagram.png",
+      "description": "Simple diagram showing pollen moving between flower parts during pollination",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pollination_Diagram.svg",
+      "author": "YJaredY",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 938
+    },
+    {
+      "filename": "images/honeybee-on-apple-blossom.jpg",
+      "description": "Honeybee visiting pale pink apple blossoms",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honey_bee_on_apple_blossom,_Sandy,_Bedfordshire_(7103234043).jpg",
+      "author": "Orangeaurochs from Sandy, Bedfordshire, United Kingdom",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 1920,
+      "height": 1551
+    },
+    {
+      "filename": "images/bee-in-apple-blossom.jpg",
+      "description": "Bee tucked among white apple blossoms",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bee_in_Apple_blossom.jpg",
+      "author": "Mainlymazza",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1650,
+      "height": 2200
+    },
+    {
+      "filename": "images/bee-leg-pollen-basket.jpg",
+      "description": "Close view of a honeybee leg carrying a round yellow pollen load",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bee_Leg_with_Pollen_Bulb.jpg",
+      "author": "G Lens Microscopist Hannah Yoder, Myles Cyrus",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1388,
+      "height": 1040
+    },
+    {
+      "filename": "images/pollen-covered-honeybee-sunflower.jpg",
+      "description": "Honeybee with yellow pollen on its body while visiting a sunflower",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pollen_covered_Honeybee_on_Sunflower.jpg",
+      "author": "IdahoSpudNut",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1535
+    },
+    {
+      "filename": "images/bee-and-pollen-on-sunflower.jpg",
+      "description": "Bee standing on a sunflower with bright yellow pollen grains nearby",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bee_and_Pollen_on_Sunflower.jpg",
+      "author": "Alabama Extension",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "filename": "images/apple-fruit-on-tree.jpg",
+      "description": "Red and yellow apples growing on a tree after flowers have become fruit",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malus_domestica_a1.jpg",
+      "author": "Opio\u0142a Jerzy (Poland)",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "width": 1280,
+      "height": 956
+    },
+    {
+      "filename": "images/apple-blossom-with-bee.jpg",
+      "description": "Bee on a cluster of pink and white apple blossoms",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Blossom_with_Bee_(17168453560).jpg",
+      "author": "Christoph Str\u00e4ssler from Oberdorf BL, Schweiz",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "filename": "images/flower-parts-diagram.png",
+      "description": "Diagram labeling the main parts of a flower, including anther, stigma, ovary, and ovule",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Diagram_of_a_Flower.svg",
+      "author": "Audreyyhuang",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1920,
+      "height": 1098
+    },
+    {
+      "filename": "images/tomato-flowers-and-fruit.jpg",
+      "description": "Tomato plant showing yellow flowers and small green fruits growing together",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tomato_fruit_and_flowers_at_day_52.jpg",
+      "author": "Dennis Brown",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 877,
+      "height": 613
+    },
+    {
+      "filename": "images/wildflower-meadow.jpg",
+      "description": "Small wildflower meadow planted to help bees and other pollinators",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_small_wildflower_meadow,_courtesy_of_Bee_Friendly_Denbighshire_-_geograph.org.uk_-_7521011.jpg",
+      "author": "David Medcalf",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1920,
+      "height": 1440
+    },
+    {
+      "filename": "images/insect-hotel.jpg",
+      "description": "Insect hotel with many small holes and natural materials for sheltering insects",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Three_Creeks_-_Insect_Hotel_1.jpg",
+      "author": "Sixflashphoto",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1233
+    },
+    {
+      "filename": "images/bee-on-flower-stigma.jpg",
+      "description": "Bee standing on the central stigma of a flower where pollen can land",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bee_on_stigma.jpg",
+      "author": "William Herron",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "filename": "images/bee-searching-dahlia-nectar.jpg",
+      "description": "Bee searching for nectar inside a dahlia flower",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_bee_searching_for_nectar_of_a_dahlia_flower.jpg",
+      "author": "Sahan thathsara",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1280
+    }
+  ]
+}

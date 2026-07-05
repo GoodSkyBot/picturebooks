@@ -1,0 +1,133 @@
+{
+  "title": "Bike Ride Around the Block",
+  "slug": "bike-ride-around-the-block",
+  "targetAge": 3,
+  "category": "Vehicles",
+  "tags": [
+    "bike",
+    "bicycle",
+    "ride",
+    "wheels",
+    "pedals",
+    "helmet",
+    "safety",
+    "sidewalk"
+  ],
+  "theme": {
+    "primaryColor": "#2F6F4E",
+    "secondaryColor": "#F2B84B",
+    "backgroundColor": "#FFF4D9",
+    "accentColor": "#D95D39",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "Sunny sidewalk ride with gentle safety cues"
+  },
+  "cover": {
+    "title": "Bike Ride Around the Block",
+    "subtitle": "Pedal, steer, stop, smile",
+    "image": "images/ai-warm-child-bike-cover.png"
+  },
+  "pages": [
+    {
+      "text": "This is a bicycle. It has two wheels. It has a seat. A rider makes it go.",
+      "extras": [
+        "One wheel in front. One wheel in back."
+      ],
+      "images": [
+        {
+          "src": "images/helmeted-boy-training-wheels.jpg",
+          "alt": "A helmeted child riding a small bicycle with training wheels.",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "The wheels roll. The tires touch the path. Roll, roll, roll.",
+      "images": [
+        {
+          "src": "images/bicycle-wheel-closeup.jpg",
+          "alt": "A close-up of a bicycle wheel, tire, and spokes.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Feet push the pedals. Around and around. The bike moves forward.",
+      "extras": [
+        "Many bikes have a chain."
+      ],
+      "images": [
+        {
+          "src": "images/bicycle-pedal-closeup.jpg",
+          "alt": "A close-up of a bicycle pedal for a rider's foot.",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Hands hold the handlebars. Turn a little. The front wheel turns too.",
+      "images": [
+        {
+          "src": "images/bicycle-handlebar.jpg",
+          "alt": "Bicycle handlebars used to steer the front wheel.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Some little bikes have no pedals. Feet push, push. The rider learns to balance.",
+      "images": [
+        {
+          "src": "images/balance-bike-cycle-path.jpg",
+          "alt": "A young child using a balance bike on a marked cycle path.",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Helmet on. Strap snug. Shoes on. Ready to ride.",
+      "extras": [
+        "A helmet is for every ride."
+      ],
+      "images": [
+        {
+          "src": "images/ai-helmet-buckle-closeup.png",
+          "alt": "A grown-up gently buckling a young child's colorful bicycle helmet strap.",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "Slow down. Stop. Look both ways with a grown-up. Then go again.",
+      "images": [
+        {
+          "src": "images/bike-safety-rodeo.jpg",
+          "alt": "Children practicing bike handling skills near cones at a safety event.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Ride on the path. Give walkers room. Ding, ding! A bell can say, 'I am coming by.'",
+      "images": [
+        {
+          "src": "images/ai-shared-bike-path.png",
+          "alt": "A helmeted young child riding slowly on a wide park path while a walker gives space nearby.",
+          "orientation": "landscape"
+        },
+        {
+          "src": "images/bicycles-pedestrians-sign.svg",
+          "alt": "A sign showing a path for bicycles and people walking.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}

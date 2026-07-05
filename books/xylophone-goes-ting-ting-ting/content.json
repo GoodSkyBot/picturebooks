@@ -1,0 +1,279 @@
+{
+  "topic": "The Xylophone Goes Ting-Ting-Ting",
+  "slug": "xylophone-goes-ting-ting-ting",
+  "targetAge": 3,
+  "sources": [
+    {
+      "title": "Xylophone - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Xylophone",
+      "accessed": "2026-07-05",
+      "notes": "Simple overview of xylophone parts, bars, mallets, notes, resonators, and short sound."
+    },
+    {
+      "title": "Xylophone - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xylophone",
+      "accessed": "2026-07-05",
+      "notes": "Detailed overview of construction, wooden bars, mallets, resonators, classroom use, and world xylophone forms."
+    },
+    {
+      "title": "Xylophone - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/art/xylophone",
+      "accessed": "2026-07-05",
+      "notes": "Reference article on graduated tuned wooden bars, mallets, resonators, pitch order, and history."
+    },
+    {
+      "title": "How Do We Hear? - NIDCD",
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "accessed": "2026-07-05",
+      "notes": "Government source explaining sound waves, vibration, and hearing in the ear."
+    }
+  ],
+  "facts": [
+    {
+      "category": "what-it-is",
+      "text": "A xylophone is a musical instrument.",
+      "source": 0
+    },
+    {
+      "category": "what-it-is",
+      "text": "A xylophone is in the percussion family, like instruments you tap or hit.",
+      "source": 0
+    },
+    {
+      "category": "what-it-is",
+      "text": "A xylophone has bars that can play different notes.",
+      "source": 0
+    },
+    {
+      "category": "what-it-is",
+      "text": "The name xylophone means wood sound.",
+      "source": 1
+    },
+    {
+      "category": "bars-and-mallets",
+      "text": "People play a xylophone by tapping the bars with mallets.",
+      "source": 0
+    },
+    {
+      "category": "bars-and-mallets",
+      "text": "A mallet is a kind of stick for playing the xylophone.",
+      "source": 0
+    },
+    {
+      "category": "bars-and-mallets",
+      "text": "Many xylophone bars are made of wood.",
+      "source": 0
+    },
+    {
+      "category": "bars-and-mallets",
+      "text": "Some modern xylophones use synthetic bars instead of wooden bars.",
+      "source": 1
+    },
+    {
+      "category": "bars-and-mallets",
+      "text": "Some xylophones are played with two mallets, one in each hand.",
+      "source": 0
+    },
+    {
+      "category": "short-and-long-bars",
+      "text": "Each xylophone bar is a different length.",
+      "source": 0
+    },
+    {
+      "category": "short-and-long-bars",
+      "text": "Bars with different lengths make different notes when they are tapped.",
+      "source": 0
+    },
+    {
+      "category": "short-and-long-bars",
+      "text": "On many Western xylophones, the bars are arranged like piano keys.",
+      "source": 0
+    },
+    {
+      "category": "short-and-long-bars",
+      "text": "On many Western xylophones, the notes get higher from left to right.",
+      "source": 2
+    },
+    {
+      "category": "short-and-long-bars",
+      "text": "Some xylophones in Africa arrange the bars in a different order.",
+      "source": 2
+    },
+    {
+      "category": "sounds-and-vibrations",
+      "text": "When a mallet taps a bar, the bar vibrates.",
+      "source": 2
+    },
+    {
+      "category": "sounds-and-vibrations",
+      "text": "Vibrating things can make sound waves in the air.",
+      "source": 3
+    },
+    {
+      "category": "sounds-and-vibrations",
+      "text": "Sound waves travel into our ears.",
+      "source": 3
+    },
+    {
+      "category": "sounds-and-vibrations",
+      "text": "Our eardrums vibrate when sound waves reach them.",
+      "source": 3
+    },
+    {
+      "category": "high-and-low-sounds",
+      "text": "A xylophone can play high sounds and low sounds.",
+      "source": 0
+    },
+    {
+      "category": "high-and-low-sounds",
+      "text": "A xylophone bar is tuned to a pitch, which means it has its own note.",
+      "source": 1
+    },
+    {
+      "category": "high-and-low-sounds",
+      "text": "The xylophone often has a bright, short sound.",
+      "source": 0
+    },
+    {
+      "category": "high-and-low-sounds",
+      "text": "A marimba is related to the xylophone and often has a softer sound.",
+      "source": 0
+    },
+    {
+      "category": "rhythm-and-gentle-playing",
+      "text": "A player can tap one bar, then another bar, to make a simple rhythm.",
+      "source": 0
+    },
+    {
+      "category": "rhythm-and-gentle-playing",
+      "text": "Xylophones are used in some music classrooms for children's music learning.",
+      "source": 1
+    },
+    {
+      "category": "rhythm-and-gentle-playing",
+      "text": "Some classroom xylophones are smaller than concert xylophones.",
+      "source": 1
+    },
+    {
+      "category": "rhythm-and-gentle-playing",
+      "text": "A gentle tap can make a small ting sound for listening and playing.",
+      "source": 2
+    },
+    {
+      "category": "many-kinds",
+      "text": "Xylophones are found in different forms in Africa and Asia.",
+      "source": 1
+    },
+    {
+      "category": "many-kinds",
+      "text": "Some xylophones have tubes or gourds under the bars to help the sound ring.",
+      "source": 1
+    },
+    {
+      "category": "many-kinds",
+      "text": "A Philippine xylophone called a kulintang a kayo has eight tuned slabs on a wooden rack.",
+      "source": 0
+    },
+    {
+      "category": "many-kinds",
+      "text": "A balafon is a West African xylophone-like instrument with wooden keys and gourd resonators.",
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/xylophone-with-mallets.jpg",
+      "description": "Xylophone bars with several mallets nearby",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xylophone.jpg",
+      "author": "Roumpf",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1600,
+      "height": 993
+    },
+    {
+      "filename": "images/three-classroom-xylophones.jpg",
+      "description": "Three classroom xylophones with bars of different sizes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tres_xil%C3%B3fonos.JPG",
+      "author": "Ferbr1",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1239,
+      "height": 1759
+    },
+    {
+      "filename": "images/orchestral-xylophone-and-marimba.jpg",
+      "description": "Orchestral xylophone beside a marimba for comparing related instruments",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xylophone-Antonko-AXF09-Marimba-Antonko-AMC12.jpg",
+      "author": "Vassia Atanassova - Spiritia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 2200,
+      "height": 1172
+    },
+    {
+      "filename": "images/kulintang-a-kayo.jpg",
+      "description": "Kulintang a kayo, a Philippine xylophone with eight wooden slabs on a rack",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kulintang_a_Kayo_01.jpg",
+      "author": "Philip Dominguez Mercurio (PhilipDM)",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "images/timbila-xylophone.jpg",
+      "description": "Timbila wooden xylophone showing bars and frame",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Timbela_(musical_instrument).jpg",
+      "author": "Kolby Granville",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "filename": "images/silimba-xylophone.jpg",
+      "description": "Silimba xylophone from Zambia with tuned bars",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Silimba-Zambia.jpg",
+      "author": "Andresmh",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 2172,
+      "height": 1672
+    },
+    {
+      "filename": "images/ogbongelenge-xylophone.jpg",
+      "description": "Ogbongelenge xylophone instrument photographed for the AID Project",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ogbongelenge.jpg",
+      "author": "AID Project",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "filename": "images/ai-mallet-tapping-vibrating-bar.png",
+      "description": "Photorealistic close-up for a preschool music book: a soft mallet gently tapping one colorful xylophone bar, the bar is the clear focus with subtle motion blur suggesting vibration, other bars nearby, warm light, simple background, no text, no logos",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    },
+    {
+      "filename": "images/ai-colorful-xylophone-cover.png",
+      "description": "Square photorealistic bright child-friendly xylophone cover image: colorful xylophone filling most of the frame on a low play table with two soft mallets, bars arranged long to short, warm preschool music room light, simple uncluttered background, playful but realistic, no text, no logos, no children visible.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    },
+    {
+      "filename": "images/ai-high-low-xylophone-bars.png",
+      "description": "Photorealistic child-friendly xylophone bars arranged clearly from long bars to short bars, two mallets nearby, bright clean preschool setting, composition makes size difference obvious for low and high sounds, no labels, no text, no logos",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    }
+  ]
+}

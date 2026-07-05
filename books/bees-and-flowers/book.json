@@ -1,0 +1,149 @@
+{
+  "title": "Bees and Flowers: A Pollination Adventure",
+  "slug": "bees-and-flowers",
+  "targetAge": 5,
+  "category": "Nature",
+  "tags": [
+    "bees",
+    "flowers",
+    "pollination",
+    "pollen",
+    "nectar",
+    "seeds",
+    "fruit",
+    "gardens",
+    "insects",
+    "plants"
+  ],
+  "theme": {
+    "primaryColor": "#D99A00",
+    "secondaryColor": "#4F8A3A",
+    "backgroundColor": "#FFF7D6",
+    "accentColor": "#8D5FD3",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "Sunny garden discovery"
+  },
+  "cover": {
+    "title": "Bees and Flowers: A Pollination Adventure",
+    "subtitle": "A sunny story about pollen, nectar, and seeds",
+    "image": "images/bees-gathering-pollen.jpg"
+  },
+  "pages": [
+    {
+      "text": "A flower is a busy place. Many plants use flowers to make seeds. Bright colors and sweet smells help bees find the blooms.",
+      "extras": [
+        "Flowers can help plants make seeds."
+      ],
+      "images": [
+        {
+          "src": "images/honeybee-on-lavender.jpg",
+          "alt": "A honeybee resting on purple lavender flowers",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "The bee dips into a flower for nectar. Nectar is sweet flower liquid. It gives the bee energy to fly, fly, fly.",
+      "images": [
+        {
+          "src": "images/bee-searching-dahlia-nectar.jpg",
+          "alt": "A bee searching inside a dahlia flower for nectar",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "The flower also makes pollen. Pollen is a fine powder. When the bee climbs in, pollen can stick to its hairy body.",
+      "extras": [
+        "Pollen can look like yellow dust."
+      ],
+      "images": [
+        {
+          "src": "images/bee-covered-in-pollen.jpg",
+          "alt": "A bee covered with yellow pollen on a flower",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "Some bees collect pollen to take home. They pack it onto special baskets on their back legs. That pollen helps feed young bees.",
+      "images": [
+        {
+          "src": "images/bee-leg-pollen-basket.jpg",
+          "alt": "A close view of a honeybee leg carrying a round yellow pollen load",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Now the bee visits another flower. Some pollen rubs off in the right place. This pollen move is called pollination.",
+      "extras": [
+        "Pollination means pollen moves."
+      ],
+      "images": [
+        {
+          "src": "images/pollination-diagram.png",
+          "alt": "A simple diagram showing pollen moving between flower parts",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "After pollen lands in the right spot, a flower may begin making seeds. In many flowering plants, seeds grow inside fruit.",
+      "images": [
+        {
+          "src": "images/apple-blossom-with-bee.jpg",
+          "alt": "A bee on pink and white apple blossoms",
+          "orientation": "landscape"
+        },
+        {
+          "src": "images/apple-fruit-on-tree.jpg",
+          "alt": "Red and yellow apples growing on a tree after flowers became fruit",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "The bee is looking for food, not trying to help on purpose. Still, bees get food from flowers, and flowers get help making seeds.",
+      "extras": [
+        "Bees and flowers make a helpful team."
+      ],
+      "images": [
+        {
+          "src": "images/bumblebee-in-hibiscus.jpg",
+          "alt": "A bumblebee deep inside a hibiscus flower with pollen on its body",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Pollinators help many fruits and vegetables grow. Good pollination can help plants make full, healthy fruit.",
+      "images": [
+        {
+          "src": "images/tomato-flowers-and-fruit.jpg",
+          "alt": "A tomato plant with yellow flowers and small green fruits growing together",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "People can help bees and flowers too. Plant many kinds of flowers that bloom at different times, and use fewer pesticides when you can.",
+      "extras": [
+        "More blooms can mean more bee food."
+      ],
+      "images": [
+        {
+          "src": "images/wildflower-meadow.jpg",
+          "alt": "A small wildflower meadow planted to help bees and other pollinators",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}

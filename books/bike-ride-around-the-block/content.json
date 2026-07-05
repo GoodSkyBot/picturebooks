@@ -1,0 +1,289 @@
+{
+  "topic": "Bike Ride Around the Block",
+  "slug": "bike-ride-around-the-block",
+  "targetAge": 3,
+  "sources": [
+    {
+      "title": "Bicycle - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Bicycle",
+      "accessed": "2026-07-05",
+      "notes": "Used for simple descriptions of bicycle parts, pedals, wheels, handlebars, brakes, and bicycle paths."
+    },
+    {
+      "title": "Bicycle - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "accessed": "2026-07-05",
+      "notes": "Used to cross-check bicycle definition, parts, and human-powered movement."
+    },
+    {
+      "title": "Bike Safety - Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/parents/bike-safety.html",
+      "accessed": "2026-07-05",
+      "notes": "Used for helmet, clothing, stopping, sidewalk, crosswalk, traffic, and safe-riding guidance for children."
+    },
+    {
+      "title": "Balance bike - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Balance_bike",
+      "accessed": "2026-07-05",
+      "notes": "Used for the description of balance bikes as bicycles without pedals that children propel with their feet."
+    }
+  ],
+  "facts": [
+    {
+      "category": "meet-the-bike",
+      "text": "A bicycle is a small land vehicle powered by a person.",
+      "source": 0
+    },
+    {
+      "category": "meet-the-bike",
+      "text": "A bicycle has two wheels, one in front and one in back.",
+      "source": 0
+    },
+    {
+      "category": "meet-the-bike",
+      "text": "A bicycle has a seat for the rider to sit on.",
+      "source": 0
+    },
+    {
+      "category": "meet-the-bike",
+      "text": "A frame holds the bicycle parts together and gives the bike strength.",
+      "source": 0
+    },
+    {
+      "category": "wheels-and-pedals",
+      "text": "The rider's feet push the pedals around in circles.",
+      "source": 0
+    },
+    {
+      "category": "wheels-and-pedals",
+      "text": "Pedaling helps turn the back wheel and moves the bike forward.",
+      "source": 0
+    },
+    {
+      "category": "wheels-and-pedals",
+      "text": "Many bicycles use a chain to connect the pedals to the back wheel.",
+      "source": 0
+    },
+    {
+      "category": "wheels-and-pedals",
+      "text": "Bike tires touch the ground and roll along the path.",
+      "source": 1
+    },
+    {
+      "category": "steer-and-balance",
+      "text": "The handlebars help the rider steer the bicycle.",
+      "source": 0
+    },
+    {
+      "category": "steer-and-balance",
+      "text": "Turning the handlebars turns the front wheel.",
+      "source": 0
+    },
+    {
+      "category": "steer-and-balance",
+      "text": "A balance bike lets a young child push with feet while learning to balance.",
+      "source": 3
+    },
+    {
+      "category": "steer-and-balance",
+      "text": "A steady rider keeps looking ahead while the bike rolls.",
+      "source": 2
+    },
+    {
+      "category": "helmet-and-clothes",
+      "text": "A bike helmet should be worn on every ride.",
+      "source": 2
+    },
+    {
+      "category": "helmet-and-clothes",
+      "text": "A helmet should fit correctly and have fastened straps.",
+      "source": 2
+    },
+    {
+      "category": "helmet-and-clothes",
+      "text": "Bright clothes help riders be easier for other people to see.",
+      "source": 2
+    },
+    {
+      "category": "helmet-and-clothes",
+      "text": "Shoes should grip the pedals; children should not ride barefoot.",
+      "source": 2
+    },
+    {
+      "category": "slow-and-stop",
+      "text": "Many bicycles have brakes to help the rider slow down or stop.",
+      "source": 0
+    },
+    {
+      "category": "slow-and-stop",
+      "text": "A rider should stop and check both ways before leaving a driveway, alley, or curb.",
+      "source": 2
+    },
+    {
+      "category": "slow-and-stop",
+      "text": "Bike riders should stop at stop signs and red traffic lights.",
+      "source": 2
+    },
+    {
+      "category": "slow-and-stop",
+      "text": "A child can walk a bike across a busy crosswalk with a grown-up.",
+      "source": 2
+    },
+    {
+      "category": "where-to-ride",
+      "text": "Some places have bicycle paths where riders can stay away from busy car traffic.",
+      "source": 0
+    },
+    {
+      "category": "where-to-ride",
+      "text": "Kids younger than 10 should ride on the sidewalk, according to Nemours KidsHealth guidance.",
+      "source": 2
+    },
+    {
+      "category": "where-to-ride",
+      "text": "Bike riders should watch for people walking and give them space.",
+      "source": 2
+    },
+    {
+      "category": "where-to-ride",
+      "text": "A rider should be careful near driveways because cars can come in or out.",
+      "source": 2
+    },
+    {
+      "category": "riding-together",
+      "text": "Only one person should sit on a bike seat at a time.",
+      "source": 2
+    },
+    {
+      "category": "riding-together",
+      "text": "A bicycle bell or horn can help warn people that a rider is coming by.",
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/mother-teaching-child-bike.jpeg",
+      "description": "A grown-up helps a helmeted child learn to ride a bicycle.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_mother_teaching_her_child_to_bike.jpeg",
+      "author": "Oyvind Holmstad",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "filename": "images/helmeted-boy-training-wheels.jpg",
+      "description": "A helmeted child rides a small bicycle with training wheels.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Helmeted_boy_on_training_wheels.jpg",
+      "author": "Dawn Endico from Menlo Park, California",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1944,
+      "height": 1944
+    },
+    {
+      "filename": "images/balance-bike-cycle-path.jpg",
+      "description": "A young child uses a balance bicycle on a marked cycle path.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_using_a_balance_bicycle_on_a_cycle_path,_Parque_das_Na%C3%A7%C3%B5es,_Lisbon,_Portugal_julesvernex2.jpg",
+      "author": "Jules Verne Times Two",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1791,
+      "height": 2200
+    },
+    {
+      "filename": "images/kids-dedicated-bike-path.jpg",
+      "description": "Children ride bicycles on a dedicated path.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kids_riding_bikes_in_dedicated_paths.jpg",
+      "author": "Victor Kibiwott",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1650
+    },
+    {
+      "filename": "images/bicycle-wheel-closeup.jpg",
+      "description": "Close-up photograph of a bicycle wheel with tire and spokes.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Closeup_photo_of_Bicycle_wheel.jpg",
+      "author": "Tajdikul alam niloy",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1650
+    },
+    {
+      "filename": "images/bicycle-pedal-closeup.jpg",
+      "description": "Close-up photograph of a bicycle pedal.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fyxation_Bicycle_Pedal.jpg",
+      "author": "AndrewDressel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1238,
+      "height": 2200
+    },
+    {
+      "filename": "images/bicycle-handlebar.jpg",
+      "description": "View of bicycle handlebars used for steering.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bicycle_Handlebar.JPG",
+      "author": "TeWeBs",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1466
+    },
+    {
+      "filename": "images/child-bike-helmet.png",
+      "description": "Public-domain safety image showing a child wearing a bike helmet.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Child_Bike_Helmet.png",
+      "author": "CPSC",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 432,
+      "height": 450
+    },
+    {
+      "filename": "images/bike-safety-rodeo.jpg",
+      "description": "Children practice bike handling skills with cones at a bike safety event.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Trailnet-SR2S-10.jpg",
+      "author": "Trailnet",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1888,
+      "height": 1422
+    },
+    {
+      "filename": "images/bicycles-pedestrians-sign.svg",
+      "description": "Public-domain road sign showing a path for bicycles and pedestrians.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Japan_road_sign_325-3.svg",
+      "author": "Monaneko",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1005,
+      "height": 1005
+    },
+    {
+      "filename": "images/ai-shared-bike-path.png",
+      "description": "Photorealistic cheerful preschool picture-book scene: a helmeted young child rides a small bike slowly on a wide park path, a walker gives space nearby, a small bike bell is visible, sunny day, safe separated path, friendly calm composition, no cars, no text, no logos",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    },
+    {
+      "filename": "images/ai-warm-child-bike-cover.png",
+      "description": "Square photorealistic warm picture-book cover image for a nonfiction preschool bike book: a 3-year-old child wearing a properly fitted helmet riding a small bicycle on a sunny neighborhood path, caring grown-up close nearby, full child and bike visible, subject centered and large in frame, bright natural colors, cheerful and safe, no text, no logos, no traffic.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    },
+    {
+      "filename": "images/ai-helmet-buckle-closeup.png",
+      "description": "Clean photorealistic preschool safety image: close-up of a colorful bicycle helmet on a child, a grown-up hand gently fastening the simple black chin strap buckle. Bright sunny real-world background, warm and friendly, no writing, no letters, no symbols, no diagrams, no user interface, no overlay, no logos, no signs.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
+    }
+  ]
+}

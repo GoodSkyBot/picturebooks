@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Xylophone Goes Ting-Ting-Ting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #8B4A18;
+      --secondary-color: #FFD45A;
+      --background-color: #FFF4D8;
+      --accent-color: #2D8CCB;
+      --font-heading: 'Baloo 2', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/ai-colorful-xylophone-cover.png" alt="The Xylophone Goes Ting-Ting-Ting">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">The Xylophone Goes Ting-Ting-Ting</h1>
+        
+        <p class="cover-subtitle">Tap, listen, play!</p>
+        
+        <button class="btn-start" aria-label="Start reading">Start</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+    
+        <!-- Page 1: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/ai-colorful-xylophone-cover.png" alt="A colorful child-friendly xylophone with two mallets ready for tapping">
+        
+        <figcaption>Photo: OpenAI gpt-image-2 / Generated (non-redistributable without rights)</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">This is a xylophone. It is a music maker. Ting ting ting!</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: A xylophone is an instrument.">
+            <span class="extra-icon">&#9679;</span> A xylophone is an instrument.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">Tap the bars with mallets. Tap tap. Ting ting.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: A mallet is a playing stick.">
+            <span class="extra-icon">&#9679;</span> A mallet is a playing stick.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/three-classroom-xylophones.jpg" alt="Three classroom xylophones with bars of different sizes">
+        
+        <figcaption>Photo: Ferbr1 / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 3: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="3" hidden>
+      <div class="page-body">
+        <p class="page-text">Long bars. Short bars. Each bar has its own sound.</p>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/orchestral-xylophone-and-marimba.jpg" alt="A xylophone beside a related marimba with many bars">
+        
+        <figcaption>Photo: Vassia Atanassova - Spiritia / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 4: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="4" hidden>
+      <div class="page-body">
+        <p class="page-text">Tap a bar. It wiggles and wiggles. The sound goes to your ears.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: A wiggling bar vibrates.">
+            <span class="extra-icon">&#9679;</span> A wiggling bar vibrates.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/ai-mallet-tapping-vibrating-bar.png" alt="A soft mallet gently tapping a colorful xylophone bar">
+        
+        <figcaption>Photo: OpenAI gpt-image-2 / Generated (non-redistributable without rights)</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 5: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="5" hidden>
+      <figure class="page-figure">
+        <img src="images/ai-high-low-xylophone-bars.png" alt="Colorful xylophone bars arranged from long to short with mallets nearby">
+        
+        <figcaption>Photo: OpenAI gpt-image-2 / Generated (non-redistributable without rights)</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Some sounds are high. Ting! Some sounds are low. Tong!</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 6: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="6" hidden>
+      <figure class="page-figure">
+        <img src="images/ogbongelenge-xylophone.jpg" alt="An ogbongelenge xylophone photographed on a plain background" style="object-fit: contain;">
+        
+        <figcaption>Photo: AID Project / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Tap one bar. Tap another bar. Now you made a little rhythm!</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: Tap gently and listen.">
+            <span class="extra-icon">&#9679;</span> Tap gently and listen.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 7: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="7" hidden>
+      <figure class="page-figure">
+        <img src="images/kulintang-a-kayo.jpg" alt="Kulintang a kayo, a Philippine xylophone with eight wooden slabs on a rack">
+        
+        <figcaption>Photo: Philip Dominguez Mercurio (PhilipDM) / CC BY-SA 2.5</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Xylophones can look different. But they all say, play with me! Ting ting ting!</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: This one has eight slabs.">
+            <span class="extra-icon">&#9679;</span> This one has eight slabs.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="8" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          
+          <li><a href="https://simple.wikipedia.org/wiki/Xylophone" target="_blank" rel="noopener">Xylophone - Simple English Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Xylophone" target="_blank" rel="noopener">Xylophone - Wikipedia</a></li>
+          
+          <li><a href="https://www.britannica.com/art/xylophone" target="_blank" rel="noopener">Xylophone - Encyclopaedia Britannica</a></li>
+          
+          <li><a href="https://www.nidcd.nih.gov/health/how-do-we-hear" target="_blank" rel="noopener">How Do We Hear? - NIDCD</a></li>
+          
+        </ul>
+        
+
+        
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          
+          <li>
+            <strong>Xylophone bars with several mallets nearby</strong> --
+            Roumpf,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Three classroom xylophones with bars of different sizes</strong> --
+            Ferbr1,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Orchestral xylophone beside a marimba for comparing relat...</strong> --
+            Vassia Atanassova - Spiritia,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Kulintang a kayo, a Philippine xylophone with eight woode...</strong> --
+            Philip Dominguez Mercurio (PhilipDM),
+            <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+            
+          </li>
+          
+          <li>
+            <strong>Timbila wooden xylophone showing bars and frame</strong> --
+            Kolby Granville,
+            <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener">Public domain</a>
+            
+          </li>
+          
+          <li>
+            <strong>Silimba xylophone from Zambia with tuned bars</strong> --
+            Andresmh,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Ogbongelenge xylophone instrument photographed for the AI...</strong> --
+            AID Project,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Photorealistic close-up for a preschool music book: a sof...</strong> --
+            OpenAI gpt-image-2,
+            <a href="https://openai.com/policies/terms-of-use" target="_blank" rel="noopener">Generated (non-redistributable without rights)</a>
+            
+          </li>
+          
+          <li>
+            <strong>Square photorealistic bright child-friendly xylophone cov...</strong> --
+            OpenAI gpt-image-2,
+            <a href="https://openai.com/policies/terms-of-use" target="_blank" rel="noopener">Generated (non-redistributable without rights)</a>
+            
+          </li>
+          
+          <li>
+            <strong>Photorealistic child-friendly xylophone bars arranged cle...</strong> --
+            OpenAI gpt-image-2,
+            <a href="https://openai.com/policies/terms-of-use" target="_blank" rel="noopener">Generated (non-redistributable without rights)</a>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </article>
+
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

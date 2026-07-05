@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Busy Bees Build a Hive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #7A4A12;
+      --secondary-color: #F2B705;
+      --background-color: #FFF7D6;
+      --accent-color: #2F7D4A;
+      --font-heading: 'Baloo 2', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/worker-bees-on-honeycomb.jpg" alt="Busy Bees Build a Hive">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">Busy Bees Build a Hive</h1>
+        
+        <p class="cover-subtitle">A Honey Bee Team Story</p>
+        
+        <button class="btn-start" aria-label="Start reading">Start</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+    
+        <!-- Page 1: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/hive-frame.jpg" alt="A beehive frame full of honeycomb cells where honey bees live and store food">
+        
+        <figcaption>Photo: John Pons / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Step inside a honey bee hive. Buzz, buzz! Many bees live here together as one busy family.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: A bee family is called a colony.">
+            <span class="extra-icon">&#9679;</span> A bee family is called a colony.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">Inside the hive, bees have different jobs. The queen is usually the mother of the hive. Worker bees do most of the hive work.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: Most hives have one adult queen.">
+            <span class="extra-icon">&#9679;</span> Most hives have one adult queen.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/queen-with-workers.jpg" alt="A marked queen honey bee surrounded by worker bees on the comb" style="object-position: top;">
+        
+        <figcaption>Photo: Scott Bauer, USDA Agricultural Research Service / Public domain</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 3: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="3" hidden>
+      <figure class="page-figure">
+        <img src="images/drone-in-flight.jpg" alt="A male drone honey bee flying through the air">
+        
+        <figcaption>Photo: Waugsberg / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Some bees are drones. Drones are male honey bees. They have big eyes, but they do not collect nectar or pollen.</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 4: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="4" hidden>
+      <div class="page-body">
+        <p class="page-text">Worker bees build with wax from their own bodies. They warm the wax and shape it into tiny rooms called cells.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: Beeswax is a bee-made building material.">
+            <span class="extra-icon">&#9679;</span> Beeswax is a bee-made building material.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/beeswax-foundation.jpg" alt="A sheet of beeswax foundation stamped with a honeycomb pattern">
+        
+        <figcaption>Photo: Plantsurfer / Public domain</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 5: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="5" hidden>
+      <div class="page-body">
+        <p class="page-text">Look closely at the honeycomb. Many cells have six sides. Six-sided cells fit together neatly, side by side.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-05-extra-1.mp3" aria-label="Fun fact: A six-sided shape is a hexagon.">
+            <span class="extra-icon">&#9679;</span> A six-sided shape is a hexagon.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/honeycomb-closeup.jpg" alt="A close view of golden honeycomb with many six-sided wax cells">
+        
+        <figcaption>Photo: Merdal / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 6: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="6" hidden>
+      <div class="page-body">
+        <p class="page-text">Out in the flowers, worker bees sip sweet nectar. A bee uses a long tongue to lap it up.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: Nectar is a sugary flower liquid.">
+            <span class="extra-icon">&#9679;</span> Nectar is a sugary flower liquid.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/bee-sipping-nectar.jpg" alt="A honey bee sipping nectar from a flower with its long tongue">
+        
+        <figcaption>Photo: John Severns / Public domain</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 7: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="7" hidden>
+      <figure class="page-figure">
+        <img src="images/bee-with-pollen.jpg" alt="A honey bee on a flower with yellow pollen on its legs and body">
+        
+        <figcaption>Photo: Parvinder S Parmar / CC BY 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Bees also carry pollen on their back legs. As they visit flowers, pollen can help flowers make seeds.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: Those leg pockets are pollen baskets.">
+            <span class="extra-icon">&#9679;</span> Those leg pockets are pollen baskets.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 8: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="8" hidden>
+      <figure class="page-figure">
+        <img src="images/ai-bees-fanning-honeycomb.png" alt="Worker honey bees on golden honeycomb cells, with wings spread near uncapped honey cells">
+        
+        <figcaption>Photo: OpenAI gpt-image-2 / Generated (non-redistributable without rights)</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Back at the hive, workers pass nectar from bee to bee. They fan their wings until watery nectar becomes thick honey.</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 9: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="9" hidden>
+      <figure class="page-figure">
+        <img src="images/worker-bees-on-honeycomb.jpg" alt="Worker honey bees crowded together on a sheet of honeycomb" style="object-position: top;">
+        
+        <figcaption>Photo: Richard Bartz and Hubert Seibring / CC BY-SA 2.5</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">When the honey is ready, bees seal the cell with a wax cap. Honey is food for times when flowers are hard to find.</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-09-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 10: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="10" hidden>
+      <div class="page-body">
+        <p class="page-text">Honeycomb cells can hold baby bees too. Worker bees feed and care for the young bees as they grow.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-10-extra-1.mp3" aria-label="Fun fact: Baby bees grow from eggs to adults.">
+            <span class="extra-icon">&#9679;</span> Baby bees grow from eggs to adults.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/brood-comb-eggs-larvae.jpg" alt="Honeycomb cells opened to show bee eggs and young larvae">
+        
+        <figcaption>Photo: Waugsberg / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-10-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 11: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="11" hidden>
+      <figure class="page-figure">
+        <img src="images/western-bee-on-comb.jpg" alt="A single western honey bee standing on honeycomb">
+        
+        <figcaption>Photo: Matthew T Rader / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">A hive stays busy all day. Young workers clean and feed babies. Older workers guard, forage, and help move air through the hive.</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-11-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 12: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="12" hidden>
+      <figure class="page-figure">
+        <img src="images/bee-flying-pollen-baskets.jpg" alt="A honey bee flying with pollen packed in the baskets on its back legs">
+        
+        <figcaption>Photo: Muhammad Mahdi Karim / GFDL 1.2</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">When one bee finds good food, she can waggle dance. Her dance tells other bees where to fly. A hive is one big living team!</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-12-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="13" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          
+          <li><a href="https://simple.wikipedia.org/wiki/Honey_bee" target="_blank" rel="noopener">Honey bee - Simple English Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Honey_bee" target="_blank" rel="noopener">Honey bee - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Honeycomb" target="_blank" rel="noopener">Honeycomb - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Worker_bee" target="_blank" rel="noopener">Worker bee - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Queen_bee" target="_blank" rel="noopener">Queen bee - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Drone_(bee)" target="_blank" rel="noopener">Drone (bee) - Wikipedia</a></li>
+          
+          <li><a href="https://askabiologist.asu.edu/bee-honey" target="_blank" rel="noopener">Honey and the Hive - ASU Ask A Biologist</a></li>
+          
+          <li><a href="https://www.uaex.uada.edu/farm-ranch/special-programs/beekeeping/about-honey-bees.aspx" target="_blank" rel="noopener">About Honey Bees - University of Arkansas System Division of Agriculture Cooperative Extension Service</a></li>
+          
+          <li><a href="https://edis.ifas.ufl.edu/publication/IN1102" target="_blank" rel="noopener">The Social Organization of Honey Bees - University of Florida IFAS Extension</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Honey" target="_blank" rel="noopener">Honey - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Beeswax" target="_blank" rel="noopener">Beeswax - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Waggle_dance" target="_blank" rel="noopener">Waggle dance - Wikipedia</a></li>
+          
+        </ul>
+        
+
+        
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          
+          <li>
+            <strong>A beehive frame showing brood cells in the center and sto...</strong> --
+            John Pons,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Worker honey bees crowded on a sheet of honeycomb</strong> --
+            Richard Bartz and Hubert Seibring,
+            <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+            
+          </li>
+          
+          <li>
+            <strong>A marked queen honey bee surrounded by worker bees</strong> --
+            Scott Bauer, USDA Agricultural Research Service,
+            <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener">Public domain</a>
+            
+          </li>
+          
+          <li>
+            <strong>A male drone honey bee flying in the air</strong> --
+            Waugsberg,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>A honey bee using its long tongue to sip nectar from a flower</strong> --
+            John Severns,
+            <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener">Public domain</a>
+            
+          </li>
+          
+          <li>
+            <strong>A honey bee on a flower with yellow pollen on its legs and body</strong> --
+            Parvinder S Parmar,
+            <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">CC BY 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Fresh honeycomb with honey dripping from hexagonal wax cells</strong> --
+            Vraj Acharya,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>A close view of golden honeycomb showing many six-sided cells</strong> --
+            Merdal,
+            <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>A honey bee flying back with pollen packed in its leg baskets</strong> --
+            Muhammad Mahdi Karim,
+            <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" target="_blank" rel="noopener">GFDL 1.2</a>
+            
+          </li>
+          
+          <li>
+            <strong>A sheet of beeswax foundation stamped with a honeycomb pattern</strong> --
+            Plantsurfer,
+            <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener">Public domain</a>
+            
+          </li>
+          
+          <li>
+            <strong>Honeycomb cells opened to show bee eggs and young larvae</strong> --
+            Waugsberg,
+            <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>A single western honey bee standing on honeycomb</strong> --
+            Matthew T Rader,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Highly detailed photorealistic educational image for a ch...</strong> --
+            OpenAI gpt-image-2,
+            <a href="https://openai.com/policies/terms-of-use" target="_blank" rel="noopener">Generated (non-redistributable without rights)</a>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </article>
+
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+{
+  "title": "Busy Bees Build a Hive",
+  "slug": "busy-bees-build-a-hive",
+  "targetAge": 5,
+  "category": "Insects",
+  "tags": [
+    "bees",
+    "honey bees",
+    "hive",
+    "honeycomb",
+    "honey",
+    "pollination",
+    "flowers",
+    "insects",
+    "queen bee",
+    "worker bees"
+  ],
+  "theme": {
+    "primaryColor": "#7A4A12",
+    "secondaryColor": "#F2B705",
+    "backgroundColor": "#FFF7D6",
+    "accentColor": "#2F7D4A",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "Warm golden hive teamwork"
+  },
+  "cover": {
+    "title": "Busy Bees Build a Hive",
+    "subtitle": "A Honey Bee Team Story",
+    "image": "images/worker-bees-on-honeycomb.jpg"
+  },
+  "pages": [
+    {
+      "text": "Step inside a honey bee hive. Buzz, buzz! Many bees live here together as one busy family.",
+      "extras": [
+        "A bee family is called a colony."
+      ],
+      "images": [
+        {
+          "src": "images/hive-frame.jpg",
+          "alt": "A beehive frame full of honeycomb cells where honey bees live and store food",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Inside the hive, bees have different jobs. The queen is usually the mother of the hive. Worker bees do most of the hive work.",
+      "extras": [
+        "Most hives have one adult queen."
+      ],
+      "images": [
+        {
+          "src": "images/queen-with-workers.jpg",
+          "alt": "A marked queen honey bee surrounded by worker bees on the comb",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Some bees are drones. Drones are male honey bees. They have big eyes, but they do not collect nectar or pollen.",
+      "images": [
+        {
+          "src": "images/drone-in-flight.jpg",
+          "alt": "A male drone honey bee flying through the air",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "Worker bees build with wax from their own bodies. They warm the wax and shape it into tiny rooms called cells.",
+      "extras": [
+        "Beeswax is a bee-made building material."
+      ],
+      "images": [
+        {
+          "src": "images/beeswax-foundation.jpg",
+          "alt": "A sheet of beeswax foundation stamped with a honeycomb pattern",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Look closely at the honeycomb. Many cells have six sides. Six-sided cells fit together neatly, side by side.",
+      "extras": [
+        "A six-sided shape is a hexagon."
+      ],
+      "images": [
+        {
+          "src": "images/honeycomb-closeup.jpg",
+          "alt": "A close view of golden honeycomb with many six-sided wax cells",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Out in the flowers, worker bees sip sweet nectar. A bee uses a long tongue to lap it up.",
+      "extras": [
+        "Nectar is a sugary flower liquid."
+      ],
+      "images": [
+        {
+          "src": "images/bee-sipping-nectar.jpg",
+          "alt": "A honey bee sipping nectar from a flower with its long tongue",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Bees also carry pollen on their back legs. As they visit flowers, pollen can help flowers make seeds.",
+      "extras": [
+        "Those leg pockets are pollen baskets."
+      ],
+      "images": [
+        {
+          "src": "images/bee-with-pollen.jpg",
+          "alt": "A honey bee on a flower with yellow pollen on its legs and body",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Back at the hive, workers pass nectar from bee to bee. They fan their wings until watery nectar becomes thick honey.",
+      "images": [
+        {
+          "src": "images/ai-bees-fanning-honeycomb.png",
+          "alt": "Worker honey bees on golden honeycomb cells, with wings spread near uncapped honey cells",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "When the honey is ready, bees seal the cell with a wax cap. Honey is food for times when flowers are hard to find.",
+      "images": [
+        {
+          "src": "images/worker-bees-on-honeycomb.jpg",
+          "alt": "Worker honey bees crowded together on a sheet of honeycomb",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Honeycomb cells can hold baby bees too. Worker bees feed and care for the young bees as they grow.",
+      "extras": [
+        "Baby bees grow from eggs to adults."
+      ],
+      "images": [
+        {
+          "src": "images/brood-comb-eggs-larvae.jpg",
+          "alt": "Honeycomb cells opened to show bee eggs and young larvae",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "A hive stays busy all day. Young workers clean and feed babies. Older workers guard, forage, and help move air through the hive.",
+      "images": [
+        {
+          "src": "images/western-bee-on-comb.jpg",
+          "alt": "A single western honey bee standing on honeycomb",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "When one bee finds good food, she can waggle dance. Her dance tells other bees where to fly. A hive is one big living team!",
+      "images": [
+        {
+          "src": "images/bee-flying-pollen-baskets.jpg",
+          "alt": "A honey bee flying with pollen packed in the baskets on its back legs",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
