@@ -95,6 +95,9 @@
         padding: 14px 18px;
         font-family: "Baloo 2", cursive;
         font-size: clamp(1.2rem, 4vw, 1.65rem);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
       }
 
       .search-toggle {
@@ -206,6 +209,7 @@
       .subject-icon {
         width: 112px;
         height: 112px;
+        object-fit: contain;
       }
 
       .subject-name {
@@ -297,13 +301,10 @@
         font-size: 1.1rem;
       }
 
-      .icon-subject-tab {
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        background: conic-gradient(from 20deg, var(--sky), var(--sun), var(--leaf), var(--sky));
-        border: 2px solid var(--ink);
+      .icon-tab {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
       }
 
       @media (max-width: 760px) {
@@ -342,6 +343,13 @@
         .mode-tab {
           padding-left: 10px;
           padding-right: 10px;
+          font-size: 1.1rem;
+          gap: 6px;
+        }
+
+        .mode-tab .icon-tab {
+          width: 22px;
+          height: 22px;
         }
 
         .subject-grid {
@@ -378,8 +386,8 @@
       </section>
 
       <div class="mode-tabs" role="tablist" aria-label="Library browsing modes">
-        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all">All Books</button>
-        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><span class="icon-subject-tab" aria-hidden="true"></span>Subjects</button>
+        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all"><svg class="icon-tab" viewBox="0 0 28 28" aria-hidden="true"><rect x="3" y="3" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="16" y="3" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="3" y="16" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="16" y="16" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/></svg>All Books</button>
+        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><svg class="icon-tab" viewBox="0 0 28 28" aria-hidden="true"><path d="M3 5a2 2 0 012-2h7.6a2 2 0 011.4.6l10.4 10.4a2 2 0 010 2.8l-7.6 7.6a2 2 0 01-2.8 0L3.6 14A2 2 0 013 12.6V5z" fill="none" stroke="#223126" stroke-width="2.5" stroke-linejoin="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="#223126"/></svg>Subjects</button>
         <button class="search-toggle" id="search-toggle" type="button" aria-label="Search books" aria-expanded="false" aria-controls="search-panel">
           <svg class="search-icon" viewBox="0 0 32 32" aria-hidden="true">
             <circle cx="14" cy="14" r="9" fill="#ffffff" stroke="#223126" stroke-width="4"/>
@@ -403,45 +411,7 @@
         <div class="subject-grid" aria-label="Subjects">
           {% for category in categories %}
           <button class="subject-button" type="button" data-subject="{{ category.slug }}" aria-pressed="false">
-            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="{{ category.label }} subject picture">
-              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
-              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
-              {% if category.icon_key == "animals" %}
-              <circle cx="60" cy="63" r="22" fill="#ffffff" stroke="#223126" stroke-width="4"/>
-              <circle cx="42" cy="48" r="10" fill="#ffffff" stroke="#223126" stroke-width="4"/>
-              <circle cx="78" cy="48" r="10" fill="#ffffff" stroke="#223126" stroke-width="4"/>
-              <circle cx="52" cy="62" r="3" fill="#223126"/><circle cx="68" cy="62" r="3" fill="#223126"/>
-              <path d="M57 72h6M60 72v5" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
-              {% elif category.icon_key == "dinosaurs" %}
-              <path d="M28 72c8-28 45-32 59-8l15-4-8 15 9 12-18-4c-16 14-45 11-57-11Z" fill="#6fbd61" stroke="#223126" stroke-width="4"/>
-              <circle cx="77" cy="56" r="3" fill="#223126"/>
-              <path d="M39 76l-6 14M70 82l4 13M31 65l-17-9" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
-              {% elif category.icon_key == "history" %}
-              <path d="M42 33v56" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
-              <path d="M44 35h40l-7 13 7 13H44Z" fill="#e9566b" stroke="#223126" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M44 48h33" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-              <path d="M34 91h48" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
-              {% elif category.icon_key == "science" %}
-              <path d="M52 34h16v30l17 27H35l17-27Z" fill="#8fd3ff" stroke="#223126" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M46 77h28" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
-              <circle cx="70" cy="56" r="5" fill="#ffffff"/>
-              {% elif category.icon_key == "space" %}
-              <circle cx="60" cy="64" r="23" fill="#315caa" stroke="#223126" stroke-width="4"/>
-              <path d="M27 73c25 12 56 9 76-12" stroke="#e9566b" stroke-width="5" stroke-linecap="round"/>
-              <circle cx="42" cy="41" r="3" fill="#223126"/><circle cx="88" cy="39" r="3" fill="#223126"/>
-              {% elif category.icon_key == "nature" %}
-              <path d="M60 91V53" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
-              <path d="M58 58c-25-4-31-25-24-34 20 2 31 12 24 34Z" fill="#6fbd61" stroke="#223126" stroke-width="4"/>
-              <path d="M63 64c24-5 33-22 27-32-18 1-32 10-27 32Z" fill="#8fd3ff" stroke="#223126" stroke-width="4"/>
-              {% elif category.icon_key == "people" %}
-              <circle cx="49" cy="54" r="13" fill="#f3b37a" stroke="#223126" stroke-width="4"/>
-              <circle cx="76" cy="57" r="12" fill="#9f6b45" stroke="#223126" stroke-width="4"/>
-              <path d="M31 91c5-19 32-19 38 0M59 91c5-17 30-17 35 0" fill="none" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
-              {% else %}
-              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
-              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">{{ category.label[0:1] }}</text>
-              {% endif %}
-            </svg>
+            <img class="subject-icon" src="/icons/{{ category.icon_key }}.svg" alt="" width="112" height="112">
             <span class="subject-name">{{ category.label }}</span>
             <span class="subject-count">{{ category.count }} book{% if category.count != 1 %}s{% endif %}</span>
           </button>

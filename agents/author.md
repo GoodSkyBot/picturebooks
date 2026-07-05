@@ -32,8 +32,9 @@ Read and follow before starting:
 
 Set `category` and `tags` in `book.json` so the root library page can help young children browse by subject.
 
-- `category` stores a single kid-facing subject label, such as `Animals`, `Dinosaurs`, `History`, `Science`, `Space`, `Nature`, or `People`.
+- `category` stores a single kid-facing subject label, such as `Animals`, `Body`, `Dinosaurs`, `Geography`, `History`, `Insects`, `Nature`, `Ocean`, `People`, `Science`, `Space`, `Vehicles`, or `Weather`.
 - Reuse an existing subject when it fits. Add a new subject only when the topic needs one.
+- When adding a new subject, download the corresponding OpenMoji color SVG to `icons/`. Use the Unicode emoji hex code as the filename (e.g., `icons/1F52C.svg` for the microscope emoji 🔬). Find the right emoji at https://openmoji.org/library/ and download from `https://openmoji.org/data/color/svg/{HEXCODE}.svg`. Choose an emoji that a child would immediately associate with the subject.
 - The homepage subject is not the same thing as the research categories in `content.json`. Use research categories for page planning; use the homepage subject for library browsing.
 - `tags` are hidden search terms for caregivers and early readers. Include topic names, common aliases, era names, animal groups, places, and other likely search words.
 - Keep tags short and useful. Do not add noisy or unrelated words.

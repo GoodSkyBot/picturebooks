@@ -95,6 +95,9 @@
         padding: 14px 18px;
         font-family: "Baloo 2", cursive;
         font-size: clamp(1.2rem, 4vw, 1.65rem);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
       }
 
       .search-toggle {
@@ -182,11 +185,58 @@
         line-height: 1.45;
       }
 
-      .subject-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 16px;
+      .subject-scroll-wrap {
+        position: relative;
         margin-bottom: 22px;
+      }
+
+      .subject-grid {
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding: 4px 0;
+      }
+
+      .subject-grid::-webkit-scrollbar {
+        display: none;
+      }
+
+      .scroll-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        border: 3.5px solid var(--ink);
+        background: var(--paper);
+        color: var(--ink);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(34, 49, 38, 0.18);
+        transition: opacity 0.2s;
+      }
+
+      .scroll-arrow:hover {
+        background: var(--sun);
+      }
+
+      .scroll-arrow[hidden] {
+        display: none;
+      }
+
+      .scroll-arrow--left {
+        left: -18px;
+      }
+
+      .scroll-arrow--right {
+        right: -18px;
       }
 
       .subject-button {
@@ -194,6 +244,8 @@
         justify-items: center;
         gap: 10px;
         min-height: 190px;
+        min-width: 180px;
+        flex-shrink: 0;
         padding: 18px 14px;
         background: #ffffff;
       }
@@ -206,6 +258,7 @@
       .subject-icon {
         width: 112px;
         height: 112px;
+        object-fit: contain;
       }
 
       .subject-name {
@@ -297,13 +350,10 @@
         font-size: 1.1rem;
       }
 
-      .icon-subject-tab {
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        background: conic-gradient(from 20deg, var(--sky), var(--sun), var(--leaf), var(--sky));
-        border: 2px solid var(--ink);
+      .icon-tab {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
       }
 
       @media (max-width: 760px) {
@@ -342,14 +392,18 @@
         .mode-tab {
           padding-left: 10px;
           padding-right: 10px;
+          font-size: 1.1rem;
+          gap: 6px;
         }
 
-        .subject-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
+        .mode-tab .icon-tab {
+          width: 22px;
+          height: 22px;
         }
 
         .subject-button {
           min-height: 170px;
+          min-width: 150px;
           padding: 14px 8px;
         }
 
@@ -378,8 +432,8 @@
       </section>
 
       <div class="mode-tabs" role="tablist" aria-label="Library browsing modes">
-        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all">All Books</button>
-        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><span class="icon-subject-tab" aria-hidden="true"></span>Subjects</button>
+        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all"><svg class="icon-tab" viewBox="0 0 28 28" aria-hidden="true"><rect x="3" y="3" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="16" y="3" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="3" y="16" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="16" y="16" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/></svg>All Books</button>
+        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><svg class="icon-tab" viewBox="0 0 28 28" aria-hidden="true"><path d="M3 5a2 2 0 012-2h7.6a2 2 0 011.4.6l10.4 10.4a2 2 0 010 2.8l-7.6 7.6a2 2 0 01-2.8 0L3.6 14A2 2 0 013 12.6V5z" fill="none" stroke="#223126" stroke-width="2.5" stroke-linejoin="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="#223126"/></svg>Subjects</button>
         <button class="search-toggle" id="search-toggle" type="button" aria-label="Search books" aria-expanded="false" aria-controls="search-panel">
           <svg class="search-icon" viewBox="0 0 32 32" aria-hidden="true">
             <circle cx="14" cy="14" r="9" fill="#ffffff" stroke="#223126" stroke-width="4"/>
@@ -393,60 +447,41 @@
           <span class="field-label">Find a book</span>
           <input class="field-control" id="search-input" type="search" placeholder="Try frogs or fossils" autocomplete="off">
         </label>
-        <button class="clear-button" id="clear-filters" type="button">Show all</button>
+        <button class="clear-button" id="clear-filters" type="button">Clear</button>
       </div>
 
       <section class="panel" id="all-books-panel" role="tabpanel" aria-labelledby="all-mode-tab">
       </section>
 
       <section class="panel" id="subjects-panel" role="tabpanel" aria-labelledby="subjects-mode-tab" hidden>
-        <div class="subject-grid" aria-label="Subjects">
-          
-          <button class="subject-button" type="button" data-subject="animals" aria-pressed="false">
-            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Animals subject picture">
-              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
-              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
-              
-              <circle cx="60" cy="63" r="22" fill="#ffffff" stroke="#223126" stroke-width="4"/>
-              <circle cx="42" cy="48" r="10" fill="#ffffff" stroke="#223126" stroke-width="4"/>
-              <circle cx="78" cy="48" r="10" fill="#ffffff" stroke="#223126" stroke-width="4"/>
-              <circle cx="52" cy="62" r="3" fill="#223126"/><circle cx="68" cy="62" r="3" fill="#223126"/>
-              <path d="M57 72h6M60 72v5" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
-              
-            </svg>
-            <span class="subject-name">Animals</span>
-            <span class="subject-count">1 book</span>
+        <div class="subject-scroll-wrap">
+          <button class="scroll-arrow scroll-arrow--left" id="scroll-left" type="button" aria-label="Scroll subjects left" hidden>
+            <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
-          
-          <button class="subject-button" type="button" data-subject="dinosaurs" aria-pressed="false">
-            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Dinosaurs subject picture">
-              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
-              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
-              
-              <path d="M28 72c8-28 45-32 59-8l15-4-8 15 9 12-18-4c-16 14-45 11-57-11Z" fill="#6fbd61" stroke="#223126" stroke-width="4"/>
-              <circle cx="77" cy="56" r="3" fill="#223126"/>
-              <path d="M39 76l-6 14M70 82l4 13M31 65l-17-9" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
-              
-            </svg>
-            <span class="subject-name">Dinosaurs</span>
-            <span class="subject-count">3 books</span>
+          <div class="subject-grid" id="subject-grid" aria-label="Subjects">
+            
+            <button class="subject-button" type="button" data-subject="animals" aria-pressed="false">
+              <img class="subject-icon" src="/icons/1F43E.svg" alt="" width="112" height="112">
+              <span class="subject-name">Animals</span>
+              <span class="subject-count">1 book</span>
+            </button>
+            
+            <button class="subject-button" type="button" data-subject="dinosaurs" aria-pressed="false">
+              <img class="subject-icon" src="/icons/1F996.svg" alt="" width="112" height="112">
+              <span class="subject-name">Dinosaurs</span>
+              <span class="subject-count">3 books</span>
+            </button>
+            
+            <button class="subject-button" type="button" data-subject="history" aria-pressed="false">
+              <img class="subject-icon" src="/icons/1F3DB.svg" alt="" width="112" height="112">
+              <span class="subject-name">History</span>
+              <span class="subject-count">1 book</span>
+            </button>
+            
+          </div>
+          <button class="scroll-arrow scroll-arrow--right" id="scroll-right" type="button" aria-label="Scroll subjects right" hidden>
+            <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
-          
-          <button class="subject-button" type="button" data-subject="history" aria-pressed="false">
-            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="History subject picture">
-              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
-              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
-              
-              <path d="M42 33v56" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
-              <path d="M44 35h40l-7 13 7 13H44Z" fill="#e9566b" stroke="#223126" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M44 48h33" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-              <path d="M34 91h48" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
-              
-            </svg>
-            <span class="subject-name">History</span>
-            <span class="subject-count">1 book</span>
-          </button>
-          
         </div>
       </section>
 
@@ -534,9 +569,31 @@
       const subjectButtons = Array.from(document.querySelectorAll("[data-subject]"));
       const bookItems = Array.from(document.querySelectorAll("[data-book]"));
       const emptyState = document.querySelector("#empty-state");
+      const subjectGrid = document.querySelector("#subject-grid");
+      const scrollLeft = document.querySelector("#scroll-left");
+      const scrollRight = document.querySelector("#scroll-right");
 
       let mode = "all";
       let selectedSubject = "all";
+
+      function updateScrollArrows() {
+        const tolerance = 2;
+        const canScrollLeft = subjectGrid.scrollLeft > tolerance;
+        const canScrollRight = subjectGrid.scrollLeft + subjectGrid.clientWidth < subjectGrid.scrollWidth - tolerance;
+        scrollLeft.hidden = !canScrollLeft;
+        scrollRight.hidden = !canScrollRight;
+      }
+
+      subjectGrid.addEventListener("scroll", updateScrollArrows);
+      window.addEventListener("resize", updateScrollArrows);
+
+      scrollLeft.addEventListener("click", () => {
+        subjectGrid.scrollBy({ left: -200, behavior: "smooth" });
+      });
+
+      scrollRight.addEventListener("click", () => {
+        subjectGrid.scrollBy({ left: 200, behavior: "smooth" });
+      });
 
       function updateMode(nextMode) {
         mode = nextMode;
@@ -549,6 +606,9 @@
         });
         allPanel.hidden = mode !== "all";
         subjectsPanel.hidden = mode !== "subjects";
+        if (mode === "subjects") {
+          setTimeout(updateScrollArrows, 0);
+        }
         applyFilters();
       }
 
@@ -568,7 +628,8 @@
         bookItems.forEach((item) => {
           const matchesSubject = subject === "all" || item.dataset.category === subject;
           const matchesSearch = !query || item.dataset.search.includes(query);
-          const isVisible = matchesSubject && matchesSearch;
+          const showInMode = mode !== "subjects" || subject !== "all";
+          const isVisible = showInMode && matchesSubject && matchesSearch;
           item.hidden = !isVisible;
           if (isVisible) {
             visibleCount += 1;
@@ -579,7 +640,7 @@
           button.setAttribute("aria-pressed", String(subject !== "all" && button.dataset.subject === subject));
         });
 
-        emptyState.hidden = visibleCount !== 0;
+        emptyState.hidden = mode === "subjects" && subject === "all" ? true : visibleCount !== 0;
       }
 
       modeTabs.forEach((tab) => {

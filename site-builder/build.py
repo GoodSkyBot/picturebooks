@@ -17,13 +17,19 @@ TEMPLATES_DIR = SITE_BUILDER_DIR / "templates"
 REPO_ROOT = SITE_BUILDER_DIR.parent
 
 CATEGORY_ICON_KEYS = {
-    "animals": "animals",
-    "dinosaurs": "dinosaurs",
-    "history": "history",
-    "nature": "nature",
-    "people": "people",
-    "science": "science",
-    "space": "space",
+    "animals": "1F43E",
+    "body": "1F9CD",
+    "dinosaurs": "1F996",
+    "geography": "1FAA8",
+    "history": "1F3DB",
+    "insects": "1F98B",
+    "nature": "1F33F",
+    "ocean": "1F30A",
+    "people": "1F46A",
+    "science": "1F52C",
+    "space": "1F680",
+    "vehicles": "1F697",
+    "weather": "1F327",
 }
 
 
@@ -44,7 +50,7 @@ def slugify_label(label: str) -> str:
 
 
 def icon_key_for_category(category_slug: str) -> str:
-    return CATEGORY_ICON_KEYS.get(category_slug, "folder")
+    return CATEGORY_ICON_KEYS.get(category_slug, "1F4DA")
 
 
 def load_template_manifest(template_name: str) -> dict:
