@@ -33,9 +33,21 @@ python scripts/generate_speech.py --slug {slug} --instructions {instructions}
 
 Use `--instructions` to set the narration tone based on the book's `vibe` and `targetAge` (e.g., `--instructions "Speak in a warm, playful storytelling voice for a 5-year-old."`). The script reads `book.json` and saves MP3 files to `books/{slug}/audio/` using the pattern `audio/page-{NN}-text.mp3` and `audio/page-{NN}-extra-{N}.mp3`.
 
+## Optimize Images
+
+The research agent should already optimize checked-in image files to reasonable web/review size. If a book predates that rule or contains oversized image files, optimize the local files before building:
+
+```
+python scripts/optimize_images.py --slug {slug} --source book
+```
+
+The default mode overwrites local image files in `books/{slug}/images/` with optimized versions. This is intentional: `content.json` preserves the source URL, attribution, and license metadata, while git stores the project's web-sized image copy.
+
+For special cases where local originals must be preserved, use `--derivatives --format webp` instead. That writes browser-facing assets to `books/{slug}/images/optimized/` and a manifest that the site builder will use automatically. Do not use derivative mode by default because it adds another copy of every image to the repository.
+
 ## Build the Site
 
-After generating audio, build the static site using the site-builder:
+After generating audio and confirming images are reasonably sized, build the static site using the site-builder:
 
 ```
 python site-builder/build.py --slug {slug} --template {template}

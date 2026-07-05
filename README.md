@@ -10,7 +10,7 @@ Each book is published as a self-contained static site under `books/{slug}/`.
 2. Review `books/{slug}/content.json` and downloaded images.
 3. Run the author agent to write the book and generate a theme.
 4. Review or edit `books/{slug}/book.json`.
-5. Run the build agent to generate the final static site.
+5. Run the build agent to generate audio and the final static site.
 
 ## Repository Layout
 
@@ -32,6 +32,7 @@ Each book is published as a self-contained static site under `books/{slug}/`.
 │   └── book.schema.json
 ├── scripts/               # Automation utilities
 │   ├── generate_image.py
+│   ├── optimize_images.py
 │   └── generate_speech.py
 └── books/                 # Generated books
     └── {slug}/
@@ -92,6 +93,8 @@ It must:
 - produce a visually distinct book instead of a generic reskin
 
 Generates narration audio via `scripts/generate_speech.py`.
+
+Image files checked into `books/{slug}/images/` should be web/review-sized project copies, not source-resolution originals. `content.json` preserves source URLs, attribution, and license metadata so originals can be retrieved again if needed. Use `scripts/optimize_images.py` during research, or during build for older books that still contain oversized files.
 
 ## Invocation
 

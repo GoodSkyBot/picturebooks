@@ -188,7 +188,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria.jpg",
       "author": "Richard Bartz",
       "license": "CC BY-SA 2.5",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 1920,
+      "height": 1200
     },
     {
       "filename": "images/red-eyed-tree-frog.jpg",
@@ -196,7 +198,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Red_eyed_tree_frog_edit2.jpg",
       "author": "Carey James Balboa",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 2200,
+      "height": 1650
     },
     {
       "filename": "images/strawberry-poison-dart-frog.jpg",
@@ -204,7 +208,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Dendrobates_pumilio.jpg",
       "author": "Pstevendactylus",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1000,
+      "height": 709
     },
     {
       "filename": "images/goliath-frog.jpg",
@@ -212,7 +218,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Goliath_Frog.jpg",
       "author": "Ryan Somma",
       "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1536,
+      "height": 1024
     },
     {
       "filename": "images/webbed-foot.jpg",
@@ -220,7 +228,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Rana_temporaria_04_by-dpc.jpg",
       "author": "David Perez",
       "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0"
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "width": 1926,
+      "height": 1589
     },
     {
       "filename": "images/green-tree-frog.jpg",
@@ -228,7 +238,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Litoria_caerulea.jpg",
       "author": "LiquidGhoul",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1750,
+      "height": 1153
     },
     {
       "filename": "images/wood-frog.jpg",
@@ -236,7 +248,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Lithobates_sylvaticus_-_Wood_Frog_02.jpg",
       "author": "Jasper Shide",
       "license": "CC0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2200,
+      "height": 1467
     },
     {
       "filename": "images/european-tree-frog.jpg",
@@ -244,7 +258,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Laubfrosch.jpg",
       "author": "Christoph Leeb",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1229,
+      "height": 1843
     },
     {
       "filename": "images/frogspawn-closeup.jpg",
@@ -252,7 +268,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Frogspawn_closeup.jpg",
       "author": "Tarquin",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 666,
+      "height": 510
     },
     {
       "filename": "images/tadpoles-eating.jpg",
@@ -260,7 +278,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Rana_temporaria_tadpoles_eating_6.jpg",
       "author": "Mariomassone",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2200,
+      "height": 1650
     },
     {
       "filename": "images/tadpole-late-stage.jpg",
@@ -268,7 +288,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Rana_Temporaria_-_Larva_Final_Stage.jpg",
       "author": "Viridiflavus",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1443,
+      "height": 1168
     },
     {
       "filename": "images/frog-jumping.jpg",
@@ -276,7 +298,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Colostethus_flotator_jumping.jpg",
       "author": "Brian Gratwicke",
       "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0"
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1384
     },
     {
       "filename": "images/flying-frog.jpg",
@@ -284,7 +308,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus.jpg",
       "author": "Rushenb",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1468
     },
     {
       "filename": "images/agile-frog.jpg",
@@ -292,7 +318,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Rana_dalmatina.jpg",
       "author": "Franco Andreone",
       "license": "CC BY-SA 2.5",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "width": 481,
+      "height": 335
     },
     {
       "filename": "images/tree-frog-calling.jpg",
@@ -300,7 +328,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Litoria_chloris_calling.jpg",
       "author": "Froggydarb",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2200,
+      "height": 1864
     },
     {
       "filename": "images/northern-leopard-frog.jpg",
@@ -308,7 +338,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Ranapipiensmoulting.jpg",
       "author": "Mokele",
       "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0"
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "width": 2200,
+      "height": 1650
     },
     {
       "filename": "images/common-toad-migration.jpg",
@@ -316,7 +348,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_couple_during_migration(2005).jpg",
       "author": "Janekpfeifer",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2048,
+      "height": 1536
     },
     {
       "filename": "images/a-vibrant-cheerful-bright-green-frog-leaping-joyfully-throug.png",
@@ -324,7 +358,9 @@
       "source_url": "https://openai.com/policies/terms-of-use",
       "author": "OpenAI gpt-image-2",
       "license": "Generated (non-redistributable without rights)",
-      "license_url": "https://openai.com/policies/terms-of-use"
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024
     },
     {
       "filename": "images/a-bright-green-tree-frog-mid-leap-above-a-pond-water-droplet.png",
@@ -332,7 +368,9 @@
       "source_url": "https://openai.com/policies/terms-of-use",
       "author": "OpenAI gpt-image-2",
       "license": "Generated (non-redistributable without rights)",
-      "license_url": "https://openai.com/policies/terms-of-use"
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

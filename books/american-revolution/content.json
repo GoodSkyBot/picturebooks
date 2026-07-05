@@ -164,7 +164,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:United_States_Declaration_of_Independence.jpg",
       "author": "United States Congress",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1854,
+      "height": 2200
     },
     {
       "filename": "images/trumbull-declaration-painting.jpg",
@@ -172,7 +174,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
       "author": "John Trumbull",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 2200,
+      "height": 1445
     },
     {
       "filename": "images/boston-tea-party.jpg",
@@ -180,7 +184,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Tea_Party_Currier_colored.jpg",
       "author": "Nathaniel Currier",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1789,
+      "height": 1091
     },
     {
       "filename": "images/thirteen-colonies-map.svg",
@@ -196,7 +202,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
       "author": "Gilbert Stuart",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1812,
+      "height": 2200
     },
     {
       "filename": "images/thomas-jefferson-portrait.jpg",
@@ -204,7 +212,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg",
       "author": "Rembrandt Peale",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1845,
+      "height": 2200
     },
     {
       "filename": "images/benjamin-franklin-portrait.jpg",
@@ -212,7 +222,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
       "author": "Joseph Duplessis",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1804,
+      "height": 2200
     },
     {
       "filename": "images/boston-massacre.jpg",
@@ -220,7 +232,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Massacre_high-res.jpg",
       "author": "Paul Revere (after Henry Pelham)",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 2200,
+      "height": 1650
     },
     {
       "filename": "images/july-fourth-fireworks-washington.jpg",
@@ -228,7 +242,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Fourth_of_July_fireworks_behind_the_Washington_Monument,_1986.jpg",
       "author": "SSGT Lono Kollars, United States Air Force",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1446,
+      "height": 2200
     },
     {
       "filename": "images/independence-hall.jpg",
@@ -236,7 +252,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Independence_Hall.jpg",
       "author": "Rdsmith4 (Wikimedia Commons)",
       "license": "CC BY-SA 2.5",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "width": 2200,
+      "height": 1655
     },
     {
       "filename": "images/liberty-bell.jpg",
@@ -244,7 +262,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Liberty_Bell_2017.jpg",
       "author": "William Zhang",
       "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "width": 2200,
+      "height": 1467
     },
     {
       "filename": "images/yorktown-soldiers-deverger.png",
@@ -252,7 +272,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Soldats_de_Yorktown.PNG",
       "author": "Jean-Baptiste-Antoine DeVerger",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 636,
+      "height": 921
     },
     {
       "filename": "images/washington-crossing-delaware.jpg",
@@ -260,7 +282,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Washington_Crossing_the_Delaware_by_Emanuel_Leutze,_MMA-NYC,_1851.jpg",
       "author": "Emanuel Leutze",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 2200,
+      "height": 1410
     },
     {
       "filename": "images/battle-of-lexington.png",
@@ -268,7 +292,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington,_1775.png",
       "author": "Amos Doolittle (after Ralph Earl)",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 1035,
+      "height": 743
     },
     {
       "filename": "images/phillis-wheatley.jpg",
@@ -276,7 +302,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Phillis_Wheatley_frontispiece.jpg",
       "author": "Scipio Moorhead",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 806,
+      "height": 1024
     },
     {
       "filename": "images/joseph-brant-romney.jpg",
@@ -284,7 +312,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Joseph_Brant_painting_by_George_Romney_1776.jpg",
       "author": "George Romney",
       "license": "Public domain",
-      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 968,
+      "height": 1200
     },
     {
       "filename": "images/indigenous-village.png",
@@ -292,7 +322,9 @@
       "source_url": "https://openai.com/policies/terms-of-use",
       "author": "OpenAI gpt-image-2",
       "license": "Generated (non-redistributable without rights)",
-      "license_url": "https://openai.com/policies/terms-of-use"
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

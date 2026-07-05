@@ -33,6 +33,46 @@ def load_template_manifest(template_name: str) -> dict:
     return load_json(manifest_path)
 
 
+def load_image_optimization_manifest(book_dir: Path) -> dict:
+    manifest_path = book_dir / "images" / "optimized" / "manifest.json"
+    if not manifest_path.exists():
+        return {}
+    manifest = load_json(manifest_path)
+    return manifest.get("images", {})
+
+
+def optimized_image_src(src: str, image_manifest: dict) -> str:
+    info = image_manifest.get(src)
+    if not info:
+        return src
+    optimized_src = info.get("src")
+    if not optimized_src:
+        return src
+    return optimized_src
+
+
+def apply_optimized_cover_image(cover: dict, image_manifest: dict) -> dict:
+    image = cover.get("image")
+    if not image:
+        return cover
+    return {
+        **cover,
+        "image": optimized_image_src(image, image_manifest),
+        "originalImage": image,
+    }
+
+
+def apply_optimized_page_image(image: dict, image_manifest: dict) -> dict:
+    src = image.get("src")
+    if not src:
+        return image
+    return {
+        **image,
+        "src": optimized_image_src(src, image_manifest),
+        "originalSrc": src,
+    }
+
+
 def classify_page(page: dict) -> int:
     """Return the image count bucket for a page."""
     return len(page.get("images", []))
@@ -122,13 +162,14 @@ def build_index() -> None:
 
     for book_json_path in sorted(books_dir.glob("*/book.json")):
         book = load_json(book_json_path)
+        image_manifest = load_image_optimization_manifest(book_json_path.parent)
         cover = book.get("cover", {})
         theme = book.get("theme", {})
         books.append({
             "slug": book.get("slug", book_json_path.parent.name),
             "title": cover.get("title", book.get("title", "")),
             "subtitle": cover.get("subtitle", ""),
-            "cover_image": cover.get("image", ""),
+            "cover_image": optimized_image_src(cover.get("image", ""), image_manifest),
             "cover_alt": cover.get("alt", cover.get("title", "")),
             "primary_color": theme.get("primaryColor", "#333"),
         })
@@ -165,6 +206,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
 
     manifest = load_template_manifest(template_name)
     template_dir = TEMPLATES_DIR / template_name
+    image_manifest = load_image_optimization_manifest(book_dir)
 
     rng = random.Random(seed)
 
@@ -205,9 +247,10 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
         # Add captions to images
         images_with_captions = []
         for img in images_to_render:
+            original_src = img["src"]
             images_with_captions.append({
-                **img,
-                "caption": get_image_caption(img["src"], attribution_map),
+                **apply_optimized_page_image(img, image_manifest),
+                "caption": get_image_caption(original_src, attribution_map),
             })
 
         pages_data.append({
@@ -235,7 +278,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
     # Render cover
     cover_template = env.get_template("cover.html.j2")
     rendered_cover = cover_template.render(
-        cover=book.get("cover", {}),
+        cover=apply_optimized_cover_image(book.get("cover", {}), image_manifest),
         theme=book.get("theme", {}),
     )
 

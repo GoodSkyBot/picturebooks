@@ -181,7 +181,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_Restoration.png",
       "author": "Fred Wierum",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 2200,
+      "height": 1349
     },
     {
       "filename": "images/velociraptor-feathered.png",
@@ -189,7 +191,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Fred_Wierum_Velociraptor.png",
       "author": "Fred Wierum",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 1002,
+      "height": 641
     },
     {
       "filename": "images/velociraptor-size-comparison.png",
@@ -197,7 +201,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_size.png",
       "author": "PaleoNeolitic",
       "license": "CC0 1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2200,
+      "height": 1374
     },
     {
       "filename": "images/velociraptor-skeleton.jpg",
@@ -205,7 +211,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_skeleton_white_background.jpg",
       "author": "Eduard Sola Vazquez",
       "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "width": 2200,
+      "height": 1646
     },
     {
       "filename": "images/velociraptor-vs-protoceratops.jpg",
@@ -213,7 +221,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_attacking_Protoceratops.jpg",
       "author": "Durbed",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1280,
+      "height": 895
     },
     {
       "filename": "images/velociraptor-restraining-prey.jpg",
@@ -221,7 +231,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_restraining_an_oviraptorosaur_by_durbed.jpg",
       "author": "Durbed",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2200,
+      "height": 1754
     },
     {
       "filename": "images/velociraptor-skeletal-reconstruction.jpg",
@@ -229,7 +241,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor.jpg",
       "author": "Scott Hartman",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1200,
+      "height": 364
     },
     {
       "filename": "images/velociraptor-mongoliensis-jmallon.jpg",
@@ -237,7 +251,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_mongoliensis_jmallon.jpg",
       "author": "Matt Martyniuk",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 981,
+      "height": 416
     },
     {
       "filename": "images/sickle-claw-comparison.jpg",
@@ -245,7 +261,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Sickle_Claws.jpg",
       "author": "BenWBrooks",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 1663,
+      "height": 2200
     },
     {
       "filename": "images/gobi-desert-flaming-cliffs.jpg",
@@ -253,7 +271,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Bayanzag_(Flaming_Cliffs).jpg",
       "author": "Khuushbat Tserendavaa",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 2200,
+      "height": 1467
     },
     {
       "filename": "images/dromaeosaurid-parade.jpg",
@@ -261,7 +281,9 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Dromaeosaurid_parade_by_durbed.jpg",
       "author": "Durbed",
       "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2200,
+      "height": 856
     },
     {
       "filename": "images/velociraptor-cover.png",
@@ -269,7 +291,9 @@
       "source_url": "https://openai.com/policies/terms-of-use",
       "author": "OpenAI gpt-image-2",
       "license": "Generated (non-redistributable without rights)",
-      "license_url": "https://openai.com/policies/terms-of-use"
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -67,6 +67,7 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 - Aim for at least 3 images per category.
 - Remove any images that are inappropriate for the target age range.
 - Download images from Wikimedia Commons using direct file URLs (use `curl` or `wget`).
+- Prefer a Wikimedia thumbnail or derivative URL with a long edge around 1600-2400px instead of downloading source-resolution originals. The original source URL and license metadata in `content.json` are the archival reference; checked-in local files should be reasonable project copies, not giant originals.
 - Save images to `books/{slug}/images/` with descriptive kebab-case filenames.
 
 ## Image Download Procedure
@@ -77,6 +78,16 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 4. Wait at least 1 second between downloads to respect Wikimedia rate limits.
 5. Verify the file is non-empty and is a valid image (not HTML).
 6. Record pixel dimensions (`width` and `height`) in the image entry.
+
+## Optimize Local Images
+
+Before final validation, optimize the downloaded local image files in place:
+
+```
+python scripts/optimize_images.py --slug {slug} --source content
+```
+
+This keeps the git repository small while preserving source URLs, attribution, and license metadata in `content.json`. Do not keep source-resolution originals in the repository unless there is a specific reason, such as a map or document that genuinely needs extra detail.
 
 ### Getting Image Dimensions
 
@@ -99,6 +110,7 @@ Before finishing, verify:
 - Every fact has a valid source index.
 - Every image file referenced in JSON exists on disk.
 - No image has incomplete attribution.
+- Local image files have been optimized to reasonable web/review size.
 
 ## Boundaries
 
