@@ -498,6 +498,12 @@ a {
   font-size: 1em;
 }
 
+.extra[data-audio] {
+  position: relative;
+  z-index: 30;
+  pointer-events: auto;
+}
+
 /* ===== Read-to-Me Button ===== */
 .btn-read {
   position: absolute;
@@ -513,7 +519,8 @@ a {
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
   transition: transform 0.15s ease;
-  z-index: 5;
+  z-index: 30;
+  pointer-events: auto;
 }
 
 .btn-read:active {
@@ -692,12 +699,14 @@ a {
 
   .page--layout-a .page-figure,
   .page--layout-b .page-figure {
+    order: 1;
     flex: 1 1 55%;
     width: 100%;
   }
 
   .page--layout-a .page-body,
   .page--layout-b .page-body {
+    order: 2;
     flex: 0 1 45%;
     width: 100%;
     padding: 16px 20px;

@@ -71,15 +71,21 @@
     });
   }
 
+  function isInteractiveTarget(target) {
+    return !!(target && target.closest("button, a, [data-audio], input, select, textarea, [role='button']"));
+  }
+
   // Tap zones
   if (tapPrev) {
-    tapPrev.addEventListener("click", function () {
+    tapPrev.addEventListener("click", function (e) {
+      if (isInteractiveTarget(e.target)) return;
       goPrev();
       ripple(tapPrev);
     });
   }
   if (tapNext) {
-    tapNext.addEventListener("click", function () {
+    tapNext.addEventListener("click", function (e) {
+      if (isInteractiveTarget(e.target)) return;
       goNext();
       ripple(tapNext);
     });

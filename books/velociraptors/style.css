@@ -384,6 +384,142 @@ a {
   overflow: hidden;
 }
 
+/* ===== Dual Image Layout: Portrait (side by side on left, text right) ===== */
+.page--layout-2portrait .page-images-pair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 3vh, 32px);
+  overflow: hidden;
+}
+
+.page--layout-2portrait .page-figure {
+  position: static;
+  width: auto;
+  height: 100%;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.page--layout-2portrait .page-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 3vh, 40px) clamp(24px, 3vw, 48px);
+  text-align: center;
+}
+
+/* ===== Dual Image Layout: Mixed/Flexible (stacked left, contain fit) ===== */
+.page--layout-2mixed .page-images-pair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 3vh, 32px);
+  overflow: hidden;
+}
+
+.page--layout-2mixed .page-figure {
+  position: static;
+  width: 100%;
+  height: auto;
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.page--layout-2mixed .page-figure img {
+  object-fit: contain;
+}
+
+.page--layout-2mixed .page-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 3vh, 40px) clamp(24px, 3vw, 48px);
+  text-align: center;
+}
+
+/* ===== Mixed Orientation: Portrait Left + Landscape/Text Right ===== */
+.page--layout-pl .page-figure--portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: clamp(16px, 3vh, 32px);
+}
+
+.page--layout-pl .page-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--layout-pl .page-figure--landscape {
+  flex: 1 1 50%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: clamp(12px, 2vh, 24px) clamp(12px, 2vw, 24px) 4px;
+}
+
+.page--layout-pl .page-body {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px clamp(16px, 2vw, 32px) clamp(12px, 2vh, 24px);
+  text-align: center;
+}
+
 /* ===== Shared image styles ===== */
 .page-figure img {
   max-height: 85%;
@@ -439,6 +575,12 @@ a {
   font-size: 1.1em;
 }
 
+.extra[data-audio] {
+  position: relative;
+  z-index: 30;
+  pointer-events: auto;
+}
+
 /* ===== Read-to-Me Button ===== */
 .btn-read {
   position: absolute;
@@ -454,7 +596,8 @@ a {
   border-radius: 50%;
   box-shadow: 0 3px 10px rgba(0,0,0,0.2);
   transition: transform 0.15s ease, background 0.15s ease;
-  z-index: 5;
+  z-index: 30;
+  pointer-events: auto;
 }
 
 .btn-read:active {
@@ -570,7 +713,9 @@ a {
 }
 
 .swipe-hint-hand {
-  font-size: 2rem;
+  width: 28px;
+  height: 28px;
+  color: var(--primary-color);
   animation: hint-sway 1.2s ease-in-out infinite;
 }
 
@@ -602,7 +747,7 @@ a {
 }
 
 .credits-content {
-  max-width: 600px;
+  max-width: min(980px, 100%);
   width: 100%;
   margin: 0 auto;
 }
@@ -624,10 +769,16 @@ a {
   padding: 0;
 }
 
+.credits-images {
+  columns: 2 320px;
+  column-gap: 28px;
+}
+
 .credits-sources li, .credits-images li {
   font-size: 0.9rem;
   line-height: 1.5;
   padding: 3px 0;
+  break-inside: avoid;
 }
 
 .credits-footer {
@@ -685,7 +836,8 @@ a {
     position: static;
     width: 100%;
     height: auto;
-    flex: 0 1 45%;
+    order: 2;
+    flex: 0 1 38%;
     padding: 8px 16px 16px;
     justify-content: flex-start;
   }
@@ -694,7 +846,8 @@ a {
     position: static;
     width: 100%;
     height: auto;
-    flex: 1 1 55%;
+    order: 1;
+    flex: 1 1 62%;
     min-height: 0;
     padding: 12px 12px 4px;
   }
@@ -734,12 +887,30 @@ a {
     position: static;
     width: 100%;
     height: auto;
-    flex: 0 1 45%;
+    order: 2;
+    flex: 0 1 38%;
     padding: 8px 16px 16px;
     justify-content: flex-start;
   }
 
   .page--layout-2b .page-images-pair {
+    position: static;
+    width: 100%;
+    height: auto;
+    order: 1;
+    flex: 1 1 62%;
+    min-height: 0;
+    flex-direction: row;
+    padding: 12px 12px 4px;
+  }
+
+  .page--layout-2b .page-figure {
+    flex: 1 1 0;
+    padding: 0;
+  }
+
+  /* Layout 2portrait: images side by side on top, text bottom */
+  .page--layout-2portrait .page-images-pair {
     position: static;
     width: 100%;
     height: auto;
@@ -749,9 +920,71 @@ a {
     padding: 12px 12px 4px;
   }
 
-  .page--layout-2b .page-figure {
+  .page--layout-2portrait .page-figure {
     flex: 1 1 0;
     padding: 0;
+  }
+
+  .page--layout-2portrait .page-body {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 0 1 45%;
+    padding: 8px 16px 16px;
+    justify-content: flex-start;
+  }
+
+  /* Layout 2mixed: images side by side on top, text bottom */
+  .page--layout-2mixed .page-images-pair {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 55%;
+    min-height: 0;
+    flex-direction: row;
+    padding: 12px 12px 4px;
+  }
+
+  .page--layout-2mixed .page-figure {
+    flex: 1 1 0;
+    padding: 0;
+  }
+
+  .page--layout-2mixed .page-body {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 0 1 45%;
+    padding: 8px 16px 16px;
+    justify-content: flex-start;
+  }
+
+  /* Layout PL: portrait on top, landscape + text below */
+  .page--layout-pl .page-figure--portrait {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 40%;
+    min-height: 0;
+    padding: 12px 12px 4px;
+  }
+
+  .page--layout-pl .page-right {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 1 1 60%;
+  }
+
+  .page--layout-pl .page-figure--landscape {
+    flex: 1 1 50%;
+    padding: 4px 12px;
+  }
+
+  .page--layout-pl .page-body {
+    flex: 1 1 50%;
+    padding: 4px 16px 12px;
+    justify-content: flex-start;
   }
 }
 
@@ -772,10 +1005,30 @@ a {
 
   .swipe-hint {
     display: flex;
+    top: calc(58px + env(safe-area-inset-top));
+    bottom: auto;
   }
 
   .page-figure img {
     border-radius: 8px;
+  }
+
+  .page--layout-a .page-figure,
+  .page--layout-b .page-figure {
+    flex-basis: 58%;
+    justify-content: flex-end;
+  }
+
+  .page--layout-a .page-body,
+  .page--layout-b .page-body,
+  .page--layout-2a .page-body,
+  .page--layout-2b .page-body {
+    flex-basis: 42%;
+    justify-content: center;
+  }
+
+  .page-text {
+    line-height: 1.45;
   }
 
   .cover-actions {
@@ -792,6 +1045,10 @@ a {
 
   .page--credits {
     padding: 16px;
+  }
+
+  .credits-images {
+    columns: 1;
   }
 
   .page--layout-a .page-body,

@@ -461,6 +461,12 @@ a {
   font-size: 1em;
 }
 
+.extra[data-audio] {
+  position: relative;
+  z-index: 30;
+  pointer-events: auto;
+}
+
 /* ===== Read-to-Me Button ===== */
 .btn-read {
   position: absolute;
@@ -476,7 +482,8 @@ a {
   border-radius: 50%;
   box-shadow: 0 0 12px color-mix(in srgb, var(--primary-color) 30%, transparent);
   transition: transform 0.15s ease;
-  z-index: 5;
+  z-index: 30;
+  pointer-events: auto;
 }
 
 .btn-read:active {

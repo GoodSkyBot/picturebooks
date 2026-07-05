@@ -168,7 +168,8 @@ a { color: var(--primary-color); }
 .page--layout-pl .page-right { flex: 1 1 62%; display: flex; flex-direction: column; gap: clamp(8px, 1.4vw, 14px); }
 .page--layout-pl .page-figure--landscape, .page--layout-pl .page-body { flex: 1 1 0; }
 
-.btn-read { position: absolute; right: 20px; bottom: 20px; z-index: 6; width: 58px; height: 58px; display: flex; align-items: center; justify-content: center; border-radius: 19px; background: var(--accent-color); color: #172224; box-shadow: 0 5px 0 color-mix(in srgb, var(--accent-color) 55%, #555); }
+.extra[data-audio] { position: relative; z-index: 30; pointer-events: auto; }
+.btn-read { position: absolute; right: 20px; bottom: 20px; z-index: 30; pointer-events: auto; width: 58px; height: 58px; display: flex; align-items: center; justify-content: center; border-radius: 19px; background: var(--accent-color); color: #172224; box-shadow: 0 5px 0 color-mix(in srgb, var(--accent-color) 55%, #555); }
 .btn-read:active { transform: translateY(4px) scale(.96); box-shadow: 0 1px 0 color-mix(in srgb, var(--accent-color) 55%, #555); }
 .btn-read.playing { animation: playPulse 1s ease-in-out infinite; }
 @keyframes playPulse { 50% { transform: scale(1.06); } }
