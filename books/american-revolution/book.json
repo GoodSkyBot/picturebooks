@@ -2,6 +2,15 @@
   "title": "America's Birthday",
   "slug": "american-revolution",
   "targetAge": 5,
+  "category": "History",
+  "tags": [
+    "america",
+    "american revolution",
+    "fourth of july",
+    "independence",
+    "colonies",
+    "history"
+  ],
   "theme": {
     "primaryColor": "#1B3A5C",
     "secondaryColor": "#8B2332",

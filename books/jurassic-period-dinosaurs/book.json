@@ -2,6 +2,15 @@
   "title": "When Earth Became Jurassic",
   "slug": "jurassic-period-dinosaurs",
   "targetAge": 6,
+  "category": "Dinosaurs",
+  "tags": [
+    "jurassic",
+    "dinosaurs",
+    "fossils",
+    "prehistoric",
+    "ferns",
+    "mesozoic"
+  ],
   "theme": {
     "primaryColor": "#315C48",
     "secondaryColor": "#8A5A2B",

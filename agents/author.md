@@ -24,8 +24,19 @@ Read and follow before starting:
 - Write age-appropriate page text.
 - Add optional `extras` arrays for small fact bubbles.
 - Assign one or more images to each page.
+- Choose one kid-facing homepage subject and hidden search tags.
 - Create a distinct theme that fits the topic.
 - Define cover and back matter.
+
+## Homepage Metadata
+
+Set `category` and `tags` in `book.json` so the root library page can help young children browse by subject.
+
+- `category` stores a single kid-facing subject label, such as `Animals`, `Dinosaurs`, `History`, `Science`, `Space`, `Nature`, or `People`.
+- Reuse an existing subject when it fits. Add a new subject only when the topic needs one.
+- The homepage subject is not the same thing as the research categories in `content.json`. Use research categories for page planning; use the homepage subject for library browsing.
+- `tags` are hidden search terms for caregivers and early readers. Include topic names, common aliases, era names, animal groups, places, and other likely search words.
+- Keep tags short and useful. Do not add noisy or unrelated words.
 
 ## Page Planning
 
@@ -102,6 +113,8 @@ The script saves the image and automatically adds it to the `images` array in `c
 
 Before finishing, verify:
 - The output matches `schemas/book.schema.json` structurally.
+- `category` is set to one kid-facing homepage subject label.
+- `tags` includes useful hidden search terms.
 - Every image `src` references a file that exists in `content.json` images.
 - All theme fields are populated.
 

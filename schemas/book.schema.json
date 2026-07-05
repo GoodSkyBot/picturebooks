@@ -7,6 +7,8 @@
     "title",
     "slug",
     "targetAge",
+    "category",
+    "tags",
     "theme",
     "cover",
     "pages",
@@ -26,6 +28,20 @@
       "type": "integer",
       "minimum": 3,
       "maximum": 8
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Kid-facing homepage subject label. Reuse existing subjects when they fit."
+    },
+    "tags": {
+      "type": "array",
+      "description": "Hidden search terms for the homepage library search.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
     },
     "theme": {
       "type": "object",

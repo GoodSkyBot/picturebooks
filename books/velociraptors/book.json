@@ -2,6 +2,15 @@
   "title": "Velociraptor: The Swift Thief",
   "slug": "velociraptors",
   "targetAge": 5,
+  "category": "Dinosaurs",
+  "tags": [
+    "velociraptor",
+    "raptor",
+    "dinosaur",
+    "fossils",
+    "feathers",
+    "cretaceous"
+  ],
   "theme": {
     "primaryColor": "#C75B12",
     "secondaryColor": "#5D4037",

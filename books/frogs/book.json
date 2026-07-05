@@ -2,6 +2,15 @@
   "title": "Fabulous Frogs",
   "slug": "frogs",
   "targetAge": 5,
+  "category": "Animals",
+  "tags": [
+    "frogs",
+    "amphibians",
+    "ponds",
+    "tadpoles",
+    "wildlife",
+    "nature"
+  ],
   "theme": {
     "primaryColor": "#2E7D32",
     "secondaryColor": "#FDD835",

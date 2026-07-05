@@ -10,34 +10,213 @@
     <style>
       :root {
         color-scheme: light;
+        --ink: #223126;
+        --muted: #5a684f;
+        --paper: #fffdf4;
+        --sun: #ffd766;
+        --sky: #8fd3ff;
+        --leaf: #6fbd61;
+        --berry: #e9566b;
+        --line: #d7cfae;
         font-family: Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
       }
 
       body {
         margin: 0;
         min-height: 100vh;
-        background: #f6f1df;
-        color: #233124;
+        background:
+          linear-gradient(180deg, rgba(143, 211, 255, 0.28), rgba(255, 253, 244, 0) 260px),
+          #f6f1df;
+        color: var(--ink);
       }
 
       main {
-        max-width: 960px;
+        width: min(1120px, 100%);
         margin: 0 auto;
-        padding: 48px 24px 72px;
+        padding: 36px max(20px, env(safe-area-inset-left)) 72px;
+      }
+
+      .hero {
+        display: grid;
+        gap: 14px;
+        margin-bottom: 24px;
       }
 
       h1 {
-        margin: 0 0 12px;
+        margin: 0;
         font-family: "Baloo 2", cursive;
-        font-size: clamp(2.2rem, 5vw, 3.5rem);
+        font-size: clamp(2.4rem, 8vw, 4.7rem);
+        line-height: 0.95;
         font-weight: 700;
+        letter-spacing: 0;
       }
 
       .intro {
-        max-width: 44rem;
-        line-height: 1.6;
-        font-size: 1.1rem;
-        margin: 0 0 36px;
+        max-width: 42rem;
+        line-height: 1.45;
+        font-size: clamp(1.08rem, 2vw, 1.24rem);
+        margin: 0;
+      }
+
+      .mode-tabs {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) 76px;
+        gap: 12px;
+        margin: 28px 0 18px;
+      }
+
+      button,
+      input {
+        font: inherit;
+      }
+
+      .mode-tab,
+      .search-toggle,
+      .clear-button,
+      .subject-button {
+        min-height: 64px;
+        border: 3px solid var(--ink);
+        border-radius: 18px;
+        background: var(--paper);
+        color: var(--ink);
+        cursor: pointer;
+        box-shadow: 0 5px 0 rgba(34, 49, 38, 0.18);
+      }
+
+      .mode-tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 14px 18px;
+        font-family: "Baloo 2", cursive;
+        font-size: clamp(1.2rem, 4vw, 1.65rem);
+      }
+
+      .search-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        background: #ffffff;
+      }
+
+      .mode-tab[aria-selected="true"] {
+        background: var(--sun);
+      }
+
+      .mode-tab:focus-visible,
+      .search-toggle:focus-visible,
+      .clear-button:focus-visible,
+      .subject-button:focus-visible,
+      .book-card:focus-visible,
+      .field-control:focus-visible {
+        outline: 4px solid #1d7ed0;
+        outline-offset: 4px;
+      }
+
+      .mode-tab:active,
+      .search-toggle:active,
+      .clear-button:active,
+      .subject-button:active,
+      .book-card:active {
+        transform: translateY(3px);
+        box-shadow: 0 2px 0 rgba(34, 49, 38, 0.18);
+      }
+
+      .panel {
+        margin-top: 18px;
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      .search-icon {
+        width: 30px;
+        height: 30px;
+      }
+
+      .search-panel {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 14px;
+        align-items: end;
+        margin-bottom: 22px;
+      }
+
+      .field {
+        display: grid;
+        gap: 7px;
+      }
+
+      .field-label {
+        font-family: "Baloo 2", cursive;
+        font-size: 1.05rem;
+      }
+
+      .field-control {
+        width: 100%;
+        min-height: 64px;
+        border: 3px solid var(--line);
+        border-radius: 16px;
+        background: #ffffff;
+        color: var(--ink);
+        font-size: 1.12rem;
+        padding: 0 18px;
+      }
+
+      .clear-button {
+        padding: 0 22px;
+        font-family: "Baloo 2", cursive;
+        font-size: 1.08rem;
+        background: #ffffff;
+      }
+
+      .empty-state {
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .subject-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 16px;
+        margin-bottom: 22px;
+      }
+
+      .subject-button {
+        display: grid;
+        justify-items: center;
+        gap: 10px;
+        min-height: 190px;
+        padding: 18px 14px;
+        background: #ffffff;
+      }
+
+      .subject-button[aria-pressed="true"] {
+        background: #fff0b6;
+        border-color: #c75b12;
+      }
+
+      .subject-icon {
+        width: 112px;
+        height: 112px;
+      }
+
+      .subject-name {
+        font-family: "Baloo 2", cursive;
+        font-size: 1.4rem;
+        line-height: 1.05;
+      }
+
+      .subject-count {
+        color: var(--muted);
+        font-size: 1rem;
       }
 
       .books {
@@ -45,57 +224,147 @@
         padding: 0;
         margin: 0;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 24px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 22px;
       }
 
       .book-card {
         display: block;
-        border-radius: 20px;
+        min-height: 100%;
+        border-radius: 18px;
         background: #ffffff;
         color: inherit;
         text-decoration: none;
-        border: 2px solid #d8cfaa;
-        border-left: 6px solid var(--accent);
+        border: 3px solid #ffffff;
+        border-bottom: 8px solid var(--accent);
         overflow: hidden;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 10px 24px rgba(36, 45, 32, 0.12);
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
       }
 
       .book-card:hover,
       .book-card:focus-visible {
-        transform: scale(1.03);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-        border-color: var(--accent);
-        outline: none;
+        transform: translateY(-4px);
+        box-shadow: 0 14px 28px rgba(36, 45, 32, 0.18);
       }
 
       .book-card img {
         display: block;
         width: 100%;
-        height: 200px;
+        aspect-ratio: 4 / 3;
         object-fit: cover;
+        background: #eadfbd;
       }
 
       .book-info {
-        padding: 20px 22px 24px;
+        padding: 18px 20px 22px;
+      }
+
+      .book-category {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        margin-bottom: 10px;
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--accent) 18%, #ffffff);
+        color: var(--ink);
+        padding: 4px 12px;
+        font-size: 0.92rem;
+        font-weight: 700;
       }
 
       .book-title {
-        margin: 0 0 6px;
+        margin: 0 0 7px;
         font-family: "Baloo 2", cursive;
-        font-size: 1.4rem;
+        font-size: 1.45rem;
+        line-height: 1.05;
         font-weight: 700;
       }
 
       .book-subtitle {
         margin: 0;
         font-size: 1rem;
-        color: #55674e;
-        line-height: 1.4;
+        color: var(--muted);
+        line-height: 1.35;
+      }
+
+      .empty-state {
+        margin: 20px 0 0;
+        border: 3px dashed var(--line);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 24px;
+        font-size: 1.1rem;
+      }
+
+      .icon-subject-tab {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: conic-gradient(from 20deg, var(--sky), var(--sun), var(--leaf), var(--sky));
+        border: 2px solid var(--ink);
+      }
+
+      @media (max-width: 760px) {
+        main {
+          padding-top: 24px;
+        }
+
+        .search-panel {
+          grid-template-columns: 1fr;
+        }
+
+        .mode-tabs {
+          position: sticky;
+          top: 0;
+          z-index: 2;
+          background: rgba(246, 241, 223, 0.94);
+          padding: 10px 0;
+        }
+      }
+
+      @media (max-width: 480px) {
+        main {
+          padding-left: max(14px, env(safe-area-inset-left));
+          padding-right: max(14px, env(safe-area-inset-right));
+        }
+
+        .books {
+          grid-template-columns: 1fr;
+        }
+
+        .mode-tabs {
+          grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 68px;
+          gap: 8px;
+        }
+
+        .mode-tab {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        .subject-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .subject-button {
+          min-height: 170px;
+          padding: 14px 8px;
+        }
+
+        .subject-icon {
+          width: 88px;
+          height: 88px;
+        }
       }
 
       @media (prefers-reduced-motion: reduce) {
-        .book-card {
+        .book-card,
+        .mode-tab,
+        .search-toggle,
+        .clear-button,
+        .subject-button {
           transition: none;
         }
       }
@@ -103,18 +372,92 @@
   </head>
   <body>
     <main>
-      <h1>Picture Books</h1>
-      <p class="intro">
-        Nonfiction picture books for kids, built as self-contained websites.
-      </p>
-      <ul class="books">
+      <section class="hero" aria-labelledby="library-title">
+        <h1 id="library-title">Picture Books</h1>
+        <p class="intro">Pick a book from the shelf, or choose a subject to find a favorite topic.</p>
+      </section>
+
+      <div class="mode-tabs" role="tablist" aria-label="Library browsing modes">
+        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all">All Books</button>
+        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><span class="icon-subject-tab" aria-hidden="true"></span>Subjects</button>
+        <button class="search-toggle" id="search-toggle" type="button" aria-label="Search books" aria-expanded="false" aria-controls="search-panel">
+          <svg class="search-icon" viewBox="0 0 32 32" aria-hidden="true">
+            <circle cx="14" cy="14" r="9" fill="#ffffff" stroke="#223126" stroke-width="4"/>
+            <path d="M21 21l7 7" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="search-panel" id="search-panel" aria-label="Book search" hidden>
+        <label class="field" for="search-input">
+          <span class="field-label">Find a book</span>
+          <input class="field-control" id="search-input" type="search" placeholder="Try frogs or fossils" autocomplete="off">
+        </label>
+        <button class="clear-button" id="clear-filters" type="button">Show all</button>
+      </div>
+
+      <section class="panel" id="all-books-panel" role="tabpanel" aria-labelledby="all-mode-tab">
+      </section>
+
+      <section class="panel" id="subjects-panel" role="tabpanel" aria-labelledby="subjects-mode-tab" hidden>
+        <div class="subject-grid" aria-label="Subjects">
+          {% for category in categories %}
+          <button class="subject-button" type="button" data-subject="{{ category.slug }}" aria-pressed="false">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="{{ category.label }} subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              {% if category.icon_key == "animals" %}
+              <circle cx="60" cy="63" r="22" fill="#ffffff" stroke="#223126" stroke-width="4"/>
+              <circle cx="42" cy="48" r="10" fill="#ffffff" stroke="#223126" stroke-width="4"/>
+              <circle cx="78" cy="48" r="10" fill="#ffffff" stroke="#223126" stroke-width="4"/>
+              <circle cx="52" cy="62" r="3" fill="#223126"/><circle cx="68" cy="62" r="3" fill="#223126"/>
+              <path d="M57 72h6M60 72v5" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
+              {% elif category.icon_key == "dinosaurs" %}
+              <path d="M28 72c8-28 45-32 59-8l15-4-8 15 9 12-18-4c-16 14-45 11-57-11Z" fill="#6fbd61" stroke="#223126" stroke-width="4"/>
+              <circle cx="77" cy="56" r="3" fill="#223126"/>
+              <path d="M39 76l-6 14M70 82l4 13M31 65l-17-9" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
+              {% elif category.icon_key == "history" %}
+              <path d="M42 33v56" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
+              <path d="M44 35h40l-7 13 7 13H44Z" fill="#e9566b" stroke="#223126" stroke-width="4" stroke-linejoin="round"/>
+              <path d="M44 48h33" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+              <path d="M34 91h48" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
+              {% elif category.icon_key == "science" %}
+              <path d="M52 34h16v30l17 27H35l17-27Z" fill="#8fd3ff" stroke="#223126" stroke-width="4" stroke-linejoin="round"/>
+              <path d="M46 77h28" stroke="#223126" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="70" cy="56" r="5" fill="#ffffff"/>
+              {% elif category.icon_key == "space" %}
+              <circle cx="60" cy="64" r="23" fill="#315caa" stroke="#223126" stroke-width="4"/>
+              <path d="M27 73c25 12 56 9 76-12" stroke="#e9566b" stroke-width="5" stroke-linecap="round"/>
+              <circle cx="42" cy="41" r="3" fill="#223126"/><circle cx="88" cy="39" r="3" fill="#223126"/>
+              {% elif category.icon_key == "nature" %}
+              <path d="M60 91V53" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
+              <path d="M58 58c-25-4-31-25-24-34 20 2 31 12 24 34Z" fill="#6fbd61" stroke="#223126" stroke-width="4"/>
+              <path d="M63 64c24-5 33-22 27-32-18 1-32 10-27 32Z" fill="#8fd3ff" stroke="#223126" stroke-width="4"/>
+              {% elif category.icon_key == "people" %}
+              <circle cx="49" cy="54" r="13" fill="#f3b37a" stroke="#223126" stroke-width="4"/>
+              <circle cx="76" cy="57" r="12" fill="#9f6b45" stroke="#223126" stroke-width="4"/>
+              <path d="M31 91c5-19 32-19 38 0M59 91c5-17 30-17 35 0" fill="none" stroke="#223126" stroke-width="5" stroke-linecap="round"/>
+              {% else %}
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">{{ category.label[0:1] }}</text>
+              {% endif %}
+            </svg>
+            <span class="subject-name">{{ category.label }}</span>
+            <span class="subject-count">{{ category.count }} book{% if category.count != 1 %}s{% endif %}</span>
+          </button>
+          {% endfor %}
+        </div>
+      </section>
+
+      <ul class="books" id="books-list">
         {% for book in books %}
-        <li>
+        <li data-book data-category="{{ book.category_slug }}" data-search="{{ book.search_terms }}">
           <a class="book-card" href="/books/{{ book.slug }}/" style="--accent: {{ book.primary_color }}">
             <img src="/books/{{ book.slug }}/{{ book.cover_image }}"
                  alt="{{ book.cover_alt }}"
                  loading="lazy">
             <div class="book-info">
+              <span class="book-category">{{ book.category }}</span>
               <p class="book-title">{{ book.title }}</p>
               <p class="book-subtitle">{{ book.subtitle }}</p>
             </div>
@@ -122,6 +465,101 @@
         </li>
         {% endfor %}
       </ul>
+      <p class="empty-state" id="empty-state" hidden>No books found. Try another word or subject.</p>
     </main>
+
+    <script>
+      document.documentElement.classList.add("js");
+
+      const modeTabs = Array.from(document.querySelectorAll("[data-mode]"));
+      const allPanel = document.querySelector("#all-books-panel");
+      const subjectsPanel = document.querySelector("#subjects-panel");
+      const searchToggle = document.querySelector("#search-toggle");
+      const searchPanel = document.querySelector("#search-panel");
+      const searchInput = document.querySelector("#search-input");
+      const clearButton = document.querySelector("#clear-filters");
+      const subjectButtons = Array.from(document.querySelectorAll("[data-subject]"));
+      const bookItems = Array.from(document.querySelectorAll("[data-book]"));
+      const emptyState = document.querySelector("#empty-state");
+
+      let mode = "all";
+      let selectedSubject = "all";
+
+      function updateMode(nextMode) {
+        mode = nextMode;
+        if (mode === "all") {
+          selectedSubject = "all";
+        }
+        modeTabs.forEach((tab) => {
+          const isSelected = tab.dataset.mode === mode;
+          tab.setAttribute("aria-selected", String(isSelected));
+        });
+        allPanel.hidden = mode !== "all";
+        subjectsPanel.hidden = mode !== "subjects";
+        applyFilters();
+      }
+
+      function setSearchOpen(isOpen) {
+        searchPanel.hidden = !isOpen;
+        searchToggle.setAttribute("aria-expanded", String(isOpen));
+        if (isOpen) {
+          searchInput.focus();
+        }
+      }
+
+      function applyFilters() {
+        const query = searchInput.value.trim().toLowerCase();
+        const subject = mode === "subjects" ? selectedSubject : "all";
+        let visibleCount = 0;
+
+        bookItems.forEach((item) => {
+          const matchesSubject = subject === "all" || item.dataset.category === subject;
+          const matchesSearch = !query || item.dataset.search.includes(query);
+          const isVisible = matchesSubject && matchesSearch;
+          item.hidden = !isVisible;
+          if (isVisible) {
+            visibleCount += 1;
+          }
+        });
+
+        subjectButtons.forEach((button) => {
+          button.setAttribute("aria-pressed", String(subject !== "all" && button.dataset.subject === subject));
+        });
+
+        emptyState.hidden = visibleCount !== 0;
+      }
+
+      modeTabs.forEach((tab) => {
+        tab.addEventListener("click", () => updateMode(tab.dataset.mode));
+      });
+
+      searchToggle.addEventListener("click", () => {
+        if (searchPanel.hidden) {
+          setSearchOpen(true);
+        } else {
+          searchInput.value = "";
+          setSearchOpen(false);
+          applyFilters();
+        }
+      });
+
+      subjectButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          selectedSubject = button.dataset.subject;
+          searchInput.value = "";
+          applyFilters();
+        });
+      });
+
+      searchInput.addEventListener("input", applyFilters);
+      clearButton.addEventListener("click", () => {
+        searchInput.value = "";
+        selectedSubject = "all";
+        setSearchOpen(false);
+        applyFilters();
+      });
+
+      applyFilters();
+    </script>
   </body>
 </html>

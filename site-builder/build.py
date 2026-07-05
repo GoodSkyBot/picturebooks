@@ -5,6 +5,7 @@ import argparse
 import json
 import os
 import random
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -15,6 +16,16 @@ SITE_BUILDER_DIR = Path(__file__).resolve().parent
 TEMPLATES_DIR = SITE_BUILDER_DIR / "templates"
 REPO_ROOT = SITE_BUILDER_DIR.parent
 
+CATEGORY_ICON_KEYS = {
+    "animals": "animals",
+    "dinosaurs": "dinosaurs",
+    "history": "history",
+    "nature": "nature",
+    "people": "people",
+    "science": "science",
+    "space": "space",
+}
+
 
 def load_json(path: Path) -> dict:
     try:
@@ -24,6 +35,16 @@ def load_json(path: Path) -> dict:
         sys.exit(f"Error: {path} contains invalid JSON: {e}")
     except OSError as e:
         sys.exit(f"Error: cannot read {path}: {e}")
+
+
+def slugify_label(label: str) -> str:
+    """Create a stable, readable slug for labels used in generated markup."""
+    slug = re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+    return slug or "uncategorized"
+
+
+def icon_key_for_category(category_slug: str) -> str:
+    return CATEGORY_ICON_KEYS.get(category_slug, "folder")
 
 
 def load_template_manifest(template_name: str) -> dict:
@@ -159,22 +180,44 @@ def build_index() -> None:
     """Regenerate the root index.html from all books/*/book.json files."""
     books_dir = REPO_ROOT / "books"
     books = []
+    categories_by_slug = {}
 
     for book_json_path in sorted(books_dir.glob("*/book.json")):
         book = load_json(book_json_path)
         image_manifest = load_image_optimization_manifest(book_json_path.parent)
         cover = book.get("cover", {})
         theme = book.get("theme", {})
+        category = book.get("category", "More Books").strip() or "More Books"
+        category_slug = slugify_label(category)
+        tags = [str(tag).strip() for tag in book.get("tags", []) if str(tag).strip()]
+        title = cover.get("title", book.get("title", ""))
+        subtitle = cover.get("subtitle", "")
+        slug = book.get("slug", book_json_path.parent.name)
+        search_terms = " ".join([title, subtitle, category, slug, *tags]).lower()
+
+        categories_by_slug.setdefault(category_slug, {
+            "slug": category_slug,
+            "label": category,
+            "count": 0,
+            "icon_key": icon_key_for_category(category_slug),
+        })
+        categories_by_slug[category_slug]["count"] += 1
+
         books.append({
-            "slug": book.get("slug", book_json_path.parent.name),
-            "title": cover.get("title", book.get("title", "")),
-            "subtitle": cover.get("subtitle", ""),
+            "slug": slug,
+            "title": title,
+            "subtitle": subtitle,
             "cover_image": optimized_image_src(cover.get("image", ""), image_manifest),
             "cover_alt": cover.get("alt", cover.get("title", "")),
             "primary_color": theme.get("primaryColor", "#333"),
+            "category": category,
+            "category_slug": category_slug,
+            "tags": tags,
+            "search_terms": search_terms,
         })
 
     books.sort(key=lambda b: b["title"].lower())
+    categories = sorted(categories_by_slug.values(), key=lambda c: c["label"].lower())
 
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -182,7 +225,7 @@ def build_index() -> None:
         keep_trailing_newline=True,
     )
     template = env.get_template("index.html.j2")
-    html = template.render(books=books)
+    html = template.render(books=books, categories=categories)
 
     index_path = REPO_ROOT / "index.html"
     index_path.write_text(html, encoding="utf-8")

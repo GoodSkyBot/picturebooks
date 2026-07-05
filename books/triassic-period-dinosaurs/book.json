@@ -2,6 +2,15 @@
   "title": "When Dinosaurs Were New",
   "slug": "triassic-period-dinosaurs",
   "targetAge": 7,
+  "category": "Dinosaurs",
+  "tags": [
+    "triassic",
+    "dinosaurs",
+    "pangaea",
+    "fossils",
+    "prehistoric",
+    "mesozoic"
+  ],
   "theme": {
     "primaryColor": "#8B3E1F",
     "secondaryColor": "#2E5E4E",

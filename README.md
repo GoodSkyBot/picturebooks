@@ -78,6 +78,7 @@ It decides:
 - page-by-page text
 - optional fact bubbles
 - image assignments
+- homepage subject and search tags
 - theme metadata
 
 Can generate missing images via `scripts/generate_image.py`.
