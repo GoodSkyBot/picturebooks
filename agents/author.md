@@ -101,7 +101,7 @@ Only set `fit` and `position` when the default (`cover` + `center`) would produc
 If a page has no suitable image from `content.json`, generate one using `scripts/generate_image.py`:
 
 ```
-python scripts/generate_image.py --slug {slug} --prompt "description of image"
+.venv/bin/python scripts/generate_image.py --slug {slug} --prompt "description of image"
 ```
 
 The script saves the image and automatically adds it to the `images` array in `content.json`. Reference the new image in `book.json` by its `filename`.

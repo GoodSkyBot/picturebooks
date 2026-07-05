@@ -6,7 +6,7 @@
         <div class="extras">
           {% for extra in page.extras %}
           <button class="extra" data-audio="audio/page-{{ '%02d' % page_number }}-extra-{{ loop.index }}.mp3" aria-label="Fun fact: {{ extra }}">
-            <span class="extra-icon">&#127775;</span> {{ extra }}
+            <span class="extra-icon" aria-hidden="true">*</span> {{ extra }}
           </button>
           {% endfor %}
         </div>

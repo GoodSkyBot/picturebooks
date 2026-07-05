@@ -18,6 +18,7 @@ Agents can be invoked via OpenCode (`/research`, `/author`, `/build`) or VS Code
 
 These rules apply to all agents:
 
+- Run repository Python scripts with the existing virtual environment: `.venv/bin/python`, not system `python` or `python3`.
 - Treat age as a first-class input.
 - Preserve attribution and license metadata for every image.
 - Do not use images with ambiguous or incomplete licensing.

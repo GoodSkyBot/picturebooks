@@ -402,64 +402,28 @@
       "height": 1182
     },
     {
-      "filename": "images/first-dinosaurs-scene.svg",
-      "description": "Original child-friendly illustration of small early dinosaurs running across a Triassic desert.",
-      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
-      "author": "OpenCode for this project",
-      "license": "Project asset",
-      "license_url": "https://picturebooks.local/licenses/project-asset",
-      "width": 1200,
-      "height": 800
+      "filename": "images/triassic-cover-paleoart.png",
+      "description": "High-quality children's nonfiction paleoart cover illustration, Late Triassic Pangaea desert floodplain at warm sunset, three scientifically plausible early dinosaurs in one scene: small Eoraptor in foreground, slender Coelophysis running nearby, larger Plateosaurus browsing tough conifer-like plants in background. Naturalistic anatomy, detailed skin texture, warm storybook lighting, inviting for ages 6-8, professional museum picture-book style, no text, no labels, no watermark.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
     },
     {
-      "filename": "images/eoraptor-living.svg",
-      "description": "Original child-friendly illustration of Eoraptor walking in a Triassic floodplain.",
-      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
-      "author": "OpenCode for this project",
-      "license": "Project asset",
-      "license_url": "https://picturebooks.local/licenses/project-asset",
-      "width": 1200,
-      "height": 800
+      "filename": "images/triassic-neighbors-paleoart.png",
+      "description": "High-quality children's nonfiction paleoart illustration, Late Triassic dry riverbank habitat on Pangaea. A small early theropod dinosaur stands alert while a crocodile-line reptile rests near shallow water and a tiny shrew-like mammal relative hides among ferns and roots. Naturalistic but child-friendly, detailed textures, warm earth tones, clear subjects, professional museum picture-book style, no text, no labels, no watermark.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
     },
     {
-      "filename": "images/plateosaurus-browsing.svg",
-      "description": "Original child-friendly illustration of Plateosaurus browsing Triassic plants.",
-      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
-      "author": "OpenCode for this project",
-      "license": "Project asset",
-      "license_url": "https://picturebooks.local/licenses/project-asset",
-      "width": 1200,
-      "height": 800
-    },
-    {
-      "filename": "images/triassic-jurassic-transition.svg",
-      "description": "Original child-friendly illustration of dinosaurs surviving from the Triassic into the Jurassic.",
-      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
-      "author": "OpenCode for this project",
-      "license": "Project asset",
-      "license_url": "https://picturebooks.local/licenses/project-asset",
-      "width": 1200,
-      "height": 800
-    },
-    {
-      "filename": "images/triassic-dinosaur-lineup.svg",
-      "description": "Original child-friendly cover lineup of Eoraptor, Herrerasaurus, Coelophysis, and Plateosaurus.",
-      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
-      "author": "OpenCode for this project",
-      "license": "Project asset",
-      "license_url": "https://picturebooks.local/licenses/project-asset",
-      "width": 1200,
-      "height": 800
-    },
-    {
-      "filename": "images/triassic-neighbors.svg",
-      "description": "Original child-friendly illustration of an early dinosaur sharing a Triassic habitat with other reptile and mammal-line animals.",
-      "source_url": "https://picturebooks.local/books/triassic-period-dinosaurs/local-original",
-      "author": "OpenCode for this project",
-      "license": "Project asset",
-      "license_url": "https://picturebooks.local/licenses/project-asset",
-      "width": 1200,
-      "height": 800
+      "filename": "images/triassic-jurassic-transition-paleoart.png",
+      "description": "High-quality children's nonfiction paleoart illustration showing the end of the Triassic and beginning of the Jurassic as a hopeful natural scene. Left side: smoky volcanic sky, sparse dry land, distant silhouettes of extinct reptiles. Right side: brighter green Jurassic landscape with small surviving dinosaurs moving forward. Naturalistic anatomy, cinematic warm light, professional museum picture-book style for ages 6-8, no text, no labels, no watermark.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use"
     }
   ]
 }

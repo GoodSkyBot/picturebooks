@@ -60,6 +60,7 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 
 ## Image Rules
 
+- Only download existing images from the sources above. Never create, draw, synthesize, or hand-author your own images (including SVGs) or their metadata.
 - Use Creative Commons or equivalent free licenses only.
 - Record author, source URL, license name, and license URL.
 - Skip images when attribution details are incomplete or ambiguous.
@@ -84,7 +85,7 @@ Before collecting facts, plan a category taxonomy for the topic. There is no fix
 Before final validation, optimize the downloaded local image files in place:
 
 ```
-python scripts/optimize_images.py --slug {slug} --source content
+.venv/bin/python scripts/optimize_images.py --slug {slug} --source content
 ```
 
 This keeps the git repository small while preserving source URLs, attribution, and license metadata in `content.json`. Do not keep source-resolution originals in the repository unless there is a specific reason, such as a map or document that genuinely needs extra detail.
@@ -95,7 +96,7 @@ Prefer these methods in order:
 
 1. **Wikimedia API** (best) -- When querying a file page, use `action=query&prop=imageinfo&iiprop=size` to get width/height directly from the API. No download needed.
 2. **Flickr API** -- Photo info responses include `width_o` and `height_o`.
-3. **After download** -- Run `python scripts/image_info.py books/{slug}/images/{filename}` which outputs `filename width height`. Works for JPEG, PNG, GIF, WebP, and SVG with no external dependencies.
+3. **After download** -- Run `.venv/bin/python scripts/image_info.py books/{slug}/images/{filename}` which outputs `filename width height`. Works for JPEG, PNG, GIF, WebP, and SVG with no external dependencies.
 
 ## Output Shape
 
@@ -114,6 +115,7 @@ Before finishing, verify:
 
 ## Boundaries
 
+- Only download real images from the approved sources. Do not create, generate, or hand-author images yourself. If a category lacks good Creative Commons coverage, leave it thin rather than filling the gap with your own artwork.
 - Do not write the final book text.
 - Do not decide page layout.
 - Do not run the author or build stages.

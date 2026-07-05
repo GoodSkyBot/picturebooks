@@ -23,7 +23,7 @@
   "cover": {
     "title": "When Dinosaurs Were New",
     "subtitle": "A Triassic Period Story",
-    "image": "images/triassic-dinosaur-lineup.svg"
+    "image": "images/triassic-cover-paleoart.png"
   },
   "pages": [
     {
@@ -61,8 +61,8 @@
       ],
       "images": [
         {
-          "src": "images/first-dinosaurs-scene.svg",
-          "alt": "Small early dinosaurs running across a hot Triassic desert",
+          "src": "images/early-dinosaur-skeletons.jpg",
+          "alt": "Museum skeletons of early dinosaurs including Herrerasaurus and Eoraptor",
           "orientation": "landscape",
           "fit": "contain"
         }
@@ -76,8 +76,8 @@
       ],
       "images": [
         {
-          "src": "images/eoraptor-living.svg",
-          "alt": "A small Eoraptor walking on two legs near a Triassic stream",
+          "src": "images/eoraptor-size.svg",
+          "alt": "A size comparison showing Eoraptor beside a human silhouette",
           "orientation": "landscape",
           "fit": "contain"
         }
@@ -110,10 +110,9 @@
       "text": "Herrerasaurus looked fierce, but it was still part of an early dinosaur world. Dinosaurs were sharing the land with many other reptiles and mammal relatives.",
       "images": [
         {
-          "src": "images/triassic-neighbors.svg",
-          "alt": "An early dinosaur sharing a Triassic landscape with a crocodile-line reptile and a small mammal relative",
-          "orientation": "landscape",
-          "fit": "contain"
+          "src": "images/triassic-neighbors-paleoart.png",
+          "alt": "An early dinosaur sharing a Triassic riverbank with a crocodile-line reptile and a small mammal relative",
+          "orientation": "landscape"
         }
       ]
     },
@@ -150,8 +149,8 @@
       ],
       "images": [
         {
-          "src": "images/plateosaurus-browsing.svg",
-          "alt": "Plateosaurus using its long neck to browse Triassic plants",
+          "src": "images/plateosaurus-skeleton.jpg",
+          "alt": "A Plateosaurus skeleton showing its long neck, small head, and long body",
           "orientation": "landscape",
           "fit": "contain"
         }
@@ -164,10 +163,9 @@
       ],
       "images": [
         {
-          "src": "images/triassic-jurassic-transition.svg",
+          "src": "images/triassic-jurassic-transition-paleoart.png",
           "alt": "Dinosaurs surviving from the dark end of the Triassic into a brighter Jurassic landscape",
-          "orientation": "landscape",
-          "fit": "contain"
+          "orientation": "landscape"
         }
       ]
     }
