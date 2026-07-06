@@ -353,12 +353,19 @@
         }
 
         .subject-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
+          grid-auto-flow: column;
+          grid-auto-columns: minmax(150px, 42vw);
+          grid-template-columns: none;
+          overflow-x: auto;
+          overscroll-behavior-x: contain;
+          padding-bottom: 12px;
+          scroll-snap-type: x proximity;
         }
 
         .subject-button {
           min-height: 170px;
           padding: 14px 8px;
+          scroll-snap-align: start;
         }
 
         .subject-icon {
