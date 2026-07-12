@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dig, Dig, Dig! All About Excavators</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #D97706;
+      --secondary-color: #92400E;
+      --background-color: #FFF8F0;
+      --accent-color: #1D4ED8;
+      --font-heading: 'Baloo 2', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/caterpillar_330_excavator.jpg.jpg" alt="Dig, Dig, Dig!">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">Dig, Dig, Dig!</h1>
+
+        <p class="cover-subtitle">All About Excavators</p>
+
+        <button class="btn-start" aria-label="Start reading">Start</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+
+        <!-- Page 1: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="1" hidden>
+      <div class="page-body">
+        <p class="page-text">Have you ever watched a giant machine scoop up a huge pile of dirt? That amazing machine is called an excavator! Some people call them diggers, and others call them mechanical shovels. Whatever you call them, excavators are some of the most powerful machines on Earth.</p>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/kobelco_sk260_excavator_hardwick_vt_august_2017.jpg.jpg" alt="A large blue Kobelco excavator parked at a job site, showing its long boom, arm, and bucket">
+
+        <figcaption>Photo: Artaxerxes / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">An excavator has four main parts. The undercarriage sits on the ground with tough tracks that help it crawl over mud and rocks. On top sits the house -- a platform that holds the engine, the cab, and heavy counterweights. The house can spin all the way around in a circle!</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: The house spins 360 degrees -- a full circle!">
+            <span class="extra-icon">&#9679;</span> The house spins 360 degrees -- a full circle!
+          </button>
+
+          <button class="extra" data-audio="audio/page-02-extra-2.mp3" aria-label="Fun fact: Excavators are sometimes called &#39;360s.&#39;">
+            <span class="extra-icon">&#9679;</span> Excavators are sometimes called &#39;360s.&#39;
+          </button>
+
+        </div>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/kubota-excavator-kx_71-3-p6076724.jpg.jpg" alt="A small orange Kubota excavator clearly showing its tracks, cab, boom, arm, and bucket">
+
+        <figcaption>Photo: Ermell / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 3: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="3" hidden>
+      <div class="page-body">
+        <p class="page-text">Sticking out from the house is the boom -- a long, strong arm that moves up and down. At the end of the boom is the stick, which reaches forward and pulls back. And at the very tip? The bucket! It scoops dirt, rocks, and sand just like you scoop sand at the beach.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-03-extra-1.mp3" aria-label="Fun fact: Buckets come in many sizes and shapes.">
+            <span class="extra-icon">&#9679;</span> Buckets come in many sizes and shapes.
+          </button>
+
+          <button class="extra" data-audio="audio/page-03-extra-2.mp3" aria-label="Fun fact: Some buckets have sharp teeth for hard ground.">
+            <span class="extra-icon">&#9679;</span> Some buckets have sharp teeth for hard ground.
+          </button>
+
+        </div>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/doosan_dx85r-3_excavator_in_remiremont_france_-_2022-05-03_-.jpg" alt="A Doosan excavator showing its boom, arm, and bucket extended outward">
+
+        <figcaption>Photo: Mathieu Kappler / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 4: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="4" hidden>
+      <div class="page-body">
+        <p class="page-text">How does an excavator move such heavy loads? The secret is hydraulics! A powerful engine pumps oil through tubes at very high pressure. When that oil pushes against a piston, it creates enormous force -- enough to lift a car. That is how the boom, arm, and bucket move so smoothly.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: Hydraulic pressure can reach 5,000 psi!">
+            <span class="extra-icon">&#9679;</span> Hydraulic pressure can reach 5,000 psi!
+          </button>
+
+          <button class="extra" data-audio="audio/page-04-extra-2.mp3" aria-label="Fun fact: Pressurized oil replaced old chains and ropes.">
+            <span class="extra-icon">&#9679;</span> Pressurized oil replaced old chains and ropes.
+          </button>
+
+        </div>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/excavator_samsung_se210_lc-3.jpg.jpg" alt="A Samsung excavator at a construction site, showing hydraulic cylinders on the boom and arm">
+
+        <figcaption>Photo: High Contrast / CC BY 3.0 DE</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 5: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="5" hidden>
+      <div class="page-body">
+        <p class="page-text">Inside the cab, an operator uses two joysticks to control everything. One set moves the tracks forward and backward. The other moves the boom, arm, and bucket. It takes real skill to work all four controls at the same time!</p>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/kobelco_compact_excavator_04.jpg.jpg" alt="An operator visible inside the cab of a Kobelco compact excavator while digging">
+
+        <figcaption>Photo: Classiccardinal / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 6: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="6" hidden>
+      <div class="page-body">
+        <p class="page-text">Excavators come in all sizes. Mini excavators are small enough to squeeze into backyards and narrow city streets. The smallest ones weigh about as much as a large horse! But the biggest excavators are true giants.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: The smallest Cat mini-excavator weighs just 930 kg.">
+            <span class="extra-icon">&#9679;</span> The smallest Cat mini-excavator weighs just 930 kg.
+          </button>
+
+          <button class="extra" data-audio="audio/page-06-extra-2.mp3" aria-label="Fun fact: The CAT 6090 weighs as much as 200 elephants!">
+            <span class="extra-icon">&#9679;</span> The CAT 6090 weighs as much as 200 elephants!
+          </button>
+
+        </div>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/case_mini_excavator_-_arlington_ma.jpg.jpg" alt="A small yellow Case mini excavator working in a neighborhood">
+
+        <figcaption>Photo: Daderot / CC0 1.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 7: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="7" hidden>
+      <div class="page-body">
+        <p class="page-text">Digging is just the beginning! Excavators can swap their bucket for other tools. A grapple grabs logs and debris. A hydraulic breaker smashes concrete like a giant jackhammer. An auger drills holes into the ground. One machine, many jobs!</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: A quick coupler lets operators swap tools in minutes.">
+            <span class="extra-icon">&#9679;</span> A quick coupler lets operators swap tools in minutes.
+          </button>
+
+          <button class="extra" data-audio="audio/page-07-extra-2.mp3" aria-label="Fun fact: Some attachments can rotate a full 360 degrees.">
+            <span class="extra-icon">&#9679;</span> Some attachments can rotate a full 360 degrees.
+          </button>
+
+        </div>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/excavator_with_grapple.jpg.jpg" alt="An excavator using a grapple attachment to pick up material and feed it into a chipper">
+
+        <figcaption>Photo: Wikideas1 / CC0 1.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 8: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="8" hidden>
+      <div class="page-body">
+        <p class="page-text">On a busy construction site, excavators work as part of a team. They scoop up dirt and load it into dump trucks that carry it away. Bulldozers push earth flat while loaders scoop up loose gravel. Together they build roads, bridges, and buildings.</p>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/excavator_on_the_aibga_ridge.jpg.jpg" alt="An excavator loading dirt into a dump truck while building a road on a mountain ridge">
+
+        <figcaption>Photo: SKas / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 9: 2 images (flexible), stacked left, text right -->
+    <article class="page page--content page--layout-2mixed" data-page="9" hidden>
+      <div class="page-images-pair">
+
+        <figure class="page-figure">
+          <img src="images/jcb_excavator_padum_purney_road_tsarap_oct22_a7c_04402.jpg.jpg" alt="A JCB excavator carving a road through steep mountains in India">
+
+          <figcaption>Photo: Timothy A. Gonsalves / CC BY-SA 4.0</figcaption>
+
+        </figure>
+
+        <figure class="page-figure">
+          <img src="images/singapore_doosan-dx-340lca-excavator-01.jpg.jpg" alt="A tall Doosan excavator with a long-reach boom at a city construction site in Singapore">
+
+          <figcaption>Photo: CEphoto, Uwe Aranas / CC BY-SA 3.0</figcaption>
+
+        </figure>
+
+      </div>
+      <div class="page-body">
+        <p class="page-text">Excavators work all over the world! They build roads through mountains in India, dig foundations in cities like Singapore, and construct highways in Europe. Wherever something big needs to be dug, moved, or knocked down, you will find an excavator ready to work.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-09-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 10: 2 images (flexible), stacked left, text right -->
+    <article class="page page--content page--layout-2mixed" data-page="10" hidden>
+      <div class="page-images-pair">
+
+        <figure class="page-figure">
+          <img src="images/2023-02-20_jcb_js220lc_tracked_excavator_vee_brezovec_constr.jpg" alt="A JCB tracked excavator actively digging at a construction site">
+
+          <figcaption>Photo: Oto Zapletal / CC BY 4.0</figcaption>
+
+        </figure>
+
+        <figure class="page-figure">
+          <img src="images/excavators_rv68_03.jpg.jpg" alt="Multiple yellow excavators working together at a road construction site">
+
+          <figcaption>Photo: Calle Eklund/V-wolf / CC BY 3.0</figcaption>
+
+        </figure>
+
+      </div>
+      <div class="page-body">
+        <p class="page-text">Next time you pass a construction site, look for the excavators! Watch the boom swing, the bucket scoop, and the tracks crawl. These incredible machines can dig, lift, smash, and grab -- and the people who drive them make it all look easy.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-10-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="11" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+
+          <li><a href="https://en.wikipedia.org/wiki/Excavator" target="_blank" rel="noopener">Excavator - Wikipedia</a></li>
+
+          <li><a href="https://simple.wikipedia.org/wiki/Excavator" target="_blank" rel="noopener">Excavator - Simple English Wikipedia</a></li>
+
+          <li><a href="https://en.wikipedia.org/wiki/Hydraulic_machinery" target="_blank" rel="noopener">Hydraulic machinery - Wikipedia</a></li>
+
+        </ul>
+
+
+
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+
+          <li>
+            <strong>JCB JS220LC tracked excavator actively working at a const...</strong> --
+            Oto Zapletal,
+            <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">CC BY 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Case mini excavator in a neighborhood in Arlington, Massachusetts</strong> --
+            Daderot,
+            <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener">CC0 1.0</a>
+
+          </li>
+
+          <li>
+            <strong>Caterpillar 328D LCR excavator at a construction site in ...</strong> --
+            Grendelkhan,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Caterpillar 330 excavator scooping dirt against a blue sky</strong> --
+            Matthew T Rader,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Doosan DX85R-3 midi excavator in Remiremont, France, show...</strong> --
+            Mathieu Kappler,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Excavator loading a dump truck while building a mountain ...</strong> --
+            SKas,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Samsung SE210 LC-3 excavator at a construction site showi...</strong> --
+            High Contrast,
+            <a href="https://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank" rel="noopener">CC BY 3.0 DE</a>
+
+          </li>
+
+          <li>
+            <strong>Excavator using a grapple attachment to feed material int...</strong> --
+            Wikideas1,
+            <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener">CC0 1.0</a>
+
+          </li>
+
+          <li>
+            <strong>Multiple yellow excavators working together at a road con...</strong> --
+            Calle Eklund/V-wolf,
+            <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>JCB excavator building a road through mountains in India</strong> --
+            Timothy A. Gonsalves,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Kobelco compact excavator with operator visible in cab, a...</strong> --
+            Classiccardinal,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Kobelco SK260 excavator parked at a job site showing full...</strong> --
+            Artaxerxes,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Kubota KX 71-3 compact excavator showing all main body pa...</strong> --
+            Ermell,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Large Doosan DX-340LCA excavator with long-reach boom ext...</strong> --
+            CEphoto, Uwe Aranas,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </article>
+
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

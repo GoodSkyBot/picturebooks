@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cats!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #F4A261;
+      --secondary-color: #264653;
+      --background-color: #FFF8F0;
+      --accent-color: #E76F51;
+      --font-heading: 'Fredoka One', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/orange-tabby.jpg" alt="Cats!">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">Cats!</h1>
+
+        <p class="cover-subtitle">Soft, furry, and full of surprises</p>
+
+        <button class="btn-start" aria-label="Start reading">Start</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+
+        <!-- Page 1: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/british-blue.jpg" alt="A gray-blue cat with big amber eyes sitting outside" style="object-position: top;">
+
+        <figcaption>Photo: LiquidGhoul / Public domain</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Hello, cat! Cats are small, furry animals. They have soft coats, pointy ears, and long tails. They come in many colors -- orange, black, white, and gray.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">Look at those big eyes! Cat eyes can see in the dark, much better than yours. In bright light, their pupils shrink to tiny slits. In the dark, they open wide and round.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: Kittens are born with blue eyes.">
+            <span class="extra-icon">&#9679;</span> Kittens are born with blue eyes.
+          </button>
+
+        </div>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/tabby-blue-eyes.jpg" alt="A tabby cat with bright blue eyes looking right at you" style="object-position: top;">
+
+        <figcaption>Photo: Yann / CC0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 3: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="3" hidden>
+      <figure class="page-figure">
+        <img src="images/cat-whiskers.jpg" alt="Close-up of a cat&#39;s face showing long, white whiskers">
+
+        <figcaption>Photo: Arad / CC BY 2.5</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Feel those whiskers! Cats have long whiskers on their face. Whiskers help cats feel their way around, even in the dark. They can tell if a space is too small to squeeze through.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 4: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="4" hidden>
+      <div class="page-body">
+        <p class="page-text">Cats walk on their tippy-toes. That is why they are so quiet! They can jump high and climb up tall things. Their bendy bodies can squeeze through tiny spaces.</p>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/cat-snow.jpg" alt="A cat walking on snow with its tail held high">
+
+        <figcaption>Photo: Ebrahim / CC BY-SA 3.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 5: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="5" hidden>
+      <figure class="page-figure">
+        <img src="images/european-cat.jpg" alt="A cat with its mouth slightly open, as if meowing" style="object-position: top;">
+
+        <figcaption>Photo: Imm808 / CC BY 3.0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">What does a cat say? Meow! Cats meow to talk to people. When a cat is happy, it purrs. When a cat is scared, it hisses. Mother cats make little chirping sounds to call their kittens.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 6: 2 images (flexible), stacked left, text right -->
+    <article class="page page--content page--layout-2mixed" data-page="6" hidden>
+      <div class="page-images-pair">
+
+        <figure class="page-figure">
+          <img src="images/gray-kitten.jpg" alt="A tiny gray kitten with blue eyes looking curious">
+
+          <figcaption>Photo: Nicolas Suzor / CC BY-SA 2.0</figcaption>
+
+        </figure>
+
+        <figure class="page-figure">
+          <img src="images/month-old-kittens.jpg" alt="Tiny one-month-old kittens huddled together">
+
+          <figcaption>Photo: 0x010C / CC BY-SA 2.0</figcaption>
+
+        </figure>
+
+      </div>
+      <div class="page-body">
+        <p class="page-text">Baby cats are called kittens. They are born tiny, with their eyes shut tight. After two weeks, their eyes open! Kittens drink milk from their mama and love to play.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: A mama cat usually has three to five kittens.">
+            <span class="extra-icon">&#9679;</span> A mama cat usually has three to five kittens.
+          </button>
+
+        </div>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 7: 2 images (flexible), stacked left, text right -->
+    <article class="page page--content page--layout-2mixed" data-page="7" hidden>
+      <div class="page-images-pair">
+
+        <figure class="page-figure">
+          <img src="images/golden-kitten.jpg" alt="A golden tabby kitten mid-play, ready to pounce">
+
+          <figcaption>Photo: Jastrow / CC BY 2.5</figcaption>
+
+        </figure>
+
+        <figure class="page-figure">
+          <img src="images/red-kitten.jpg" alt="An orange kitten with big, curious eyes">
+
+          <figcaption>Photo: Michael Maggs / CC BY-SA 2.0</figcaption>
+
+        </figure>
+
+      </div>
+      <div class="page-body">
+        <p class="page-text">Kittens love to play! They chase, pounce, and tumble. Playing helps kittens learn to be big, strong cats.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 8: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="8" hidden>
+      <figure class="page-figure">
+        <img src="images/sleeping-cat.jpg" alt="A cat sleeping on its back, looking very relaxed">
+
+        <figcaption>Photo: Umberto Salvagnin / CC BY 2.0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Shh -- the cat is sleeping! Cats sleep a lot. They nap and nap and nap. Some cats sleep for sixteen hours a day! That is where we get the word &#34;catnap.&#34;</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-08-extra-1.mp3" aria-label="Fun fact: Cats love warm, cozy spots for sleeping.">
+            <span class="extra-icon">&#9679;</span> Cats love warm, cozy spots for sleeping.
+          </button>
+
+        </div>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 9: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="9" hidden>
+      <figure class="page-figure">
+        <img src="images/tabby-watch.jpg" alt="A tabby cat outdoors with its tail visible, watching carefully">
+
+        <figcaption>Photo: W.carter / CC0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">See the cat&#39;s tail? When a cat holds its tail straight up, it is saying hello! A puffy tail means the cat is scared. Tails help cats balance when they climb and jump.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-09-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 10: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="10" hidden>
+      <figure class="page-figure">
+        <img src="images/cat-garden.jpg" alt="A tabby cat lying in a garden, showing its paws">
+
+        <figcaption>Photo: Alvesgaspar / CC BY-SA 3.0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Cats have soft, padded paws. Their sharp claws hide inside! Claws pop out for climbing and scratching. Cats lick their fur to stay clean -- their bumpy tongue works like a little brush.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-10-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 11: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="11" hidden>
+      <div class="page-body">
+        <p class="page-text">Cats are one of the most popular pets in the world. People have loved cats for a very long time. Would you like to pet a cat? They are soft, warm, and wonderful.</p>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/persian-kitten.jpg" alt="A fluffy Persian kitten with big round eyes" style="object-position: top;">
+
+        <figcaption>Photo: Sasan Geranmehr / CC BY 3.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-11-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="12" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+
+          <li><a href="https://en.wikipedia.org/wiki/Cat" target="_blank" rel="noopener">Cat - Wikipedia</a></li>
+
+          <li><a href="https://simple.wikipedia.org/wiki/Cat" target="_blank" rel="noopener">Cat - Simple English Wikipedia</a></li>
+
+          <li><a href="https://en.wikipedia.org/wiki/Cat_communication" target="_blank" rel="noopener">Cat communication - Wikipedia</a></li>
+
+        </ul>
+
+
+
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+
+          <li>
+            <strong>An orange tabby cat photographed outdoors with sharp detail</strong> --
+            Alvesgaspar,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>A small tabby kitten in Rizal Park, Manila</strong> --
+            Judgefloro,
+            <a href="https://creativecommons.org/licenses/by/2.0/deed.en" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A domestic cat walking on snow with tail raised</strong> --
+            Ebrahim,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>Close-up of a tabby cat showing prominent whiskers</strong> --
+            Arad,
+            <a href="https://creativecommons.org/licenses/by/2.5/deed.en" target="_blank" rel="noopener">CC BY 2.5</a>
+
+          </li>
+
+          <li>
+            <strong>A European shorthair cat in a close-up portrait</strong> --
+            Imm808,
+            <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank" rel="noopener">CC BY 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>A gray cat with striking eyes looking at the viewer</strong> --
+            Kingofthedead,
+            <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html" target="_blank" rel="noopener">GFDL 1.2</a>
+
+          </li>
+
+          <li>
+            <strong>A tabby cat lying relaxed in a garden setting</strong> --
+            Alvesgaspar,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>A cute grey kitten with expressive blue eyes</strong> --
+            Nicolas Suzor,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A cat sleeping on her back in a relaxed pose</strong> --
+            Umberto Salvagnin,
+            <a href="https://creativecommons.org/licenses/by/2.0/deed.en" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>An orange/red kitten with expressive eyes</strong> --
+            Michael Maggs,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A tabby cat with vivid blue eyes</strong> --
+            Yann,
+            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a>
+
+          </li>
+
+          <li>
+            <strong>A six-week-old kitten</strong> --
+            Andre Karwath,
+            <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.en" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+
+          </li>
+
+          <li>
+            <strong>A golden tabby and white kitten</strong> --
+            Jastrow,
+            <a href="https://creativecommons.org/licenses/by/2.5/deed.en" target="_blank" rel="noopener">CC BY 2.5</a>
+
+          </li>
+
+          <li>
+            <strong>A young tabby cat keeping watch outdoors</strong> --
+            W.carter,
+            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a>
+
+          </li>
+
+          <li>
+            <strong>One-month-old kittens</strong> --
+            0x010C,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A Persian kitten with big eyes</strong> --
+            Sasan Geranmehr,
+            <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank" rel="noopener">CC BY 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>A black kitten with golden eyes</strong> --
+            Alvesgaspar,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>A British Blue cat with amber eyes</strong> --
+            LiquidGhoul,
+            <a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank" rel="noopener">Public domain</a>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </article>
+
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

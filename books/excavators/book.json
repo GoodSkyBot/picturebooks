@@ -1,0 +1,178 @@
+{
+  "title": "Dig, Dig, Dig! All About Excavators",
+  "slug": "excavators",
+  "targetAge": 6,
+  "category": "Vehicles",
+  "tags": [
+    "excavator",
+    "digger",
+    "construction",
+    "heavy equipment",
+    "hydraulics",
+    "bulldozer",
+    "dump truck",
+    "tracks",
+    "bucket",
+    "backhoe",
+    "trackhoe",
+    "mechanical shovel",
+    "construction vehicles",
+    "mini excavator",
+    "Caterpillar",
+    "JCB",
+    "Komatsu",
+    "digging",
+    "demolition",
+    "mining"
+  ],
+  "theme": {
+    "primaryColor": "#D97706",
+    "secondaryColor": "#92400E",
+    "backgroundColor": "#FFF8F0",
+    "accentColor": "#1D4ED8",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "rugged, earthy, bold construction energy"
+  },
+  "cover": {
+    "title": "Dig, Dig, Dig!",
+    "subtitle": "All About Excavators",
+    "image": "images/caterpillar_330_excavator.jpg.jpg"
+  },
+  "pages": [
+    {
+      "text": "Have you ever watched a giant machine scoop up a huge pile of dirt? That amazing machine is called an excavator! Some people call them diggers, and others call them mechanical shovels. Whatever you call them, excavators are some of the most powerful machines on Earth.",
+      "images": [
+        {
+          "src": "images/kobelco_sk260_excavator_hardwick_vt_august_2017.jpg.jpg",
+          "alt": "A large blue Kobelco excavator parked at a job site, showing its long boom, arm, and bucket",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "An excavator has four main parts. The undercarriage sits on the ground with tough tracks that help it crawl over mud and rocks. On top sits the house -- a platform that holds the engine, the cab, and heavy counterweights. The house can spin all the way around in a circle!",
+      "extras": [
+        "The house spins 360 degrees -- a full circle!",
+        "Excavators are sometimes called '360s.'"
+      ],
+      "images": [
+        {
+          "src": "images/kubota-excavator-kx_71-3-p6076724.jpg.jpg",
+          "alt": "A small orange Kubota excavator clearly showing its tracks, cab, boom, arm, and bucket",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Sticking out from the house is the boom -- a long, strong arm that moves up and down. At the end of the boom is the stick, which reaches forward and pulls back. And at the very tip? The bucket! It scoops dirt, rocks, and sand just like you scoop sand at the beach.",
+      "extras": [
+        "Buckets come in many sizes and shapes.",
+        "Some buckets have sharp teeth for hard ground."
+      ],
+      "images": [
+        {
+          "src": "images/doosan_dx85r-3_excavator_in_remiremont_france_-_2022-05-03_-.jpg",
+          "alt": "A Doosan excavator showing its boom, arm, and bucket extended outward",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "How does an excavator move such heavy loads? The secret is hydraulics! A powerful engine pumps oil through tubes at very high pressure. When that oil pushes against a piston, it creates enormous force -- enough to lift a car. That is how the boom, arm, and bucket move so smoothly.",
+      "extras": [
+        "Hydraulic pressure can reach 5,000 psi!",
+        "Pressurized oil replaced old chains and ropes."
+      ],
+      "images": [
+        {
+          "src": "images/excavator_samsung_se210_lc-3.jpg.jpg",
+          "alt": "A Samsung excavator at a construction site, showing hydraulic cylinders on the boom and arm",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Inside the cab, an operator uses two joysticks to control everything. One set moves the tracks forward and backward. The other moves the boom, arm, and bucket. It takes real skill to work all four controls at the same time!",
+      "images": [
+        {
+          "src": "images/kobelco_compact_excavator_04.jpg.jpg",
+          "alt": "An operator visible inside the cab of a Kobelco compact excavator while digging",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Excavators come in all sizes. Mini excavators are small enough to squeeze into backyards and narrow city streets. The smallest ones weigh about as much as a large horse! But the biggest excavators are true giants.",
+      "extras": [
+        "The smallest Cat mini-excavator weighs just 930 kg.",
+        "The CAT 6090 weighs as much as 200 elephants!"
+      ],
+      "images": [
+        {
+          "src": "images/case_mini_excavator_-_arlington_ma.jpg.jpg",
+          "alt": "A small yellow Case mini excavator working in a neighborhood",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Digging is just the beginning! Excavators can swap their bucket for other tools. A grapple grabs logs and debris. A hydraulic breaker smashes concrete like a giant jackhammer. An auger drills holes into the ground. One machine, many jobs!",
+      "extras": [
+        "A quick coupler lets operators swap tools in minutes.",
+        "Some attachments can rotate a full 360 degrees."
+      ],
+      "images": [
+        {
+          "src": "images/excavator_with_grapple.jpg.jpg",
+          "alt": "An excavator using a grapple attachment to pick up material and feed it into a chipper",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "On a busy construction site, excavators work as part of a team. They scoop up dirt and load it into dump trucks that carry it away. Bulldozers push earth flat while loaders scoop up loose gravel. Together they build roads, bridges, and buildings.",
+      "images": [
+        {
+          "src": "images/excavator_on_the_aibga_ridge.jpg.jpg",
+          "alt": "An excavator loading dirt into a dump truck while building a road on a mountain ridge",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Excavators work all over the world! They build roads through mountains in India, dig foundations in cities like Singapore, and construct highways in Europe. Wherever something big needs to be dug, moved, or knocked down, you will find an excavator ready to work.",
+      "images": [
+        {
+          "src": "images/jcb_excavator_padum_purney_road_tsarap_oct22_a7c_04402.jpg.jpg",
+          "alt": "A JCB excavator carving a road through steep mountains in India",
+          "orientation": "landscape"
+        },
+        {
+          "src": "images/singapore_doosan-dx-340lca-excavator-01.jpg.jpg",
+          "alt": "A tall Doosan excavator with a long-reach boom at a city construction site in Singapore",
+          "orientation": "portrait"
+        }
+      ]
+    },
+    {
+      "text": "Next time you pass a construction site, look for the excavators! Watch the boom swing, the bucket scoop, and the tracks crawl. These incredible machines can dig, lift, smash, and grab -- and the people who drive them make it all look easy.",
+      "images": [
+        {
+          "src": "images/2023-02-20_jcb_js220lc_tracked_excavator_vee_brezovec_constr.jpg",
+          "alt": "A JCB tracked excavator actively digging at a construction site",
+          "orientation": "landscape"
+        },
+        {
+          "src": "images/excavators_rv68_03.jpg.jpg",
+          "alt": "Multiple yellow excavators working together at a road construction site",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}

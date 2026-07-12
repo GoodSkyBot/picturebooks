@@ -1,0 +1,174 @@
+{
+  "title": "Cats!",
+  "slug": "cats",
+  "targetAge": 3,
+  "category": "Animals",
+  "tags": [
+    "cats",
+    "kittens",
+    "pets",
+    "animals",
+    "whiskers",
+    "purring",
+    "meow",
+    "fur",
+    "paws",
+    "baby animals",
+    "house cats",
+    "felines",
+    "tabby"
+  ],
+  "theme": {
+    "primaryColor": "#F4A261",
+    "secondaryColor": "#264653",
+    "backgroundColor": "#FFF8F0",
+    "accentColor": "#E76F51",
+    "fontHeading": "Fredoka One",
+    "fontBody": "Nunito",
+    "vibe": "warm, cozy, playful"
+  },
+  "cover": {
+    "title": "Cats!",
+    "subtitle": "Soft, furry, and full of surprises",
+    "image": "images/orange-tabby.jpg"
+  },
+  "pages": [
+    {
+      "text": "Hello, cat! Cats are small, furry animals. They have soft coats, pointy ears, and long tails. They come in many colors -- orange, black, white, and gray.",
+      "images": [
+        {
+          "src": "images/british-blue.jpg",
+          "alt": "A gray-blue cat with big amber eyes sitting outside",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Look at those big eyes! Cat eyes can see in the dark, much better than yours. In bright light, their pupils shrink to tiny slits. In the dark, they open wide and round.",
+      "extras": [
+        "Kittens are born with blue eyes."
+      ],
+      "images": [
+        {
+          "src": "images/tabby-blue-eyes.jpg",
+          "alt": "A tabby cat with bright blue eyes looking right at you",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Feel those whiskers! Cats have long whiskers on their face. Whiskers help cats feel their way around, even in the dark. They can tell if a space is too small to squeeze through.",
+      "images": [
+        {
+          "src": "images/cat-whiskers.jpg",
+          "alt": "Close-up of a cat's face showing long, white whiskers",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Cats walk on their tippy-toes. That is why they are so quiet! They can jump high and climb up tall things. Their bendy bodies can squeeze through tiny spaces.",
+      "images": [
+        {
+          "src": "images/cat-snow.jpg",
+          "alt": "A cat walking on snow with its tail held high",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "What does a cat say? Meow! Cats meow to talk to people. When a cat is happy, it purrs. When a cat is scared, it hisses. Mother cats make little chirping sounds to call their kittens.",
+      "images": [
+        {
+          "src": "images/european-cat.jpg",
+          "alt": "A cat with its mouth slightly open, as if meowing",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Baby cats are called kittens. They are born tiny, with their eyes shut tight. After two weeks, their eyes open! Kittens drink milk from their mama and love to play.",
+      "extras": [
+        "A mama cat usually has three to five kittens."
+      ],
+      "images": [
+        {
+          "src": "images/gray-kitten.jpg",
+          "alt": "A tiny gray kitten with blue eyes looking curious",
+          "orientation": "landscape"
+        },
+        {
+          "src": "images/month-old-kittens.jpg",
+          "alt": "Tiny one-month-old kittens huddled together",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Kittens love to play! They chase, pounce, and tumble. Playing helps kittens learn to be big, strong cats.",
+      "images": [
+        {
+          "src": "images/golden-kitten.jpg",
+          "alt": "A golden tabby kitten mid-play, ready to pounce",
+          "orientation": "landscape"
+        },
+        {
+          "src": "images/red-kitten.jpg",
+          "alt": "An orange kitten with big, curious eyes",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Shh -- the cat is sleeping! Cats sleep a lot. They nap and nap and nap. Some cats sleep for sixteen hours a day! That is where we get the word \"catnap.\"",
+      "extras": [
+        "Cats love warm, cozy spots for sleeping."
+      ],
+      "images": [
+        {
+          "src": "images/sleeping-cat.jpg",
+          "alt": "A cat sleeping on its back, looking very relaxed",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "See the cat's tail? When a cat holds its tail straight up, it is saying hello! A puffy tail means the cat is scared. Tails help cats balance when they climb and jump.",
+      "images": [
+        {
+          "src": "images/tabby-watch.jpg",
+          "alt": "A tabby cat outdoors with its tail visible, watching carefully",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Cats have soft, padded paws. Their sharp claws hide inside! Claws pop out for climbing and scratching. Cats lick their fur to stay clean -- their bumpy tongue works like a little brush.",
+      "images": [
+        {
+          "src": "images/cat-garden.jpg",
+          "alt": "A tabby cat lying in a garden, showing its paws",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Cats are one of the most popular pets in the world. People have loved cats for a very long time. Would you like to pet a cat? They are soft, warm, and wonderful.",
+      "images": [
+        {
+          "src": "images/persian-kitten.jpg",
+          "alt": "A fluffy Persian kitten with big round eyes",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
