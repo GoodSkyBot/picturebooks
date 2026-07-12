@@ -1,0 +1,564 @@
+{
+  "topic": "Cats",
+  "slug": "cats",
+  "targetAge": 3,
+  "sources": [
+    {
+      "title": "Cat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cat",
+      "accessed": "2026-07-12"
+    },
+    {
+      "title": "Cat - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Cat",
+      "accessed": "2026-07-12"
+    },
+    {
+      "title": "Cat communication - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cat_communication",
+      "accessed": "2026-07-12"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "What cats look like",
+      "text": "Cats are small furry animals with soft coats, pointed ears, long tails, and whiskers on their faces. An adult cat is about 46 cm (18 inches) long in its body and weighs around 4-5 kg (about 10 pounds). They come in many colors: orange, black, white, gray, and mixes like tabby stripes or calico patches. Their fur can be short or long and fluffy.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/orange-tabby.jpg",
+        "images/british-blue.jpg",
+        "images/black-kitten.jpg"
+      ]
+    },
+    {
+      "title": "Cat eyes",
+      "text": "Cats have very large eyes compared to their head size. Their pupils can get very big and round in dim light, or shrink to thin slits in bright light. Cats can see well in the dark - much better than people can. Kittens are born with blue eyes, which may change color as they grow older. Adult cats can have green, gold, amber, or blue eyes.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/tabby-blue-eyes.jpg",
+        "images/cat-gray.jpg"
+      ]
+    },
+    {
+      "title": "Whiskers",
+      "text": "Cats have long whiskers on each side of their nose, above their eyes, and on their chin. Whiskers are very sensitive to touch and help cats feel their way around, especially in the dark. Whiskers help a cat know if a gap is wide enough to fit through. They also trigger a blink reflex to protect the cat's eyes from damage.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/cat-whiskers.jpg"
+      ]
+    },
+    {
+      "title": "How cats move",
+      "text": "Cats walk on their toes, which makes them very quiet. They move both legs on one side of their body together, like camels and giraffes. Cats are great jumpers and climbers. They have flexible bodies because they have extra bones in their spine compared to humans. Their front legs are attached loosely, which lets them squeeze through any gap their head fits through.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/cat-snow.jpg",
+        "images/tabby-watch.jpg"
+      ]
+    },
+    {
+      "title": "Cat sounds",
+      "text": "Cats communicate with many sounds. They meow, purr, hiss, and trill. Adult cats mostly meow at people, not at other cats. Purring usually means a cat is happy and relaxed, like when being petted or eating. Mother cats and kittens use trilling and chirping sounds to talk to each other. When scared or angry, cats hiss and growl as a warning.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/european-cat.jpg"
+      ]
+    },
+    {
+      "title": "Kittens",
+      "text": "Baby cats are called kittens. They are born tiny with their eyes closed. After about two weeks their eyes open - at first all kittens have blue eyes. Kittens drink milk from their mother for the first six to seven weeks. They love to play, which helps them learn to hunt. A mother cat usually has three to five kittens at a time.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/gray-kitten.jpg",
+        "images/six-week-kitten.jpg",
+        "images/month-old-kittens.jpg",
+        "images/golden-kitten.jpg"
+      ]
+    },
+    {
+      "title": "Sleeping",
+      "text": "Cats sleep a lot - between 12 and 16 hours every day! Some cats sleep up to 20 hours. They often take short naps, which is where the phrase 'cat nap' comes from. Cats like to sleep in warm, cozy spots. They may curl up in a ball, stretch out on their backs, or find a sunny patch on the floor.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/sleeping-cat.jpg"
+      ]
+    },
+    {
+      "title": "Grooming",
+      "text": "Cats keep themselves very clean by licking their fur with their tongue. A cat's tongue has tiny backward-facing bumps that work like a hairbrush, combing through and cleaning their coat. Cats spend a lot of their waking time grooming. This is one reason why cats are popular pets - they stay clean on their own.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/european-cat.jpg"
+      ]
+    },
+    {
+      "title": "Cat tails",
+      "text": "A cat's tail helps with balance and also shows how the cat is feeling. When a cat holds its tail straight up, it means the cat is happy and friendly - like saying hello. When a cat puffs up its tail to look bigger, it is scared or angry. Cats use their tails for balance when climbing, jumping, and walking along narrow surfaces.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/cat-snow.jpg",
+        "images/tabby-watch.jpg"
+      ]
+    },
+    {
+      "title": "Playing",
+      "text": "Cats, especially kittens, love to play. They chase toys, pounce on things, and wrestle with each other. Playing is how kittens learn the skills they need - stalking, pouncing, and catching. Cats like toys that move quickly, especially small furry ones that remind them of mice. They also love string, balls, and crinkly things.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/golden-kitten.jpg",
+        "images/red-kitten.jpg"
+      ]
+    },
+    {
+      "title": "Cats as pets",
+      "text": "Cats are one of the most popular pets in the world. There are about 220 million pet cats worldwide. People have kept cats for nearly 10,000 years. Cats are independent animals that can look after themselves more than dogs. They use a litter box, groom themselves, and are generally quiet and well-behaved. There are about 92 different breeds of cat.",
+      "sources": [
+        1
+      ],
+      "relatedImages": [
+        "images/cat-garden.jpg",
+        "images/persian-kitten.jpg"
+      ]
+    },
+    {
+      "title": "Cat paws and claws",
+      "text": "Cats have soft padded paws that help them walk silently. They have retractable claws - this means they can pull their claws in and push them out when they need them. Claws come out for climbing, scratching, and catching things. Most cats have five toes on their front paws and four on their back paws. Cats scratch things to keep their claws sharp.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/cat-garden.jpg"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/orange-tabby.jpg",
+      "description": "An orange tabby cat photographed outdoors with sharp detail",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "width": 1647,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "warm",
+        "sharp"
+      ],
+      "contentTags": [
+        "cat",
+        "body-parts",
+        "cover"
+      ]
+    },
+    {
+      "filename": "images/kitten-rizal.jpg",
+      "description": "A small tabby kitten in Rizal Park, Manila",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kitten_in_Rizal_Park,_Manila.jpg",
+      "author": "Judgefloro",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "width": 1467,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "soft-light",
+        "natural",
+        "warm",
+        "shallow-depth-of-field"
+      ],
+      "contentTags": [
+        "kitten",
+        "young-cat",
+        "outdoors"
+      ]
+    },
+    {
+      "filename": "images/cat-snow.jpg",
+      "description": "A domestic cat walking on snow with tail raised",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg",
+      "author": "Ebrahim",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "high-contrast",
+        "action"
+      ],
+      "contentTags": [
+        "movement",
+        "body-parts",
+        "tail"
+      ]
+    },
+    {
+      "filename": "images/cat-whiskers.jpg",
+      "description": "Close-up of a tabby cat showing prominent whiskers",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kittyply_edit1.jpg",
+      "author": "Arad",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/deed.en",
+      "width": 1728,
+      "height": 1152,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "sharp",
+        "natural",
+        "warm"
+      ],
+      "contentTags": [
+        "whiskers",
+        "face",
+        "body-parts"
+      ]
+    },
+    {
+      "filename": "images/european-cat.jpg",
+      "description": "A European shorthair cat in a close-up portrait",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gatto_europeo4.jpg",
+      "author": "Imm808",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "width": 1785,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "warm",
+        "soft-background",
+        "natural"
+      ],
+      "contentTags": [
+        "cat",
+        "face",
+        "whiskers"
+      ]
+    },
+    {
+      "filename": "images/cat-gray.jpg",
+      "description": "A gray cat with striking eyes looking at the viewer",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cat03.jpg",
+      "author": "Kingofthedead",
+      "license": "GFDL 1.2",
+      "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "width": 1600,
+      "height": 1598,
+      "imageType": "photo",
+      "styleTags": [
+        "warm",
+        "close-up",
+        "soft-background",
+        "natural"
+      ],
+      "contentTags": [
+        "cat",
+        "face",
+        "eyes"
+      ]
+    },
+    {
+      "filename": "images/cat-garden.jpg",
+      "description": "A tabby cat lying relaxed in a garden setting",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cat_August_2010-4.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "width": 1920,
+      "height": 1174,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "clean-background",
+        "sharp"
+      ],
+      "contentTags": [
+        "cat",
+        "resting",
+        "stripes"
+      ]
+    },
+    {
+      "filename": "images/gray-kitten.jpg",
+      "description": "A cute grey kitten with expressive blue eyes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cute_grey_kitten.jpg",
+      "author": "Nicolas Suzor",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "width": 1920,
+      "height": 1277,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "warm",
+        "soft-light",
+        "shallow-depth-of-field"
+      ],
+      "contentTags": [
+        "kitten",
+        "baby-animal",
+        "face"
+      ]
+    },
+    {
+      "filename": "images/sleeping-cat.jpg",
+      "description": "A cat sleeping on her back in a relaxed pose",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg",
+      "author": "Umberto Salvagnin",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "width": 1920,
+      "height": 1920,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "warm",
+        "close-up"
+      ],
+      "contentTags": [
+        "sleeping",
+        "behavior"
+      ]
+    },
+    {
+      "filename": "images/red-kitten.jpg",
+      "description": "An orange/red kitten with expressive eyes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red_Kitten_01.jpg",
+      "author": "Michael Maggs",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "warm",
+        "close-up",
+        "natural",
+        "bright",
+        "soft-background"
+      ],
+      "contentTags": [
+        "kitten",
+        "body-parts",
+        "face"
+      ]
+    },
+    {
+      "filename": "images/tabby-blue-eyes.jpg",
+      "description": "A tabby cat with vivid blue eyes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tabby_cat_with_blue_eyes-3336579.jpg",
+      "author": "Yann",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 1832,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "warm",
+        "soft-light",
+        "colorful"
+      ],
+      "contentTags": [
+        "cat",
+        "eyes",
+        "face"
+      ]
+    },
+    {
+      "filename": "images/six-week-kitten.jpg",
+      "description": "A six-week-old kitten",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Six_weeks_old_cat_(aka).jpg",
+      "author": "Andre Karwath",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/deed.en",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "natural",
+        "soft-light",
+        "close-up",
+        "warm"
+      ],
+      "contentTags": [
+        "kitten",
+        "lifecycle",
+        "young-cat"
+      ]
+    },
+    {
+      "filename": "images/golden-kitten.jpg",
+      "description": "A golden tabby and white kitten",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Golden_tabby_and_white_kitten_n01.jpg",
+      "author": "Jastrow",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/deed.en",
+      "width": 1920,
+      "height": 1285,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "warm",
+        "sharp-focus",
+        "simple-background"
+      ],
+      "contentTags": [
+        "kitten",
+        "playing",
+        "body-parts"
+      ]
+    },
+    {
+      "filename": "images/tabby-watch.jpg",
+      "description": "A young tabby cat keeping watch outdoors",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Young_tabby_cat_keeping_watch.jpg",
+      "author": "W.carter",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "natural",
+        "bright",
+        "outdoor",
+        "side-profile"
+      ],
+      "contentTags": [
+        "tabby",
+        "movement",
+        "outdoor"
+      ]
+    },
+    {
+      "filename": "images/month-old-kittens.jpg",
+      "description": "One-month-old kittens",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1-month-old_kittens_32.jpg",
+      "author": "0x010C",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "sharp",
+        "dark-background",
+        "warm"
+      ],
+      "contentTags": [
+        "kitten",
+        "lifecycle",
+        "baby-animal",
+        "face"
+      ]
+    },
+    {
+      "filename": "images/persian-kitten.jpg",
+      "description": "A Persian kitten with big eyes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Persian_Cat_(kitten).jpg",
+      "author": "Sasan Geranmehr",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "width": 1883,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "warm",
+        "expressive"
+      ],
+      "contentTags": [
+        "kitten",
+        "baby-animal",
+        "breed"
+      ]
+    },
+    {
+      "filename": "images/black-kitten.jpg",
+      "description": "A black kitten with golden eyes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Black_kitten_July_August_2009-1.jpg",
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "width": 1920,
+      "height": 1326,
+      "imageType": "photo",
+      "styleTags": [
+        "high-contrast",
+        "clean-background",
+        "close-up",
+        "natural"
+      ],
+      "contentTags": [
+        "kitten",
+        "fur-color",
+        "face"
+      ]
+    },
+    {
+      "filename": "images/british-blue.jpg",
+      "description": "A British Blue cat with amber eyes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Britishblue.jpg",
+      "author": "LiquidGhoul",
+      "license": "Public domain",
+      "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+      "width": 924,
+      "height": 1488,
+      "imageType": "photo",
+      "styleTags": [
+        "natural",
+        "outdoor",
+        "soft-light",
+        "close-up"
+      ],
+      "contentTags": [
+        "cat",
+        "breed",
+        "body-parts"
+      ]
+    }
+  ],
+  "handoffNotes": [
+    "The image set is heavily weighted toward kitten and face close-ups, which should work well for age 3. The set includes movement (cat-snow, tabby-watch), sleeping, and different colors (orange, gray, black, golden, blue). Consider a simple structure: what cats look like, what they do, kittens, sounds."
+  ]
+}

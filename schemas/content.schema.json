@@ -1,14 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://picturebooks.local/schemas/content.schema.json",
-  "title": "Picture Book Research Content",
+  "title": "Picture Book Research Dossier",
   "type": "object",
   "required": [
     "topic",
     "slug",
     "targetAge",
     "sources",
-    "facts",
+    "researchNotes",
     "images"
   ],
   "additionalProperties": false,
@@ -23,8 +23,8 @@
     },
     "targetAge": {
       "type": "integer",
-      "minimum": 3,
-      "maximum": 8
+      "minimum": 0,
+      "maximum": 99
     },
     "sources": {
       "type": "array",
@@ -45,35 +45,52 @@
           "accessed": {
             "type": "string",
             "format": "date"
-          },
-          "notes": {
-            "type": "string"
           }
         }
       }
     },
-    "facts": {
+    "researchNotes": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["category", "text", "source"],
+        "required": ["title", "text", "sources"],
         "additionalProperties": false,
         "properties": {
-          "category": {
+          "title": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "description": "Short label for this research note, used to help the author scan the dossier."
           },
           "text": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "description": "A sourced research note. Prefer connected explanation over isolated atomic facts."
           },
-          "source": {
-            "type": "integer",
-            "minimum": 0
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "uniqueItems": true
+          },
+          "relatedImages": {
+            "type": "array",
+            "description": "Optional image filenames that may support this note.",
+            "items": {
+              "type": "string",
+              "pattern": "^images/.+"
+            },
+            "uniqueItems": true
           }
         }
       }
+    },
+    "handoffNotes": {
+      "type": "string",
+      "description": "Optional freeform context for the author, such as research gaps, cautions, promising angles, or source limitations."
     },
     "images": {
       "type": "array",
@@ -86,7 +103,10 @@
           "source_url",
           "author",
           "license",
-          "license_url"
+          "license_url",
+          "width",
+          "height",
+          "contentTags"
         ],
         "additionalProperties": false,
         "properties": {
@@ -117,13 +137,42 @@
           },
           "width": {
             "type": "integer",
-            "minimum": 1,
-            "description": "Image width in pixels"
+            "minimum": 1
           },
           "height": {
             "type": "integer",
-            "minimum": 1,
-            "description": "Image height in pixels"
+            "minimum": 1
+          },
+          "imageType": {
+            "type": "string",
+            "enum": [
+              "photo",
+              "illustration",
+              "painting",
+              "diagram",
+              "map",
+              "document",
+              "other"
+            ]
+          },
+          "styleTags": {
+            "type": "array",
+            "description": "Optional visual style descriptors useful for choosing a consistent image set.",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "contentTags": {
+            "type": "array",
+            "description": "What the image shows or could support in the book, such as lifecycle, habitat, movement, close-up, place, person, tool, map, or cover.",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
           }
         }
       }

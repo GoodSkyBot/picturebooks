@@ -26,8 +26,8 @@
     },
     "targetAge": {
       "type": "integer",
-      "minimum": 3,
-      "maximum": 8
+      "minimum": 0,
+      "maximum": 99
     },
     "category": {
       "type": "string",

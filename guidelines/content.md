@@ -25,7 +25,7 @@
 
 ## Fact Handling
 
-- Every fact must trace back to a source in `content.json`.
+- Every factual claim must trace back to the research notes or sources in `content.json`.
 - If a fact is uncertain, omit it.
 - If the source wording is too advanced, simplify without changing the meaning.
 - When facts are scary or gross, reduce detail for younger readers.

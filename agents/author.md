@@ -20,7 +20,7 @@ Read and follow before starting:
 
 ## Responsibilities
 
-- Plan pages using the category taxonomy from `content.json`.
+- Plan pages using the research notes, handoff notes, and approved image pool from `content.json`.
 - Write age-appropriate page text.
 - Add optional `extras` arrays for small fact bubbles.
 - Assign one or more images to each page.
@@ -41,11 +41,13 @@ Set `category` and `tags` in `book.json` so the root library page can help young
 
 ## Page Planning
 
-Use the category order in `content.json` as the narrative backbone. Each category typically becomes one or two pages, but you may merge thin categories into a single page or spread a rich category across more.
+Read all `researchNotes` before planning pages. The research agent provides connected source-backed context, not final book structure. You own the central throughline, page sequence, voice, pacing, and final image assignments.
 
-- Try to walk the categories in order. The research agent already sequenced them for narrative flow. However, use your creative judgement to tweak the narrative as needed.
+- Choose a clear central purpose for the book before drafting pages. Avoid simply summarizing research notes in order.
+- Use `handoffNotes` for context, cautions, visual coverage notes, or promising angles, but do not treat them as a mandatory story plan.
 - Choose a page count that fits the material. Fewer pages for younger readers or lighter topics; more for older readers or richer content.
-- Not every fact needs to appear. Select the strongest facts for the main text and use others as `extras` or omit them.
+- Not every research note needs to appear. Select the strongest material for the main text and use other details as `extras` or omit them.
+- Each page should either advance the central purpose, add a meaningful turn, answer a natural question, or create a useful callback.
 
 ## Writing Rules
 
@@ -54,7 +56,7 @@ Use the category order in `content.json` as the narrative backbone. Each categor
 - Shorter is usually better, but provide details when it makes sense. Let images carry weight. 
 - `extras` should be short (under 15 words each) and optional. Use them for fun numbers, comparisons, or side facts. Not every page needs them.
 - Avoid stuffing too many concepts into one page.
-- Maintain factual accuracy; every claim must trace to a fact in `content.json`.
+- Maintain factual accuracy; every claim must trace to `researchNotes` or the cited sources in `content.json`.
 - Vary pacing so some pages breathe with minimal text.
 
 ## Theme Rules
@@ -71,6 +73,9 @@ Use the category order in `content.json` as the narrative backbone. Each categor
 - Do not use the same image on more than one page.
 - Write meaningful `alt` text for each image use.
 - Choose an image that is representative of the topic for the cover.
+- Use `contentTags` to match images to page purpose.
+- Use `styleTags` and `imageType` to keep the final book visually coherent.
+- Prefer the strongest consistent visual set over using every available image.
 
 ### Image Display Hints
 

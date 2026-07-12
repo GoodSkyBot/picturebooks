@@ -1,0 +1,489 @@
+{
+  "topic": "Excavators",
+  "slug": "excavators",
+  "targetAge": 6,
+  "sources": [
+    {
+      "title": "Excavator - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Excavator",
+      "accessed": "2026-07-12"
+    },
+    {
+      "title": "Excavator - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Excavator",
+      "accessed": "2026-07-12"
+    },
+    {
+      "title": "Hydraulic machinery - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hydraulic_machinery",
+      "accessed": "2026-07-12"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "What is an excavator?",
+      "text": "An excavator is a piece of heavy construction equipment used primarily for digging. It consists of four main parts: the undercarriage (with tracks or wheels for moving), the house (a rotating platform that holds the cab where the operator sits, the engine, and counterweights), the boom and arm (the long jointed parts that reach out), and the bucket (the scoop on the end that digs into the ground). The house can spin 360 degrees on top of the undercarriage, which is why excavators are sometimes called '360s.' Other common names include diggers, scoopers, and mechanical shovels.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/caterpillar_330_excavator.jpg.jpg",
+        "images/kobelco_sk260_excavator_hardwick_vt_august_2017.jpg.jpg"
+      ]
+    },
+    {
+      "title": "The main parts of an excavator",
+      "text": "The boom is the large arm that attaches to the house and moves up and down. The stick (also called the dipper arm) attaches to the end of the boom and provides the digging motion needed to pull the bucket through the ground. The bucket is at the very end and comes in many shapes and sizes -- wide flat ones for scooping soft material and smaller ones with teeth for breaking hard ground and rock. The cab is where the operator sits, using two joystick controllers to move all the parts. The undercarriage has tracks (like a tank) or wheels, plus hydraulic motors that drive them.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/kubota-excavator-kx_71-3-p6076724.jpg.jpg",
+        "images/case_mini_excavator_-_arlington_ma.jpg.jpg"
+      ]
+    },
+    {
+      "title": "How hydraulics make excavators work",
+      "text": "Excavators are powered by hydraulics -- a system that uses pressurized oil (hydraulic fluid) pushed through tubes and hoses to move cylinders and motors. The engine drives hydraulic pumps that push oil at very high pressure (up to 5000 psi) through the system. When the oil pushes against a piston inside a cylinder, it creates enormous force that can move the heavy boom, arm, and bucket. This is based on Pascal's law: pressure applied to fluid in a closed system transmits equally in all directions. Hydraulics replaced the older system of winches, chains, and steel ropes that earlier excavators used.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/doosan_dx85r-3_excavator_in_remiremont_france_-_2022-05-03_-.jpg"
+      ]
+    },
+    {
+      "title": "Types of excavators",
+      "text": "Excavators come in many types and sizes. Crawler excavators have metal or rubber tracks and are the most common type -- they can work on soft or rough ground. Wheeled excavators roll on rubber tires and move faster on roads but cannot go on very soft ground. Mini (compact) excavators are small enough to work in tight spaces like backyards or city streets -- the smallest Caterpillar mini-excavator weighs only about 930 kg. Long-reach excavators have extra-long booms for reaching far distances, such as for dredging rivers. The largest excavators can weigh nearly 1 million kilograms and have buckets that hold 52 cubic meters of material.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/case_mini_excavator_-_arlington_ma.jpg.jpg",
+        "images/singapore_doosan-dx-340lca-excavator-01.jpg.jpg"
+      ]
+    },
+    {
+      "title": "What excavators do: digging and more",
+      "text": "While digging is their primary job, modern excavators do far more. They dig trenches, holes, and foundations for buildings. They handle and move heavy materials. They demolish buildings using hydraulic claws, cutters, and breaker attachments. They work in mining operations, moving rock and earth. They dredge rivers and lakes. They can even remove snow, drill holes, or drive piles for bridges. The key to their versatility is the ability to swap the bucket for many different attachments -- grapples for grabbing, augers for drilling, hammers for breaking rock, and saws for cutting.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/excavator_with_grapple.jpg.jpg",
+        "images/2023-02-20_jcb_js220lc_tracked_excavator_vee_brezovec_constr.jpg"
+      ]
+    },
+    {
+      "title": "Excavators working together with other machines",
+      "text": "On a construction site, excavators rarely work alone. They often work alongside dump trucks -- the excavator digs material and loads it into the truck, which carries it away. They work with bulldozers that push and level earth, and with loaders that scoop up loose material. This teamwork is essential for big projects like road building, mining, and constructing buildings. An excavator loading dirt into a waiting truck is one of the most common sights on any construction site.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/excavator_on_the_aibga_ridge.jpg.jpg",
+        "images/excavators_rv68_03.jpg.jpg"
+      ]
+    },
+    {
+      "title": "Who operates an excavator?",
+      "text": "An excavator operator sits in the cab and uses two joystick controllers to command all movements. One set of controls moves the machine forward and backward on its tracks, while another set operates the arm and bucket. Operating an excavator requires training and skill -- the operator must control four main functions simultaneously using the two joysticks. There are two main control configurations used worldwide: SAE (most popular in the US) and ISO (common elsewhere). Some machines have switches to let the operator choose which configuration they prefer.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/kobelco_compact_excavator_04.jpg.jpg"
+      ]
+    },
+    {
+      "title": "Excavator safety features",
+      "text": "Modern excavators include many safety features. In 1993, Yanmar launched the world's first Zero Tail Swing excavator, which keeps the counterweight within the width of the tracks as the house rotates. This makes the machine much safer in confined spaces because nothing swings out beyond the tracks to hit walls, vehicles, or people. Many excavators also have a small bulldozer-like blade on the front of the undercarriage that can be lowered to stabilize the machine while digging, preventing it from tipping over.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "title": "History: from steam shovels to hydraulic excavators",
+      "text": "The modern hydraulic excavator evolved from the steam shovel, which itself became the power shovel when steam engines were replaced by diesel and electric power. A key change was the direction of digging: early powered shovels pushed their buckets away to fill them, while modern excavators pull their buckets toward themselves (like a person scooping sand toward their body). The switch to hydraulic power -- using pressurized oil instead of winches, chains, and steel ropes -- was the biggest transformation, giving operators precise control over every movement.",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "title": "Excavator attachments expand their abilities",
+      "text": "The bucket is just one of many tools an excavator can use. Hydraulic breakers (like giant jackhammers) smash concrete and rock. Grapples grab and sort debris or logs. Augers drill holes into the ground. Hydraulic shears cut through metal during demolition or recycling. Mowers and mulchers clear brush and trees. Many excavators use a quick coupler -- a special connector that lets the operator swap attachments in minutes without leaving the cab. In Scandinavia, many excavators have a tiltrotator that lets attachments rotate 360 degrees and tilt 45 degrees for extra precision.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/excavator_with_grapple.jpg.jpg"
+      ]
+    },
+    {
+      "title": "Excavators around the world",
+      "text": "Excavators are built by manufacturers in many countries. Major brands include Caterpillar and John Deere (USA), Komatsu, Kubota, and Hitachi (Japan), JCB (UK), Liebherr (Switzerland/Germany), Volvo (Sweden), Hyundai and Doosan (South Korea), and SANY and XCMG (China). These machines work on every continent, building roads through mountains, digging foundations in cities, mining in deserts, and maintaining waterways. Wherever something big needs to be dug, moved, or demolished, you will find an excavator.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/jcb_excavator_padum_purney_road_tsarap_oct22_a7c_04402.jpg.jpg",
+        "images/caterpillar_328d_lcr_at_construction_site_in_sunnyvale.jpg.jpg"
+      ]
+    },
+    {
+      "title": "Fun facts about excavators",
+      "text": "The largest excavator ever made, the CAT 6090, weighs nearly 980,000 kg -- as heavy as about 200 elephants -- and has 4500 horsepower. Its bucket can scoop up 52 cubic meters of material in one bite. Meanwhile, the smallest Caterpillar mini-excavator weighs only 930 kg (about as much as a large horse) and has just 13 horsepower. Wheeled excavators in the UK are sometimes nicknamed 'rubber ducks.' Tracked excavators in the US are sometimes called 'trackhoes.' An experienced operator can use an excavator with such precision that some have been filmed opening bottles, stacking coins, or playing basketball with their buckets.",
+      "sources": [
+        0
+      ]
+    }
+  ],
+  "handoffNotes": "The image set is entirely photos of real excavators at work sites. Most show yellow or orange machines with good color contrast. Coverage includes: standard crawler excavators digging, mini/compact excavators, excavators with attachments (grapple), teamwork with trucks, mountain road building, and different manufacturer brands. Missing: wheeled excavator photo, clear hydraulic cylinder close-up, cab interior/operator view. The author may want to describe hydraulics conceptually without a dedicated photo.",
+  "images": [
+    {
+      "filename": "images/2023-02-20_jcb_js220lc_tracked_excavator_vee_brezovec_constr.jpg",
+      "description": "JCB JS220LC tracked excavator actively working at a construction site in Slovakia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2023-02-20,_JCB_JS220LC_tracked_excavator,_Ve%C5%BEe_Brezovec_construction_site,_Doln%C3%BD_Kub%C3%ADn,_Slovakia.jpg",
+      "author": "Oto Zapletal",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "width": 1920,
+      "height": 1440,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "action",
+        "natural",
+        "warm"
+      ],
+      "contentTags": [
+        "excavator",
+        "construction-site",
+        "digging",
+        "tracks"
+      ]
+    },
+    {
+      "filename": "images/case_mini_excavator_-_arlington_ma.jpg.jpg",
+      "description": "Case mini excavator in a neighborhood in Arlington, Massachusetts",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Case_mini_excavator_-_Arlington,_MA.jpg",
+      "author": "Daderot",
+      "license": "CC0 1.0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1920,
+      "height": 1620,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "colorful",
+        "natural",
+        "side-view"
+      ],
+      "contentTags": [
+        "mini-excavator",
+        "tracks",
+        "bucket",
+        "neighborhood",
+        "body-parts"
+      ]
+    },
+    {
+      "filename": "images/caterpillar_328d_lcr_at_construction_site_in_sunnyvale.jpg.jpg",
+      "description": "Caterpillar 328D LCR excavator at a construction site in Sunnyvale, California",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Caterpillar_328D_LCR_at_construction_site_in_Sunnyvale.jpg",
+      "author": "Grendelkhan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1440,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "wide-angle",
+        "natural",
+        "outdoor"
+      ],
+      "contentTags": [
+        "excavator",
+        "construction-site",
+        "tracks",
+        "digging",
+        "real-world"
+      ]
+    },
+    {
+      "filename": "images/caterpillar_330_excavator.jpg.jpg",
+      "description": "Caterpillar 330 excavator scooping dirt against a blue sky",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Caterpillar_330_Excavator.jpg",
+      "author": "Matthew T Rader",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "action",
+        "low-angle",
+        "high-contrast",
+        "outdoor"
+      ],
+      "contentTags": [
+        "excavator",
+        "digging",
+        "bucket",
+        "construction-site",
+        "cover"
+      ]
+    },
+    {
+      "filename": "images/doosan_dx85r-3_excavator_in_remiremont_france_-_2022-05-03_-.jpg",
+      "description": "Doosan DX85R-3 midi excavator in Remiremont, France, showing boom, arm, bucket, and tracks",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Doosan_DX85R-3_excavator_in_Remiremont,_France_-_2022-05-03_-_01.jpg",
+      "author": "Mathieu Kappler",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "colorful",
+        "natural",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "excavator",
+        "body-parts",
+        "tracks",
+        "bucket"
+      ]
+    },
+    {
+      "filename": "images/excavator_on_the_aibga_ridge.jpg.jpg",
+      "description": "Excavator loading a dump truck while building a mountain road on the Aibga ridge",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Excavator_on_the_Aibga_ridge.JPG",
+      "author": "SKas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "colorful",
+        "action",
+        "natural",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "excavator",
+        "digging",
+        "dump-truck",
+        "teamwork",
+        "mountain",
+        "road-building"
+      ]
+    },
+    {
+      "filename": "images/excavator_samsung_se210_lc-3.jpg.jpg",
+      "description": "Samsung SE210 LC-3 excavator at a construction site showing all main parts",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Excavator_Samsung_SE210_LC-3.JPG",
+      "author": "High Contrast",
+      "license": "CC BY 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+      "width": 1920,
+      "height": 1292,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "side-view",
+        "warm"
+      ],
+      "contentTags": [
+        "excavator",
+        "construction-site",
+        "body-parts",
+        "tracks",
+        "bucket"
+      ]
+    },
+    {
+      "filename": "images/excavator_with_grapple.jpg.jpg",
+      "description": "Excavator using a grapple attachment to feed material into a chipper",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Excavator_with_grapple.jpg",
+      "author": "Wikideas1",
+      "license": "CC0 1.0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 1920,
+      "height": 1605,
+      "imageType": "photo",
+      "styleTags": [
+        "aerial",
+        "action",
+        "bright",
+        "warm",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "attachment",
+        "grapple",
+        "action",
+        "teamwork",
+        "job-site"
+      ]
+    },
+    {
+      "filename": "images/excavators_rv68_03.jpg.jpg",
+      "description": "Multiple yellow excavators working together at a road construction site",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Excavators_RV68_03.jpg",
+      "author": "Calle Eklund/V-wolf",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "action",
+        "colorful"
+      ],
+      "contentTags": [
+        "construction-site",
+        "teamwork",
+        "tracks",
+        "digging",
+        "worker"
+      ]
+    },
+    {
+      "filename": "images/jcb_excavator_padum_purney_road_tsarap_oct22_a7c_04402.jpg.jpg",
+      "description": "JCB excavator building a road through mountains in India",
+      "source_url": "https://commons.wikimedia.org/wiki/File:JCB_Excavator_Padum_Purney_Road_Tsarap_Oct22_A7C_04402.jpg",
+      "author": "Timothy A. Gonsalves",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1280,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "high-contrast",
+        "action",
+        "natural"
+      ],
+      "contentTags": [
+        "excavator",
+        "road-building",
+        "bucket",
+        "tracks",
+        "operator",
+        "place"
+      ]
+    },
+    {
+      "filename": "images/kobelco_compact_excavator_04.jpg.jpg",
+      "description": "Kobelco compact excavator with operator visible in cab, actively digging",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kobelco_compact_excavator_(04).jpg",
+      "author": "Classiccardinal",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1440,
+      "imageType": "photo",
+      "styleTags": [
+        "colorful",
+        "action",
+        "natural"
+      ],
+      "contentTags": [
+        "excavator",
+        "compact-excavator",
+        "construction-site",
+        "operator",
+        "digging"
+      ]
+    },
+    {
+      "filename": "images/kobelco_sk260_excavator_hardwick_vt_august_2017.jpg.jpg",
+      "description": "Kobelco SK260 excavator parked at a job site showing full side profile",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kobelco_SK260_Excavator_Hardwick_VT_August_2017.jpg",
+      "author": "Artaxerxes",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1152,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "side-view",
+        "outdoor"
+      ],
+      "contentTags": [
+        "excavator",
+        "tracks",
+        "boom",
+        "bucket",
+        "construction-site"
+      ]
+    },
+    {
+      "filename": "images/kubota-excavator-kx_71-3-p6076724.jpg.jpg",
+      "description": "Kubota KX 71-3 compact excavator showing all main body parts clearly",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kubota-excavator-KX_71-3-P6076724.jpg",
+      "author": "Ermell",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1920,
+      "height": 1440,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "colorful",
+        "side-view",
+        "natural",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "excavator",
+        "body-parts",
+        "tracks",
+        "bucket",
+        "cab",
+        "compact-excavator"
+      ]
+    },
+    {
+      "filename": "images/singapore_doosan-dx-340lca-excavator-01.jpg.jpg",
+      "description": "Large Doosan DX-340LCA excavator with long-reach boom extended at a city construction site in Singapore",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Singapore_Doosan-DX-340LCA-excavator-01.jpg",
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1467,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "full-body",
+        "urban",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "excavator",
+        "long-reach",
+        "construction-site",
+        "scale"
+      ]
+    }
+  ]
+}

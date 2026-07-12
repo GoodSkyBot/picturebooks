@@ -1,14 +1,14 @@
 ---
 description: Research a nonfiction topic and gather attributed images for a kids picture book
+agent: research
+subtask: true
 ---
 
-If the user did not provide both a topic and a target age (3-8), ask before proceeding.
+If the user did not provide both a topic and a target age (0-99), ask before proceeding.
 
 ## Instructions
 
-Read and follow these files in order:
-1. `AGENTS.md` (shared rules)
-2. `agents/research.md` (full agent instructions)
+Run the `research` subagent for the provided topic and target age.
 
 ## Stop Condition
 

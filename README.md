@@ -6,7 +6,7 @@ Each book is published as a self-contained static site under `books/{slug}/`.
 
 ## Workflow
 
-1. Run the research agent to gather sourced facts and Creative Commons images.
+1. Run the research agent to gather source-backed research notes and Creative Commons images.
 2. Review `books/{slug}/content.json` and downloaded images.
 3. Run the author agent to write the book and generate a theme.
 4. Review or edit `books/{slug}/book.json`.
@@ -61,7 +61,7 @@ Agent instructions live in `agents/`. Guidelines live in `guidelines/`.
 
 ### Research Agent
 
-Reads external sources and produces `content.json` plus a pool of attributed images.
+Reads external sources and produces `content.json` plus a vetted pool of attributed images.
 
 Primary sources:
 - Wikipedia

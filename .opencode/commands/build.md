@@ -1,5 +1,7 @@
 ---
 description: Build the final static kids picture-book site from book.json
+agent: builder
+subtask: true
 ---
 
 If the user did not specify a slug, ask for it before proceeding.
@@ -11,9 +13,7 @@ If the user did not specify a slug, ask for it before proceeding.
 
 ## Instructions
 
-Read and follow these files in order:
-1. `AGENTS.md` (shared rules)
-2. `agents/build.md` (full agent instructions)
+Run the `builder` subagent for the provided slug.
 
 ## Completion
 

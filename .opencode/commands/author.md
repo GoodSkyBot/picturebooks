@@ -1,5 +1,7 @@
 ---
 description: Write a kids nonfiction picture book from researched content
+agent: author
+subtask: true
 ---
 
 If the user did not specify a slug, ask for it before proceeding.
@@ -11,9 +13,7 @@ If the user did not specify a slug, ask for it before proceeding.
 
 ## Instructions
 
-Read and follow these files in order:
-1. `AGENTS.md` (shared rules)
-2. `agents/author.md` (full agent instructions)
+Run the `author` subagent for the provided slug.
 
 ## Stop Condition
 

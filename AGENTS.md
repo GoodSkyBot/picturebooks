@@ -6,7 +6,7 @@ This repository is an agentic pipeline for creating nonfiction picture book webs
 
 Three agent runs produce a book, in order:
 
-1. **research** - Gathers facts and images into `books/{slug}/content.json`.
+1. **research** - Gathers source-backed research notes and vetted images into `books/{slug}/content.json`.
 2. **author** - Writes the book text and structure into `books/{slug}/book.json`.
 3. **build** - Generates the final static site (`index.html`, `style.css`, `script.js`).
 

@@ -4,7 +4,7 @@ description: Research a nonfiction topic and gather attributed images for a kids
 tools: [execute, read, agent, edit, search, web/fetch, todo]
 ---
 
-If the user did not provide both a topic and a target age (3-8), ask before proceeding.
+If the user did not provide both a topic and a target age (0-99), ask before proceeding.
 
 ## Instructions
 
