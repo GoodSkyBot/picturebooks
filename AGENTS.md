@@ -4,15 +4,15 @@ This repository is an agentic pipeline for creating nonfiction picture book webs
 
 ## Pipeline
 
-Three agent runs produce a book, in order:
+Three phase agents produce a book, in order:
 
 1. **research** - Gathers source-backed research notes and vetted images into `books/{slug}/content.json`.
 2. **author** - Writes the book text and structure into `books/{slug}/book.json`.
 3. **build** - Generates the final static site (`index.html`, `style.css`, `script.js`).
 
-Human review happens after `content.json` and after `book.json`. The build agent should assume `book.json` is the approved source of truth.
+Human review happens after `content.json` and after `book.json` in the standalone phase workflow. The OpenCode `/pipeline` workflow instead uses editor agents between phases and proceeds automatically after editor approval. See `docs/pipeline-plan.md` for the editor-gated flow.
 
-Agents can be invoked via OpenCode (`/research`, `/author`, `/build`) or VS Code Copilot prompt files (`.github/prompts/`). Full agent instructions live in `agents/`. Guidelines live in `guidelines/`. Schemas live in `schemas/`.
+Agents can be invoked via OpenCode (`/pipeline`, `/research`, `/author`, `/build`) or VS Code Copilot prompt files (`.github/prompts/`) for standalone phases. Full agent instructions live in `agents/`. Guidelines live in `guidelines/`. Schemas live in `schemas/`.
 
 ## Shared Rules
 

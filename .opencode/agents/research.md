@@ -15,3 +15,5 @@ Read and follow these files in order:
 2. `agents/research.md` for the canonical research-stage instructions.
 
 Create only the research-stage outputs. Stop after creating `books/{slug}/content.json` and the vetted image set under `books/{slug}/images/`. Do not run the author or build stages.
+
+When given editor feedback, revise only research-stage outputs to address the accepted required changes, then report the slug and what changed.

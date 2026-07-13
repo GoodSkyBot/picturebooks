@@ -1,6 +1,6 @@
 ---
-description: Build the final static kids picture-book site from book.json
-agent: builder
+description: Build the final static kids picture-book site from book.json and run build-editor QA
+agent: build-runner
 subtask: true
 ---
 
@@ -13,8 +13,8 @@ If the user did not specify a slug, ask for it before proceeding.
 
 ## Instructions
 
-Run the `builder` subagent for the provided slug.
+Run the `build-runner` subagent for the provided slug.
 
 ## Completion
 
-After building, summarize what was generated and note any missing assets or unresolved issues.
+After building and build-editor review, summarize what was generated and note any missing assets or unresolved issues.

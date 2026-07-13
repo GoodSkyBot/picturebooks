@@ -6,11 +6,22 @@ Each book is published as a self-contained static site under `books/{slug}/`.
 
 ## Workflow
 
+Standalone phase workflow:
+
 1. Run the research agent to gather source-backed research notes and Creative Commons images.
 2. Review `books/{slug}/content.json` and downloaded images.
 3. Run the author agent to write the book and generate a theme.
 4. Review or edit `books/{slug}/book.json`.
-5. Run the build agent to generate audio and the final static site.
+5. Run the build command to generate audio, create the final static site, and complete build-editor QA.
+
+OpenCode full pipeline:
+
+1. Run the OpenCode `/pipeline` command with a topic and target age.
+2. The pipeline runs research, author, and build phases with editor agents between phases.
+3. Editor approval advances automatically; revision feedback loops back to the responsible phase agent.
+4. The pipeline pauses only when a phase is blocked or repeated revisions stop making progress.
+
+See `docs/pipeline-plan.md` for the editor-gated flow.
 
 ## Repository Layout
 
@@ -23,6 +34,7 @@ Each book is published as a self-contained static site under `books/{slug}/`.
 │   ├── research.md
 │   ├── author.md
 │   └── build.md
+├── docs/                  # Pipeline plans and design notes
 ├── guidelines/            # Writing and design standards
 │   ├── content.md
 │   ├── design.md
@@ -93,7 +105,7 @@ It must:
 - work on phones and tablets
 - produce a visually distinct book instead of a generic reskin
 
-Generates narration audio via `scripts/generate_speech.py`.
+Generates narration audio via `scripts/generate_speech.py`. OpenCode `/build` also runs build-editor visual QA after the builder completes.
 
 Image files checked into `books/{slug}/images/` should be web/review-sized project copies, not source-resolution originals. `content.json` preserves source URLs, attribution, and license metadata so originals can be retrieved again if needed. Use `scripts/optimize_images.py` during research, or during build for older books that still contain oversized files.
 
@@ -101,10 +113,10 @@ Image files checked into `books/{slug}/images/` should be web/review-sized proje
 
 Agents can be invoked two ways:
 
-- **OpenCode** slash commands in `.opencode/commands/`: `/research`, `/author`, `/build`
+- **OpenCode** slash commands in `.opencode/commands/`: `/pipeline`, `/research`, `/author`, `/build`
 - **VS Code Copilot** prompt files in `.github/prompts/`: `research.prompt.md`, `author.prompt.md`, `build.prompt.md`
 
-Use them in order with human review between stages.
+Use standalone commands in order with human review between stages. The OpenCode `/pipeline` command uses editor approval instead of routine human checkpoints.
 
 ## JSON Contracts
 

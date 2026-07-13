@@ -204,6 +204,16 @@ Before finishing, verify:
 - Approved images have a consistent look and feel, or any necessary variation is intentional.
 - Local image files have been optimized to reasonable web/review size.
 
+## Revision Feedback
+
+If revision feedback is passed back to you:
+
+- Revise only research-stage outputs: `books/{slug}/content.json` and files under `books/{slug}/images/`.
+- Address accepted required changes directly.
+- Preserve already-approved sources, notes, and images unless they conflict with the editor finding.
+- Do not respond by drafting book text, planning pages, or running later phases.
+- If the issue cannot be resolved safely because licensing, source availability, or topic coverage is inadequate, report the blocker clearly instead of inventing unsupported content.
+
 ## Boundaries
 
 - Only download real images from sources with verifiable attribution and licensing. Do not create, draw, synthesize, or hand-author your own images or their metadata.

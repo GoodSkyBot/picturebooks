@@ -113,6 +113,7 @@ The script saves the image and automatically adds it to the `images` array in `c
 
 - Prefer photo-realistic images, but use other styles when appropriate for the topic or page.
 - Keep prompts descriptive and child-friendly.
+- Provide useful metadata when possible, for example `--content-tags "cover, habitat, close-up" --style-tags "warm illustration" --image-type illustration`.
 - Generated images are a fallback, not a first choice. Prefer Creative Commons images when a good match exists.
 
 ## Validation
@@ -123,6 +124,18 @@ Before finishing, verify:
 - `tags` includes useful hidden search terms.
 - Every image `src` references a file that exists in `content.json` images.
 - All theme fields are populated.
+
+## Revision Feedback
+
+If revision feedback is passed back to you:
+
+- Revise only author-stage outputs unless generated-image fallback is explicitly needed.
+- Preserve strengths identified by the preservation editor unless they conflict with a blocking finding.
+- Address accepted required changes directly in `books/{slug}/book.json`.
+- If a requested page moment cannot be supported by the approved image pool, either choose a better existing image, revise the page concept, or use the generated-image fallback below.
+- Do not generate HTML, CSS, JS, audio, or run the build stage.
+
+When generated-image fallback is necessary, update `content.json` consistently through `scripts/generate_image.py`, then reference the generated image by its `filename` in `book.json`.
 
 ## Boundaries
 

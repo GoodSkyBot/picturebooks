@@ -86,31 +86,17 @@ After the build completes, verify:
 - Body text is not smaller than 1rem at any breakpoint.
 - All interactive elements have `:active` styles (provided by the template CSS).
 
-### Visual QA Pipeline
+Do not run the Playwright visual QA script. The build editor owns visual QA, screenshot review, and QA artifact cleanup after you produce the build outputs.
 
-After building, run the Playwright visual QA script:
+## Revision Feedback
 
-```
-npm run visual-qa -- {slug}
-```
+If revision feedback is passed back to you:
 
-The script uses system Chromium, opens the generated book, flips through every `.page`, and captures screenshots at mobile, tablet, and desktop sizes under `tmp/screenshots/{slug}/`. It also writes `tmp/screenshots/{slug}/report.json` with failed requests, console errors, broken images, visible-page checks, and overflow checks.
-
-Review the generated screenshots, not just the JSON report. Look for visual layout issues that automated checks may miss, including:
-- Images cropped in a way that removes essential information, especially maps, diagrams, labels, faces, or key subjects.
-- Excessive empty space that makes a cover or page feel unfinished.
-- Text that feels crowded, too small, too low-contrast, or awkwardly positioned.
-- Captions overlapping important image content or becoming unreadable.
-- Navigation or read-aloud controls covering meaningful content.
-- Credits pages that are technically valid but visually too dense or hard to scan.
-
-If visual QA reveals a layout issue, fix the source template CSS, template fragments, or builder logic, then rebuild and rerun `npm run visual-qa -- {slug}`. Do not manually edit generated `books/{slug}/index.html`, `style.css`, or `script.js`.
-
-After reviewing the screenshots and report, delete the visual QA artifacts for the slug so temporary image files do not accumulate:
-
-```
-rm -rf tmp/screenshots/{slug}
-```
+- Revise source templates, template fragments, CSS, JS, or builder logic as needed.
+- Rebuild the site after source-level fixes.
+- Do not manually edit generated `books/{slug}/index.html`, `style.css`, or `script.js`.
+- Do not modify `book.json` or `content.json`.
+- If the issue can only be fixed by changing approved book or research content, report that it is an upstream blocker instead of working around it in generated output.
 
 For images that must preserve full context, such as maps or diagrams, prefer containment over cropping. For example, SVG maps often need `object-fit: contain` rather than `object-fit: cover` so labels and geographic context are not cut off.
 

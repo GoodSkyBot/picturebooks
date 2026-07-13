@@ -22,6 +22,8 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import urlopen, Request
 
+from image_info import get_dimensions
+
 
 def load_dotenv(path: Path) -> None:
     """Load key=value pairs from a .env file into os.environ."""
@@ -103,6 +105,19 @@ def save_image(image_bytes: bytes, dest: Path) -> None:
         sys.exit(1)
 
 
+def parse_tags(value: str | None) -> list[str]:
+    if not value:
+        return []
+    tags = []
+    seen = set()
+    for raw in value.split(","):
+        tag = raw.strip()
+        if tag and tag not in seen:
+            tags.append(tag)
+            seen.add(tag)
+    return tags
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate a picture book image via OpenAI Images API."
@@ -131,6 +146,20 @@ def main():
         default="auto",
         choices=["low", "medium", "high", "auto"],
         help="Image quality (default: auto)",
+    )
+    parser.add_argument(
+        "--content-tags",
+        help="Comma-separated content tags for content.json metadata",
+    )
+    parser.add_argument(
+        "--style-tags",
+        help="Comma-separated visual style tags for content.json metadata",
+    )
+    parser.add_argument(
+        "--image-type",
+        default="illustration",
+        choices=["photo", "illustration", "painting", "diagram", "map", "document", "other"],
+        help="Image type metadata value (default: illustration)",
     )
     args = parser.parse_args()
 
@@ -166,8 +195,17 @@ def main():
     print(f"Saving to {dest.relative_to(repo_root)}", file=sys.stderr)
     save_image(image_bytes, dest)
 
+    dimensions = get_dimensions(dest)
+    if dimensions is None:
+        print(f"Error: could not read dimensions from {dest.relative_to(repo_root)}", file=sys.stderr)
+        dest.unlink()
+        sys.exit(1)
+    width, height = dimensions
+
     # Output content.json-compatible metadata
     relative_path = f"images/{dest.name}"
+    content_tags = parse_tags(args.content_tags) or ["generated image"]
+    style_tags = parse_tags(args.style_tags)
     metadata = {
         "filename": relative_path,
         "description": args.prompt,
@@ -175,7 +213,13 @@ def main():
         "author": f"OpenAI {args.model}",
         "license": "Generated (non-redistributable without rights)",
         "license_url": "https://openai.com/policies/terms-of-use",
+        "width": width,
+        "height": height,
+        "imageType": args.image_type,
+        "contentTags": content_tags,
     }
+    if style_tags:
+        metadata["styleTags"] = style_tags
 
     # Auto-update content.json if it exists
     content_path = repo_root / "books" / args.slug / "content.json"
