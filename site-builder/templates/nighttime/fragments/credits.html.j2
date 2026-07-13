@@ -17,7 +17,7 @@
         <ul class="credits-images">
           {% for img in content.get('images', []) %}
           <li>
-            <strong>{{ img.description | truncate(60, True) }}</strong> --
+            <strong>{{ img.description | truncate(42, True) }}</strong> --
             {{ img.author }}{% if img.license %},
             {% if img.license_url %}<a href="{{ img.license_url }}" target="_blank" rel="noopener">{{ img.license }}</a>{% else %}{{ img.license }}{% endif %}
             {% endif %}
