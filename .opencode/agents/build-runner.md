@@ -16,7 +16,7 @@ Read and follow these files in order:
 
 1. `AGENTS.md` for repository-wide rules.
 2. `agents/build.md` for the build-stage contract.
-3. `agents/editor.md` for build-editor verdicts and response expectations.
+3. `agents/build-editor.md` for build-editor verdicts and response expectations.
 
 Given a slug:
 

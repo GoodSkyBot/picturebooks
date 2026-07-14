@@ -33,7 +33,11 @@ See `docs/pipeline-plan.md` for the editor-gated flow.
 ├── agents/                # Agent instructions
 │   ├── research.md
 │   ├── author.md
-│   └── build.md
+│   ├── build.md
+│   ├── research-editor.md
+│   ├── author-preservation-editor.md
+│   ├── author-diagnostic-editor.md
+│   └── build-editor.md
 ├── docs/                  # Pipeline plans and design notes
 ├── guidelines/            # Writing and design standards
 │   ├── content.md

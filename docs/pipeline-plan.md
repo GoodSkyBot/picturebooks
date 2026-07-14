@@ -33,23 +33,23 @@ The pipeline should cap revision loops. After repeated unresolved findings, norm
 
 ## Editor Architecture
 
-Use independent reviewers as evidence gatherers, followed by a separate adjudicator. Do not let the positive or negative reviewer approve the phase directly.
+Use specialized reviewers with separate context windows. Each editor loads only its phase-specific definition and the artifacts needed for that review.
 
 ```text
 phase output
   -> deterministic checks
   -> phase-specific reviewer(s)
-  -> adjudicator
   -> APPROVED | REVISE | BLOCKED
 ```
 
-The author phase benefits from a two-sided review inspired by advocate/critic patterns, but with more precise roles:
+The author phase uses two independent reviews inspired by advocate/critic patterns, but with more precise roles:
 
 - A preservation editor identifies what is working and what revisions must preserve.
 - A diagnostic editor identifies defects, missed opportunities, and concrete revision requests.
-- An adjudicator applies the fixed rubric and decides the outcome.
 
-This avoids a pure advocate role, which can defend weak work, and avoids a pure critic role, which can push revisions toward bland technical compliance.
+The diagnostic editor supplies the author gate verdict. When revision is required, the orchestrator sends the diagnostic findings and the preservation editor's `mustPreserve` brief to the author. The two reviewers do not see each other's reports.
+
+This avoids a pure advocate role, which can defend weak work, and prevents diagnostic revisions from pushing the book toward bland technical compliance.
 
 ## Shared Editorial Rules
 
@@ -75,20 +75,18 @@ Verdict rules:
 - `BLOCKED`: the issue requires unavailable information, credentials, licensing resolution, human judgment, or upstream work the current phase cannot perform.
 - Minor findings should be reported but should not force endless iteration.
 
-The adjudicator should pass only accepted findings back to the phase agent. It should not pass debate transcripts, contradictory suggestions, or optional taste preferences as mandatory work.
+The orchestrator should pass only actionable findings back to the phase agent. It should not pass debate transcripts, contradictory suggestions, or optional taste preferences as mandatory work.
 
 ## Research Editorial Review
 
-The research review should emphasize objective validation and specialist review rather than advocate/critic debate.
+The research editor combines dossier sufficiency and image-pool breadth review in one specialized context.
 
 Flow:
 
 ```text
 content.json + images
   -> deterministic validation
-  -> coverage reviewer
-  -> visual-set reviewer
-  -> research adjudicator
+  -> research editor
 ```
 
 Deterministic validation should cover schema shape, required files, valid image references, source indexes, attribution fields, dimensions, content tags, and rejected-file cleanup where possible.
@@ -112,16 +110,15 @@ Research approval cannot be earned by strengths offsetting hard failures. Incomp
 
 ## Author Editorial Review
 
-The author review should use the preservation/diagnostic/adjudicator pattern.
+The author review uses independent preservation and diagnostic editors.
 
 Flow:
 
 ```text
 book.json + content.json + images
   -> deterministic validation
-  -> preservation editor
-  -> diagnostic editor
-  -> author adjudicator
+  -> preservation editor (independent)
+  -> diagnostic editor (independent, supplies verdict)
 ```
 
 Preservation editor checks:
@@ -155,7 +152,7 @@ Flow:
 generated site
   -> npm run visual-qa -- {slug}
   -> screenshot/report review
-  -> build adjudicator
+  -> build editor verdict
 ```
 
 The build editor, not the builder, owns the visual QA script. This means the builder should generate audio and the static site, then stop. The build editor should run QA, review `report.json`, inspect screenshots, and decide whether the builder must revise source templates, fragments, or builder logic.
@@ -181,12 +178,16 @@ OpenCode-only orchestration:
 - `.opencode/commands/pipeline.md`
 - `.opencode/agents/pipeline.md`
 - `.opencode/agents/research-editor.md`
-- `.opencode/agents/author-editor.md`
+- `.opencode/agents/author-preservation-editor.md`
+- `.opencode/agents/author-diagnostic-editor.md`
 - `.opencode/agents/build-editor.md`
 
-Canonical editor guidance:
+Specialized canonical editor guidance:
 
-- `agents/editor.md`
+- `agents/research-editor.md`
+- `agents/author-preservation-editor.md`
+- `agents/author-diagnostic-editor.md`
+- `agents/build-editor.md`
 
 Existing phase guidance:
 
