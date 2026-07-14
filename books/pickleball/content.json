@@ -1,0 +1,328 @@
+{
+  "topic": "Pickleball",
+  "slug": "pickleball",
+  "targetAge": 8,
+  "sources": [
+    {
+      "title": "Pickleball - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pickleball",
+      "accessed": "2026-07-13"
+    },
+    {
+      "title": "Pickleball - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Pickleball",
+      "accessed": "2026-07-13"
+    },
+    {
+      "title": "What Is Pickleball? - USA Pickleball",
+      "url": "https://usapickleball.org/what-is-pickleball/",
+      "accessed": "2026-07-13"
+    },
+    {
+      "title": "About and History of USA Pickleball",
+      "url": "https://usapickleball.org/about/",
+      "accessed": "2026-07-13"
+    },
+    {
+      "title": "Pickle Ball Inc. incorporation and invention history - HistoryLink.org",
+      "url": "https://www.historylink.org/file/20195",
+      "accessed": "2026-07-13"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "What is pickleball?",
+      "text": "Pickleball is a paddle sport where two or four players use smooth-faced paddles to hit a perforated, hollow plastic ball over a net. It combines elements of tennis, badminton, and table tennis, but has its own unique rules, equipment, and court. The court is the same size as a doubles badminton court (20 by 44 feet), with a net that stands 34 inches high at the center. It can be played indoors or outdoors, as singles (one-on-one) or doubles (two-on-two). The sport is easy to learn but challenging to master, making it accessible to players of all ages and abilities.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/pickleball-pros-action.jpg"
+      ]
+    },
+    {
+      "title": "How pickleball was invented",
+      "text": "Pickleball was invented in 1965 on Bainbridge Island, Washington, by three dads: Joel Pritchard, Bill Bell, and Barney McCallum. One Saturday afternoon, Pritchard and Bell returned from golf to find their families bored with nothing to do. They tried to set up badminton on their backyard court but could not find the shuttlecock. So they challenged their kids to come up with a new game. They started experimenting with ping-pong paddles, a wiffle ball, and a lowered badminton net. Over the following weeks, the three men refined the rules and built better paddles out of plywood in a nearby shed. The inventors deliberately designed the rules so the game would be fun for all ages, with no height advantage for adults.",
+      "sources": [
+        0,
+        4
+      ],
+      "relatedImages": []
+    },
+    {
+      "title": "Where did the name come from?",
+      "text": "The origin of the name 'pickleball' is a fun mystery with at least three stories. Joan Pritchard, Joel's wife, said the game reminded her of the 'pickle boat' in the sport of rowing, where oarsmen are chosen from the leftover crews of other boats -- and pickleball was similarly made from leftover equipment of other sports. Some people believe it was named after the Pritchard family dog, Pickles, but the Pritchards say the dog actually came later and was named after the game. A third possibility comes from co-inventor Bill Bell, who said he chose the name because he liked putting his opponents 'in a pickle.'",
+      "sources": [
+        0,
+        4
+      ]
+    },
+    {
+      "title": "Equipment: paddles, balls, and net",
+      "text": "Pickleball requires just a few pieces of equipment. The paddle is solid (no strings like a tennis racket) and is made from materials like wood, fiberglass, or carbon fiber. The ball is a hollow plastic sphere with 26 to 40 evenly spaced round holes punched through it. Balls with fewer, larger holes are typically used indoors, while balls with more, smaller holes are used outdoors to handle wind better. The ball weighs less than an ounce and measures about 3 inches across. The net stretches across the middle of the court at 36 inches high on the sides and 34 inches in the center.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/paddle-and-balls.jpg",
+        "images/balls-and-paddles.jpg"
+      ]
+    },
+    {
+      "title": "The court and the Kitchen",
+      "text": "A pickleball court measures 20 feet wide by 44 feet long, the same size as a doubles badminton court but much smaller than a tennis court. On each side of the net there is a 7-foot zone called the 'non-volley zone,' but players call it 'the Kitchen.' If you are standing in the Kitchen, you cannot hit the ball out of the air (volley it) -- you have to let it bounce first. This rule makes the game more strategic and prevents players from just standing at the net and smashing every shot. The Kitchen is one of the things that makes pickleball unique and fun.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/court-la-crosse.jpg"
+      ]
+    },
+    {
+      "title": "Basic rules of play",
+      "text": "Every rally in pickleball starts with an underhand serve hit diagonally across the court. One of the sport's signature rules is the 'two-bounce rule': after the serve, the ball must bounce once on the receiving side, and then once more on the serving side, before anyone can volley (hit it out of the air). This prevents the serving team from rushing the net immediately and encourages longer rallies. Only the serving team can score points. Games are usually played to 11 points, and you must win by 2.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/player-backhand.jpg"
+      ]
+    },
+    {
+      "title": "The fastest-growing sport in America",
+      "text": "Pickleball has exploded in popularity. The Sports and Fitness Industry Association named it the fastest-growing sport in the United States for four years in a row, from 2021 through 2024. By 2025, an estimated 24.3 million Americans played pickleball. The number of outdoor pickleball courts in major U.S. cities grew by 650 percent in just seven years. The sport is also spreading globally, with growing communities in Canada, Australia, the United Kingdom, India, and many other countries. Famous athletes like LeBron James and Drew Brees have invested in professional pickleball leagues, bringing even more attention to the sport.",
+      "sources": [
+        0,
+        3
+      ]
+    },
+    {
+      "title": "Why people of all ages love it",
+      "text": "One reason pickleball is so popular is that almost anyone can play. The smaller court means less running than tennis. The underhand serve and lightweight plastic ball make it easier for beginners to start having fun right away. The game can be low-impact enough for grandparents but fast and competitive enough for kids and athletes. Families often play together, which was exactly what the inventors wanted. Pickleball has found a home in school PE programs, community recreation centers, parks, retirement communities, and even dedicated pickleball facilities.",
+      "sources": [
+        2,
+        3
+      ],
+      "relatedImages": [
+        "images/players-group.jpg"
+      ]
+    },
+    {
+      "title": "Professional pickleball and famous players",
+      "text": "Pickleball has grown into a professional sport with major tournaments and star players. Two professional tours were established in 2019 in the United States. Ben Johns is widely considered one of the best pickleball players in the world and has won numerous titles in singles and doubles. Anna Leigh Waters became a professional pickleball player at age 12, making her the youngest pro player in the sport's history. The U.S. Open Pickleball Championships, held in Naples, Florida, attracted over 3,250 competitors and 50,000 spectators in 2024.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/ben-collin-johns.jpg"
+      ]
+    },
+    {
+      "title": "Milestones in pickleball history",
+      "text": "After its invention in 1965, pickleball grew slowly at first, mainly in the Pacific Northwest region. The first dedicated pickleball court was built in 1967. In 1972, Pickle-Ball Inc. was formed to manufacture equipment and promote the sport. The first known tournament was held in 1976 in Tukwila, Washington. In 1984, the United States Amateur Pickleball Association (now USA Pickleball) was formed and published the first official rulebook. By 1990, pickleball was being played in all 50 states. In 2022, Washington State officially named pickleball its state sport, honoring the game's birthplace on Bainbridge Island.",
+      "sources": [
+        0,
+        3,
+        4
+      ]
+    }
+  ],
+  "handoffNotes": "Pickleball image availability on Wikimedia Commons is dominated by adult recreational and professional player photos. No freely-licensed images of children playing pickleball were found, which is a gap for a book targeting age 8. The author may want to emphasize the 'invented for kids' origin story and the all-ages appeal angle to connect with young readers. The court diagram from Wikimedia was rejected for being too textbook-like; the author could use a simplified description of the court instead. The topic naturally supports a chronological or thematic structure: invention story, equipment, court/Kitchen, rules, why it is growing, pro players.",
+  "images": [
+    {
+      "filename": "images/pickleball-pros-action.jpg",
+      "description": "Two pickleball players in action during a doubles match on an outdoor court",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pickleball_Pros.jpg",
+      "author": "Picklerpeej",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "warm",
+        "natural",
+        "action",
+        "outdoor"
+      ],
+      "contentTags": [
+        "gameplay",
+        "court",
+        "rally",
+        "doubles"
+      ]
+    },
+    {
+      "filename": "images/paddle-and-balls.jpg",
+      "description": "A pickleball paddle with one blue indoor pickleball (26 holes) and one yellow outdoor pickleball (40 holes)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_pickleball_paddle_with_two_pickleballs.jpg",
+      "author": "OvertAnalyzer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1431,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "overhead",
+        "clean-background",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "equipment",
+        "paddle",
+        "ball",
+        "indoor-vs-outdoor",
+        "comparison"
+      ]
+    },
+    {
+      "filename": "images/player-backhand.jpg",
+      "description": "A pickleball player preparing to return the ball using a backhand stroke",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pickleball_Player.jpg",
+      "author": "Picklerpeej",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1467,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "natural",
+        "action",
+        "bright",
+        "outdoor"
+      ],
+      "contentTags": [
+        "backhand",
+        "technique",
+        "player",
+        "court",
+        "gameplay"
+      ]
+    },
+    {
+      "filename": "images/players-group.jpg",
+      "description": "A group of pickleball players during a doubles match at The Villages, Florida",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pickleball_Players.jpg",
+      "author": "TheVillagesFL",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "outdoor",
+        "action",
+        "colorful",
+        "natural"
+      ],
+      "contentTags": [
+        "doubles",
+        "gameplay",
+        "court",
+        "paddles",
+        "net"
+      ]
+    },
+    {
+      "filename": "images/balls-and-paddles.jpg",
+      "description": "Three pickleball balls and two paddles on a wood surface",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pickleball_balls_and_paddles.jpg",
+      "author": "E is for Ian",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2126,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "colorful",
+        "overhead",
+        "warm",
+        "bright"
+      ],
+      "contentTags": [
+        "equipment",
+        "paddle",
+        "ball",
+        "introduction"
+      ]
+    },
+    {
+      "filename": "images/court-la-crosse.jpg",
+      "description": "Outdoor pickleball courts with players in La Crosse, Wisconsin",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pickleball_court_in_La_Crosse,_Wisconsin_02.jpg",
+      "author": "Wikideas1",
+      "license": "CC0 1.0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "aerial",
+        "bright",
+        "colorful",
+        "outdoor",
+        "wide-angle"
+      ],
+      "contentTags": [
+        "court",
+        "place",
+        "playing",
+        "facility"
+      ]
+    },
+    {
+      "filename": "images/ben-collin-johns.jpg",
+      "description": "Brothers Ben Johns and Collin Johns after winning the Men's Doubles title at a professional pickleball tournament in 2023",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ben_Johns_and_Collin_Johns.jpg",
+      "author": "Mark.E.Johns",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "warm",
+        "natural",
+        "celebratory"
+      ],
+      "contentTags": [
+        "person",
+        "pro-players",
+        "tournament",
+        "trophy",
+        "doubles"
+      ]
+    },
+    {
+      "filename": "images/three-dads-and-their-kids-in-a-backyard-in-the-1960s-inventi.png",
+      "description": "Three dads and their kids in a backyard in the 1960s inventing a new game, using ping-pong paddles and a wiffle ball on a lowered badminton net, sunny summer afternoon, Bainbridge Island Washington, warm nostalgic photo-realistic style",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "invention",
+        "origin",
+        "backyard",
+        "1965",
+        "family"
+      ],
+      "styleTags": [
+        "warm",
+        "nostalgic",
+        "illustration"
+      ]
+    }
+  ]
+}

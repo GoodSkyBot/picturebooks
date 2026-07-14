@@ -1,0 +1,152 @@
+{
+  "title": "Pickleball: The Backyard Game That Took Over the World",
+  "slug": "pickleball",
+  "targetAge": 8,
+  "category": "Sports",
+  "tags": [
+    "pickleball",
+    "paddle sport",
+    "racquet sport",
+    "tennis",
+    "badminton",
+    "ping pong",
+    "Bainbridge Island",
+    "Joel Pritchard",
+    "Bill Bell",
+    "Barney McCallum",
+    "kitchen",
+    "non-volley zone",
+    "fastest growing sport",
+    "Ben Johns",
+    "Anna Leigh Waters",
+    "USA Pickleball",
+    "wiffle ball",
+    "doubles",
+    "court sports"
+  ],
+  "theme": {
+    "primaryColor": "#1B8A5A",
+    "secondaryColor": "#F4A223",
+    "backgroundColor": "#FFF8F0",
+    "accentColor": "#2E86C1",
+    "fontHeading": "Fredoka One",
+    "fontBody": "Nunito",
+    "vibe": "energetic, playful, sunny court day"
+  },
+  "cover": {
+    "title": "Pickleball",
+    "subtitle": "The Backyard Game That Took Over the World",
+    "image": "images/pickleball-pros-action.jpg"
+  },
+  "pages": [
+    {
+      "text": "Imagine three bored families on a summer afternoon in 1965. No shuttlecock for badminton. No plan. Just a backyard, some ping-pong paddles, and a plastic ball full of holes. On Bainbridge Island, Washington, three dads -- Joel Pritchard, Bill Bell, and Barney McCallum -- challenged their kids to make up a brand-new game. And that is exactly what they did.",
+      "extras": [
+        "The inventors lowered the badminton net and wrote new rules.",
+        "They built better paddles out of plywood in a shed."
+      ],
+      "images": [
+        {
+          "src": "images/three-dads-and-their-kids-in-a-backyard-in-the-1960s-inventi.png",
+          "alt": "Illustration of three dads and their kids playing a new game with ping-pong paddles and a wiffle ball over a lowered net in a sunny 1960s backyard",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "So what is pickleball? It is a paddle sport that borrows a little from tennis, a little from badminton, and a little from table tennis -- but it plays like nothing else. Two or four players use smooth, solid paddles to whack a lightweight plastic ball back and forth over a net. You can play indoors or outdoors, and the rules are easy enough to learn in minutes.",
+      "extras": [
+        "The ball has 26 to 40 small round holes punched through it.",
+        "Indoor balls have fewer, bigger holes than outdoor balls."
+      ],
+      "images": [
+        {
+          "src": "images/balls-and-paddles.jpg",
+          "alt": "Three colorful pickleball balls and two paddles resting on a wooden surface, showing the perforated ball design",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "A pickleball paddle is solid -- no strings like a tennis racket. Early paddles were carved from plywood, but today they are made from super-light materials like carbon fiber. The ball weighs less than an ounce and is about three inches across. Pick it up and you will notice how light it feels compared to a tennis ball.",
+      "images": [
+        {
+          "src": "images/paddle-and-balls.jpg",
+          "alt": "A pickleball paddle next to a blue indoor ball and a yellow outdoor ball, showing the difference in hole size between the two types",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "The court is the same size as a doubles badminton court -- 20 feet wide and 44 feet long. That is much smaller than a tennis court, so you do not have to sprint as far. But the most famous part of any pickleball court is a seven-foot zone on each side of the net called the Kitchen. If you are standing in the Kitchen, you cannot hit the ball out of the air. You have to let it bounce first!",
+      "extras": [
+        "The Kitchen's real name is the non-volley zone.",
+        "The net is 34 inches high in the center."
+      ],
+      "images": [
+        {
+          "src": "images/court-la-crosse.jpg",
+          "alt": "Aerial view of outdoor pickleball courts with players in La Crosse, Wisconsin, showing the court lines and net",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Every point starts with an underhand serve hit diagonally across the court. Then comes the two-bounce rule: the ball must bounce once on each side before anyone can volley. This keeps the serving team from rushing the net and smashing the ball right away. It also means rallies last longer -- and longer rallies mean more fun. Games go to 11, and you have to win by 2.",
+      "extras": [
+        "Only the serving team can score points."
+      ],
+      "images": [
+        {
+          "src": "images/player-backhand.jpg",
+          "alt": "A pickleball player crouched low, preparing to return the ball with a backhand stroke on an outdoor court",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "But wait -- why is it called pickleball? Nobody agrees! Joel Pritchard's wife, Joan, said it reminded her of the pickle boat in rowing, where the crew is made up of leftovers from other boats. Pickleball was made from leftover equipment of other sports, so the name fit. Some people think the family dog, Pickles, inspired the name -- but the Pritchards say the dog actually came after the game and was named after it!",
+      "images": [
+        {
+          "src": "images/players-group.jpg",
+          "alt": "A group of players enjoying a doubles pickleball match on a bright outdoor court, showing the social side of the sport",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "From that one backyard, pickleball spread slowly at first. The first real court was built in 1967. The first tournament was held in 1976. By 1990, people were playing in all 50 states. Then it exploded. Pickleball was named the fastest-growing sport in America four years in a row. By 2025, more than 24 million Americans played. Courts popped up in parks, schools, and recreation centers everywhere.",
+      "extras": [
+        "Outdoor pickleball courts grew by 650% in seven years.",
+        "In 2022, Washington made pickleball its official state sport."
+      ],
+      "images": [
+        {
+          "src": "images/ben-collin-johns.jpg",
+          "alt": "Brothers Ben Johns and Collin Johns celebrating after winning a professional doubles pickleball tournament in 2023",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Today, kids, parents, and grandparents play side by side -- just like Joel, Bill, and Barney wanted when they made up that backyard game in 1965. The court is small enough that everyone can reach the ball. The serve is underhand, so beginners can start having fun right away. And the Kitchen rule keeps things fair. Maybe that is why pickleball is spreading around the world -- from Canada to Australia to India. All you need is a paddle, a ball, and someone to play with.",
+      "extras": [
+        "Anna Leigh Waters became a pro at just 12 years old!",
+        "LeBron James and Drew Brees have invested in pro pickleball."
+      ],
+      "images": [
+        {
+          "src": "images/pickleball-pros-action.jpg",
+          "alt": "Two pickleball players mid-rally during an intense doubles match on a sunlit outdoor court",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
