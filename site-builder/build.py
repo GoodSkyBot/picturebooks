@@ -33,6 +33,27 @@ CATEGORY_ICON_KEYS = {
     "weather": "1F327",
 }
 
+TEXT_SCALE_PROFILES = {
+    "large": {
+        "page_text_size": "clamp(1.375rem, 5.6vw, 1.625rem)",
+        "page_text_line_height": "1.42",
+        "portrait_image_share": "42%",
+        "portrait_text_share": "58%",
+    },
+    "standard": {
+        "page_text_size": "clamp(1.125rem, 4.6vw, 1.25rem)",
+        "page_text_line_height": "1.42",
+        "portrait_image_share": "48%",
+        "portrait_text_share": "52%",
+    },
+    "compact": {
+        "page_text_size": "clamp(1rem, 4.1vw, 1.125rem)",
+        "page_text_line_height": "1.42",
+        "portrait_image_share": "52%",
+        "portrait_text_share": "48%",
+    },
+}
+
 
 def load_json(path: Path) -> dict:
     try:
@@ -59,6 +80,14 @@ def load_template_manifest(template_name: str) -> dict:
     if not manifest_path.exists():
         sys.exit(f"Error: template '{template_name}' not found at {manifest_path}")
     return load_json(manifest_path)
+
+
+def get_text_scale_profile(book: dict) -> dict:
+    text_scale = book.get("textScale")
+    if text_scale not in TEXT_SCALE_PROFILES:
+        valid = ", ".join(TEXT_SCALE_PROFILES)
+        sys.exit(f"Error: textScale must be one of: {valid}")
+    return {"name": text_scale, **TEXT_SCALE_PROFILES[text_scale]}
 
 
 def load_image_optimization_manifest(book_dir: Path) -> dict:
@@ -248,6 +277,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
         sys.exit(f"Error: {book_path} not found")
 
     book = load_json(book_path)
+    text_scale = get_text_scale_profile(book)
     if not content_path.exists():
         print(f"Warning: {content_path} not found; credits and captions will be empty", file=sys.stderr)
         content = {}
@@ -355,6 +385,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
     html_output = base_template.render(
         book=book,
         theme=book.get("theme", {}),
+        text_scale=text_scale,
         cover_html=rendered_cover,
         pages_html=rendered_pages,
         credits_html=rendered_credits,

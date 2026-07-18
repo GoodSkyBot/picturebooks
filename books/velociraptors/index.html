@@ -16,6 +16,10 @@
       --accent-color: #F9A825;
       --font-heading: 'Fredoka', sans-serif;
       --font-body: 'Nunito', sans-serif;
+      --page-text-size: clamp(1.125rem, 4.6vw, 1.25rem);
+      --page-text-line-height: 1.42;
+      --portrait-image-share: 48%;
+      --portrait-text-share: 52%;
     }
   </style>
 </head>
@@ -33,7 +37,6 @@
         
         <p class="cover-subtitle">A Real Dinosaur Story</p>
         
-        <button class="btn-start" aria-label="Start reading">Let's Go!</button>
       </div>
       <div class="cover-actions">
         <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
@@ -55,7 +58,7 @@
         <div class="extras">
           
           <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: Velociraptor is often called &#39;raptor&#39; for short.">
-            <span class="extra-icon">&#127775;</span> Velociraptor is often called &#39;raptor&#39; for short.
+            <span class="extra-icon" aria-hidden="true">*</span> Velociraptor is often called &#39;raptor&#39; for short.
           </button>
           
         </div>
@@ -87,11 +90,11 @@
         <div class="extras">
           
           <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: It weighed about as much as a medium dog.">
-            <span class="extra-icon">&#127775;</span> It weighed about as much as a medium dog.
+            <span class="extra-icon" aria-hidden="true">*</span> It weighed about as much as a medium dog.
           </button>
           
           <button class="extra" data-audio="audio/page-02-extra-2.mp3" aria-label="Fun fact: Half its body length was tail!">
-            <span class="extra-icon">&#127775;</span> Half its body length was tail!
+            <span class="extra-icon" aria-hidden="true">*</span> Half its body length was tail!
           </button>
           
         </div>
@@ -111,11 +114,11 @@
         <div class="extras">
           
           <button class="extra" data-audio="audio/page-03-extra-1.mp3" aria-label="Fun fact: Feathers may have kept it warm.">
-            <span class="extra-icon">&#127775;</span> Feathers may have kept it warm.
+            <span class="extra-icon" aria-hidden="true">*</span> Feathers may have kept it warm.
           </button>
           
           <button class="extra" data-audio="audio/page-03-extra-2.mp3" aria-label="Fun fact: Velociraptor was warm-blooded.">
-            <span class="extra-icon">&#127775;</span> Velociraptor was warm-blooded.
+            <span class="extra-icon" aria-hidden="true">*</span> Velociraptor was warm-blooded.
           </button>
           
         </div>
@@ -141,11 +144,11 @@
         <div class="extras">
           
           <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: The sickle claw was over 6 centimeters long!">
-            <span class="extra-icon">&#127775;</span> The sickle claw was over 6 centimeters long!
+            <span class="extra-icon" aria-hidden="true">*</span> The sickle claw was over 6 centimeters long!
           </button>
           
           <button class="extra" data-audio="audio/page-04-extra-2.mp3" aria-label="Fun fact: Each hand had three clawed fingers.">
-            <span class="extra-icon">&#127775;</span> Each hand had three clawed fingers.
+            <span class="extra-icon" aria-hidden="true">*</span> Each hand had three clawed fingers.
           </button>
           
         </div>
@@ -189,11 +192,11 @@
         <div class="extras">
           
           <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: It had about 30 sharp, jagged teeth.">
-            <span class="extra-icon">&#127775;</span> It had about 30 sharp, jagged teeth.
+            <span class="extra-icon" aria-hidden="true">*</span> It had about 30 sharp, jagged teeth.
           </button>
           
           <button class="extra" data-audio="audio/page-06-extra-2.mp3" aria-label="Fun fact: The Fighting Dinosaurs fossil is a national treasure of Mongolia.">
-            <span class="extra-icon">&#127775;</span> The Fighting Dinosaurs fossil is a national treasure of Mongolia.
+            <span class="extra-icon" aria-hidden="true">*</span> The Fighting Dinosaurs fossil is a national treasure of Mongolia.
           </button>
           
         </div>
@@ -237,7 +240,7 @@
         <div class="extras">
           
           <button class="extra" data-audio="audio/page-08-extra-1.mp3" aria-label="Fun fact: Real Velociraptor was turkey-sized, not human-sized!">
-            <span class="extra-icon">&#127775;</span> Real Velociraptor was turkey-sized, not human-sized!
+            <span class="extra-icon" aria-hidden="true">*</span> Real Velociraptor was turkey-sized, not human-sized!
           </button>
           
         </div>

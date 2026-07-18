@@ -157,23 +157,6 @@ a {
   margin-top: 8px;
 }
 
-.btn-start {
-  margin-top: 20px;
-  padding: 14px 40px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-family: var(--font-heading);
-  background: color-mix(in srgb, var(--primary-color) 80%, white);
-  color: #fff;
-  border-radius: 30px;
-  box-shadow: 0 0 16px color-mix(in srgb, var(--primary-color) 40%, transparent);
-  transition: transform 0.15s ease;
-}
-
-.btn-start:active {
-  transform: scale(0.95);
-}
-
 .cover-actions {
   position: absolute;
   top: 16px;
@@ -425,8 +408,8 @@ a {
 
 /* ===== Page text ===== */
 .page-text {
-  font-size: clamp(1rem, 2.2vw, 1.25rem);
-  line-height: 1.6;
+  font-size: var(--page-text-size);
+  line-height: var(--page-text-line-height);
   color: #ddd8e8;
 }
 
@@ -510,7 +493,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 112px;
   background: rgba(10, 14, 26, 0.85);
   backdrop-filter: blur(8px);
   border-top: 1px solid rgba(255,255,255,0.06);
@@ -535,6 +518,13 @@ a {
   transform: scale(0.88);
   background: rgba(255,255,255,0.16);
   color: #fff;
+}
+
+.btn-home {
+  position: absolute;
+  top: max(12px, env(safe-area-inset-top));
+  left: max(12px, env(safe-area-inset-left));
+  z-index: 25;
 }
 
 .nav-bar-prev[hidden],
@@ -670,7 +660,7 @@ a {
   .page--layout-a .page-figure,
   .page--layout-b .page-figure {
     order: 1;
-    flex: 1 1 55%;
+    flex: 1 1 var(--portrait-image-share);
     width: 100%;
     padding: 12px 12px 4px;
   }
@@ -678,46 +668,46 @@ a {
   .page--layout-a .page-body,
   .page--layout-b .page-body {
     order: 2;
-    flex: 0 1 45%;
+    flex: 0 1 var(--portrait-text-share);
     width: 100%;
     padding: 12px 20px 16px;
   }
 
   .page--layout-2a .page-images-pair {
-    flex: 1 1 55%;
+    flex: 1 1 var(--portrait-image-share);
     width: 100%;
     flex-direction: row;
     padding: 12px 12px 4px;
   }
 
   .page--layout-2a .page-body {
-    flex: 0 1 45%;
+    flex: 0 1 var(--portrait-text-share);
     width: 100%;
     padding: 12px 20px 16px;
   }
 
   .page--layout-2portrait .page-images-pair {
-    flex: 1 1 55%;
+    flex: 1 1 var(--portrait-image-share);
     width: 100%;
     flex-direction: row;
     padding: 12px 12px 4px;
   }
 
   .page--layout-2portrait .page-body {
-    flex: 0 1 45%;
+    flex: 0 1 var(--portrait-text-share);
     width: 100%;
     padding: 12px 20px 16px;
   }
 
   .page--layout-2mixed .page-images-pair {
-    flex: 1 1 55%;
+    flex: 1 1 var(--portrait-image-share);
     width: 100%;
     flex-direction: row;
     padding: 12px 12px 4px;
   }
 
   .page--layout-2mixed .page-body {
-    flex: 0 1 45%;
+    flex: 0 1 var(--portrait-text-share);
     width: 100%;
     padding: 12px 20px 16px;
   }
@@ -797,7 +787,7 @@ a {
 
   .nav-bar {
     height: 52px;
-    gap: 24px;
+    gap: 92px;
   }
 
   .nav-bar-btn {
@@ -910,7 +900,6 @@ a {
     animation-duration: 0.1s;
   }
 
-  .btn-start,
   .btn-read,
   .extra,
   .nav-bar-btn,
@@ -994,7 +983,6 @@ a {
   .tap-zone,
   .swipe-hint,
   .btn-read,
-  .btn-start,
   .cover-actions,
   .btn-print,
   .btn-home {

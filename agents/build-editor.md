@@ -30,6 +30,7 @@ Check for:
 - Incorrect visible-page state.
 - Horizontal or visible-page overflow.
 - Failures at any tested viewport.
+- Text or extras extending outside their visible `.page-body`, even when the overall page reports no document-level overflow.
 
 ## Visual Fit And Finish
 
@@ -44,6 +45,20 @@ Inspect every page at mobile, tablet, and desktop sizes for:
 - Credits that are too dense, clipped, or difficult to scan.
 - A cover or page treatment that feels generic or conflicts with the book's theme.
 - Touch targets, controls, and page states that do not look usable.
+
+## Text Scale Review
+
+Treat `book.json` `textScale` as an explicit, book-wide design decision. Review every content page at every tested viewport; do not judge typography from the cover or a sample page.
+
+- Confirm the generated body size matches the selected `large`, `standard`, or `compact` profile and never falls below 1rem on mobile.
+- Reject clipped text, clipped extras, text extending beyond its card, or pages that require scrolling.
+- Flag type that is technically contained but visibly too small for the target age or leaves implausibly large unused text space.
+- Keep one text scale throughout the book. Do not request per-page automatic shrinking or character-count heuristics.
+- If a different book-wide profile would solve the issue, return `BLOCKED` and request an upstream `book.json` `textScale` change.
+- If only isolated dense pages fail at an otherwise appropriate scale, return `BLOCKED` and request that those pages be shortened, split, or have optional extras reduced.
+- Return `REVISE` only when the selected profile is rendered incorrectly or template/builder layout allocation causes the fit problem.
+
+Evidence for every text-size finding must identify the viewport, page number, selected `textScale`, computed body font size, and whether text or extras overflow the `.page-body` bounds.
 
 If a problem is in templates, fragments, CSS, JS, or builder logic, return `REVISE` with source-level guidance for the builder. If it requires changing `book.json` or `content.json`, return `BLOCKED` and identify the upstream artifact. The builder must not disguise content problems in generated output.
 

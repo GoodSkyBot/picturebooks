@@ -63,14 +63,6 @@
   if (navPrev) navPrev.addEventListener("click", goPrev);
   if (navNext) navNext.addEventListener("click", goNext);
 
-  // Start button
-  var btnStart = document.querySelector(".btn-start");
-  if (btnStart) {
-    btnStart.addEventListener("click", function () {
-      goNext();
-    });
-  }
-
   function isInteractiveTarget(target) {
     return !!(target && target.closest("button, a, [data-audio], input, select, textarea, [role='button']"));
   }

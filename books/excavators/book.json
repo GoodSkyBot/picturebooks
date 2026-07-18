@@ -2,6 +2,7 @@
   "title": "Dig, Dig, Dig! All About Excavators",
   "slug": "excavators",
   "targetAge": 6,
+  "textScale": "standard",
   "category": "Vehicles",
   "tags": [
     "excavator",

@@ -16,6 +16,10 @@
       --accent-color: {{ theme.accentColor }};
       --font-heading: '{{ theme.fontHeading }}', sans-serif;
       --font-body: '{{ theme.fontBody }}', sans-serif;
+      --page-text-size: {{ text_scale.page_text_size }};
+      --page-text-line-height: {{ text_scale.page_text_line_height }};
+      --portrait-image-share: {{ text_scale.portrait_image_share }};
+      --portrait-text-share: {{ text_scale.portrait_text_share }};
     }
   </style>
 </head>
@@ -36,13 +40,14 @@
       <button class="nav-bar-btn nav-bar-prev" id="nav-prev" aria-label="Previous page">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
       </button>
-      <a class="nav-bar-btn nav-bar-home" href="../../" aria-label="Back to all books">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-      </a>
       <button class="nav-bar-btn nav-bar-next" id="nav-next" aria-label="Next page">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
       </button>
     </nav>
+
+    <a class="nav-bar-btn btn-home" href="../../" aria-label="Back to all books">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    </a>
 
     <!-- Mobile tap zones -->
     <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>

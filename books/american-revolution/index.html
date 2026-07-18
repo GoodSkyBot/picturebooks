@@ -16,6 +16,10 @@
       --accent-color: #C8963E;
       --font-heading: 'Fredoka', sans-serif;
       --font-body: 'Nunito', sans-serif;
+      --page-text-size: clamp(1.125rem, 4.6vw, 1.25rem);
+      --page-text-line-height: 1.42;
+      --portrait-image-share: 48%;
+      --portrait-text-share: 52%;
     }
   </style>
 </head>
@@ -33,7 +37,6 @@
         
         <p class="cover-subtitle">The Story of the Fourth of July</p>
         
-        <button class="btn-start" aria-label="Start reading">Start</button>
       </div>
       <div class="cover-actions">
         <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
@@ -492,13 +495,14 @@
       <button class="nav-bar-btn nav-bar-prev" id="nav-prev" aria-label="Previous page">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
       </button>
-      <a class="nav-bar-btn nav-bar-home" href="../../" aria-label="Back to all books">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-      </a>
       <button class="nav-bar-btn nav-bar-next" id="nav-next" aria-label="Next page">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
       </button>
     </nav>
+
+    <a class="nav-bar-btn btn-home" href="../../" aria-label="Back to all books">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    </a>
 
     <!-- Mobile tap zones -->
     <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>

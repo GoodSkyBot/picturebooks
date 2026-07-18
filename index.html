@@ -95,9 +95,6 @@
         padding: 14px 18px;
         font-family: "Baloo 2", cursive;
         font-size: clamp(1.2rem, 4vw, 1.65rem);
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
       }
 
       .search-toggle {
@@ -209,7 +206,6 @@
       .subject-icon {
         width: 112px;
         height: 112px;
-        object-fit: contain;
       }
 
       .subject-name {
@@ -301,10 +297,13 @@
         font-size: 1.1rem;
       }
 
-      .icon-tab {
-        width: 28px;
-        height: 28px;
-        flex-shrink: 0;
+      .icon-subject-tab {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: conic-gradient(from 20deg, var(--sky), var(--sun), var(--leaf), var(--sky));
+        border: 2px solid var(--ink);
       }
 
       @media (max-width: 760px) {
@@ -343,29 +342,15 @@
         .mode-tab {
           padding-left: 10px;
           padding-right: 10px;
-          font-size: 1.1rem;
-          gap: 6px;
-        }
-
-        .mode-tab .icon-tab {
-          width: 22px;
-          height: 22px;
         }
 
         .subject-grid {
-          grid-auto-flow: column;
-          grid-auto-columns: minmax(150px, 42vw);
-          grid-template-columns: none;
-          overflow-x: auto;
-          overscroll-behavior-x: contain;
-          padding-bottom: 12px;
-          scroll-snap-type: x proximity;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         .subject-button {
           min-height: 170px;
           padding: 14px 8px;
-          scroll-snap-align: start;
         }
 
         .subject-icon {
@@ -393,8 +378,8 @@
       </section>
 
       <div class="mode-tabs" role="tablist" aria-label="Library browsing modes">
-        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all"><svg class="icon-tab" viewBox="0 0 28 28" aria-hidden="true"><rect x="3" y="3" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="16" y="3" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="3" y="16" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/><rect x="16" y="16" width="9" height="9" rx="2" fill="none" stroke="#223126" stroke-width="3"/></svg>All Books</button>
-        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><svg class="icon-tab" viewBox="0 0 28 28" aria-hidden="true"><path d="M3 5a2 2 0 012-2h7.6a2 2 0 011.4.6l10.4 10.4a2 2 0 010 2.8l-7.6 7.6a2 2 0 01-2.8 0L3.6 14A2 2 0 013 12.6V5z" fill="none" stroke="#223126" stroke-width="2.5" stroke-linejoin="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="#223126"/></svg>Subjects</button>
+        <button class="mode-tab" id="all-mode-tab" type="button" role="tab" aria-selected="true" aria-controls="all-books-panel" data-mode="all">All Books</button>
+        <button class="mode-tab" id="subjects-mode-tab" type="button" role="tab" aria-selected="false" aria-controls="subjects-panel" data-mode="subjects"><span class="icon-subject-tab" aria-hidden="true"></span>Subjects</button>
         <button class="search-toggle" id="search-toggle" type="button" aria-label="Search books" aria-expanded="false" aria-controls="search-panel">
           <svg class="search-icon" viewBox="0 0 32 32" aria-hidden="true">
             <circle cx="14" cy="14" r="9" fill="#ffffff" stroke="#223126" stroke-width="4"/>
@@ -418,61 +403,105 @@
         <div class="subject-grid" aria-label="Subjects">
           
           <button class="subject-button" type="button" data-subject="animals" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F43E.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Animals subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">A</text>
+              
+            </svg>
             <span class="subject-name">Animals</span>
             <span class="subject-count">2 books</span>
           </button>
           
           <button class="subject-button" type="button" data-subject="dinosaurs" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F996.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Dinosaurs subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">D</text>
+              
+            </svg>
             <span class="subject-name">Dinosaurs</span>
-            <span class="subject-count">4 books</span>
+            <span class="subject-count">2 books</span>
           </button>
           
           <button class="subject-button" type="button" data-subject="history" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F3DB.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="History subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">H</text>
+              
+            </svg>
             <span class="subject-name">History</span>
             <span class="subject-count">1 book</span>
           </button>
           
           <button class="subject-button" type="button" data-subject="insects" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F98B.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Insects subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">I</text>
+              
+            </svg>
             <span class="subject-name">Insects</span>
             <span class="subject-count">1 book</span>
           </button>
           
-          <button class="subject-button" type="button" data-subject="music" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F4DA.svg" alt="" width="112" height="112">
-            <span class="subject-name">Music</span>
-            <span class="subject-count">1 book</span>
-          </button>
-          
           <button class="subject-button" type="button" data-subject="nature" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F33F.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Nature subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">N</text>
+              
+            </svg>
             <span class="subject-name">Nature</span>
             <span class="subject-count">1 book</span>
           </button>
           
           <button class="subject-button" type="button" data-subject="science" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F52C.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Science subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">S</text>
+              
+            </svg>
             <span class="subject-name">Science</span>
             <span class="subject-count">1 book</span>
           </button>
           
-          <button class="subject-button" type="button" data-subject="space" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F680.svg" alt="" width="112" height="112">
-            <span class="subject-name">Space</span>
-            <span class="subject-count">1 book</span>
-          </button>
-          
           <button class="subject-button" type="button" data-subject="sports" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F3D3.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Sports subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">S</text>
+              
+            </svg>
             <span class="subject-name">Sports</span>
             <span class="subject-count">1 book</span>
           </button>
           
           <button class="subject-button" type="button" data-subject="vehicles" aria-pressed="false">
-            <img class="subject-icon" src="/icons/1F697.svg" alt="" width="112" height="112">
+            <svg class="subject-icon" viewBox="0 0 120 120" role="img" aria-label="Vehicles subject picture">
+              <circle cx="60" cy="60" r="52" fill="#fffdf4" stroke="#223126" stroke-width="5"/>
+              <circle cx="60" cy="60" r="42" fill="#ffffff" stroke="#d7cfae" stroke-width="4"/>
+              
+              <circle cx="60" cy="60" r="27" fill="#ffd766" stroke="#223126" stroke-width="4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#223126">V</text>
+              
+            </svg>
             <span class="subject-name">Vehicles</span>
             <span class="subject-count">2 books</span>
           </button>
@@ -612,19 +641,6 @@
           </a>
         </li>
         
-        <li data-book data-category="music" data-search="the xylophone goes ting-ting-ting tap, listen, play! music xylophone-goes-ting-ting-ting xylophone music instrument percussion mallets bars sound rhythm">
-          <a class="book-card" href="/books/xylophone-goes-ting-ting-ting/" style="--accent: #8B4A18">
-            <img src="/books/xylophone-goes-ting-ting-ting/images/ai-colorful-xylophone-cover.png"
-                 alt="The Xylophone Goes Ting-Ting-Ting"
-                 loading="lazy">
-            <div class="book-info">
-              <span class="book-category">Music</span>
-              <p class="book-title">The Xylophone Goes Ting-Ting-Ting</p>
-              <p class="book-subtitle">Tap, listen, play!</p>
-            </div>
-          </a>
-        </li>
-        
         <li data-book data-category="dinosaurs" data-search="velociraptor: the swift thief a real dinosaur story dinosaurs velociraptors velociraptor raptor dinosaur fossils feathers cretaceous">
           <a class="book-card" href="/books/velociraptors/" style="--accent: #C75B12">
             <img src="/books/velociraptors/images/velociraptor-cover.png"
@@ -634,45 +650,6 @@
               <span class="book-category">Dinosaurs</span>
               <p class="book-title">Velociraptor: The Swift Thief</p>
               <p class="book-subtitle">A Real Dinosaur Story</p>
-            </div>
-          </a>
-        </li>
-        
-        <li data-book data-category="space" data-search="venus hides under clouds a bright planet with big surprises space the-planet-venus venus planet space solar system clouds hot planet rocky planet morning star evening star">
-          <a class="book-card" href="/books/the-planet-venus/" style="--accent: #F2A84A">
-            <img src="/books/the-planet-venus/images/venus-mariner-10-clouds.jpg"
-                 alt="Venus Hides Under Clouds"
-                 loading="lazy">
-            <div class="book-info">
-              <span class="book-category">Space</span>
-              <p class="book-title">Venus Hides Under Clouds</p>
-              <p class="book-subtitle">A bright planet with big surprises</p>
-            </div>
-          </a>
-        </li>
-        
-        <li data-book data-category="dinosaurs" data-search="when dinosaurs were new a triassic period story dinosaurs triassic-period-dinosaurs triassic dinosaurs pangaea fossils prehistoric mesozoic">
-          <a class="book-card" href="/books/triassic-period-dinosaurs/" style="--accent: #8B3E1F">
-            <img src="/books/triassic-period-dinosaurs/images/triassic-cover-paleoart.png"
-                 alt="When Dinosaurs Were New"
-                 loading="lazy">
-            <div class="book-info">
-              <span class="book-category">Dinosaurs</span>
-              <p class="book-title">When Dinosaurs Were New</p>
-              <p class="book-subtitle">A Triassic Period Story</p>
-            </div>
-          </a>
-        </li>
-        
-        <li data-book data-category="dinosaurs" data-search="when earth became jurassic dinosaurs in a changing world dinosaurs jurassic-period-dinosaurs jurassic dinosaurs fossils prehistoric ferns mesozoic">
-          <a class="book-card" href="/books/jurassic-period-dinosaurs/" style="--accent: #315C48">
-            <img src="/books/jurassic-period-dinosaurs/images/jurassic-forest-scene.jpg"
-                 alt="When Earth Became Jurassic"
-                 loading="lazy">
-            <div class="book-info">
-              <span class="book-category">Dinosaurs</span>
-              <p class="book-title">When Earth Became Jurassic</p>
-              <p class="book-subtitle">Dinosaurs in a Changing World</p>
             </div>
           </a>
         </li>

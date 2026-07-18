@@ -2,6 +2,7 @@
   "title": "Chocolate: From Bean to Bar",
   "slug": "chocolate",
   "targetAge": 6,
+  "textScale": "standard",
   "category": "Science",
   "tags": [
     "chocolate",

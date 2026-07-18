@@ -26,6 +26,7 @@ Read and follow before starting:
 - Assign one or more images to each page.
 - Choose one kid-facing homepage subject and hidden search tags.
 - Create a distinct theme that fits the topic.
+- Choose one book-wide `textScale`: `large`, `standard`, or `compact`.
 - Define cover and back matter.
 
 ## Homepage Metadata
@@ -65,6 +66,16 @@ Read all `researchNotes` before planning pages. The research agent provides conn
 - Choose Google Fonts that fit the tone and stay readable.
 - `vibe` should capture the overall mood and feeling of the book in a few words.
 - Fill in all theme fields: `primaryColor`, `secondaryColor`, `backgroundColor`, `accentColor`, `fontHeading`, `fontBody`, `vibe`.
+
+## Text Scale
+
+Set the top-level `textScale` intentionally for the reading experience; do not derive it mechanically from character counts.
+
+- `large`: sparse read-aloud copy, especially preschool books where text should feel prominent.
+- `standard`: typical early-reader copy with moderate page density.
+- `compact`: denser independent-reader copy that still must remain at least 1rem on mobile.
+
+Use `targetAge` as context, not an inflexible rule. Keep one scale throughout a book so type does not jump between pages. If a page cannot fit at the chosen scale, shorten or split that page rather than silently shrinking only that page.
 
 ## Image Assignment
 
@@ -124,6 +135,7 @@ Before finishing, verify:
 - `tags` includes useful hidden search terms.
 - Every image `src` references a file that exists in `content.json` images.
 - All theme fields are populated.
+- `textScale` matches the intended reading experience and every page is concise enough to fit it.
 
 ## Revision Feedback
 

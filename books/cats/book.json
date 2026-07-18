@@ -2,6 +2,7 @@
   "title": "Cats!",
   "slug": "cats",
   "targetAge": 3,
+  "textScale": "large",
   "category": "Animals",
   "tags": [
     "cats",

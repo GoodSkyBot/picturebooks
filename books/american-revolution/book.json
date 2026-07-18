@@ -2,6 +2,7 @@
   "title": "America's Birthday",
   "slug": "american-revolution",
   "targetAge": 5,
+  "textScale": "standard",
   "category": "History",
   "tags": [
     "america",

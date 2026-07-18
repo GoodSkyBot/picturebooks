@@ -7,6 +7,7 @@
     "title",
     "slug",
     "targetAge",
+    "textScale",
     "category",
     "tags",
     "theme",
@@ -28,6 +29,11 @@
       "type": "integer",
       "minimum": 0,
       "maximum": 99
+    },
+    "textScale": {
+      "type": "string",
+      "enum": ["large", "standard", "compact"],
+      "description": "Book-wide body text profile. Use large for sparse read-aloud books, standard for typical early readers, and compact for denser independent-reader books."
     },
     "category": {
       "type": "string",

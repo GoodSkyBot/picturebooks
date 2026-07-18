@@ -2,6 +2,7 @@
   "title": "Bees and Flowers: A Pollination Adventure",
   "slug": "bees-and-flowers",
   "targetAge": 5,
+  "textScale": "standard",
   "category": "Nature",
   "tags": [
     "bees",

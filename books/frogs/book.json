@@ -2,6 +2,7 @@
   "title": "Fabulous Frogs",
   "slug": "frogs",
   "targetAge": 5,
+  "textScale": "standard",
   "category": "Animals",
   "tags": [
     "frogs",

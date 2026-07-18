@@ -2,6 +2,7 @@
   "title": "Bike Ride Around the Block",
   "slug": "bike-ride-around-the-block",
   "targetAge": 3,
+  "textScale": "large",
   "category": "Vehicles",
   "tags": [
     "bike",

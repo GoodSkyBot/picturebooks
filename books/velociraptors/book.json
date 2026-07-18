@@ -2,6 +2,7 @@
   "title": "Velociraptor: The Swift Thief",
   "slug": "velociraptors",
   "targetAge": 5,
+  "textScale": "standard",
   "category": "Dinosaurs",
   "tags": [
     "velociraptor",

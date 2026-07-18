@@ -161,6 +161,29 @@ async function inspectPage(page) {
       };
     });
 
+    const pageBodies = visible.flatMap((pageEl) =>
+      Array.from(pageEl.querySelectorAll(".page-body")).map((body) => {
+        const bodyRect = body.getBoundingClientRect();
+        const content = Array.from(body.querySelectorAll(".page-text, .extras"));
+        const contentRects = content.map((el) => el.getBoundingClientRect());
+        const tolerance = 2;
+        return {
+          dataPage: pageEl.getAttribute("data-page"),
+          fontSize: body.querySelector(".page-text")
+            ? getComputedStyle(body.querySelector(".page-text")).fontSize
+            : null,
+          width: Math.round(bodyRect.width),
+          height: Math.round(bodyRect.height),
+          scrollWidth: body.scrollWidth,
+          scrollHeight: body.scrollHeight,
+          overflowsX: body.scrollWidth > Math.ceil(bodyRect.width) + tolerance
+            || contentRects.some((rect) => rect.left < bodyRect.left - tolerance || rect.right > bodyRect.right + tolerance),
+          overflowsY: body.scrollHeight > Math.ceil(bodyRect.height) + tolerance
+            || contentRects.some((rect) => rect.top < bodyRect.top - tolerance || rect.bottom > bodyRect.bottom + tolerance),
+        };
+      })
+    );
+
     return {
       title: document.title,
       pageCount: document.querySelectorAll(".page").length,
@@ -170,6 +193,7 @@ async function inspectPage(page) {
       viewportWidth: window.innerWidth,
       brokenImages,
       visibleOverflow,
+      pageBodies,
     };
   });
 }
@@ -257,6 +281,14 @@ function summarize(report) {
       for (const src of check.brokenImages) failures.push(`${viewport.name} page ${check.page}: broken image ${src}`);
       for (const item of check.visibleOverflow) {
         if (item.overflowsX) failures.push(`${viewport.name} page ${check.page}: visible page ${item.dataPage} overflows horizontally`);
+      }
+      for (const body of check.pageBodies) {
+        const evidence = `font ${body.fontSize}, body ${body.width}x${body.height}, scroll ${body.scrollWidth}x${body.scrollHeight}`;
+        if (body.overflowsX) failures.push(`${viewport.name} page ${check.page}: .page-body overflows horizontally (${evidence})`);
+        if (body.overflowsY) failures.push(`${viewport.name} page ${check.page}: .page-body overflows vertically (${evidence})`);
+        if (viewport.name === "mobile" && body.fontSize && parseFloat(body.fontSize) < 16) {
+          failures.push(`${viewport.name} page ${check.page}: .page-text is below 1rem (${body.fontSize})`);
+        }
       }
     }
   }
