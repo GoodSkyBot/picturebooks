@@ -28,6 +28,7 @@ CATEGORY_ICON_KEYS = {
     "people": "1F46A",
     "science": "1F52C",
     "space": "1F680",
+    "sports": "1F3D3",
     "vehicles": "1F697",
     "weather": "1F327",
 }

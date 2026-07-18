@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Chocolate: From Bean to Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #4B2415;
+      --secondary-color: #B86B2B;
+      --background-color: #FFF2D8;
+      --accent-color: #2F7A4F;
+      --font-heading: 'Baloo 2', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/cacao-pods.jpg" alt="Chocolate">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">Chocolate</h1>
+        
+        <p class="cover-subtitle">From Bean to Bar</p>
+        
+        <button class="btn-start" aria-label="Start reading">Start</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+    
+        <!-- Page 1: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="1" hidden>
+      <figure class="page-figure">
+        <img src="images/cacao-pods.jpg" alt="Colorful cacao pods growing from a cacao tree trunk" style="object-position: top;">
+        
+        <figcaption>Photo: Medicaster / Public domain</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Chocolate starts in a surprising place: on a cacao tree. The tree grows in warm, rainy places near the equator.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: Cacao is pronounced kah-KOW.">
+            <span class="extra-icon">&#9679;</span> Cacao is pronounced kah-KOW.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">Cacao pods can look like bumpy footballs. Inside each pod are many seeds tucked into soft, pale pulp.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: The seeds are called cocoa beans.">
+            <span class="extra-icon">&#9679;</span> The seeds are called cocoa beans.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/open-cacao-pod.jpg" alt="An opened cacao pod showing pale pulp and cocoa beans inside">
+        
+        <figcaption>Photo: Aude / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 3: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="3" hidden>
+      <div class="page-body">
+        <p class="page-text">Fresh cocoa beans do not taste like a candy bar. They are bitter, and they need a long journey before they become chocolate.</p>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/cacao-beans-stages.jpg" alt="Cacao beans shown with pulp, with skin, and without skin">
+        
+        <figcaption>Photo: Phoenix CZE / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 4: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="4" hidden>
+      <figure class="page-figure">
+        <img src="images/fermenting-cacao-beans.jpg" alt="A farmer holding fermenting cocoa beans in his hands">
+        
+        <figcaption>Photo: Irene Scott/AusAID / CC BY 2.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">After harvest, farmers let the beans and pulp ferment. Tiny living helpers begin changing the beans and building chocolate flavor.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: Fermenting often takes several days.">
+            <span class="extra-icon">&#9679;</span> Fermenting often takes several days.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 5: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="5" hidden>
+      <figure class="page-figure">
+        <img src="images/drying-cacao-beans.jpg" alt="Many cacao beans spread out to dry">
+        
+        <figcaption>Photo: pipeafcr / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Next, the beans dry in the sun or in warm air. Dry beans can travel safely to people who make chocolate.</p>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 6: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="6" hidden>
+      <figure class="page-figure">
+        <img src="images/roasted-cacao-nibs.jpg" alt="A close view of roasted cocoa nibs">
+        
+        <figcaption>Photo: Michael / CC BY 2.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Chocolate makers roast the beans. Then the shells come off, leaving crunchy little pieces called nibs.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: Roasting helps make the chocolate smell.">
+            <span class="extra-icon">&#9679;</span> Roasting helps make the chocolate smell.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 7: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="7" hidden>
+      <div class="page-body">
+        <p class="page-text">The nibs are ground into a thick paste. Machines mix and smooth the chocolate until it feels silky on your tongue.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: This smoothing step is called conching.">
+            <span class="extra-icon">&#9679;</span> This smoothing step is called conching.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/chocolate-conche.jpg" alt="A chocolate conching machine used to smooth chocolate">
+        
+        <figcaption>Photo: Lisa Davis / CC BY 2.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 8: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="8" hidden>
+      <div class="page-body">
+        <p class="page-text">Cooling chocolate is a science trick. When it cools just right, it turns shiny, snaps neatly, and melts smoothly. Dark, milk, and white chocolate are made in different ways, but each one begins with cacao.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-08-extra-1.mp3" aria-label="Fun fact: Chocolate is a treat, not a pet snack.">
+            <span class="extra-icon">&#9679;</span> Chocolate is a treat, not a pet snack.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/three-chocolate-bars.jpg" alt="Three bars showing dark chocolate, milk chocolate, and white chocolate">
+        
+        <figcaption>Photo: Lynnereal / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="9" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          
+          <li><a href="https://www.britannica.com/topic/chocolate" target="_blank" rel="noopener">Chocolate - Encyclopaedia Britannica</a></li>
+          
+          <li><a href="https://www.britannica.com/plant/cacao" target="_blank" rel="noopener">Cacao - Encyclopaedia Britannica</a></li>
+          
+          <li><a href="https://www.fao.org/4/ad220e/ad220e00.htm" target="_blank" rel="noopener">Cocoa - FAO Better Farming Series</a></li>
+          
+          <li><a href="https://plantvillage.psu.edu/topics/cocoa-cacao/infos" target="_blank" rel="noopener">Cocoa (cacao) - PlantVillage, Penn State</a></li>
+          
+          <li><a href="https://animals.sandiegozoo.org/plants/cacao" target="_blank" rel="noopener">Cacao - San Diego Zoo Animals &amp; Plants</a></li>
+          
+          <li><a href="https://www.science.org.au/curious/everything-else/chocolate" target="_blank" rel="noopener">Chocolate: the sweet taste of ... chemistry? - Australian Academy of Science</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Chocolate" target="_blank" rel="noopener">Chocolate - Wikipedia</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Cocoa_bean" target="_blank" rel="noopener">Cocoa bean - Wikipedia</a></li>
+          
+        </ul>
+        
+
+        
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          
+          <li>
+            <strong>A cacao tree with fruit pods in various stages of ripenin...</strong> --
+            Medicaster,
+            <a href="https://commons.wikimedia.org/wiki/File:Cocoa_Pods.JPG" target="_blank" rel="noopener">Public domain</a>
+            
+          </li>
+          
+          <li>
+            <strong>Cocoa beans surrounded by pale pulp inside an opened caca...</strong> --
+            Aude,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Cacao beans shown in pulp, in skin, and without skin.</strong> --
+            Phoenix CZE,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Cocoa farmer David Kebu Jnr holding fermenting cocoa bean...</strong> --
+            Irene Scott/AusAID,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Cacao beans drying in Cunday, Colombia.</strong> --
+            pipeafcr,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Roasted cocoa nibs, the pieces left after roasted beans a...</strong> --
+            Michael,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>A longitudinal conche used to refine and conch chocolate.</strong> --
+            Lisa Davis,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Three chocolate bars showing dark, milk, and white chocol...</strong> --
+            Lynnereal,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </article>
+
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

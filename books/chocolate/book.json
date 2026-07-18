@@ -1,0 +1,137 @@
+{
+  "title": "Chocolate: From Bean to Bar",
+  "slug": "chocolate",
+  "targetAge": 6,
+  "category": "Science",
+  "tags": [
+    "chocolate",
+    "cacao",
+    "cocoa",
+    "beans",
+    "food",
+    "plants",
+    "rainforest",
+    "chemistry",
+    "candy",
+    "bean to bar"
+  ],
+  "theme": {
+    "primaryColor": "#4B2415",
+    "secondaryColor": "#B86B2B",
+    "backgroundColor": "#FFF2D8",
+    "accentColor": "#2F7A4F",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "Warm bean-to-bar discovery"
+  },
+  "cover": {
+    "title": "Chocolate",
+    "subtitle": "From Bean to Bar",
+    "image": "images/cacao-pods.jpg"
+  },
+  "pages": [
+    {
+      "text": "Chocolate starts in a surprising place: on a cacao tree. The tree grows in warm, rainy places near the equator.",
+      "extras": [
+        "Cacao is pronounced kah-KOW."
+      ],
+      "images": [
+        {
+          "src": "images/cacao-pods.jpg",
+          "alt": "Colorful cacao pods growing from a cacao tree trunk",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Cacao pods can look like bumpy footballs. Inside each pod are many seeds tucked into soft, pale pulp.",
+      "extras": [
+        "The seeds are called cocoa beans."
+      ],
+      "images": [
+        {
+          "src": "images/open-cacao-pod.jpg",
+          "alt": "An opened cacao pod showing pale pulp and cocoa beans inside",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Fresh cocoa beans do not taste like a candy bar. They are bitter, and they need a long journey before they become chocolate.",
+      "images": [
+        {
+          "src": "images/cacao-beans-stages.jpg",
+          "alt": "Cacao beans shown with pulp, with skin, and without skin",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "After harvest, farmers let the beans and pulp ferment. Tiny living helpers begin changing the beans and building chocolate flavor.",
+      "extras": [
+        "Fermenting often takes several days."
+      ],
+      "images": [
+        {
+          "src": "images/fermenting-cacao-beans.jpg",
+          "alt": "A farmer holding fermenting cocoa beans in his hands",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Next, the beans dry in the sun or in warm air. Dry beans can travel safely to people who make chocolate.",
+      "images": [
+        {
+          "src": "images/drying-cacao-beans.jpg",
+          "alt": "Many cacao beans spread out to dry",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Chocolate makers roast the beans. Then the shells come off, leaving crunchy little pieces called nibs.",
+      "extras": [
+        "Roasting helps make the chocolate smell."
+      ],
+      "images": [
+        {
+          "src": "images/roasted-cacao-nibs.jpg",
+          "alt": "A close view of roasted cocoa nibs",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "The nibs are ground into a thick paste. Machines mix and smooth the chocolate until it feels silky on your tongue.",
+      "extras": [
+        "This smoothing step is called conching."
+      ],
+      "images": [
+        {
+          "src": "images/chocolate-conche.jpg",
+          "alt": "A chocolate conching machine used to smooth chocolate",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Cooling chocolate is a science trick. When it cools just right, it turns shiny, snaps neatly, and melts smoothly. Dark, milk, and white chocolate are made in different ways, but each one begins with cacao.",
+      "extras": [
+        "Chocolate is a treat, not a pet snack."
+      ],
+      "images": [
+        {
+          "src": "images/three-chocolate-bars.jpg",
+          "alt": "Three bars showing dark chocolate, milk chocolate, and white chocolate",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}

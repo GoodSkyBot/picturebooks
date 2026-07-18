@@ -1,0 +1,383 @@
+{
+  "topic": "Chocolate",
+  "slug": "chocolate",
+  "targetAge": 6,
+  "sources": [
+    {
+      "title": "Chocolate - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/chocolate",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Cacao - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/plant/cacao",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Cocoa - FAO Better Farming Series",
+      "url": "https://www.fao.org/4/ad220e/ad220e00.htm",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Cocoa (cacao) - PlantVillage, Penn State",
+      "url": "https://plantvillage.psu.edu/topics/cocoa-cacao/infos",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Cacao - San Diego Zoo Animals & Plants",
+      "url": "https://animals.sandiegozoo.org/plants/cacao",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Chocolate: the sweet taste of ... chemistry? - Australian Academy of Science",
+      "url": "https://www.science.org.au/curious/everything-else/chocolate",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Chocolate - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "accessed": "2026-07-16"
+    },
+    {
+      "title": "Cocoa bean - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cocoa_bean",
+      "accessed": "2026-07-16"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "Chocolate begins with cacao",
+      "text": "Chocolate is made from cocoa beans, which are the seeds of the tropical cacao tree, Theobroma cacao. The tree is native to the Amazon and Orinoco river basins and is now grown as a crop in warm, humid tropical regions. For a young reader, the most useful framing is that chocolate does not grow as a candy bar; it begins as seeds inside a fruit on a tree.",
+      "sources": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "relatedImages": [
+        "images/cacao-pods.jpg"
+      ]
+    },
+    {
+      "title": "Where cacao trees grow",
+      "text": "Cacao trees grow best in warm, moist, shady places near the equator. Sources describe cacao as an understory tree, meaning it naturally grows below taller forest trees. It needs rain, humidity, shade, and well-drained fertile soil, which makes the rainforest setting a strong visual anchor for the opening pages.",
+      "sources": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "relatedImages": [
+        "images/cacao-pods.jpg"
+      ]
+    },
+    {
+      "title": "Pods grow from trunks and branches",
+      "text": "Cacao flowers and fruit grow directly from the trunk and larger branches, not just from twig tips like many familiar fruits. The pods can look like bumpy footballs and can ripen to colors such as yellow, orange, red, or purple. This is a visually surprising detail that fits age six well because children can compare the pod to familiar shapes and colors.",
+      "sources": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "relatedImages": [
+        "images/cacao-pods.jpg",
+        "images/open-cacao-pod.jpg"
+      ]
+    },
+    {
+      "title": "Inside a cacao pod",
+      "text": "Each cacao pod holds many seeds surrounded by pale, sweet, sticky pulp. Source estimates vary by variety and source, but commonly describe roughly 20 to 60 seeds per pod, with many practical descriptions using about 30 to 50. The seeds themselves are bitter before processing, so the book should avoid implying fresh cacao beans taste like finished chocolate.",
+      "sources": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "relatedImages": [
+        "images/open-cacao-pod.jpg",
+        "images/cacao-beans-stages.jpg"
+      ]
+    },
+    {
+      "title": "Harvest is careful hand work",
+      "text": "Farmers harvest ripe pods by hand, cutting them from the trunk or branches. Sources warn that care is needed because new flowers and pods can grow from the same area of the tree. This supports a respectful human-work page without making the topic too heavy for age six.",
+      "sources": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "title": "Fermentation changes the beans",
+      "text": "After pods are opened, the beans and pulp are piled, boxed, or covered for fermentation, often for about five to seven days. Microorganisms break down the pulp and create heat and acids; these changes help develop the flavor precursors that later become chocolate aroma and taste. For children, this can be simplified to 'tiny helpers start changing the beans.'",
+      "sources": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "relatedImages": [
+        "images/fermenting-cacao-beans.jpg"
+      ]
+    },
+    {
+      "title": "Drying protects the beans",
+      "text": "After fermentation, beans are dried so they can be stored and shipped without molding. Small farms often dry beans in the sun when weather allows. Drying changes wet, pulpy beans into darker, drier beans that are ready for the next steps.",
+      "sources": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "relatedImages": [
+        "images/drying-cacao-beans.jpg"
+      ]
+    },
+    {
+      "title": "Roasting and nibs",
+      "text": "Dried beans are cleaned and roasted. Roasting helps develop chocolate flavor and makes the shells easier to remove. Winnowing removes the shell and leaves pieces called nibs. Nibs can then be ground to make chocolate liquor or cocoa mass, a thick paste that contains cocoa solids and cocoa butter.",
+      "sources": [
+        0,
+        5,
+        6,
+        7
+      ],
+      "relatedImages": [
+        "images/roasted-cacao-nibs.jpg"
+      ]
+    },
+    {
+      "title": "Grinding, mixing, and smoothing",
+      "text": "Chocolate makers grind nibs into a paste and can separate or recombine cocoa solids and cocoa butter. Sugar, milk ingredients, or extra cocoa butter may be mixed in depending on the kind of chocolate. Conching keeps chocolate moving and grinding under heat so particles become small enough to feel smooth on the tongue.",
+      "sources": [
+        0,
+        5,
+        6
+      ],
+      "relatedImages": [
+        "images/chocolate-conche.jpg"
+      ]
+    },
+    {
+      "title": "Tempering makes shine and snap",
+      "text": "Tempering is controlled heating and cooling that helps cocoa butter crystals form in a stable way. Good tempering gives chocolate a shiny surface, a firm snap, and a smooth melt. The underlying chemistry is complex, but the child-facing idea can be simple: chocolate needs just-right cooling to become glossy and snappy.",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "title": "Kinds of chocolate",
+      "text": "Dark, milk, and white chocolate are made with different combinations of cacao ingredients and other ingredients. Dark chocolate has cocoa solids and cocoa butter. Milk chocolate includes milk ingredients. White chocolate is pale because it uses cocoa butter but not the dark cocoa solids that give chocolate its brown color and stronger cocoa taste.",
+      "sources": [
+        0,
+        5,
+        6
+      ],
+      "relatedImages": [
+        "images/three-chocolate-bars.jpg"
+      ]
+    },
+    {
+      "title": "Health and safety framing",
+      "text": "Chocolate is enjoyable but often includes sugar and fat, so it should be treated as a sometimes food rather than presented as healthy. Chocolate also contains theobromine and caffeine; theobromine is dangerous to dogs. For an age-six book, the dog safety point can appear as a brief back-matter-style extra if used at all, not as a scary main-page focus.",
+      "sources": [
+        0,
+        5
+      ]
+    },
+    {
+      "title": "History for young readers",
+      "text": "Cacao has a long history in the Americas. Britannica notes Maya, Toltec, and Aztec peoples prepared a beverage from cacao, and other sources describe cacao beverages and cacao beans as culturally important in Mesoamerica. For this age, history should be handled briefly and respectfully: long before candy bars, people drank cacao as a special bitter drink.",
+      "sources": [
+        0,
+        4,
+        6,
+        7
+      ]
+    }
+  ],
+  "handoffNotes": "Use a bean-to-bar journey. Avoid implying chocolate is healthy or that fresh cacao beans taste like candy. Keep history brief and respectful, and do not overfocus on labor controversies for age six unless a separate caregiver note is requested. The approved image set is mostly documentary photography, so an image-forward nonfiction design will fit best.",
+  "images": [
+    {
+      "filename": "images/cacao-pods.jpg",
+      "description": "A cacao tree with fruit pods in various stages of ripening on the Big Island of Hawaii.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cocoa_Pods.JPG",
+      "author": "Medicaster",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Cocoa_Pods.JPG",
+      "width": 1024,
+      "height": 1536,
+      "imageType": "photo",
+      "styleTags": [
+        "documentary",
+        "natural light",
+        "tropical plant"
+      ],
+      "contentTags": [
+        "cacao tree",
+        "pods",
+        "rainforest crop",
+        "cover"
+      ]
+    },
+    {
+      "filename": "images/open-cacao-pod.jpg",
+      "description": "Cocoa beans surrounded by pale pulp inside an opened cacao pod at El Trapiche, Costa Rica.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cocoa_beans_in_cocoa_pod_at_El_Trapiche,_Costa_Rica.jpg",
+      "author": "Aude",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 2200,
+      "height": 1463,
+      "imageType": "photo",
+      "styleTags": [
+        "documentary",
+        "close-up",
+        "natural texture"
+      ],
+      "contentTags": [
+        "open pod",
+        "cacao beans",
+        "pulp",
+        "seeds"
+      ]
+    },
+    {
+      "filename": "images/cacao-beans-stages.jpg",
+      "description": "Cacao beans shown in pulp, in skin, and without skin.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kakaov%C3%A9_boby.jpg",
+      "author": "Phoenix CZE",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "simple background",
+        "educational"
+      ],
+      "contentTags": [
+        "cacao beans",
+        "seed stages",
+        "close-up",
+        "comparison"
+      ]
+    },
+    {
+      "filename": "images/fermenting-cacao-beans.jpg",
+      "description": "Cocoa farmer David Kebu Jnr holding fermenting cocoa beans in the Solomon Islands.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cocoa_farmer_David_Kebu_Jnr_holding_fermenting_cocoa_beans._(10687048615).jpg",
+      "author": "Irene Scott/AusAID",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1473,
+      "imageType": "photo",
+      "styleTags": [
+        "documentary",
+        "hands-on",
+        "warm natural light"
+      ],
+      "contentTags": [
+        "fermentation",
+        "farmer",
+        "cacao beans",
+        "human work"
+      ]
+    },
+    {
+      "filename": "images/drying-cacao-beans.jpg",
+      "description": "Cacao beans drying in Cunday, Colombia.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cacao_Beans_Drying.JPG",
+      "author": "pipeafcr",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "documentary",
+        "pattern",
+        "warm brown"
+      ],
+      "contentTags": [
+        "drying",
+        "cacao beans",
+        "sun drying",
+        "processing"
+      ]
+    },
+    {
+      "filename": "images/roasted-cacao-nibs.jpg",
+      "description": "Roasted cocoa nibs, the pieces left after roasted beans are shelled.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roasted_cocoa_nibs.jpg",
+      "author": "Michael",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1643,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "texture",
+        "warm brown"
+      ],
+      "contentTags": [
+        "roasted nibs",
+        "cacao pieces",
+        "processing",
+        "close-up"
+      ]
+    },
+    {
+      "filename": "images/chocolate-conche.jpg",
+      "description": "A longitudinal conche used to refine and conch chocolate.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Conche.jpg",
+      "author": "Lisa Davis",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1461,
+      "imageType": "photo",
+      "styleTags": [
+        "factory",
+        "machinery",
+        "documentary"
+      ],
+      "contentTags": [
+        "conching",
+        "chocolate machine",
+        "smoothing",
+        "factory"
+      ]
+    },
+    {
+      "filename": "images/three-chocolate-bars.jpg",
+      "description": "Three chocolate bars showing dark, milk, and white chocolate varieties.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Three_Bars_(1).jpg",
+      "author": "Lynnereal",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "studio",
+        "clean background",
+        "food close-up"
+      ],
+      "contentTags": [
+        "chocolate bars",
+        "dark chocolate",
+        "milk chocolate",
+        "white chocolate",
+        "comparison"
+      ]
+    }
+  ]
+}
