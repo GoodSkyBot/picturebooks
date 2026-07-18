@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>T. rex: Clues from the King</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Atkinson+Hyperlegible:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #5A3A20;
+      --secondary-color: #2F5D50;
+      --background-color: #F4E2B8;
+      --accent-color: #D97925;
+      --font-heading: 'Fredoka', sans-serif;
+      --font-body: 'Atkinson Hyperlegible', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book" id="book">
+
+        <!-- Cover -->
+    <article class="page page--cover" data-page="0">
+      <div class="cover-image-wrap">
+        <img src="images/trex-profile.png" alt="T. rex: Clues from the King">
+      </div>
+      <div class="cover-text">
+        <h1 class="cover-title">T. rex: Clues from the King</h1>
+        
+        <p class="cover-subtitle">A Real Dinosaur Mystery</p>
+        
+        <button class="btn-start" aria-label="Start reading">Start</button>
+      </div>
+      <div class="cover-actions">
+        <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="btn-icon btn-print" aria-label="Print" onclick="window.print()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+      </div>
+    </article>
+
+
+    
+        <!-- Page 1: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="1" hidden>
+      <div class="page-body">
+        <p class="page-text">Meet T. rex! Its full name is Tyrannosaurus rex, which means tyrant lizard king. This giant dinosaur lived near the end of the Cretaceous Period.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: T. rex lived about 68 to 66 million years ago.">
+            <span class="extra-icon">&#9679;</span> T. rex lived about 68 to 66 million years ago.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/trex-profile.png" alt="A side-view life restoration of Tyrannosaurus rex walking on two legs" style="object-fit: contain;">
+        
+        <figcaption>Photo: Steveoc 86 / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="2" hidden>
+      <div class="page-body">
+        <p class="page-text">T. rex was huge, but it was not a stiff tail-dragger. It held its body forward, balanced by a long, heavy tail.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: Many adults were about 12 meters long.">
+            <span class="extra-icon">&#9679;</span> Many adults were about 12 meters long.
+          </button>
+          
+          <button class="extra" data-audio="audio/page-02-extra-2.mp3" aria-label="Fun fact: That is longer than a school bus.">
+            <span class="extra-icon">&#9679;</span> That is longer than a school bus.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/trex-size.svg" alt="A scale chart comparing T. rex specimens with a human" style="object-fit: contain;">
+        
+        <figcaption>Photo: KoprX / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 3: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="3" hidden>
+      <div class="page-body">
+        <p class="page-text">Powerful back legs carried T. rex across ancient North America. Its giant head reached forward, and its tail helped keep the whole animal steady.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-03-extra-1.mp3" aria-label="Fun fact: T. rex walked on two legs.">
+            <span class="extra-icon">&#9679;</span> T. rex walked on two legs.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/trex-durbed.jpg" alt="An illustrated T. rex showing strong legs, a large head, and a balancing tail" style="object-fit: contain;">
+        
+        <figcaption>Photo: Durbed / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 4: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="4" hidden>
+      <div class="page-body">
+        <p class="page-text">Open wide! T. rex had about 60 teeth. They were serrated like tiny saws, and its jaws could crunch bone.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: Some teeth were as long as a banana.">
+            <span class="extra-icon">&#9679;</span> Some teeth were as long as a banana.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/trex-skull-diagram.png" alt="A historic scientific diagram showing the skull and jaws of T. rex" style="object-fit: contain;">
+        
+        <figcaption>Photo: Henry Fairfield Osborn / Public domain</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 5: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="5" hidden>
+      <figure class="page-figure">
+        <img src="images/trex-black-beauty.png" alt="A life reconstruction of T. rex standing alert" style="object-fit: contain;">
+        
+        <figcaption>Photo: Connor Ashbridge / CC BY 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Was T. rex a hunter or a scavenger? Scientists think it could be both. Many meat-eaters hunt when they can and eat found food when they find it.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-05-extra-1.mp3" aria-label="Fun fact: A strong nose helped T. rex sniff out food.">
+            <span class="extra-icon">&#9679;</span> A strong nose helped T. rex sniff out food.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 6: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="6" hidden>
+      <div class="page-body">
+        <p class="page-text">Those tiny arms are famous! Compared with the body, they were small. But they had strong muscles, and scientists still study what T. rex used them for.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-06-extra-1.mp3" aria-label="Fun fact: Small arms are a real dinosaur mystery.">
+            <span class="extra-icon">&#9679;</span> Small arms are a real dinosaur mystery.
+          </button>
+          
+        </div>
+        
+      </div>
+      <figure class="page-figure">
+        <img src="images/trex-mmartyniuk.png" alt="A T. rex life restoration showing its small arms and long tail" style="object-fit: contain;">
+        
+        <figcaption>Photo: Matt Martyniuk / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 7: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="7" hidden>
+      <figure class="page-figure">
+        <img src="images/trex-holotype.jpg" alt="A mounted T. rex fossil skeleton in a museum" style="object-fit: contain;">
+        
+        <figcaption>Photo: ScottRobertAnselmo / CC BY-SA 3.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">We do not have a photograph of a living T. rex. We have fossils! Bones, teeth, bite marks, and growth rings help scientists build the story.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-07-extra-1.mp3" aria-label="Fun fact: Fossils are clues from deep time.">
+            <span class="extra-icon">&#9679;</span> Fossils are clues from deep time.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+        <!-- Page 8: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="8" hidden>
+      <figure class="page-figure">
+        <img src="images/sue-skeleton.jpg" alt="The T. rex skeleton SUE displayed at the Field Museum">
+        
+        <figcaption>Photo: Evolutionnumber9 / CC BY-SA 4.0</figcaption>
+        
+      </figure>
+      <div class="page-body">
+        <p class="page-text">One famous T. rex is called SUE. SUE was found in South Dakota and is one of the largest and most complete T. rex skeletons ever discovered.</p>
+        
+        <div class="extras">
+          
+          <button class="extra" data-audio="audio/page-08-extra-1.mp3" aria-label="Fun fact: SUE lived to about 28 years old.">
+            <span class="extra-icon">&#9679;</span> SUE lived to about 28 years old.
+          </button>
+          
+        </div>
+        
+      </div>
+      <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+    
+
+        <!-- Credits -->
+    <article class="page page--credits" data-page="9" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Credits &amp; Sources</h2>
+
+        
+        <h3>Sources</h3>
+        <ul class="credits-sources">
+          
+          <li><a href="https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html" target="_blank" rel="noopener">Tyrannosaurus - Natural History Museum Dino Directory</a></li>
+          
+          <li><a href="https://www.amnh.org/dinosaurs/tyrannosaurus-rex" target="_blank" rel="noopener">7 Questions About Tyrannosaurus rex - American Museum of Natural History</a></li>
+          
+          <li><a href="https://www.britannica.com/animal/Tyrannosaurus-rex" target="_blank" rel="noopener">Tyrannosaurus rex - Encyclopaedia Britannica</a></li>
+          
+          <li><a href="https://www.fieldmuseum.org/blog/sue-t-rex" target="_blank" rel="noopener">SUE the T. rex - Field Museum</a></li>
+          
+          <li><a href="https://ucmp.berkeley.edu/trex/specialtrex2.html" target="_blank" rel="noopener">Tyrannosaurus Rex - University of California Museum of Paleontology</a></li>
+          
+          <li><a href="https://australian.museum/learn/dinosaurs/fact-sheets/tyrannosaurus-rex/" target="_blank" rel="noopener">Dinosaur - Tyrannosaurus rex - Australian Museum</a></li>
+          
+          <li><a href="https://www.nhm.ac.uk/discover/how-did-tyrannosaurus-use-its-arms.html" target="_blank" rel="noopener">How did Tyrannosaurus rex use its arms? - Natural History Museum</a></li>
+          
+          <li><a href="https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/tyrannosaurus-rex" target="_blank" rel="noopener">Tyrannosaurus rex Fossil - American Museum of Natural History</a></li>
+          
+          <li><a href="https://en.wikipedia.org/wiki/Tyrannosaurus" target="_blank" rel="noopener">Tyrannosaurus - Wikipedia</a></li>
+          
+        </ul>
+        
+
+        
+        <h3>Image Credits</h3>
+        <ul class="credits-images">
+          
+          <li>
+            <strong>Side-view life restoration of Tyrannosaurus rex with a mo...</strong> --
+            Steveoc 86,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Life reconstruction of the Tyrannosaurus rex specimen Bla...</strong> --
+            Connor Ashbridge,
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Life restoration of Tyrannosaurus rex based on specimen AMNH 5027</strong> --
+            Matt Martyniuk,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Illustration of Tyrannosaurus rex in side view</strong> --
+            Durbed,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Scale chart comparing several Tyrannosaurus specimens wit...</strong> --
+            KoprX,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Tyrannosaurus rex specimen SUE on display at the Field Museum</strong> --
+            Evolutionnumber9,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Tyrannosaurus rex holotype specimen at the Carnegie Museu...</strong> --
+            ScottRobertAnselmo,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+            
+          </li>
+          
+          <li>
+            <strong>Historic scientific diagram of the Tyrannosaurus rex AMNH...</strong> --
+            Henry Fairfield Osborn,
+            <a href="https://commons.wikimedia.org/wiki/Commons:Public_domain" target="_blank" rel="noopener">Public domain</a>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </article>
+
+
+    <!-- Edge navigation -->
+    <nav class="nav-edge" id="nav-bar">
+      <button class="nav-edge-btn nav-edge-prev" id="nav-prev" aria-label="Previous page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <a class="nav-edge-btn nav-edge-home" href="../../" aria-label="Back to all books">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      </a>
+      <button class="nav-edge-btn nav-edge-next" id="nav-next" aria-label="Next page">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile tap zones -->
+    <div class="tap-zone tap-zone--left" id="tap-prev" aria-hidden="true"></div>
+    <div class="tap-zone tap-zone--right" id="tap-next" aria-hidden="true"></div>
+
+    <!-- Swipe hint -->
+    <div class="swipe-hint" id="swipe-hint">
+      <span class="swipe-hint-hand" aria-hidden="true">Swipe</span>
+      <span class="swipe-hint-label">Swipe to read</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,384 @@
+{
+  "topic": "T. rex",
+  "slug": "t-rex",
+  "targetAge": 6,
+  "sources": [
+    {
+      "title": "Tyrannosaurus - Natural History Museum Dino Directory",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "7 Questions About Tyrannosaurus rex - American Museum of Natural History",
+      "url": "https://www.amnh.org/dinosaurs/tyrannosaurus-rex",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Tyrannosaurus rex - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/animal/Tyrannosaurus-rex",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "SUE the T. rex - Field Museum",
+      "url": "https://www.fieldmuseum.org/blog/sue-t-rex",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Tyrannosaurus Rex - University of California Museum of Paleontology",
+      "url": "https://ucmp.berkeley.edu/trex/specialtrex2.html",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Dinosaur - Tyrannosaurus rex - Australian Museum",
+      "url": "https://australian.museum/learn/dinosaurs/fact-sheets/tyrannosaurus-rex/",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "How did Tyrannosaurus rex use its arms? - Natural History Museum",
+      "url": "https://www.nhm.ac.uk/discover/how-did-tyrannosaurus-use-its-arms.html",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Tyrannosaurus rex Fossil - American Museum of Natural History",
+      "url": "https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/tyrannosaurus-rex",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Tyrannosaurus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tyrannosaurus",
+      "accessed": "2026-07-17"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "Name and time",
+      "text": "Tyrannosaurus rex is often shortened to T. rex. The name is commonly translated as tyrant lizard king, combining Greek roots for tyrant and lizard with the Latin word rex, meaning king. T. rex lived near the end of the Late Cretaceous, about 68 to 66 million years ago, making it one of the last non-bird dinosaurs before the end-Cretaceous extinction.",
+      "sources": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "relatedImages": [
+        "images/trex-profile.png"
+      ]
+    },
+    {
+      "title": "Where fossils are found",
+      "text": "T. rex fossils are known from western North America, especially parts of the United States and Canada. Important discoveries have come from places such as Montana, Wyoming, South Dakota, Alberta, and Saskatchewan. During T. rex time, this region was part of ancient western North America, with habitats that included river plains and warm, humid environments.",
+      "sources": [
+        0,
+        1,
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "title": "Huge but balanced body",
+      "text": "Adult T. rex was enormous. Common estimates put many adults around 12 meters long and 3.5 to 4 meters high at the hips, with weights of roughly 5,000 to 7,000 kilograms, though the largest specimens were heavier. It walked on two powerful hind legs, carried its body mostly horizontal, and used a long tail as a counterbalance to its large head.",
+      "sources": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "relatedImages": [
+        "images/trex-size.svg",
+        "images/trex-durbed.jpg"
+      ]
+    },
+    {
+      "title": "Jaws and teeth",
+      "text": "T. rex had a huge skull, very strong jaws, and about 60 teeth. Sources describe the teeth as serrated and bone-crushing, with some teeth up to 15 to 20 centimeters long depending on whether the root is included. T. rex did not chew like a person; it bit, tore, and swallowed chunks of food. Tooth marks and other fossil clues show that it fed on large dinosaurs such as Triceratops and Edmontosaurus.",
+      "sources": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "relatedImages": [
+        "images/trex-skull-diagram.png"
+      ]
+    },
+    {
+      "title": "Predator, scavenger, or both",
+      "text": "Scientists have debated whether T. rex mainly hunted live prey, scavenged dead animals, or did both. The most balanced view from modern sources is that T. rex was likely both predator and scavenger, as many large meat-eating animals are today. Its strong smell sense could help it find food, and its bite was powerful enough to crunch bone.",
+      "sources": [
+        0,
+        1,
+        4,
+        5,
+        8
+      ],
+      "relatedImages": [
+        "images/trex-black-beauty.png"
+      ]
+    },
+    {
+      "title": "Senses and speed",
+      "text": "T. rex had strong senses that helped it survive. Several sources note a large part of the brain was linked to smell, and AMNH explains that teeth and fossil clues give important evidence about diet. Speed estimates vary, and scientists disagree on exact running ability. For a young reader, it is safest to say T. rex walked on strong legs and may have moved faster as a younger animal, while adult speed remains debated.",
+      "sources": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "title": "Small arms, real mystery",
+      "text": "T. rex arms were small compared with the rest of the body, but not useless. The Natural History Museum notes that the arms were about one meter long and attached to strong muscles. Scientists have suggested different uses, including helping the animal rise, helping during feeding, or other behaviors, but no one can prove the exact answer millions of years later.",
+      "sources": [
+        0,
+        5,
+        6
+      ],
+      "relatedImages": [
+        "images/trex-mmartyniuk.png"
+      ]
+    },
+    {
+      "title": "Skin and feathers",
+      "text": "T. rex belonged to the theropod group, which includes many feathered dinosaurs, so feathers are sometimes discussed. The Natural History Museum states there is currently no direct evidence that T. rex itself had feathers, while preserved skin from T. rex and close relatives shows scales. A careful book should avoid saying T. rex definitely had feathers; it can say scientists still study what it looked like and that the evidence points to scales on known skin patches.",
+      "sources": [
+        0,
+        8
+      ],
+      "relatedImages": [
+        "images/trex-profile.png"
+      ]
+    },
+    {
+      "title": "Growth and life span",
+      "text": "Bone growth rings help scientists estimate how T. rex grew. AMNH and the Field Museum report that T. rex grew quickly, reaching adult size as a teenager. SUE, the famous Field Museum specimen, lived to about 28 years old and reached full size around age 19. This gives a child-friendly way to show that fossils preserve life stories, not just shapes.",
+      "sources": [
+        1,
+        3
+      ],
+      "relatedImages": [
+        "images/sue-skeleton.jpg"
+      ]
+    },
+    {
+      "title": "Discovery and naming",
+      "text": "Barnum Brown found important early T. rex skeletons for the American Museum of Natural History in the early 1900s, including a 1902 Hell Creek specimen. Henry Fairfield Osborn named Tyrannosaurus rex in 1905. Some earlier fossil pieces had been named differently, but T. rex became the accepted, famous name.",
+      "sources": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "relatedImages": [
+        "images/trex-holotype.jpg"
+      ]
+    },
+    {
+      "title": "SUE as a fossil story",
+      "text": "SUE is one of the most famous T. rex specimens. Sue Hendrickson discovered it in South Dakota in 1990, and the Field Museum explains that SUE is physically one of the largest and most complete T. rex skeletons known, around 90 percent complete. The skeleton helps scientists study movement, growth, biology, and behavior.",
+      "sources": [
+        2,
+        3,
+        8
+      ],
+      "relatedImages": [
+        "images/sue-skeleton.jpg"
+      ]
+    },
+    {
+      "title": "How we know",
+      "text": "A good T. rex book should repeatedly connect claims to evidence: fossils show bones, teeth, healed injuries, growth rings, bite marks, and body posture. Museum mounts have also changed over time; AMNH notes that its T. rex was once shown standing upright, but scientists later determined a stalking position with head lower and tail extended was more accurate.",
+      "sources": [
+        1,
+        3,
+        7
+      ],
+      "relatedImages": [
+        "images/trex-holotype.jpg",
+        "images/sue-skeleton.jpg"
+      ]
+    }
+  ],
+  "handoffNotes": "For age 6, keep the tone exciting but not horror-focused. Avoid definitive claims about feathers, pack hunting, exact adult running speed, or exact arm function because sources present uncertainty or debate. The image pool intentionally mixes paleoart for living-animal imagination with fossil photos/diagrams for evidence pages.",
+  "images": [
+    {
+      "filename": "images/trex-profile.png",
+      "description": "Side-view life restoration of Tyrannosaurus rex with a mostly scaly body",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus-rex-Profile-steveoc86_(coloured).png",
+      "author": "Steveoc 86",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 990,
+      "height": 303,
+      "imageType": "illustration",
+      "styleTags": [
+        "profile",
+        "clean background",
+        "scientific paleoart"
+      ],
+      "contentTags": [
+        "cover",
+        "body",
+        "appearance",
+        "walking"
+      ]
+    },
+    {
+      "filename": "images/trex-black-beauty.png",
+      "description": "Life reconstruction of the Tyrannosaurus rex specimen Black Beauty",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Tyrannosaurus_rex_specimen_TMP_1981.006.0001_(%22Black_Beauty%22).png",
+      "author": "Connor Ashbridge",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2200,
+      "height": 707,
+      "imageType": "illustration",
+      "styleTags": [
+        "profile",
+        "clean background",
+        "scientific paleoart"
+      ],
+      "contentTags": [
+        "body",
+        "predator",
+        "movement",
+        "appearance"
+      ]
+    },
+    {
+      "filename": "images/trex-mmartyniuk.png",
+      "description": "Life restoration of Tyrannosaurus rex based on specimen AMNH 5027",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_mmartyniuk.png",
+      "author": "Matt Martyniuk",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1975,
+      "height": 672,
+      "imageType": "illustration",
+      "styleTags": [
+        "profile",
+        "clean background",
+        "scientific paleoart"
+      ],
+      "contentTags": [
+        "body",
+        "arms",
+        "tail",
+        "appearance"
+      ]
+    },
+    {
+      "filename": "images/trex-durbed.jpg",
+      "description": "Illustration of Tyrannosaurus rex in side view",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_by_durbed.jpg",
+      "author": "Durbed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2200,
+      "height": 963,
+      "imageType": "illustration",
+      "styleTags": [
+        "profile",
+        "clean background",
+        "scientific paleoart"
+      ],
+      "contentTags": [
+        "body",
+        "size",
+        "legs",
+        "tail"
+      ]
+    },
+    {
+      "filename": "images/trex-size.svg",
+      "description": "Scale chart comparing several Tyrannosaurus specimens with a human",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_specimens.svg",
+      "author": "KoprX",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 2450,
+      "height": 900,
+      "imageType": "diagram",
+      "styleTags": [
+        "scale chart",
+        "clean background"
+      ],
+      "contentTags": [
+        "size",
+        "comparison",
+        "human",
+        "specimens"
+      ]
+    },
+    {
+      "filename": "images/sue-skeleton.jpg",
+      "description": "Tyrannosaurus rex specimen SUE on display at the Field Museum",
+      "source_url": "https://commons.wikimedia.org/wiki/File:FMNH_SUE_Trex.jpg",
+      "author": "Evolutionnumber9",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 2200,
+      "height": 1469,
+      "imageType": "photo",
+      "styleTags": [
+        "museum",
+        "skeleton",
+        "warm lighting"
+      ],
+      "contentTags": [
+        "fossil",
+        "skeleton",
+        "sue",
+        "museum",
+        "discovery"
+      ]
+    },
+    {
+      "filename": "images/trex-holotype.jpg",
+      "description": "Tyrannosaurus rex holotype specimen at the Carnegie Museum of Natural History",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_Holotype.jpg",
+      "author": "ScottRobertAnselmo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 2200,
+      "height": 1457,
+      "imageType": "photo",
+      "styleTags": [
+        "museum",
+        "skeleton",
+        "warm lighting"
+      ],
+      "contentTags": [
+        "fossil",
+        "skeleton",
+        "holotype",
+        "museum",
+        "naming"
+      ]
+    },
+    {
+      "filename": "images/trex-skull-diagram.png",
+      "description": "Historic scientific diagram of the Tyrannosaurus rex AMNH 5027 skull",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_AMNH_5027_skull.png",
+      "author": "Henry Fairfield Osborn",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "width": 1605,
+      "height": 2200,
+      "imageType": "diagram",
+      "styleTags": [
+        "historic",
+        "scientific diagram",
+        "black and white"
+      ],
+      "contentTags": [
+        "skull",
+        "teeth",
+        "jaws",
+        "fossil",
+        "evidence"
+      ]
+    }
+  ]
+}

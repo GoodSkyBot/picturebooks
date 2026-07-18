@@ -1,0 +1,148 @@
+{
+  "title": "T. rex: Clues from the King",
+  "slug": "t-rex",
+  "targetAge": 6,
+  "category": "Dinosaurs",
+  "tags": [
+    "t rex",
+    "tyrannosaurus",
+    "tyrannosaurus rex",
+    "dinosaur",
+    "dinosaurs",
+    "fossils",
+    "cretaceous",
+    "sue"
+  ],
+  "theme": {
+    "primaryColor": "#5A3A20",
+    "secondaryColor": "#2F5D50",
+    "backgroundColor": "#F4E2B8",
+    "accentColor": "#D97925",
+    "fontHeading": "Fredoka",
+    "fontBody": "Atkinson Hyperlegible",
+    "vibe": "Fossil dig adventure with giant footprints"
+  },
+  "cover": {
+    "title": "T. rex: Clues from the King",
+    "subtitle": "A Real Dinosaur Mystery",
+    "image": "images/trex-profile.png"
+  },
+  "pages": [
+    {
+      "text": "Meet T. rex! Its full name is Tyrannosaurus rex, which means tyrant lizard king. This giant dinosaur lived near the end of the Cretaceous Period.",
+      "extras": [
+        "T. rex lived about 68 to 66 million years ago."
+      ],
+      "images": [
+        {
+          "src": "images/trex-profile.png",
+          "alt": "A side-view life restoration of Tyrannosaurus rex walking on two legs",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "T. rex was huge, but it was not a stiff tail-dragger. It held its body forward, balanced by a long, heavy tail.",
+      "extras": [
+        "Many adults were about 12 meters long.",
+        "That is longer than a school bus."
+      ],
+      "images": [
+        {
+          "src": "images/trex-size.svg",
+          "alt": "A scale chart comparing T. rex specimens with a human",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Powerful back legs carried T. rex across ancient North America. Its giant head reached forward, and its tail helped keep the whole animal steady.",
+      "extras": [
+        "T. rex walked on two legs."
+      ],
+      "images": [
+        {
+          "src": "images/trex-durbed.jpg",
+          "alt": "An illustrated T. rex showing strong legs, a large head, and a balancing tail",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Open wide! T. rex had about 60 teeth. They were serrated like tiny saws, and its jaws could crunch bone.",
+      "extras": [
+        "Some teeth were as long as a banana."
+      ],
+      "images": [
+        {
+          "src": "images/trex-skull-diagram.png",
+          "alt": "A historic scientific diagram showing the skull and jaws of T. rex",
+          "orientation": "portrait",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Was T. rex a hunter or a scavenger? Scientists think it could be both. Many meat-eaters hunt when they can and eat found food when they find it.",
+      "extras": [
+        "A strong nose helped T. rex sniff out food."
+      ],
+      "images": [
+        {
+          "src": "images/trex-black-beauty.png",
+          "alt": "A life reconstruction of T. rex standing alert",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Those tiny arms are famous! Compared with the body, they were small. But they had strong muscles, and scientists still study what T. rex used them for.",
+      "extras": [
+        "Small arms are a real dinosaur mystery."
+      ],
+      "images": [
+        {
+          "src": "images/trex-mmartyniuk.png",
+          "alt": "A T. rex life restoration showing its small arms and long tail",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "We do not have a photograph of a living T. rex. We have fossils! Bones, teeth, bite marks, and growth rings help scientists build the story.",
+      "extras": [
+        "Fossils are clues from deep time."
+      ],
+      "images": [
+        {
+          "src": "images/trex-holotype.jpg",
+          "alt": "A mounted T. rex fossil skeleton in a museum",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "One famous T. rex is called SUE. SUE was found in South Dakota and is one of the largest and most complete T. rex skeletons ever discovered.",
+      "extras": [
+        "SUE lived to about 28 years old."
+      ],
+      "images": [
+        {
+          "src": "images/sue-skeleton.jpg",
+          "alt": "The T. rex skeleton SUE displayed at the Field Museum",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
