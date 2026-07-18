@@ -1,29 +1,35 @@
     <!-- Credits -->
-    <article class="page page--credits" data-page="{{ book.pages | length + 1 }}" hidden>
+    {% set credit_page = book.pages | length + 1 %}
+    {% if show_sources and content.sources %}
+    <article class="page page--credits" data-page="{{ credit_page }}" hidden>
       <div class="credits-content">
-        <h2 class="credits-title">Credits &amp; Sources</h2>
-
-        {% if show_sources and content.sources %}
-        <h3>Sources</h3>
+        <h2 class="credits-title">Sources</h2>
         <ul class="credits-sources">
           {% for source in content.sources %}
           <li><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.title }}</a></li>
           {% endfor %}
         </ul>
-        {% endif %}
+      </div>
+    </article>
+    {% set credit_page = credit_page + 1 %}
+    {% endif %}
 
-        {% if show_credits %}
-        <h3>Image Credits</h3>
+    {% if show_credits %}
+    {% for image_group in content.get('images', []) | batch(6) %}
+    <article class="page page--credits" data-page="{{ credit_page + loop.index0 }}" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Image Credits{% if loop.length > 1 %} {{ loop.index }}{% endif %}</h2>
         <ul class="credits-images">
-          {% for img in content.get('images', []) %}
+          {% for img in image_group %}
           <li>
-            <strong>{{ img.description | truncate(60, True) }}</strong> --
+            <strong>{{ img.description | truncate(44, True) }}</strong> --
             {{ img.author }}{% if img.license %},
             {% if img.license_url %}<a href="{{ img.license_url }}" target="_blank" rel="noopener">{{ img.license }}</a>{% else %}{{ img.license }}{% endif %}
             {% endif %}
           </li>
           {% endfor %}
         </ul>
-        {% endif %}
       </div>
     </article>
+    {% endfor %}
+    {% endif %}

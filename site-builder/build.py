@@ -391,6 +391,7 @@ def build(slug: str, template_name: str, seed: int | None, strict: bool) -> None
         credits_html=rendered_credits,
         total_pages=total_pages,
     )
+    html_output = "\n".join(line.rstrip() for line in html_output.splitlines()) + "\n"
 
     # Write output files
     out_dir = book_dir

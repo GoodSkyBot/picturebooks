@@ -3,19 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Cars Go Vroom</title>
+  <title>Cars Go!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
     :root {
-      --primary-color: #E23B2E;
-      --secondary-color: #1E88E5;
-      --background-color: #FFF5D8;
-      --accent-color: #F9C80E;
-      --font-heading: 'Baloo 2', sans-serif;
+      --primary-color: #1E40AF;
+      --secondary-color: #F97316;
+      --background-color: #FFF7ED;
+      --accent-color: #16A34A;
+      --font-heading: 'Fredoka', sans-serif;
       --font-body: 'Nunito', sans-serif;
+      --page-text-size: clamp(1.375rem, 5.6vw, 1.625rem);
+      --page-text-line-height: 1.42;
+      --portrait-image-share: 42%;
+      --portrait-text-share: 58%;
     }
   </style>
 </head>
@@ -26,14 +30,13 @@
         <!-- Cover -->
     <article class="page page--cover" data-page="0">
       <div class="cover-image-wrap">
-        <img src="images/automobile.svg" alt="Cars Go Vroom">
+        <img src="images/colourful-cars.jpg" alt="Cars Go!">
       </div>
       <div class="cover-text">
-        <h1 class="cover-title">Cars Go Vroom</h1>
-        
-        <p class="cover-subtitle">Roll, ride, stop, go</p>
-        
-        <button class="btn-start" aria-label="Start reading">Start</button>
+        <h1 class="cover-title">Cars Go!</h1>
+
+        <p class="cover-subtitle">Wheels, roads, and rides</p>
+
       </div>
       <div class="cover-actions">
         <button class="btn-icon btn-fullscreen" aria-label="Fullscreen" id="btn-fullscreen">
@@ -46,266 +49,439 @@
     </article>
 
 
-    
-        <!-- Page 1: 1 image, layout A (full-bleed image left, text right) -->
-    <article class="page page--content page--layout-a" data-page="1" hidden>
-      <figure class="page-figure">
-        <img src="images/automobile.svg" alt="A bright red car shown from the side." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
-      </figure>
+
+        <!-- Page 1: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="1" hidden>
       <div class="page-body">
-        <p class="page-text">This is a car. A car has wheels. A car carries people. Vroom, vroom, here we go!</p>
-        
+        <p class="page-text">This is a car. A car has wheels. It carries people on roads.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-01-extra-1.mp3" aria-label="Fun fact: Most cars have four wheels.">
+            <span class="extra-icon">&#9679;</span> Most cars have four wheels.
+          </button>
+
+        </div>
+
       </div>
+      <figure class="page-figure">
+        <img src="images/cars-old-san-juan.jpg" alt="Cars parked along a colorful street with buildings beside the road.">
+
+        <figcaption>Photo: Maria Rimmel / CC BY-SA 4.0</figcaption>
+
+      </figure>
       <button class="btn-read" data-audio="audio/page-01-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
+
         <!-- Page 2: 1 image, layout B (text left, full-bleed image right) -->
     <article class="page page--content page--layout-b" data-page="2" hidden>
       <div class="page-body">
-        <p class="page-text">Round wheels roll on the road. Roll, roll, roll. The car moves forward.</p>
-        
-        <div class="extras">
-          
-          <button class="extra" data-audio="audio/page-02-extra-1.mp3" aria-label="Fun fact: Most cars have four wheels.">
-            <span class="extra-icon">&#9679;</span> Most cars have four wheels.
-          </button>
-          
-        </div>
-        
+        <p class="page-text">Cars help people go places. To the store. To the park. To visit family.</p>
+
       </div>
       <figure class="page-figure">
-        <img src="images/wheel.svg" alt="A car wheel with a black tire." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
+        <img src="images/convertible-highway.jpg" alt="A convertible car driving on a highway road.">
+
+        <figcaption>Photo: DWS MontagZen / CC BY-SA 4.0</figcaption>
+
       </figure>
       <button class="btn-read" data-audio="audio/page-02-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
-        <!-- Page 3: 1 image, layout A (full-bleed image left, text right) -->
-    <article class="page page--content page--layout-a" data-page="3" hidden>
-      <figure class="page-figure">
-        <img src="images/seat.svg" alt="A simple seat icon representing a place for a passenger to sit." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
-      </figure>
+
+        <!-- Page 3: 2 images (flexible), stacked left, text right -->
+    <article class="page page--content page--layout-2mixed" data-page="3" hidden>
+      <div class="page-images-pair">
+
+        <figure class="page-figure">
+          <img src="images/colorful-4wd-car.jpg" alt="A brightly painted four-wheel-drive car with many colors.">
+
+          <figcaption>Photo: sergejf / CC BY 2.0</figcaption>
+
+        </figure>
+
+        <figure class="page-figure">
+          <img src="images/suv-dusty-road.jpg" alt="A tall SUV driving on a dusty road.">
+
+          <figcaption>Photo: Wiaskara / CC BY-SA 4.0</figcaption>
+
+        </figure>
+
+      </div>
       <div class="page-body">
-        <p class="page-text">People sit inside the car. Doors close. Seat belts buckle. Click!</p>
-        
+        <p class="page-text">Cars do not all look the same. Some are small. Some are tall. Some have open tops.</p>
+
       </div>
       <button class="btn-read" data-audio="audio/page-03-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
+
         <!-- Page 4: 1 image, layout B (text left, full-bleed image right) -->
     <article class="page page--content page--layout-b" data-page="4" hidden>
       <div class="page-body">
-        <p class="page-text">A driver turns the wheel. The car turns too. Left turn, right turn, slow turn.</p>
-        
+        <p class="page-text">Round tires touch the road. The wheels roll, roll, roll.</p>
+
+        <div class="extras">
+
+          <button class="extra" data-audio="audio/page-04-extra-1.mp3" aria-label="Fun fact: Tires help a car grip the road.">
+            <span class="extra-icon">&#9679;</span> Tires help a car grip the road.
+          </button>
+
+        </div>
+
       </div>
       <figure class="page-figure">
-        <img src="images/oncoming-automobile.svg" alt="A blue car shown from the front." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
+        <img src="images/car-tires.jpg" alt="Many black car tires stacked and standing at a tire store.">
+
+        <figcaption>Photo: Angie from Sawara, Chiba-ken, Japan / CC BY 2.0</figcaption>
+
       </figure>
       <button class="btn-read" data-audio="audio/page-04-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
-        <!-- Page 5: 2 images (flexible), stacked left, text right -->
-    <article class="page page--content page--layout-2mixed" data-page="5" hidden>
-      <div class="page-images-pair">
-        
-        <figure class="page-figure">
-          <img src="images/fuel-pump.svg" alt="A red fuel pump for cars that use gasoline." style="object-fit: contain;">
-          
-          <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-          
-        </figure>
-        
-        <figure class="page-figure">
-          <img src="images/battery.svg" alt="A battery icon representing electric power for a car." style="object-fit: contain;">
-          
-          <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-          
-        </figure>
-        
-      </div>
+
+        <!-- Page 5: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="5" hidden>
+      <figure class="page-figure">
+        <img src="images/mechanic-repairing-engine.jpg" alt="A mechanic looking under a car hood and repairing the engine.">
+
+        <figcaption>Photo: Bembety / CC0 1.0</figcaption>
+
+      </figure>
       <div class="page-body">
-        <p class="page-text">Some cars use fuel. Some cars plug in and charge. Both kinds need power to go.</p>
-        
+        <p class="page-text">A car is a machine. Under the hood, parts work together to help the car move.</p>
+
       </div>
       <button class="btn-read" data-audio="audio/page-05-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
-        <!-- Page 6: 1 image, layout A (full-bleed image left, text right) -->
-    <article class="page page--content page--layout-a" data-page="6" hidden>
-      <figure class="page-figure">
-        <img src="images/racing-car.svg" alt="A small racing car icon." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
-      </figure>
+
+        <!-- Page 6: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="6" hidden>
       <div class="page-body">
-        <p class="page-text">Cars come in many shapes. Small cars. Big cars. Speedy racing cars. Beep, beep!</p>
-        
+        <p class="page-text">People buckle up before they ride. Click! A seat belt helps keep riders safer.</p>
+
       </div>
+      <figure class="page-figure">
+        <img src="images/teddy-child-seat.jpg" alt="A teddy bear toy buckled into a child car seat." style="object-position: top;">
+
+        <figcaption>Photo: Nenad Stojkovic from Srbija / CC BY 2.0</figcaption>
+
+      </figure>
       <button class="btn-read" data-audio="audio/page-06-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
-        <!-- Page 7: 1 image, layout A (full-bleed image left, text right) -->
-    <article class="page page--content page--layout-a" data-page="7" hidden>
-      <figure class="page-figure">
-        <img src="images/stop-sign.svg" alt="A red stop sign." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
-      </figure>
+
+        <!-- Page 7: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="7" hidden>
       <div class="page-body">
-        <p class="page-text">At a stop sign, cars stop. Wait, look, and listen with a grown-up.</p>
-        
+        <p class="page-text">Some cars fill up with fuel. Some cars plug in and use electricity.</p>
+
       </div>
+      <figure class="page-figure">
+        <img src="images/electric-car-charging-closeup.jpg" alt="A close-up of an electric car plugged in to charge.">
+
+        <figcaption>Photo: Ivan Radic / CC BY 2.0</figcaption>
+
+      </figure>
       <button class="btn-read" data-audio="audio/page-07-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
+
         <!-- Page 8: 1 image, layout A (full-bleed image left, text right) -->
     <article class="page page--content page--layout-a" data-page="8" hidden>
       <figure class="page-figure">
-        <img src="images/taxi.svg" alt="A yellow taxi car ready for a ride." style="object-fit: contain;">
-        
-        <figcaption>Photo: OpenMoji / CC BY-SA 4.0</figcaption>
-        
+        <img src="images/benz-motorwagen-museum.jpg" alt="An early Benz car in a museum with large thin wheels and an open seat.">
+
+        <figcaption>Photo: Michael Garlick / CC BY-SA 2.0</figcaption>
+
       </figure>
       <div class="page-body">
-        <p class="page-text">Cars can take us to the store, the park, or Grandma&#39;s house. Roll, ride, stop, go!</p>
-        
+        <p class="page-text">Long ago, cars looked different. This early car had big wheels and an open shape.</p>
+
       </div>
       <button class="btn-read" data-audio="audio/page-08-text.mp3" aria-label="Read this page aloud">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
       </button>
     </article>
 
-    
+
+        <!-- Page 9: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="9" hidden>
+      <figure class="page-figure">
+        <img src="images/car-assembly-line.jpg" alt="Cars being built on a factory assembly line.">
+
+        <figcaption>Photo: Marek Slusarczyk (Tupungato) Photo portfolio / CC BY 3.0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">In a factory, many parts become a car. One part. Another part. Wheels. Seats. Then a car!</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-09-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 10: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="10" hidden>
+      <figure class="page-figure">
+        <img src="images/car-wash.jpg" alt="A car going through a car wash with water spraying around it.">
+
+        <figcaption>Photo: Jacek Halicki / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Cars need care. People check the parts, wash off dirt, and help the car work well.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-10-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 11: 1 image, layout A (full-bleed image left, text right) -->
+    <article class="page page--content page--layout-a" data-page="11" hidden>
+      <figure class="page-figure">
+        <img src="images/bmw-race-car.jpg" alt="A bright race car driving on a track.">
+
+        <figcaption>Photo: Ank Kumar / CC BY-SA 4.0</figcaption>
+
+      </figure>
+      <div class="page-body">
+        <p class="page-text">Some cars are race cars. They go fast on special tracks with trained drivers and safety rules.</p>
+
+      </div>
+      <button class="btn-read" data-audio="audio/page-11-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
+        <!-- Page 12: 1 image, layout B (text left, full-bleed image right) -->
+    <article class="page page--content page--layout-b" data-page="12" hidden>
+      <div class="page-body">
+        <p class="page-text">Cars are useful. People keep learning how to make travel safer, cleaner, and less crowded.</p>
+
+      </div>
+      <figure class="page-figure">
+        <img src="images/electric-car-recharging.jpg" alt="A small electric car parked while recharging at a charging station.">
+
+        <figcaption>Photo: original: Michael Movchin; edited by Felix Muller / CC BY-SA 3.0</figcaption>
+
+      </figure>
+      <button class="btn-read" data-audio="audio/page-12-text.mp3" aria-label="Read this page aloud">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 8.5v7a4.49 4.49 0 002.5-3.5zM14 3.23v2.06a6.51 6.51 0 010 13.42v2.06A8.51 8.51 0 0014 3.23z"/></svg>
+      </button>
+    </article>
+
+
 
         <!-- Credits -->
-    <article class="page page--credits" data-page="9" hidden>
+
+
+    <article class="page page--credits" data-page="13" hidden>
       <div class="credits-content">
-        <h2 class="credits-title">Credits &amp; Sources</h2>
-
-        
-        <h3>Sources</h3>
+        <h2 class="credits-title">Sources</h2>
         <ul class="credits-sources">
-          
-          <li><a href="https://kids.britannica.com/kids/article/car/352807" target="_blank" rel="noopener">car - Britannica Kids</a></li>
-          
-          <li><a href="https://simple.wikipedia.org/wiki/Automobile" target="_blank" rel="noopener">Automobile - Simple English Wikipedia</a></li>
-          
-          <li><a href="https://www.britannica.com/technology/automobile" target="_blank" rel="noopener">automobile - Encyclopaedia Britannica</a></li>
-          
-          <li><a href="https://afdc.energy.gov/vehicles/electric-basics-ev" target="_blank" rel="noopener">All-Electric Vehicles - Alternative Fuels Data Center, U.S. Department of Energy</a></li>
-          
-          <li><a href="https://mutcd.fhwa.dot.gov/" target="_blank" rel="noopener">Manual on Uniform Traffic Control Devices for Streets and Highways - Federal Highway Administration</a></li>
-          
-          <li><a href="https://openmoji.org/library/" target="_blank" rel="noopener">OpenMoji License</a></li>
-          
-        </ul>
-        
 
-        
-        <h3>Image Credits</h3>
-        <ul class="credits-images">
-          
-          <li>
-            <strong>OpenMoji red automobile icon, side view.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji wheel icon.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji chair seat icon used to represent car seats and ...</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji fuel pump icon.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji low battery icon used to represent stored electr...</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji stop sign icon.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji racing car icon.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji taxi icon.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
-          <li>
-            <strong>OpenMoji blue oncoming automobile icon, front view.</strong> --
-            OpenMoji,
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
-            
-          </li>
-          
+          <li><a href="https://kids.britannica.com/kids/article/car/352807" target="_blank" rel="noopener">car - Britannica Kids</a></li>
+
+          <li><a href="https://www.britannica.com/technology/automobile" target="_blank" rel="noopener">Automobile - Encyclopaedia Britannica</a></li>
+
+          <li><a href="https://en.wikipedia.org/wiki/Car" target="_blank" rel="noopener">Car - Wikipedia</a></li>
+
+          <li><a href="https://simple.wikipedia.org/wiki/Automobile" target="_blank" rel="noopener">Automobile - Simple English Wikipedia</a></li>
+
+          <li><a href="https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics" target="_blank" rel="noopener">Internal Combustion Engine Basics - U.S. Department of Energy</a></li>
+
+          <li><a href="https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work" target="_blank" rel="noopener">How Do Gasoline Cars Work? - Alternative Fuels Data Center</a></li>
+
+          <li><a href="https://afdc.energy.gov/vehicles/electric" target="_blank" rel="noopener">Electric Vehicles - Alternative Fuels Data Center</a></li>
+
+          <li><a href="https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work" target="_blank" rel="noopener">How Do All-Electric Cars Work? - Alternative Fuels Data Center</a></li>
+
+          <li><a href="https://www.epa.gov/greenvehicles/fast-facts-transportation-greenhouse-gas-emissions" target="_blank" rel="noopener">Fast Facts on Transportation Greenhouse Gas Emissions - U.S. EPA</a></li>
+
         </ul>
-        
       </div>
     </article>
+
+
+
+
+
+    <article class="page page--credits" data-page="14" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Image Credits 1</h2>
+        <ul class="credits-images">
+
+          <li>
+            <strong>Several brightly colored cars parked toge...</strong> --
+            Des Blenkinsopp,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A brightly painted four-wheel-drive car t...</strong> --
+            sergejf,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>Close-up of an electric car plugged in to...</strong> --
+            Ivan Radic,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A small electric car recharging in Berlin...</strong> --
+            original: Michael Movchin; edited by Felix Muller,
+            <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+
+          </li>
+
+          <li>
+            <strong>A mechanic repairing a car engine under t...</strong> --
+            Bembety,
+            <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener">CC0 1.0</a>
+
+          </li>
+
+          <li>
+            <strong>Close-up of a car seat belt, useful for e...</strong> --
+            Santeri Viinamaki,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+        </ul>
+      </div>
+    </article>
+
+    <article class="page page--credits" data-page="15" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Image Credits 2</h2>
+        <ul class="credits-images">
+
+          <li>
+            <strong>A teddy bear toy buckled into a child car...</strong> --
+            Nenad Stojkovic from Srbija,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A 1925 Ford Model T at an outdoor classic...</strong> --
+            Alexander Migl,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Historic image of Karl Benz&#39;s early autom...</strong> --
+            Supplied by Benz to William Worby Beaumont and used in his book Motor Vehicles and Motors (1900),
+            <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener">Public domain</a>
+
+          </li>
+
+          <li>
+            <strong>A Benz Patent Motorwagen in a museum, sho...</strong> --
+            Michael Garlick,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A bright BMW touring race car on a track,...</strong> --
+            Ank Kumar,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>A car factory assembly line with cars bei...</strong> --
+            Marek Slusarczyk (Tupungato) Photo portfolio,
+            <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a>
+
+          </li>
+
+        </ul>
+      </div>
+    </article>
+
+    <article class="page page--credits" data-page="16" hidden>
+      <div class="credits-content">
+        <h2 class="credits-title">Image Credits 3</h2>
+        <ul class="credits-images">
+
+          <li>
+            <strong>Stacked and standing car tires at a tire ...</strong> --
+            Angie from Sawara, Chiba-ken, Japan,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>Cars parked along a colorful brick street...</strong> --
+            Maria Rimmel,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>A convertible car driving on a highway, u...</strong> --
+            DWS MontagZen,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>A black SUV driving on a dusty road, usef...</strong> --
+            Wiaskara,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+          <li>
+            <strong>Toyota Prius hybrid cars displayed outdoo...</strong> --
+            Robert Scoble from Half Moon Bay, USA,
+            <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>
+
+          </li>
+
+          <li>
+            <strong>A car going through a car wash with water...</strong> --
+            Jacek Halicki,
+            <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+
+          </li>
+
+        </ul>
+      </div>
+    </article>
+
+
 
 
     <!-- Edge navigation -->

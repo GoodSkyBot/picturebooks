@@ -1,132 +1,169 @@
 {
-  "title": "Cars Go Vroom",
+  "title": "Cars Go!",
   "slug": "cars",
   "targetAge": 4,
+  "textScale": "large",
   "category": "Vehicles",
   "tags": [
     "cars",
     "car",
     "automobile",
-    "auto",
     "vehicle",
     "wheels",
-    "tires",
     "road",
-    "driving",
+    "engine",
     "electric car",
-    "fuel",
-    "safety",
-    "transportation"
+    "seat belt",
+    "race car",
+    "Model T",
+    "Benz",
+    "factory",
+    "car wash"
   ],
   "theme": {
-    "primaryColor": "#E23B2E",
-    "secondaryColor": "#1E88E5",
-    "backgroundColor": "#FFF5D8",
-    "accentColor": "#F9C80E",
-    "fontHeading": "Baloo 2",
+    "primaryColor": "#1E40AF",
+    "secondaryColor": "#F97316",
+    "backgroundColor": "#FFF7ED",
+    "accentColor": "#16A34A",
+    "fontHeading": "Fredoka",
     "fontBody": "Nunito",
-    "vibe": "bright preschool road trip with vroom rhythm"
+    "vibe": "bright road trip with rolling wheels and friendly machine sounds"
   },
   "cover": {
-    "title": "Cars Go Vroom",
-    "subtitle": "Roll, ride, stop, go",
-    "image": "images/automobile.svg"
+    "title": "Cars Go!",
+    "subtitle": "Wheels, roads, and rides",
+    "image": "images/colourful-cars.jpg"
   },
   "pages": [
     {
-      "text": "This is a car. A car has wheels. A car carries people. Vroom, vroom, here we go!",
-      "images": [
-        {
-          "src": "images/automobile.svg",
-          "alt": "A bright red car shown from the side.",
-          "orientation": "square",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "Round wheels roll on the road. Roll, roll, roll. The car moves forward.",
+      "text": "This is a car. A car has wheels. It carries people on roads.",
       "extras": [
         "Most cars have four wheels."
       ],
       "images": [
         {
-          "src": "images/wheel.svg",
-          "alt": "A car wheel with a black tire.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/cars-old-san-juan.jpg",
+          "alt": "Cars parked along a colorful street with buildings beside the road.",
+          "orientation": "portrait"
         }
       ]
     },
     {
-      "text": "People sit inside the car. Doors close. Seat belts buckle. Click!",
+      "text": "Cars help people go places. To the store. To the park. To visit family.",
       "images": [
         {
-          "src": "images/seat.svg",
-          "alt": "A simple seat icon representing a place for a passenger to sit.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/convertible-highway.jpg",
+          "alt": "A convertible car driving on a highway road.",
+          "orientation": "landscape"
         }
       ]
     },
     {
-      "text": "A driver turns the wheel. The car turns too. Left turn, right turn, slow turn.",
+      "text": "Cars do not all look the same. Some are small. Some are tall. Some have open tops.",
       "images": [
         {
-          "src": "images/oncoming-automobile.svg",
-          "alt": "A blue car shown from the front.",
-          "orientation": "square",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "Some cars use fuel. Some cars plug in and charge. Both kinds need power to go.",
-      "images": [
-        {
-          "src": "images/fuel-pump.svg",
-          "alt": "A red fuel pump for cars that use gasoline.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/colorful-4wd-car.jpg",
+          "alt": "A brightly painted four-wheel-drive car with many colors.",
+          "orientation": "landscape"
         },
         {
-          "src": "images/battery.svg",
-          "alt": "A battery icon representing electric power for a car.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/suv-dusty-road.jpg",
+          "alt": "A tall SUV driving on a dusty road.",
+          "orientation": "landscape"
         }
       ]
     },
     {
-      "text": "Cars come in many shapes. Small cars. Big cars. Speedy racing cars. Beep, beep!",
+      "text": "Round tires touch the road. The wheels roll, roll, roll.",
+      "extras": [
+        "Tires help a car grip the road."
+      ],
       "images": [
         {
-          "src": "images/racing-car.svg",
-          "alt": "A small racing car icon.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/car-tires.jpg",
+          "alt": "Many black car tires stacked and standing at a tire store.",
+          "orientation": "square"
         }
       ]
     },
     {
-      "text": "At a stop sign, cars stop. Wait, look, and listen with a grown-up.",
+      "text": "A car is a machine. Under the hood, parts work together to help the car move.",
       "images": [
         {
-          "src": "images/stop-sign.svg",
-          "alt": "A red stop sign.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/mechanic-repairing-engine.jpg",
+          "alt": "A mechanic looking under a car hood and repairing the engine.",
+          "orientation": "landscape"
         }
       ]
     },
     {
-      "text": "Cars can take us to the store, the park, or Grandma's house. Roll, ride, stop, go!",
+      "text": "People buckle up before they ride. Click! A seat belt helps keep riders safer.",
       "images": [
         {
-          "src": "images/taxi.svg",
-          "alt": "A yellow taxi car ready for a ride.",
-          "orientation": "square",
-          "fit": "contain"
+          "src": "images/teddy-child-seat.jpg",
+          "alt": "A teddy bear toy buckled into a child car seat.",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Some cars fill up with fuel. Some cars plug in and use electricity.",
+      "images": [
+        {
+          "src": "images/electric-car-charging-closeup.jpg",
+          "alt": "A close-up of an electric car plugged in to charge.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Long ago, cars looked different. This early car had big wheels and an open shape.",
+      "images": [
+        {
+          "src": "images/benz-motorwagen-museum.jpg",
+          "alt": "An early Benz car in a museum with large thin wheels and an open seat.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "In a factory, many parts become a car. One part. Another part. Wheels. Seats. Then a car!",
+      "images": [
+        {
+          "src": "images/car-assembly-line.jpg",
+          "alt": "Cars being built on a factory assembly line.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Cars need care. People check the parts, wash off dirt, and help the car work well.",
+      "images": [
+        {
+          "src": "images/car-wash.jpg",
+          "alt": "A car going through a car wash with water spraying around it.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Some cars are race cars. They go fast on special tracks with trained drivers and safety rules.",
+      "images": [
+        {
+          "src": "images/bmw-race-car.jpg",
+          "alt": "A bright race car driving on a track.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Cars are useful. People keep learning how to make travel safer, cleaner, and less crowded.",
+      "images": [
+        {
+          "src": "images/electric-car-recharging.jpg",
+          "alt": "A small electric car parked while recharging at a charging station.",
+          "orientation": "landscape"
         }
       ]
     }

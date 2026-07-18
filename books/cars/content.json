@@ -6,327 +6,604 @@
     {
       "title": "car - Britannica Kids",
       "url": "https://kids.britannica.com/kids/article/car/352807",
-      "accessed": "2026-07-17"
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Automobile - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/technology/automobile",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Car - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Car",
+      "accessed": "2026-07-18"
     },
     {
       "title": "Automobile - Simple English Wikipedia",
       "url": "https://simple.wikipedia.org/wiki/Automobile",
-      "accessed": "2026-07-17"
+      "accessed": "2026-07-18"
     },
     {
-      "title": "automobile - Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/technology/automobile",
-      "accessed": "2026-07-17"
+      "title": "Internal Combustion Engine Basics - U.S. Department of Energy",
+      "url": "https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics",
+      "accessed": "2026-07-18"
     },
     {
-      "title": "All-Electric Vehicles - Alternative Fuels Data Center, U.S. Department of Energy",
-      "url": "https://afdc.energy.gov/vehicles/electric-basics-ev",
-      "accessed": "2026-07-17"
+      "title": "How Do Gasoline Cars Work? - Alternative Fuels Data Center",
+      "url": "https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work",
+      "accessed": "2026-07-18"
     },
     {
-      "title": "Manual on Uniform Traffic Control Devices for Streets and Highways - Federal Highway Administration",
-      "url": "https://mutcd.fhwa.dot.gov/",
-      "accessed": "2026-07-17"
+      "title": "Electric Vehicles - Alternative Fuels Data Center",
+      "url": "https://afdc.energy.gov/vehicles/electric",
+      "accessed": "2026-07-18"
     },
     {
-      "title": "OpenMoji License",
-      "url": "https://openmoji.org/library/",
-      "accessed": "2026-07-17"
+      "title": "How Do All-Electric Cars Work? - Alternative Fuels Data Center",
+      "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Fast Facts on Transportation Greenhouse Gas Emissions - U.S. EPA",
+      "url": "https://www.epa.gov/greenvehicles/fast-facts-transportation-greenhouse-gas-emissions",
+      "accessed": "2026-07-18"
     }
   ],
   "researchNotes": [
     {
       "title": "What makes a car a car",
-      "text": "A car is a road vehicle with wheels that carries a small number of passengers. Cars are also called automobiles or motor vehicles. Trucks and buses are motor vehicles too, but they are usually larger and carry heavier loads or more people. For an age-4 book, the clearest defining ideas are: cars have wheels, carry people, and move using an engine or motor.",
+      "text": "For this age, the simplest accurate frame is that a car is a motor vehicle with wheels that carries a small number of people. Cars usually travel on roads, usually have four wheels, and are mainly for passengers rather than heavy cargo. Trucks and buses are motor vehicles too, but they are larger and are usually used for heavier loads or many more people. The word automobile means a self-moving vehicle, which can be useful background for an author even if the final text uses the shorter word car.",
+      "sources": [
+        0,
+        2,
+        3
+      ],
+      "relatedImages": [
+        "images/colourful-cars.jpg",
+        "images/cars-old-san-juan.jpg"
+      ]
+    },
+    {
+      "title": "Cars changed everyday travel",
+      "text": "Cars made it easier for people to travel across a city or a long distance without living right next to work, school, shops, or family. Britannica Kids emphasizes that cars influenced where people live because people could drive farther. For a four-year-old audience, this can be simplified into concrete trips: cars can take people to a store, a park, a grandparent's house, or a doctor. The author should avoid implying that cars are the only way to travel; buses, trains, walking, and bicycles remain important alternatives.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/convertible-highway.jpg",
+        "images/cars-old-san-juan.jpg"
+      ]
+    },
+    {
+      "title": "Many shapes and jobs",
+      "text": "Cars come in many body styles and sizes because people use them for different needs. Britannica Kids lists familiar forms such as sedans, coupes, hatchbacks, sports cars, station wagons, minivans, and SUVs; Simple English Wikipedia adds convertibles, pickup trucks, vans, and limousines. For age four, the author can focus on visual differences rather than formal classifications: some cars are small, some are tall, some have open roofs, some carry family bags, and some are made to race.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/colorful-4wd-car.jpg",
+        "images/convertible-highway.jpg",
+        "images/suv-dusty-road.jpg",
+        "images/bmw-race-car.jpg"
+      ]
+    },
+    {
+      "title": "The outside and the parts inside",
+      "text": "A car has a body, which is the outer shell around the people and mechanical parts, and a chassis or frame that holds major parts together. Basic working parts include the engine or motor, steering system, brakes, wheels, tires, and electrical equipment such as lights and signals. The author does not need to name every subsystem for a preschooler, but parts such as wheels, tires, seat belts, doors, lights, steering wheel, and engine/motor are concrete and easy to connect to images.",
       "sources": [
         0,
         1,
-        2
+        5
       ],
       "relatedImages": [
-        "images/automobile.svg",
-        "images/oncoming-automobile.svg"
+        "images/car-tires.jpg",
+        "images/seat-belt.jpg",
+        "images/mechanic-repairing-engine.jpg"
       ]
     },
     {
-      "title": "Cars help people go places",
-      "text": "Cars changed travel by helping people move around a city or travel much farther than walking. They also changed where people live, because people can live farther from work, school, shops, parks, or family and travel by road. This can be simplified for preschoolers as: cars take people from one place to another.",
+      "title": "How a gasoline car moves",
+      "text": "Most traditional cars use an internal-combustion engine. In a gasoline car, fuel is mixed with air and ignited by a spark; the expanding gases push pistons, and that motion is transferred through the powertrain so the wheels can turn. The U.S. Department of Energy describes the repeated cycle as intake, compression, combustion and power stroke, and exhaust. For age four, the final wording should be much simpler: tiny bursts of burning fuel make the engine push and turn, and the turning helps move the wheels.",
       "sources": [
         0,
-        2
+        4,
+        5
       ],
       "relatedImages": [
-        "images/automobile.svg"
+        "images/mechanic-repairing-engine.jpg"
       ]
     },
     {
-      "title": "Wheels, tires, and rolling",
-      "text": "Most cars have four wheels. The wheels and air-filled tires help the car roll and also cushion the ride. Tires have rough surfaces to help keep them from sliding on slippery or loose surfaces. For a young reader, the essential idea is concrete and visual: wheels roll round and round, and tires touch the road.",
-      "sources": [
-        0,
-        1
-      ],
-      "relatedImages": [
-        "images/wheel.svg"
-      ]
-    },
-    {
-      "title": "Seats and passengers",
-      "text": "Cars are designed primarily to carry passengers. Britannica Kids describes sedans as commonly seating four to five people, and Simple English Wikipedia notes that cars mainly transport people rather than cargo. This supports a simple passenger-focused page: people sit inside, doors close, and the car carries them along the road.",
+      "title": "Drivers steer and stop",
+      "text": "A driver guides a car with the steering wheel and uses pedals to make the car go and stop. When a driver presses the brake pedal, the braking system acts at the wheels to slow or stop the vehicle. Tires help the car grip the road, and the suspension and air-filled tires help cushion bumps. These ideas can be made very physical for a young child: hands turn, feet press, wheels roll, brakes stop, tires touch the road.",
       "sources": [
         0,
         1
       ],
       "relatedImages": [
-        "images/seat.svg"
+        "images/car-tires.jpg",
+        "images/suv-dusty-road.jpg"
       ]
     },
     {
-      "title": "How drivers make cars go, steer, and stop",
-      "text": "A driver operates a car by pressing pedals to make it go or stop and by turning the steering wheel to guide where the car goes. The brake pedal connects to brakes at the wheels that stop the vehicle. For age 4, this should not become a mechanical lesson; use simple action words: push, turn, slow, stop.",
+      "title": "Safety belongs in the car story",
+      "text": "Britannica Kids notes that early cars were dangerous and that manufacturers later added safety devices such as seat belts and airbags, while also changing how cars are built and what materials they use so cars handle crashes better. For a book aimed at age four, keep safety calm and routine rather than scary: people buckle seat belts, children ride in the right child seat, drivers look carefully, and cars have parts made to help protect riders.",
       "sources": [
         0
       ],
       "relatedImages": [
-        "images/stop-sign.svg"
+        "images/seat-belt.jpg",
+        "images/teddy-child-seat.jpg"
       ]
     },
     {
-      "title": "Different kinds of cars",
-      "text": "Car bodies come in many types, including sedans, hatchbacks, sports cars, station wagons, minivans, SUVs, and racing cars. Some are made for family travel, some carry extra things, and some are specially designed to race at high speeds. The book can use this as a playful variety page without naming too many body styles.",
+      "title": "Early cars looked very different",
+      "text": "The history of the car includes steam vehicles, early electric cars, and gasoline-powered cars. Britannica Kids identifies Nicolas-Joseph Cugnot's 1769 steam vehicle as an early true automobile and explains that steam cars were heavy and slow because water had to boil before the car could go. Karl Benz's 1886 Patent-Motorwagen is widely treated as the first practical modern automobile. Early cars often had large thin wheels, open seats, and shapes closer to carriages than today's enclosed cars.",
       "sources": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "relatedImages": [
-        "images/racing-car.svg",
-        "images/oncoming-automobile.svg"
+        "images/benz-1885.jpg",
+        "images/benz-motorwagen-museum.jpg"
       ]
     },
     {
-      "title": "Fuel and electric power",
-      "text": "Many cars use gasoline in an internal-combustion engine. Electric cars use a battery pack to store electrical energy that powers an electric motor, and the battery is charged by plugging the vehicle into an electric power source. For an age-4 book, this can be explained as: some cars drink fuel, and some cars plug in to charge.",
+      "title": "Factories made cars for many people",
+      "text": "Henry Ford introduced assembly-line production for cars in 1913, helping factories make many cars quickly. Britannica Kids explains that assembly-line workers stay in one place and do a single task as parts pass by on a conveyor, and the Model T became especially popular because many people could afford it. For age four, this can become a sequence: one part, another part, wheels, doors, seats, paint, and then a car rolls away.",
       "sources": [
         0,
         1,
         3
       ],
       "relatedImages": [
-        "images/fuel-pump.svg",
-        "images/battery.svg"
+        "images/car-assembly-line.jpg",
+        "images/ford-model-t.jpg"
       ]
     },
     {
-      "title": "Safety belongs in the background",
-      "text": "Britannica Kids notes that car safety is an ongoing issue and that modern cars include devices such as seat belts and air bags to protect riders in a crash. The Federal Highway Administration's Manual on Uniform Traffic Control Devices is the U.S. standard reference for road signs and signals, supporting the use of familiar stop-sign language. For age 4, safety should be calm and caregiver-centered: buckle up, ride with a grown-up, and wait when there is a stop sign. Avoid frightening crash details in the main text.",
+      "title": "Electric and hybrid cars",
+      "text": "Electric vehicles use electricity to improve vehicle efficiency. The Alternative Fuels Data Center explains that all-electric vehicles have batteries that are charged by plugging in and then power electric motors; all-electric cars do not have a tailpipe exhaust stream. Plug-in hybrids can use both an internal-combustion engine and an electric motor with a battery that plugs in, while regular hybrids use an engine plus electric motor and charge mainly through regenerative braking instead of plugging in. For a preschooler, the author can contrast cars that fill up with fuel and cars that plug in for power.",
       "sources": [
-        0,
-        4
+        6,
+        7
       ],
       "relatedImages": [
-        "images/stop-sign.svg",
-        "images/seat.svg"
+        "images/electric-car-charging-closeup.jpg",
+        "images/electric-car-recharging.jpg",
+        "images/toyota-prius-hybrid.jpg"
+      ]
+    },
+    {
+      "title": "Cars need care",
+      "text": "Cars are machines that need checking and maintenance so their parts keep working. Britannica Kids notes that with regular checkups and service, automobiles can last a long time. Useful young-child examples include washing dirt off a car, checking tires, repairing an engine, and making sure lights and brakes work. This gives the book a gentle care-and-tools angle without becoming too technical.",
+      "sources": [
+        0,
+        5
+      ],
+      "relatedImages": [
+        "images/car-wash.jpg",
+        "images/mechanic-repairing-engine.jpg",
+        "images/car-tires.jpg"
+      ]
+    },
+    {
+      "title": "Benefits and problems",
+      "text": "Cars help people travel flexibly, carry passengers and luggage, and reach places that may be hard to reach otherwise. But sources also identify problems: traffic jams, crashes, fuel use, air pollution, and climate-changing emissions. EPA reports that transportation was the largest portion of U.S. greenhouse gas emissions in 2022, with cars, trucks, aircraft, railroads, and other sources contributing. For age four, keep this balanced and concrete: cars are useful, but people also work to make travel safer, cleaner, and less crowded.",
+      "sources": [
+        0,
+        1,
+        8
+      ],
+      "relatedImages": [
+        "images/cars-old-san-juan.jpg",
+        "images/electric-car-charging-closeup.jpg"
+      ]
+    },
+    {
+      "title": "Race cars are a special kind of car",
+      "text": "Some cars are built especially for racing. Britannica Kids describes race cars as specially designed to be driven at great speeds. For this target age, racing can add visual excitement, but avoid encouraging unsafe everyday driving. The author can make the distinction clear: race cars go fast on special tracks with trained drivers and safety rules; family cars on roads should move carefully and follow traffic rules.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/bmw-race-car.jpg"
       ]
     }
   ],
-  "handoffNotes": "The approved image set uses consistent OpenMoji SVG illustrations, which are simple, bright, and legible for preschool readers. Keep the book concrete and rhythmic; avoid deeper mechanics, pollution, crashes, or history beyond what supports a four-year-old's understanding.",
+  "handoffNotes": "Age 4 suggests concrete, read-aloud framing: wheels roll, engines hum, drivers steer, seat belts buckle, cars plug in or fill up. Avoid heavy crash details, emissions statistics, or brand focus in the child-facing text. The vetted image pool is mostly bright real-world photos with a few historic/museum images for the past; no generated images are included.",
   "images": [
     {
-      "filename": "images/automobile.svg",
-      "description": "OpenMoji red automobile icon, side view.",
-      "source_url": "https://openmoji.org/library/emoji-1F697/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
+      "filename": "images/colourful-cars.jpg",
+      "description": "Several brightly colored cars parked together, useful for showing that cars come in many colors and shapes.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Colourful_Cars_-_geograph.org.uk_-_4631046.jpg",
+      "author": "Des Blenkinsopp",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 2200,
+      "height": 1593,
+      "imageType": "photo",
       "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
+        "colorful",
+        "bright",
+        "street-scene"
+      ],
+      "contentTags": [
+        "cars",
+        "colors",
+        "comparison"
+      ]
+    },
+    {
+      "filename": "images/colorful-4wd-car.jpg",
+      "description": "A brightly painted four-wheel-drive car that can support variety, design, and child-facing visual interest.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_most_colorful_4WD_car_ever%3F_(21210971099).jpg",
+      "author": "sergejf",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1457,
+      "imageType": "photo",
+      "styleTags": [
+        "colorful",
+        "bright",
+        "street-scene"
       ],
       "contentTags": [
         "car",
-        "cover",
-        "vehicle",
-        "transportation"
+        "four-wheel-drive",
+        "design"
       ]
     },
     {
-      "filename": "images/wheel.svg",
-      "description": "OpenMoji wheel icon.",
-      "source_url": "https://openmoji.org/library/emoji-1F6DE/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
+      "filename": "images/electric-car-charging-closeup.jpg",
+      "description": "Close-up of an electric car plugged in to charge, with traffic lights blurred in the background.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Close-up_of_an_electric_car_charging._Traffic_lights_in_a_blurry_background.jpg",
+      "author": "Ivan Radic",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1464,
+      "imageType": "photo",
       "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
+        "close-up",
+        "soft-light",
+        "urban"
       ],
       "contentTags": [
-        "wheel",
-        "tire",
-        "rolling",
-        "car part"
-      ]
-    },
-    {
-      "filename": "images/seat.svg",
-      "description": "OpenMoji chair seat icon used to represent car seats and passengers.",
-      "source_url": "https://openmoji.org/library/emoji-1FA91/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
-      "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
-      ],
-      "contentTags": [
-        "seat",
-        "passenger",
-        "inside car",
-        "safety"
-      ]
-    },
-    {
-      "filename": "images/fuel-pump.svg",
-      "description": "OpenMoji fuel pump icon.",
-      "source_url": "https://openmoji.org/library/emoji-26FD/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
-      "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
-      ],
-      "contentTags": [
-        "fuel",
-        "gasoline",
-        "power",
-        "energy"
-      ]
-    },
-    {
-      "filename": "images/battery.svg",
-      "description": "OpenMoji low battery icon used to represent stored electric power.",
-      "source_url": "https://openmoji.org/library/emoji-1FAAB/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
-      "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
-      ],
-      "contentTags": [
-        "battery",
         "electric car",
         "charging",
-        "energy"
+        "car parts"
       ]
     },
     {
-      "filename": "images/stop-sign.svg",
-      "description": "OpenMoji stop sign icon.",
-      "source_url": "https://openmoji.org/library/emoji-1F6D1/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
+      "filename": "images/electric-car-recharging.jpg",
+      "description": "A small electric car recharging in Berlin, useful for explaining cars that plug in.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Electric_Car_recharging.jpg",
+      "author": "original: Michael Movchin; edited by Felix Muller",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1301,
+      "height": 834,
+      "imageType": "photo",
       "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
+        "bright",
+        "colorful",
+        "clear-subject"
       ],
       "contentTags": [
-        "stop sign",
-        "stopping",
-        "road sign",
-        "safety"
+        "electric-car",
+        "charging",
+        "technology"
       ]
     },
     {
-      "filename": "images/racing-car.svg",
-      "description": "OpenMoji racing car icon.",
-      "source_url": "https://openmoji.org/library/emoji-1F3CE/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
+      "filename": "images/mechanic-repairing-engine.jpg",
+      "description": "A mechanic repairing a car engine under the hood, useful for showing that cars are machines that need care.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mechanic_repairing_car_engine.jpg",
+      "author": "Bembety",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
       "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
+        "close-up",
+        "action",
+        "natural"
       ],
       "contentTags": [
-        "racing car",
-        "sports car",
-        "car type",
-        "fast car"
+        "mechanic",
+        "engine",
+        "repair",
+        "person"
       ]
     },
     {
-      "filename": "images/taxi.svg",
-      "description": "OpenMoji taxi icon.",
-      "source_url": "https://openmoji.org/library/emoji-1F695/",
-      "author": "OpenMoji",
+      "filename": "images/seat-belt.jpg",
+      "description": "Close-up of a car seat belt, useful for explaining buckling up and car safety.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Car_seat_belt_20160810.jpg",
+      "author": "Santeri Viinamaki",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
       "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
+        "close-up",
+        "clear",
+        "neutral"
       ],
       "contentTags": [
-        "taxi",
+        "seat belt",
+        "car safety",
+        "interior"
+      ]
+    },
+    {
+      "filename": "images/teddy-child-seat.jpg",
+      "description": "A teddy bear toy buckled into a child car seat, giving a warm, age-appropriate safety image.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Teddy_bear_toy_in_a_medical_mask_is_sitting_in_a_child_seat_in_the_car._(49894805893).jpg",
+      "author": "Nenad Stojkovic from Srbija",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 1469,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "close-up",
+        "warm"
+      ],
+      "contentTags": [
+        "child-seat",
+        "seat-belt",
+        "car-safety",
+        "teddy-bear"
+      ]
+    },
+    {
+      "filename": "images/ford-model-t.jpg",
+      "description": "A 1925 Ford Model T at an outdoor classic car event, useful for showing a car from long ago.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ford_Model_T_(1925)_Classic-Gala_2021_1X7A0217.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1468,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "colorful",
+        "clear-subject"
+      ],
+      "contentTags": [
         "car",
-        "city travel",
-        "transportation"
+        "vintage-car",
+        "history"
       ]
     },
     {
-      "filename": "images/oncoming-automobile.svg",
-      "description": "OpenMoji blue oncoming automobile icon, front view.",
-      "source_url": "https://openmoji.org/library/emoji-1F698/",
-      "author": "OpenMoji",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 72,
-      "height": 72,
-      "imageType": "illustration",
+      "filename": "images/benz-1885.jpg",
+      "description": "Historic image of Karl Benz's early automobile, useful for showing that the first cars looked very different from today's cars.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1885Benz.jpg",
+      "author": "Supplied by Benz to William Worby Beaumont and used in his book Motor Vehicles and Motors (1900)",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 976,
+      "height": 768,
+      "imageType": "photo",
       "styleTags": [
-        "bright icon",
-        "simple vector",
-        "child-friendly"
+        "black-and-white",
+        "historic",
+        "clear-subject"
       ],
       "contentTags": [
         "car",
-        "front view",
-        "car type",
-        "vehicle"
+        "early automobile",
+        "history",
+        "wheels"
+      ]
+    },
+    {
+      "filename": "images/benz-motorwagen-museum.jpg",
+      "description": "A Benz Patent Motorwagen in a museum, showing the large wheels and open shape of an early car.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beaulieu_Motor_Museum,_Benz_Patent_Motorwagen_(1886)_-_geograph.org.uk_-_8064654.jpg",
+      "author": "Michael Garlick",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "clear",
+        "historic",
+        "museum",
+        "strong-focus"
+      ],
+      "contentTags": [
+        "early-car",
+        "benz-motorwagen",
+        "wheels",
+        "history"
+      ]
+    },
+    {
+      "filename": "images/bmw-race-car.jpg",
+      "description": "A bright BMW touring race car on a track, useful for showing a special car made for racing.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2015_BMW_M4_DTM_touring_race_car_at_Hockenheimring,_Germany_(Ank_Kumar,_Infosys_Limited)_01.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "colorful",
+        "action",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "race car",
+        "car",
+        "track",
+        "movement"
+      ]
+    },
+    {
+      "filename": "images/car-assembly-line.jpg",
+      "description": "A car factory assembly line with cars being built, useful for explaining that many parts become a car.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice,_Poland.jpg",
+      "author": "Marek Slusarczyk (Tupungato) Photo portfolio",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "width": 2200,
+      "height": 1466,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "industrial",
+        "wide-view"
+      ],
+      "contentTags": [
+        "cars",
+        "factory",
+        "assembly-line"
+      ]
+    },
+    {
+      "filename": "images/car-tires.jpg",
+      "description": "Stacked and standing car tires at a tire store, useful for showing tire tread and wheels.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Car_tires.jpg",
+      "author": "Angie from Sawara, Chiba-ken, Japan",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 1500,
+      "height": 1500,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "high-contrast",
+        "simple-focus"
+      ],
+      "contentTags": [
+        "tires",
+        "car-parts",
+        "wheels"
+      ]
+    },
+    {
+      "filename": "images/cars-old-san-juan.jpg",
+      "description": "Cars parked along a colorful brick street in Old San Juan, useful for showing cars in a real place.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cars_parked_in_Old_San_Juan.jpg",
+      "author": "Maria Rimmel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1650,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "colorful",
+        "street-scene",
+        "natural-light"
+      ],
+      "contentTags": [
+        "cars",
+        "parked cars",
+        "street",
+        "place"
+      ]
+    },
+    {
+      "filename": "images/convertible-highway.jpg",
+      "description": "A convertible car driving on a highway, useful for motion, roads, and cars with open roofs.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Convertible_Mercedes_Car_Driving_On_A_Highway.jpg",
+      "author": "DWS MontagZen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1653,
+      "imageType": "photo",
+      "styleTags": [
+        "colorful",
+        "action",
+        "clear-subject"
+      ],
+      "contentTags": [
+        "car",
+        "convertible",
+        "movement",
+        "road"
+      ]
+    },
+    {
+      "filename": "images/suv-dusty-road.jpg",
+      "description": "A black SUV driving on a dusty road, useful for showing a tall car on rougher ground.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SUV_car.jpg",
+      "author": "Wiaskara",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "action",
+        "motion-blur",
+        "outdoor"
+      ],
+      "contentTags": [
+        "suv",
+        "driving",
+        "road",
+        "movement"
+      ]
+    },
+    {
+      "filename": "images/toyota-prius-hybrid.jpg",
+      "description": "Toyota Prius hybrid cars displayed outdoors, useful for comparing gasoline-electric hybrids with other cars.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_V_Hybrid_car_launch.jpg",
+      "author": "Robert Scoble from Half Moon Bay, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "natural",
+        "outdoor",
+        "clear-subject"
+      ],
+      "contentTags": [
+        "car",
+        "hybrid-car",
+        "comparison"
+      ]
+    },
+    {
+      "filename": "images/car-wash.jpg",
+      "description": "A car going through a car wash with water spray, useful for showing that cars need cleaning and care.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2015_K%C5%82odzko,_ul._Dusznicka,_myjnia_samochodowa_02.jpg",
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1461,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "action",
+        "high-contrast"
+      ],
+      "contentTags": [
+        "car",
+        "car-wash",
+        "cleaning"
       ]
     }
   ]
