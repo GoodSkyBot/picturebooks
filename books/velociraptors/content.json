@@ -6,294 +6,478 @@
     {
       "title": "Velociraptor - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Velociraptor",
-      "accessed": "2026-07-03",
-      "notes": "Comprehensive article on Velociraptor anatomy, behavior, discovery, and paleobiology."
+      "accessed": "2026-07-18"
     },
     {
       "title": "Velociraptor - Simple English Wikipedia",
       "url": "https://simple.wikipedia.org/wiki/Velociraptor",
-      "accessed": "2026-07-03",
-      "notes": "Simplified overview suitable for younger readers."
+      "accessed": "2026-07-18"
     },
     {
-      "title": "Wikimedia Commons - Category:Velociraptor",
-      "url": "https://commons.wikimedia.org/wiki/Category:Velociraptor",
-      "accessed": "2026-07-03",
-      "notes": "Source for Creative Commons images of Velociraptor."
+      "title": "Velociraptor - Natural History Museum Dino Directory",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Vicious Velociraptor: tales of a turkey-sized dinosaur - Natural History Museum",
+      "url": "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Velociraptor - Britannica",
+      "url": "https://www.britannica.com/animal/Velociraptor",
+      "accessed": "2026-07-18"
     }
   ],
-  "facts": [
+  "researchNotes": [
     {
-      "category": "introduction",
-      "text": "Velociraptor means 'swift thief' in Latin. The name comes from the words velox (swift) and raptor (robber).",
-      "source": 0
+      "title": "What Velociraptor really looked like",
+      "text": "Velociraptor was much smaller than movies show. It was only about 1.5 to 2 meters long (roughly 5 to 7 feet) and weighed about 15 to 20 kilograms (33 to 43 pounds) -- roughly the size of a large turkey. It stood about half a meter tall at the hip. In the Jurassic Park films, the animals shown were modeled on the larger relative Deinonychus and were about twice the real size. Velociraptor walked on two legs and had a long, stiff tail that helped it balance and steer when running fast.",
+      "sources": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "relatedImages": [
+        "images/velociraptor-size.svg",
+        "images/dromaeosaurs-size.png"
+      ]
     },
     {
-      "category": "introduction",
-      "text": "Velociraptor was a small dinosaur that lived about 75 to 71 million years ago during the Late Cretaceous period.",
-      "source": 0
+      "title": "Velociraptor had feathers",
+      "text": "Velociraptor was covered in feathers, much like modern birds. In 2007, scientists found quill knobs on the forearm bone of a Velociraptor fossil from Mongolia -- these are the bumps where feathers attach on bird wing bones. Close relatives like Microraptor and Zhenyuanlong have been found with preserved feather impressions, providing strong evidence that the whole family was feathered. Despite having feathered arms, Velociraptor could not fly. Its wings were too small and its feathers were symmetrical (flying birds have asymmetrical feathers). The feathers likely helped keep it warm (since it was warm-blooded) and may have been used for display to attract mates, or to cover eggs while nesting.",
+      "sources": [
+        0,
+        1,
+        3
+      ],
+      "relatedImages": [
+        "images/velociraptor-restoration.png"
+      ]
     },
     {
-      "category": "introduction",
-      "text": "Velociraptor was a type of dinosaur called a dromaeosaurid, which means 'running lizard.'",
-      "source": 0
+      "title": "The famous sickle claw",
+      "text": "Velociraptor's most famous feature was the large, curved, sickle-shaped claw on the second toe of each foot. This claw could grow to over 6.5 centimeters (about 2.5 inches) around its outer edge. Velociraptor walked on only two of its three toes, keeping the sickle claw raised off the ground to keep it sharp. Scientists once thought this claw was used to slash open prey, but research (including building a mechanical model) showed it was more likely used as a stabbing and gripping tool -- much like an eagle's talon -- to pin down prey and prevent it from escaping.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/velociraptor-skeleton.jpg",
+        "images/dromaeosaurid-foot-model.jpg",
+        "images/sickle-claws-comparison.jpg"
+      ]
     },
     {
-      "category": "body",
-      "text": "Velociraptor was about the size of a turkey, measuring 1.5 to 2 meters (5 to 7 feet) long from nose to tail.",
-      "source": 0
+      "title": "What Velociraptor ate",
+      "text": "Velociraptor was a carnivore (meat-eater) with lots of sharp, pointed, backward-curving teeth. Its narrow jaws and lightweight build suggest it mostly hunted small animals like mammals and lizards that would have been easy to catch and overpower. It may have occasionally hunted small, young dinosaurs. One fossil was found with a pterosaur bone inside the Velociraptor's body, suggesting it sometimes scavenged (ate animals that were already dead). Like most predators, Velociraptor probably ate whatever it could find.",
+      "sources": [
+        0,
+        2,
+        3
+      ],
+      "relatedImages": [
+        "images/sickle-claws-comparison.jpg",
+        "images/dromaeosaurid-foot-model.jpg"
+      ]
     },
     {
-      "category": "body",
-      "text": "Velociraptor stood only about 0.5 meters (1.6 feet) tall at the hip, which is about knee-height on an adult human.",
-      "source": 0
+      "title": "A fast runner",
+      "text": "Velociraptor's name means 'swift thief' or 'quick plunderer' in Latin. It lived up to this name -- scientists estimate it could run at over 40 kilometers per hour (25 miles per hour) in short bursts, which is faster than the fastest human sprinter. It had long, muscular legs with relatively long shins, which gave it a longer stride. Its stiff tail acted like a rudder, helping it make quick turns at high speed. However, it was not the fastest dinosaur -- that title goes to the ornithomimosaurs, which resembled ostriches.",
+      "sources": [
+        0,
+        3,
+        4
+      ],
+      "relatedImages": [
+        "images/velociraptor-restoration.png",
+        "images/velociraptor-skeleton.jpg"
+      ]
     },
     {
-      "category": "body",
-      "text": "Velociraptor weighed about 15 kilograms (33 pounds), roughly the weight of a medium-sized dog.",
-      "source": 0
+      "title": "How smart was Velociraptor",
+      "text": "Velociraptor had a relatively large brain compared to its body size, making it one of the smarter dinosaurs. However, it was not as clever as shown in the Jurassic Park movies. Scientists compare its intelligence to that of an average bird, perhaps like a hawk. It was smart enough to be an effective hunter, but not smart enough to outsmart humans or solve complex problems like crows or parrots can.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/cassowary.jpg"
+      ]
     },
     {
-      "category": "body",
-      "text": "Velociraptor walked on two legs and had a long, stiff tail that helped it balance when running.",
-      "source": 0
+      "title": "Where Velociraptor lived",
+      "text": "Velociraptor lived in what is now Mongolia and northern China during the Late Cretaceous period, about 75 to 71 million years ago. Its environment was dry and sandy, with sand dunes and occasional streams -- similar to a desert. The fossils were found in the Djadochta Formation and Bayan Mandahu Formation. The landscape would have been harsh and hot, quite different from the lush jungles shown in movies.",
+      "sources": [
+        0,
+        1,
+        2
+      ],
+      "relatedImages": [
+        "images/flaming-cliffs.jpg"
+      ]
     },
     {
-      "category": "body",
-      "text": "Velociraptor had a long, flat snout that made up about 60 percent of its skull length.",
-      "source": 0
+      "title": "Discovery of the first Velociraptor",
+      "text": "The first Velociraptor fossil was discovered on August 11, 1923, during an American Museum of Natural History expedition to the Flaming Cliffs (Bayanzag) in the Gobi Desert of Mongolia. Peter Kaisen found a crushed but complete skull with a claw. In 1924, Henry Fairfield Osborn named the new dinosaur Velociraptor mongoliensis. The name comes from the Latin words 'velox' (swift) and 'raptor' (robber or plunderer). Since then, over a dozen fossil skeletons have been found.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/flaming-cliffs.jpg"
+      ]
     },
     {
-      "category": "feathers",
-      "text": "Scientists found bumps called quill knobs on Velociraptor arm bones, proving it had feathers.",
-      "source": 0
+      "title": "The Fighting Dinosaurs fossil",
+      "text": "One of the most famous fossils ever found shows a Velociraptor locked in combat with a Protoceratops, a small plant-eating dinosaur. Discovered in 1971 in Mongolia, this remarkable fossil captures the two animals frozen in battle: the Velociraptor's sickle claw is in the Protoceratops's throat, while the Velociraptor's arm is crushed in the Protoceratops's beak. They were likely buried alive by a collapsing sand dune or sandstorm during their fight. This fossil is considered a national treasure of Mongolia.",
+      "sources": [
+        0,
+        3
+      ],
+      "relatedImages": [
+        "images/fighting-dinosaurs-size.png"
+      ]
     },
     {
-      "category": "feathers",
-      "text": "Velociraptor had feathers but could not fly because its arms were too short and its body too heavy.",
-      "source": 1
+      "title": "Velociraptor vs. movies",
+      "text": "Velociraptor is one of the most famous dinosaurs thanks to the Jurassic Park movies, but the films got many things wrong. The movie raptors were about twice the real size, had no feathers, and could open doors -- none of which is true. The movie creatures were actually modeled on Deinonychus, a larger relative. Shortly after the first film was released in 1993, an even bigger raptor called Utahraptor was discovered, which was closer to the movie size. The real Velociraptor was more like a strange, toothy, feathered bird of prey that happened to live on the ground.",
+      "sources": [
+        2,
+        3,
+        4
+      ],
+      "relatedImages": [
+        "images/dromaeosaurs-size.png",
+        "images/sickle-claws-comparison.jpg"
+      ]
     },
     {
-      "category": "feathers",
-      "text": "Velociraptor may have used its feathers for display, to keep warm, or to cover its eggs in the nest.",
-      "source": 0
-    },
-    {
-      "category": "feathers",
-      "text": "Velociraptor was warm-blooded, unlike many other reptiles.",
-      "source": 1
-    },
-    {
-      "category": "claws-and-teeth",
-      "text": "Each foot had a large, curved claw shaped like a sickle that was over 6.5 centimeters (2.6 inches) long.",
-      "source": 0
-    },
-    {
-      "category": "claws-and-teeth",
-      "text": "Velociraptor held its big toe claw off the ground when walking, and only used it for catching prey.",
-      "source": 0
-    },
-    {
-      "category": "claws-and-teeth",
-      "text": "Velociraptor had about 30 sharp, serrated teeth good for tearing meat.",
-      "source": 0
-    },
-    {
-      "category": "claws-and-teeth",
-      "text": "The hand had three long fingers, each ending in a strongly curved claw.",
-      "source": 0
-    },
-    {
-      "category": "habitat",
-      "text": "Velociraptor lived in what is now Mongolia and northern China, in a dry sandy environment with dunes and streams.",
-      "source": 1
-    },
-    {
-      "category": "habitat",
-      "text": "The climate where Velociraptor lived was hot and dry, much like a desert today.",
-      "source": 0
-    },
-    {
-      "category": "habitat",
-      "text": "Velociraptor shared its habitat with other dinosaurs like Protoceratops, a small plant-eating dinosaur.",
-      "source": 0
-    },
-    {
-      "category": "hunting",
-      "text": "Velociraptor was a carnivore, meaning it ate meat. It hunted other small animals and dinosaurs.",
-      "source": 0
-    },
-    {
-      "category": "hunting",
-      "text": "A famous fossil found in 1971 shows a Velociraptor locked in battle with a Protoceratops. They were buried together by a sandstorm.",
-      "source": 0
-    },
-    {
-      "category": "hunting",
-      "text": "Velociraptor used its big sickle claw to hold onto prey while attacking with its jaws.",
-      "source": 0
-    },
-    {
-      "category": "hunting",
-      "text": "Velociraptor had a large brain compared to its body size, making it one of the smarter dinosaurs.",
-      "source": 0
-    },
-    {
-      "category": "discovery",
-      "text": "The first Velociraptor fossil was found in the Gobi Desert of Mongolia in 1923 by explorer Peter Kaisen.",
-      "source": 0
-    },
-    {
-      "category": "discovery",
-      "text": "Henry Fairfield Osborn named the dinosaur Velociraptor in 1924.",
-      "source": 0
-    },
-    {
-      "category": "discovery",
-      "text": "Scientists have found more than a dozen Velociraptor skeletons, making it one of the best-known dinosaurs.",
-      "source": 0
-    },
-    {
-      "category": "discovery",
-      "text": "The famous Fighting Dinosaurs fossil was discovered in 1971 and is a national treasure of Mongolia.",
-      "source": 0
-    },
-    {
-      "category": "movies-vs-reality",
-      "text": "In the Jurassic Park movies, Velociraptors are shown much bigger than they really were. The movie raptors are actually based on a different dinosaur called Deinonychus.",
-      "source": 0
-    },
-    {
-      "category": "movies-vs-reality",
-      "text": "Real Velociraptors had feathers, but the movies show them with scaly skin.",
-      "source": 0
-    },
-    {
-      "category": "movies-vs-reality",
-      "text": "The real Velociraptor was only about the size of a turkey, not as tall as a person like in the movies.",
-      "source": 0
+      "title": "Velociraptor's relatives and the link to birds",
+      "text": "Velociraptor belongs to a family of dinosaurs called dromaeosaurids, which are among the closest dinosaur relatives of modern birds. All dromaeosaurids had feathers, sickle claws, and relatively large brains. The family ranged from tiny Microraptor (about the size of a crow) to enormous Utahraptor (about the size of a polar bear). Velociraptor sat in the middle of this range. Modern birds are living dinosaurs, and studying Velociraptor helps scientists understand how dinosaurs evolved into the birds we see today.",
+      "sources": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "relatedImages": [
+        "images/dromaeosaurs-size.png",
+        "images/cassowary.jpg"
+      ]
     }
   ],
+  "handoffNotes": "For a 5-year-old audience, the most engaging angles are: (1) Velociraptor was turkey-sized, not movie-monster-sized; (2) it had feathers like a bird; (3) it had a special claw on its foot; (4) it was fast. The fighting dinosaurs fossil is represented by a size comparison diagram rather than the actual fossil photo, which was too confusing for this age. The cassowary photo provides a strong modern-bird-to-dinosaur visual connection. The sickle claw comparison and foot model images give close-up detail views. The image pool mixes illustrations and photos but keeps a coherent, colorful, child-friendly feel. Avoid scary hunting scenes for this age band.",
   "images": [
     {
-      "filename": "images/velociraptor-life-restoration.png",
-      "description": "Artistic life restoration of Velociraptor mongoliensis showing feathered body and sickle claw",
+      "filename": "images/velociraptor-restoration.png",
+      "description": "Artistic restoration of Velociraptor mongoliensis showing the feathered dinosaur in a natural side-view pose",
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_Restoration.png",
       "author": "Fred Wierum",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "width": 2200,
-      "height": 1349
-    },
-    {
-      "filename": "images/velociraptor-feathered.png",
-      "description": "Reconstruction of Velociraptor mongoliensis with feathered covering",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Fred_Wierum_Velociraptor.png",
-      "author": "Fred Wierum",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 1002,
-      "height": 641
-    },
-    {
-      "filename": "images/velociraptor-size-comparison.png",
-      "description": "Size comparison showing Velociraptor specimens next to a 1.8 meter tall human",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_size.png",
-      "author": "PaleoNeolitic",
-      "license": "CC0 1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 2200,
-      "height": 1374
+      "height": 1349,
+      "imageType": "illustration",
+      "styleTags": [
+        "colorful",
+        "detailed",
+        "natural",
+        "side-view"
+      ],
+      "contentTags": [
+        "velociraptor",
+        "feathers",
+        "body-parts",
+        "cover"
+      ]
     },
     {
       "filename": "images/velociraptor-skeleton.jpg",
-      "description": "Mounted Velociraptor mongoliensis skeleton cast on white background",
+      "description": "Mounted Velociraptor skeleton cast on a white background at the Royal Belgian Institute of Natural Sciences",
       "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_skeleton_white_background.jpg",
       "author": "Eduard Sola Vazquez",
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
       "width": 2200,
-      "height": 1646
+      "height": 1646,
+      "imageType": "photo",
+      "styleTags": [
+        "high-contrast",
+        "clean-background",
+        "full-body"
+      ],
+      "contentTags": [
+        "skeleton",
+        "body-parts",
+        "fossils"
+      ]
     },
     {
-      "filename": "images/velociraptor-vs-protoceratops.jpg",
-      "description": "Artistic illustration of a Velociraptor attacking a Protoceratops",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_attacking_Protoceratops.jpg",
-      "author": "Durbed",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "width": 1280,
-      "height": 895
-    },
-    {
-      "filename": "images/velociraptor-restraining-prey.jpg",
-      "description": "Illustration of feathered Velociraptor restraining an oviraptorosaur prey",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_restraining_an_oviraptorosaur_by_durbed.jpg",
-      "author": "Durbed",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "width": 2200,
-      "height": 1754
-    },
-    {
-      "filename": "images/velociraptor-skeletal-reconstruction.jpg",
-      "description": "Skeletal reconstruction of Velociraptor showing full body proportions with long tail",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor.jpg",
-      "author": "Scott Hartman",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "width": 1200,
-      "height": 364
-    },
-    {
-      "filename": "images/velociraptor-mongoliensis-jmallon.jpg",
-      "description": "Side-view life restoration of Velociraptor mongoliensis with feathers in running pose",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Velociraptor_mongoliensis_jmallon.jpg",
-      "author": "Matt Martyniuk",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "width": 981,
-      "height": 416
-    },
-    {
-      "filename": "images/sickle-claw-comparison.jpg",
-      "description": "Comparison of sickle-shaped claws from different dromaeosaurid dinosaurs",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Sickle_Claws.jpg",
-      "author": "BenWBrooks",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "width": 1663,
-      "height": 2200
-    },
-    {
-      "filename": "images/gobi-desert-flaming-cliffs.jpg",
-      "description": "The Flaming Cliffs (Bayanzag) in Mongolia's Gobi Desert where the first Velociraptor fossil was found",
+      "filename": "images/flaming-cliffs.jpg",
+      "description": "Bayanzag (Flaming Cliffs) in the Gobi Desert, Mongolia, where the first Velociraptor fossil was discovered in 1923",
       "source_url": "https://commons.wikimedia.org/wiki/File:Bayanzag_(Flaming_Cliffs).jpg",
-      "author": "Khuushbat Tserendavaa",
+      "author": "Richard Mortel",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "colorful",
+        "warm",
+        "high-contrast",
+        "landscape",
+        "bright"
+      ],
+      "contentTags": [
+        "habitat",
+        "place",
+        "fossil-discovery",
+        "desert"
+      ]
+    },
+    {
+      "filename": "images/velociraptor-size.svg",
+      "description": "Size comparison diagram showing a Velociraptor silhouette next to a human silhouette with a 1-meter grid",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vraptor_Scale.svg",
+      "author": "Matt Martyniuk / Serenthia",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "width": 428,
+      "height": 292,
+      "imageType": "diagram",
+      "styleTags": [
+        "flat-diagram",
+        "high-contrast",
+        "simple",
+        "silhouette"
+      ],
+      "contentTags": [
+        "size",
+        "comparison"
+      ]
+    },
+    {
+      "filename": "images/dromaeosaurs-size.png",
+      "description": "Size chart comparing different dromaeosaurs (Microraptor, Velociraptor, Austroraptor, Dromaeosaurus, Utahraptor, Deinonychus) alongside a human silhouette",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dromaeosaurs.png",
+      "author": "Fred Wierum",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "width": 2200,
-      "height": 1467
+      "height": 807,
+      "imageType": "diagram",
+      "styleTags": [
+        "colorful",
+        "flat-diagram",
+        "clean",
+        "horizontal"
+      ],
+      "contentTags": [
+        "size-comparison",
+        "comparison",
+        "relatives"
+      ]
     },
     {
-      "filename": "images/dromaeosaurid-parade.jpg",
-      "description": "Parade of dromaeosaurid dinosaurs showing relative sizes including Velociraptor",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Dromaeosaurid_parade_by_durbed.jpg",
-      "author": "Durbed",
+      "filename": "images/fighting-dinosaurs-size.png",
+      "description": "Size comparison illustration of Velociraptor mongoliensis and Protoceratops andrewsi from the famous Fighting Dinosaurs specimen, shown alongside a human silhouette for scale",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fighting_Dinosaurs_size.png",
+      "author": "PaleoNeolitic",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2200,
+      "height": 1129,
+      "imageType": "illustration",
+      "styleTags": [
+        "clean-background",
+        "detailed",
+        "natural",
+        "flat-diagram",
+        "warm"
+      ],
+      "contentTags": [
+        "size",
+        "comparison",
+        "body-parts",
+        "velociraptor",
+        "protoceratops"
+      ]
+    },
+    {
+      "filename": "images/sickle-claws-comparison.jpg",
+      "description": "Illustration comparing Deinonychus and Velociraptor feet, clearly showing the difference in sickle claw size between the two dromaeosaurids",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sickle_Claws.jpg",
+      "author": "Danny Cicchetti",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "width": 2200,
-      "height": 856
+      "width": 1663,
+      "height": 2200,
+      "imageType": "illustration",
+      "styleTags": [
+        "colorful",
+        "high-contrast",
+        "close-up",
+        "bold"
+      ],
+      "contentTags": [
+        "body-parts",
+        "comparison",
+        "sickle-claw"
+      ]
     },
     {
-      "filename": "images/velociraptor-cover.png",
-      "description": "A feathered Velociraptor running across sand dunes, children's book illustration, warm colors",
+      "filename": "images/dromaeosaurid-foot-model.jpg",
+      "description": "Model of a dromaeosaurid foot at the Natural History Museum London, showing the raised sickle claw on the second toe",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dromaeosaurid_foot_NHM.jpg",
+      "author": "Ballista",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "width": 1103,
+      "height": 1348,
+      "imageType": "photo",
+      "styleTags": [
+        "close-up",
+        "high-contrast",
+        "warm"
+      ],
+      "contentTags": [
+        "body-parts",
+        "sickle-claw",
+        "anatomy"
+      ]
+    },
+    {
+      "filename": "images/cassowary.jpg",
+      "description": "A free-ranging Southern Cassowary at Etty Bay, Australia -- a modern bird that looks remarkably dinosaur-like, with a prominent claw on its inner toe similar to a dromaeosaurid",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg",
+      "author": "Summerdrought",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 2152,
+      "height": 1614,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "natural",
+        "colorful",
+        "action"
+      ],
+      "contentTags": [
+        "comparison",
+        "modern-bird",
+        "body-parts",
+        "movement"
+      ]
+    },
+    {
+      "filename": "images/a-friendly-feathered-velociraptor-standing-alert-in-a-warm-s.png",
+      "description": "A friendly, feathered Velociraptor standing alert in a warm sandy desert landscape at golden hour, looking curious and approachable. The dinosaur is turkey-sized with colorful brown-and-orange plumage, visible sickle claws, and bright eyes. Soft, warm colors. Child-friendly illustration style, no teeth bared, no prey. Clear composition suitable for a book cover with space for title text at top.",
       "source_url": "https://openai.com/policies/terms-of-use",
       "author": "OpenAI gpt-image-2",
       "license": "Generated (non-redistributable without rights)",
       "license_url": "https://openai.com/policies/terms-of-use",
       "width": 1024,
-      "height": 1024
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "velociraptor",
+        "feathers",
+        "desert",
+        "cover"
+      ],
+      "styleTags": [
+        "warm",
+        "illustration",
+        "child-friendly"
+      ]
+    },
+    {
+      "filename": "images/a-small-feathered-velociraptor-catching-a-lizard-in-a-sandy.png",
+      "description": "A small feathered Velociraptor catching a lizard in a sandy desert scene, shown in a playful and non-graphic way. The Velociraptor has colorful feathers and visible sharp teeth in a slightly open mouth. Bright, warm colors, child-friendly illustration style. No blood or violence.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "velociraptor",
+        "hunting",
+        "diet",
+        "teeth"
+      ],
+      "styleTags": [
+        "warm",
+        "illustration",
+        "child-friendly",
+        "action"
+      ]
+    },
+    {
+      "filename": "images/a-feathered-velociraptor-and-a-small-beaked-protoceratops-fa.png",
+      "description": "A feathered Velociraptor and a small beaked Protoceratops facing each other in a dramatic desert sandstorm, shown in a child-friendly cartoon illustration style. Sand swirling around them. Both dinosaurs look determined but not gory or scary. Warm desert colors, dynamic composition.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "velociraptor",
+        "protoceratops",
+        "fighting-dinosaurs",
+        "fossil",
+        "sandstorm"
+      ],
+      "styleTags": [
+        "warm",
+        "illustration",
+        "child-friendly",
+        "dynamic"
+      ]
+    },
+    {
+      "filename": "images/a-clever-looking-feathered-velociraptor-with-bright-alert-ey.png",
+      "description": "A clever-looking feathered Velociraptor with bright alert eyes, tilting its head intelligently as it observes its desert surroundings, warm child-friendly illustration style, Gobi Desert background",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "intelligence",
+        "behavior",
+        "close-up"
+      ],
+      "styleTags": [
+        "warm illustration"
+      ]
+    },
+    {
+      "filename": "images/a-feathered-velociraptor-standing-next-to-a-robin-a-chicken.png",
+      "description": "A feathered Velociraptor standing next to a robin, a chicken, and an eagle, all shown at similar scale to highlight their family resemblance, warm playful child-friendly illustration, soft background",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "birds",
+        "evolution",
+        "comparison"
+      ],
+      "styleTags": [
+        "warm illustration"
+      ]
     }
   ]
 }

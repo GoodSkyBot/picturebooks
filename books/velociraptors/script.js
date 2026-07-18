@@ -1,4 +1,4 @@
-/* Storybook Template - Navigation, Audio, and Interactions */
+/* Field Kit Template - Navigation, Audio, and Interactions */
 (function () {
   "use strict";
 
@@ -14,7 +14,7 @@
   var currentAudio = null;
   var isAnimating = false;
 
-  var FADE_DURATION = 400;
+  var ANIM_DURATION = 350;
 
   function showPage(index, direction) {
     if (index < 0 || index >= totalPages || isAnimating) return;
@@ -25,16 +25,26 @@
     var newPage = pages[index];
 
     newPage.hidden = false;
-    newPage.classList.add("page--fade-in");
-    oldPage.classList.add("page--fade-out");
+
+    if (direction === "next") {
+      newPage.classList.add("page--slide-in-next");
+      oldPage.classList.add("page--slide-out-prev");
+    } else if (direction === "prev") {
+      newPage.classList.add("page--slide-in-prev");
+      oldPage.classList.add("page--slide-out-next");
+    } else {
+      newPage.classList.add("page--fade-in");
+      oldPage.classList.add("page--fade-out");
+    }
+
     void newPage.offsetWidth;
 
     setTimeout(function () {
       oldPage.hidden = true;
-      oldPage.classList.remove("page--fade-out");
-      newPage.classList.remove("page--fade-in");
+      oldPage.classList.remove("page--slide-out-prev", "page--slide-out-next", "page--fade-out");
+      newPage.classList.remove("page--slide-in-next", "page--slide-in-prev", "page--fade-in");
       isAnimating = false;
-    }, FADE_DURATION);
+    }, ANIM_DURATION);
 
     currentIndex = index;
     updateNav();
@@ -199,6 +209,6 @@
     });
   });
 
-  // Initial state
+  // Init
   updateNav();
 })();

@@ -1,123 +1,173 @@
 {
-  "title": "Velociraptor: The Swift Thief",
+  "title": "Velociraptor: The Feathered Hunter",
   "slug": "velociraptors",
   "targetAge": 5,
-  "textScale": "standard",
+  "textScale": "large",
   "category": "Dinosaurs",
   "tags": [
     "velociraptor",
-    "raptor",
     "dinosaur",
-    "fossils",
-    "feathers",
-    "cretaceous"
+    "dinosaurs",
+    "raptor",
+    "feathered dinosaur",
+    "dromaeosaurid",
+    "cretaceous",
+    "Mongolia",
+    "Gobi Desert",
+    "carnivore",
+    "predator",
+    "sickle claw",
+    "birds",
+    "fossils"
   ],
   "theme": {
-    "primaryColor": "#C75B12",
-    "secondaryColor": "#5D4037",
-    "backgroundColor": "#FFF8E7",
-    "accentColor": "#F9A825",
-    "fontHeading": "Fredoka",
+    "primaryColor": "#C45B28",
+    "secondaryColor": "#5B8C3E",
+    "backgroundColor": "#FFF8F0",
+    "accentColor": "#D4944C",
+    "fontHeading": "Lilita One",
     "fontBody": "Nunito",
-    "vibe": "Adventurous desert fossil hunt"
+    "vibe": "warm desert adventure, curious and playful"
   },
   "cover": {
-    "title": "Velociraptor: The Swift Thief",
-    "subtitle": "A Real Dinosaur Story",
-    "image": "images/velociraptor-cover.png"
+    "title": "Velociraptor: The Feathered Hunter",
+    "subtitle": "A tiny dinosaur with a big surprise",
+    "image": "images/a-friendly-feathered-velociraptor-standing-alert-in-a-warm-s.png"
+  },
+  "narration": {
+    "voice": "nova",
+    "speed": 0.9,
+    "instructions": "Warm, enthusiastic, and curious. Read like a favorite storyteller sharing an exciting discovery with a young child. Pause slightly between sentences."
   },
   "pages": [
     {
-      "text": "Meet Velociraptor! Its name means 'swift thief.' This little dinosaur lived about 75 million years ago. That is a very, very long time before people were here.",
+      "text": "Have you ever seen a turkey? Velociraptor was about that size! It was not a giant monster. It was small, fast, and covered in feathers.",
       "extras": [
-        "Velociraptor is often called 'raptor' for short."
+        "Velociraptor weighed about as much as a big dog."
       ],
       "images": [
         {
-          "src": "images/velociraptor-feathered.png",
-          "alt": "A feathered Velociraptor mongoliensis standing alert"
+          "src": "images/velociraptor-size.svg",
+          "alt": "Size comparison showing a Velociraptor next to a person -- the dinosaur only reaches up to the person's knee",
+          "orientation": "landscape",
+          "fit": "contain"
         }
       ]
     },
     {
-      "text": "Velociraptor was small -- about the size of a turkey! It stood only as tall as your knee. Its long tail helped it balance when it ran fast on two legs.",
+      "text": "That's right -- Velociraptor had feathers! Scientists found bumps on its arm bones where feathers once attached. It looked more like a strange bird than a scaly lizard.",
+      "images": [
+        {
+          "src": "images/velociraptor-restoration.png",
+          "alt": "Colorful illustration of a feathered Velociraptor standing in a natural pose",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "But Velociraptor could not fly. Its arms were too short and its feathers were the wrong shape. So what were the feathers for? They kept it warm -- like a cozy coat! Look at this cassowary. It is a big bird alive today that has feathers but cannot fly, just like Velociraptor!",
       "extras": [
-        "It weighed about as much as a medium dog.",
-        "Half its body length was tail!"
+        "Feathers may have helped attract mates, too."
       ],
       "images": [
         {
-          "src": "images/velociraptor-size-comparison.png",
-          "alt": "Velociraptor shown next to a human to compare sizes"
+          "src": "images/cassowary.jpg",
+          "alt": "A cassowary, a modern bird that cannot fly and looks remarkably like a dinosaur, walking on the ground",
+          "orientation": "landscape"
         }
       ]
     },
     {
-      "text": "Surprise! Velociraptor had feathers! Scientists found special bumps on its arm bones that show where feathers attached. But it could not fly. Its arms were too short.",
+      "text": "Look at this special claw! Velociraptor had a big, curved claw on each foot. It held this claw up off the ground to keep it sharp -- like a secret weapon.",
       "extras": [
-        "Feathers may have kept it warm.",
-        "Velociraptor was warm-blooded."
+        "The claw was about as long as your finger."
       ],
       "images": [
         {
-          "src": "images/velociraptor-mongoliensis-jmallon.jpg",
-          "alt": "Side view of a feathered Velociraptor in running pose"
+          "src": "images/dromaeosaurid-foot-model.jpg",
+          "alt": "Model of a dromaeosaurid foot showing the raised sickle claw on the second toe",
+          "orientation": "portrait",
+          "position": "top"
         }
       ]
     },
     {
-      "text": "Look at those claws! Each foot had a big curved claw shaped like a sickle. Velociraptor kept this special claw lifted off the ground. It only used it to grab prey.",
+      "text": "Velociraptor used its claws and sharp teeth to catch small animals. It ate lizards, little mammals, and whatever else it could grab. What a fierce little hunter!",
+      "images": [
+        {
+          "src": "images/a-small-feathered-velociraptor-catching-a-lizard-in-a-sandy.png",
+          "alt": "A feathered Velociraptor catching a lizard in a sandy desert, shown in a playful child-friendly style",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "Was Velociraptor smart? Yes! It had a big brain for its size -- about as smart as a hawk. That helped it be a clever hunter, but it could not solve puzzles like a parrot or a crow.",
       "extras": [
-        "The sickle claw was over 6 centimeters long!",
-        "Each hand had three clawed fingers."
+        "Not as clever as the movies show!"
       ],
       "images": [
         {
-          "src": "images/sickle-claw-comparison.jpg",
-          "alt": "Comparison of curved sickle claws from different raptor dinosaurs"
+          "src": "images/a-clever-looking-feathered-velociraptor-with-bright-alert-ey.png",
+          "alt": "A clever-looking feathered Velociraptor with bright alert eyes, tilting its head as it observes its desert surroundings",
+          "orientation": "square"
         }
       ]
     },
     {
-      "text": "Velociraptor lived in a hot, sandy place that is now Mongolia and China. It was dry like a desert, with sand dunes and small streams. Other dinosaurs lived there too.",
-      "images": [
-        {
-          "src": "images/gobi-desert-flaming-cliffs.jpg",
-          "alt": "The red Flaming Cliffs in Mongolia's Gobi Desert where Velociraptor fossils were found"
-        }
-      ]
-    },
-    {
-      "text": "Velociraptor was a hunter. It ate meat and chased smaller animals. It was smart and fast. One famous fossil shows a Velociraptor fighting a Protoceratops. A sandstorm buried them both!",
+      "text": "Velociraptor was FAST. Its name means 'swift thief.' It could run faster than the fastest person! Its long, stiff tail helped it balance and turn quickly.",
       "extras": [
-        "It had about 30 sharp, jagged teeth.",
-        "The Fighting Dinosaurs fossil is a national treasure of Mongolia."
+        "Top speed: over 40 km/h (25 mph)!"
       ],
-      "images": [
-        {
-          "src": "images/velociraptor-vs-protoceratops.jpg",
-          "alt": "Illustration of a Velociraptor battling a Protoceratops"
-        }
-      ]
-    },
-    {
-      "text": "In 1923, an explorer found the first Velociraptor bones in the Gobi Desert. Since then, scientists have found many more. We learn new things about this dinosaur all the time!",
       "images": [
         {
           "src": "images/velociraptor-skeleton.jpg",
-          "alt": "A complete mounted Velociraptor skeleton on display"
+          "alt": "Complete Velociraptor skeleton showing its long legs and stiff tail built for speed",
+          "orientation": "landscape"
         }
       ]
     },
     {
-      "text": "You might have seen big, scaly raptors in movies. But real Velociraptors were small and feathery! The movie ones are based on a bigger dinosaur. Now you know the real story!",
+      "text": "Velociraptor lived in a hot, sandy desert -- not a green jungle like in the movies. Its home was in a place we now call Mongolia, far away in Asia.",
+      "images": [
+        {
+          "src": "images/flaming-cliffs.jpg",
+          "alt": "The Flaming Cliffs in Mongolia's Gobi Desert, with red-orange rock formations under a blue sky",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "One amazing fossil shows a Velociraptor fighting a Protoceratops! They were buried together by a sandstorm millions of years ago. Scientists call it the Fighting Dinosaurs.",
       "extras": [
-        "Real Velociraptor was turkey-sized, not human-sized!"
+        "This fossil is a national treasure of Mongolia."
       ],
       "images": [
         {
-          "src": "images/dromaeosaurid-parade.jpg",
-          "alt": "A parade of different raptor dinosaurs showing their various sizes"
+          "src": "images/a-feathered-velociraptor-and-a-small-beaked-protoceratops-fa.png",
+          "alt": "A feathered Velociraptor and a beaked Protoceratops facing off in a dramatic desert sandstorm",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "Velociraptor had relatives big and small. Tiny Microraptor was the size of a crow. Huge Utahraptor was the size of a polar bear! They were all part of the same family.",
+      "images": [
+        {
+          "src": "images/dromaeosaurs-size.png",
+          "alt": "Size chart comparing dromaeosaurid dinosaurs from tiny Microraptor to enormous Utahraptor, with a human for scale",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Remember that turkey from the beginning? Birds are actually living dinosaurs! Every bird you see -- every robin, every chicken, every eagle -- is a relative of Velociraptor. Next time you see a bird, look closely. Can you spot the little dinosaur inside?",
+      "images": [
+        {
+          "src": "images/a-feathered-velociraptor-standing-next-to-a-robin-a-chicken.png",
+          "alt": "A feathered Velociraptor standing next to a robin, a chicken, and an eagle, highlighting their family resemblance",
+          "orientation": "square"
         }
       ]
     }

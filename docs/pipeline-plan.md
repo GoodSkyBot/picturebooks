@@ -31,6 +31,12 @@ Each editorial review returns one of three outcomes:
 
 The pipeline should cap revision loops. After repeated unresolved findings, normally three attempts, it should stop with `BLOCKED` rather than continue making speculative changes.
 
+Minor findings should not create routine human checkpoints. During the first review iteration for a phase, the orchestrator should ask the phase agent to address actionable minor findings along with blocking and major findings when those fixes are safe, local to the phase, and unlikely to flatten the book. If the same minor finding persists after two attempted fixes, the pipeline should proceed from the current approved state and include the unresolved minor finding in the completion summary instead of looping indefinitely.
+
+Generated-image use is allowed as part of this minor-fix pass, especially for cover or image-text fit recommendations, but it needs a volume guardrail. If the pipeline would generate more than three AI images for a single book, it must pause for human permission before generating image four or later. Because the pipeline runs as a subagent, this should be a controlled `PAUSED_FOR_PERMISSION` return to the parent agent, not an inner subagent question. The pause payload should include the slug, phase, generated image count so far, proposed extra generated-image briefs, which pages they would replace or support, and the exact question the parent should ask.
+
+Pipeline resume should be artifact-based rather than dependent on hidden subagent memory. After the parent obtains the user's answer, it may re-invoke or resume the pipeline with explicit permission. The pipeline should inspect existing files under `books/{slug}/`, determine the last completed phase from artifacts and any supplied editor context, and continue from the paused phase without redoing completed work unless a revision is required.
+
 ## Editor Architecture
 
 Use specialized reviewers with separate context windows. Each editor loads only its phase-specific definition and the artifacts needed for that review.
@@ -74,6 +80,8 @@ Verdict rules:
 - `REVISE`: actionable blocking or major findings remain and the phase agent can fix them.
 - `BLOCKED`: the issue requires unavailable information, credentials, licensing resolution, human judgment, or upstream work the current phase cannot perform.
 - Minor findings should be reported but should not force endless iteration.
+
+Minor findings are still useful. The orchestrator should include actionable minor findings in the first revision request for the relevant phase, provided they are safe to fix within that phase. After two unsuccessful attempts to resolve a minor finding, treat it as non-blocking: proceed if the artifact is otherwise approved and record the residual issue in the final summary.
 
 The orchestrator should pass only actionable findings back to the phase agent. It should not pass debate transcripts, contradictory suggestions, or optional taste preferences as mandatory work.
 
@@ -141,6 +149,10 @@ Diagnostic editor checks:
 Generated-image suggestions should be specific, child-friendly briefs. The editor should suggest them; the author agent should decide whether to run the generation script and should update the JSON artifacts consistently.
 
 Author approval should require both narrative quality and image fit. A charming text cannot compensate for unsupported facts or unusable images.
+
+When the diagnostic editor returns generated-image briefs with a minor severity, the orchestrator should normally ask the author agent to try those briefs during the first author revision pass rather than ignoring them. If the author can resolve the issue with an existing approved image instead, that is acceptable. If the minor generated-image recommendation persists after two attempts, proceed with the approved book state and report the tradeoff in the completion summary.
+
+The orchestrator must track generated images per book across research and author revisions. Generating up to three AI images may proceed without a human checkpoint when supported by editor findings or missing visual coverage. Before generating a fourth AI image, return `PAUSED_FOR_PERMISSION` to the parent agent with the proposed image briefs and a concise permission question.
 
 ## Build Editorial Review
 

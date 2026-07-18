@@ -60,6 +60,8 @@ Inputs:
 - topic
 - target age
 
+For a complete book, agents should use the full editor-gated pipeline instead of manually creating research, author, and build artifacts. In OpenCode, run `/pipeline {topic} age {targetAge}` or the alias `/book {topic} age {targetAge}`. Manual phase work with `/research`, `/author`, and `/build` is for standalone phase review or explicit debugging only.
+
 Outputs:
 - `books/{slug}/content.json`
 - `books/{slug}/book.json`
@@ -117,10 +119,10 @@ Image files checked into `books/{slug}/images/` should be web/review-sized proje
 
 Agents can be invoked two ways:
 
-- **OpenCode** slash commands in `.opencode/commands/`: `/pipeline`, `/research`, `/author`, `/build`
+- **OpenCode** slash commands in `.opencode/commands/`: `/pipeline`, `/book`, `/research`, `/author`, `/build`
 - **VS Code Copilot** prompt files in `.github/prompts/`: `research.prompt.md`, `author.prompt.md`, `build.prompt.md`
 
-Use standalone commands in order with human review between stages. The OpenCode `/pipeline` command uses editor approval instead of routine human checkpoints.
+Use `/pipeline` or `/book` for normal complete-book generation. Use standalone commands in order only when a human explicitly wants phase-by-phase work with review between stages. The OpenCode full pipeline uses editor approval instead of routine human checkpoints and must not be replaced by manual artifact creation for normal generation requests.
 
 ## JSON Contracts
 

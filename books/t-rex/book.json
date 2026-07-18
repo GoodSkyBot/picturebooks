@@ -1,143 +1,181 @@
 {
-  "title": "T. rex: Clues from the King",
+  "title": "T. Rex: The Tyrant King",
   "slug": "t-rex",
   "targetAge": 6,
-  "textScale": "standard",
+  "textScale": "large",
   "category": "Dinosaurs",
   "tags": [
-    "t rex",
     "tyrannosaurus",
-    "tyrannosaurus rex",
+    "t-rex",
     "dinosaur",
-    "dinosaurs",
-    "fossils",
+    "predator",
+    "fossil",
+    "skeleton",
     "cretaceous",
-    "sue"
+    "extinct",
+    "carnivore",
+    "paleontology",
+    "Sue",
+    "teeth",
+    "prehistoric"
   ],
   "theme": {
-    "primaryColor": "#5A3A20",
-    "secondaryColor": "#2F5D50",
-    "backgroundColor": "#F4E2B8",
-    "accentColor": "#D97925",
-    "fontHeading": "Fredoka",
-    "fontBody": "Atkinson Hyperlegible",
-    "vibe": "Fossil dig adventure with giant footprints"
+    "primaryColor": "#4A6741",
+    "secondaryColor": "#C8A951",
+    "backgroundColor": "#F5F0E1",
+    "accentColor": "#B84C2E",
+    "fontHeading": "Lilita One",
+    "fontBody": "Nunito",
+    "vibe": "bold prehistoric adventure"
   },
   "cover": {
-    "title": "T. rex: Clues from the King",
-    "subtitle": "A Real Dinosaur Mystery",
-    "image": "images/trex-profile.png"
+    "title": "T. Rex: The Tyrant King",
+    "subtitle": "Meet one of the mightiest dinosaurs that ever lived",
+    "image": "images/trex-colored.png"
+  },
+  "narration": {
+    "voice": "echo",
+    "speed": 0.9,
+    "instructions": "Warm, enthusiastic, and slightly dramatic. Read like a storyteller sharing something amazing with a young child. Pause for emphasis on big numbers and fun facts."
   },
   "pages": [
     {
-      "text": "Meet T. rex! Its full name is Tyrannosaurus rex, which means tyrant lizard king. This giant dinosaur lived near the end of the Cretaceous Period.",
+      "text": "Say hello to Tyrannosaurus rex! Its name means 'tyrant lizard king.' T. rex lived about 66 million years ago, long before there were any people. It was one of the last dinosaurs to walk the Earth.",
       "extras": [
-        "T. rex lived about 68 to 66 million years ago."
+        "Tyrannosaurus comes from Greek words meaning 'tyrant lizard.'"
       ],
       "images": [
         {
-          "src": "images/trex-profile.png",
-          "alt": "A side-view life restoration of Tyrannosaurus rex walking on two legs",
-          "orientation": "landscape",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "T. rex was huge, but it was not a stiff tail-dragger. It held its body forward, balanced by a long, heavy tail.",
-      "extras": [
-        "Many adults were about 12 meters long.",
-        "That is longer than a school bus."
-      ],
-      "images": [
-        {
-          "src": "images/trex-size.svg",
-          "alt": "A scale chart comparing T. rex specimens with a human",
-          "orientation": "landscape",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "Powerful back legs carried T. rex across ancient North America. Its giant head reached forward, and its tail helped keep the whole animal steady.",
-      "extras": [
-        "T. rex walked on two legs."
-      ],
-      "images": [
-        {
-          "src": "images/trex-durbed.jpg",
-          "alt": "An illustrated T. rex showing strong legs, a large head, and a balancing tail",
-          "orientation": "landscape",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "Open wide! T. rex had about 60 teeth. They were serrated like tiny saws, and its jaws could crunch bone.",
-      "extras": [
-        "Some teeth were as long as a banana."
-      ],
-      "images": [
-        {
-          "src": "images/trex-skull-diagram.png",
-          "alt": "A historic scientific diagram showing the skull and jaws of T. rex",
-          "orientation": "portrait",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "Was T. rex a hunter or a scavenger? Scientists think it could be both. Many meat-eaters hunt when they can and eat found food when they find it.",
-      "extras": [
-        "A strong nose helped T. rex sniff out food."
-      ],
-      "images": [
-        {
-          "src": "images/trex-black-beauty.png",
-          "alt": "A life reconstruction of T. rex standing alert",
-          "orientation": "landscape",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "Those tiny arms are famous! Compared with the body, they were small. But they had strong muscles, and scientists still study what T. rex used them for.",
-      "extras": [
-        "Small arms are a real dinosaur mystery."
-      ],
-      "images": [
-        {
-          "src": "images/trex-mmartyniuk.png",
-          "alt": "A T. rex life restoration showing its small arms and long tail",
-          "orientation": "landscape",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "We do not have a photograph of a living T. rex. We have fossils! Bones, teeth, bite marks, and growth rings help scientists build the story.",
-      "extras": [
-        "Fossils are clues from deep time."
-      ],
-      "images": [
-        {
-          "src": "images/trex-holotype.jpg",
-          "alt": "A mounted T. rex fossil skeleton in a museum",
-          "orientation": "landscape",
-          "fit": "contain"
-        }
-      ]
-    },
-    {
-      "text": "One famous T. rex is called SUE. SUE was found in South Dakota and is one of the largest and most complete T. rex skeletons ever discovered.",
-      "extras": [
-        "SUE lived to about 28 years old."
-      ],
-      "images": [
-        {
-          "src": "images/sue-skeleton.jpg",
-          "alt": "The T. rex skeleton SUE displayed at the Field Museum",
+          "src": "images/trex-life-restoration.jpg",
+          "alt": "Life restoration illustration of T. rex in side view, showing its full body, feathered details, and powerful legs",
           "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "T. rex was ENORMOUS. It stretched about 40 feet from nose to tail -- longer than a school bus! It stood as tall as a one-story building. And it weighed as much as an African elephant.",
+      "extras": [
+        "The biggest T. rex weighed almost 10 tons!",
+        "Its heavy tail helped it balance."
+      ],
+      "images": [
+        {
+          "src": "images/trex-size-comparison.jpg",
+          "alt": "Size comparison showing a T. rex silhouette next to a giraffe, a person, a dog, and a fox",
+          "orientation": "landscape",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Look at that skull! T. rex had one of the most powerful bites of any animal that ever lived. Its jaws could crunch right through bone. It had about 60 teeth, and the biggest ones were as long as bananas!",
+      "extras": [
+        "Its bite was five times stronger than a lion's."
+      ],
+      "images": [
+        {
+          "src": "images/trex-skull-nhm.jpg",
+          "alt": "T. rex skull on display at a museum, showing rows of large sharp teeth and powerful jaws",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Each tooth was thick and sharp with tiny ridges, like a steak knife. When a tooth broke or fell out, a new one grew in its place. T. rex never had to worry about losing a tooth!",
+      "images": [
+        {
+          "src": "images/trex-tooth.jpg",
+          "alt": "A single large T. rex tooth fossil, dark brown and pointed, on display at a museum",
+          "orientation": "portrait"
+        }
+      ]
+    },
+    {
+      "text": "Now look at those tiny arms! They seem silly on such a giant body, right? But those little arms were actually very strong. Scientists think T. rex may have used them to push itself up off the ground or to hold onto food.",
+      "extras": [
+        "Each arm had only two clawed fingers."
+      ],
+      "images": [
+        {
+          "src": "images/a-friendly-colorful-illustration-of-a-tyrannosaurus-rex-seen.png",
+          "alt": "Colorful illustration of a T. rex with its tiny two-fingered arms clearly visible against its massive body",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "Was T. rex a hunter or did it just eat animals that were already dead? Both! T. rex had amazing eyesight and could see far away, just like you can. It also had a super-powered nose that could sniff out food from very far away.",
+      "extras": [
+        "T. rex could see in 3D, just like humans do."
+      ],
+      "images": [
+        {
+          "src": "images/trex-skull-brussels.jpg",
+          "alt": "T. rex skull cast seen from a low angle, showing the powerful jaw and eye sockets that gave it great vision",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Baby T. rex looked very different from the grown-ups. They were only about the size of a small turkey! And they may have been covered in soft, fuzzy feathers to keep warm. As they grew bigger, the feathers went away.",
+      "extras": [
+        "Teenagers gained about 4 pounds every single day!"
+      ],
+      "images": [
+        {
+          "src": "images/baby-trex-illustration.jpg",
+          "alt": "Illustration of a small fuzzy baby T. rex covered in feathers, looking alert and curious",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "How do we know so much about T. rex? People found its bones! In 1990, a fossil hunter named Sue Hendrickson discovered the most complete T. rex skeleton ever found. It took six people 17 days to dig it out of the ground!",
+      "extras": [
+        "The skeleton is named 'Sue' after its discoverer.",
+        "Workers spent 30,000 hours preparing the bones."
+      ],
+      "images": [
+        {
+          "src": "images/sue-field-museum.jpg",
+          "alt": "Sue the T. rex skeleton on display at the Field Museum in Chicago, with visitors standing nearby for scale",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "You can visit Sue at the Field Museum in Chicago. Standing next to those giant bones, you can see just how big T. rex really was. The skeleton is 90 percent complete -- almost every bone is there!",
+      "images": [
+        {
+          "src": "images/sue-skeleton-white.jpg",
+          "alt": "Complete Sue the T. rex skeleton photographed against a white background, showing every bone from head to tail",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "About 66 million years ago, a giant asteroid smashed into Earth. Dust and smoke filled the sky and blocked the sunlight. T. rex and all the other big dinosaurs disappeared forever.",
+      "extras": [
+        "The asteroid was about 6 miles wide!"
+      ],
+      "images": [
+        {
+          "src": "images/a-dramatic-but-not-scary-illustration-of-a-large-asteroid-st.png",
+          "alt": "Illustration of a large asteroid streaking through a colorful sky above a prehistoric landscape with dinosaur silhouettes",
+          "orientation": "square"
+        }
+      ]
+    },
+    {
+      "text": "But some small feathered dinosaurs survived -- and became the birds we see today! So next time you see a bird, remember: it is a tiny relative of the mighty T. rex.",
+      "extras": [
+        "Birds are living dinosaurs."
+      ],
+      "images": [
+        {
+          "src": "images/a-split-scene-illustration-showing-a-large-friendly-t-rex-on.png",
+          "alt": "Split-scene illustration showing a friendly T. rex on one side and a colorful modern bird on the other, suggesting family resemblance",
+          "orientation": "square"
         }
       ]
     }

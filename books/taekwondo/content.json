@@ -1,0 +1,416 @@
+{
+  "topic": "Taekwondo",
+  "slug": "taekwondo",
+  "targetAge": 6,
+  "sources": [
+    {
+      "title": "Taekwondo - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taekwondo",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Taekwondo - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Taekwondo",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Tae kwon do - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/sports/tae-kwon-do",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Taekwondo - Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/taekwondo/632416",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Para Taekwondo - International Paralympic Committee",
+      "url": "https://www.paralympic.org/taekwondo",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "World Taekwondo competitions overview navigation",
+      "url": "https://www.worldtaekwondo.org/competitions/overview",
+      "accessed": "2026-07-18"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "What taekwondo means",
+      "text": "Taekwondo is a Korean martial art and combat sport. The name is often translated as the way or art of the foot and fist: tae means striking with the foot, kwon means striking with the hand or fist, and do means way, art, or path. This makes the name itself useful for a young reader: the book can treat taekwondo as a way to train feet, fists, body control, and attention, not just a sport where people kick.",
+      "sources": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "relatedImages": [
+        "images/children-practice-01.jpg",
+        "images/basic-kick-practice.jpg"
+      ]
+    },
+    {
+      "title": "Why the kicks stand out",
+      "text": "Taekwondo is especially known for fast, high, jumping, and spinning kicks. Sources consistently contrast it with other martial arts by noting its emphasis on kicking techniques, while still including punches and blocks. For age 6, this can become a concrete throughline: feet can tap, balance, snap, stretch, and fly, but every big kick starts with careful practice.",
+      "sources": [
+        0,
+        1,
+        2
+      ],
+      "relatedImages": [
+        "images/jumping-side-kick-sunset.jpg",
+        "images/children-practice-02.jpg"
+      ]
+    },
+    {
+      "title": "Training is built from small skills",
+      "text": "Training usually includes learning individual techniques such as kicks, punches, blocks, and stances, then combining them into practice sequences. Students also work on sparring drills and free sparring in some schools. This helps frame taekwondo as step-by-step learning: a beginner does not start with a dramatic flying kick; they first learn where to put their feet, how to turn, how to stop, and how to listen.",
+      "sources": [
+        0,
+        2,
+        3
+      ],
+      "relatedImages": [
+        "images/children-practice-04.jpg",
+        "images/basic-kick-practice.jpg"
+      ]
+    },
+    {
+      "title": "Forms make practice look like a pattern",
+      "text": "Many taekwondo schools teach forms, called poomsae, hyeong, or teul depending on style. A form is a planned series of movements that practices blocks, kicks, punches, stances, balance, speed, and control. The form can be described visually for children as a moving pattern or a pretend practice path: the student faces one direction, turns, blocks, kicks, and finishes with attention.",
+      "sources": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "relatedImages": [
+        "images/children-form-koryo.jpg"
+      ]
+    },
+    {
+      "title": "Sparring has rules and protective gear",
+      "text": "Competitive taekwondo sparring is not just a wild fight. Competitors use rules, a marked area, judges or scoring systems, and protective gear. Britannica Kids describes competition on a square mat with uniforms and protective equipment such as head protectors, trunk protectors, guards, gloves, and mouth guards. The author should keep the tone safe and supervised for age 6: gear helps people practice and compete more safely, and rules tell everyone where and how to score.",
+      "sources": [
+        0,
+        3,
+        4
+      ],
+      "relatedImages": [
+        "images/sparring-headgear.jpg",
+        "images/olympic-sparring.jpg"
+      ]
+    },
+    {
+      "title": "Belts show progress",
+      "text": "Students in many taekwondo schools earn colored belts as they train. Britannica Kids connects rank with knowledge and skill in forms, while other sources describe a broader curriculum that can include technique, sparring, self-defense, and promotion exams. A belt is a child-friendly visual symbol of progress, but it should not be presented as universal in exact colors or timing because schools and organizations vary.",
+      "sources": [
+        0,
+        1,
+        3
+      ],
+      "relatedImages": [
+        "images/children-class-india.jpg"
+      ]
+    },
+    {
+      "title": "Respect and focus are part of the art",
+      "text": "Several introductory sources describe taekwondo as more than physical movement. Simple English Wikipedia highlights respect, and Wikipedia's curriculum overview includes mental and ethical discipline, etiquette, self-confidence, and leadership as common areas of focus. For a six-year-old, this can be shown through bowing, waiting for a turn, listening to the teacher, practicing with a partner, and stopping when told.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/children-practice-07.jpg",
+        "images/children-class-india.jpg"
+      ]
+    },
+    {
+      "title": "The modern sport grew in Korea",
+      "text": "Taekwondo developed in Korea in the twentieth century from Korean martial arts schools and influences that included karate and other martial arts. Britannica says the name tae kwon do was officially adopted in 1955 after being submitted by Choi Hong-Hi. Wikipedia gives a more complex picture, describing development through several Korean schools, organizations, and later sport-focused bodies. For this age, the safest accurate framing is that taekwondo is a Korean martial art that grew into a worldwide sport.",
+      "sources": [
+        0,
+        2,
+        3
+      ],
+      "relatedImages": []
+    },
+    {
+      "title": "Taekwondo became an Olympic and Paralympic sport",
+      "text": "Taekwondo appeared as an Olympic demonstration sport at Seoul 1988 and Barcelona 1992, then became an Olympic medal sport at Sydney 2000. Para taekwondo was introduced to the Paralympic programme at Tokyo 2020. This gives the author a large-scale turn for the book: the same kind of kicks and focus children practice in a gym can also appear on a world stage with athletes from many countries.",
+      "sources": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "relatedImages": [
+        "images/olympic-sparring.jpg"
+      ]
+    },
+    {
+      "title": "Para taekwondo adapts the sport",
+      "text": "The International Paralympic Committee describes Para taekwondo as a contact sport with rapid, powerful kicks to the body. Athletes wear protective equipment and sensor socks, and head kicks are not allowed for safety in the Paralympic version. This note is useful if the author wants a brief inclusive sidebar: taekwondo can be adapted, and different competition formats change rules to match the athletes and safety needs.",
+      "sources": [
+        4
+      ],
+      "relatedImages": []
+    },
+    {
+      "title": "There are many ways to practice",
+      "text": "The available sources and World Taekwondo competition navigation show that taekwondo includes more than one competitive or practice area: sparring, poomsae, para taekwondo, junior and cadet events, demonstrations, and major international championships. For an age-6 picture book, this breadth should not become a list of organizations. It can support a simple progression: some people practice patterns, some spar with pads and rules, some perform big demonstration kicks, and everyone starts with basics.",
+      "sources": [
+        0,
+        5
+      ],
+      "relatedImages": [
+        "images/children-form-koryo.jpg",
+        "images/sparring-headgear.jpg",
+        "images/jumping-side-kick-sunset.jpg"
+      ]
+    }
+  ],
+  "handoffNotes": "Image research found stronger child-facing coverage than many sports topics: the best coherent set is mostly children practicing in doboks, plus a few action and competition images. Avoid overstating exact belt systems, scoring values, or rules as universal; taekwondo organizations and school styles differ. Keep sparring age-appropriate by emphasizing pads, rules, control, and respect rather than combat intensity. The sunset jumping-kick image is dramatic and cover-worthy but is more stylized than the practice photos, so use it deliberately if chosen.",
+  "images": [
+    {
+      "filename": "images/children-practice-01.jpg",
+      "description": "Children taking part in a taekwondo training session at National Stadium",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Children_practicing_taekwondo_in_National_stadium_01.jpg",
+      "author": "Oluwatoyinp",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "outdoor",
+        "child-centered",
+        "practice"
+      ],
+      "contentTags": [
+        "children",
+        "practice",
+        "dobok",
+        "group",
+        "cover"
+      ]
+    },
+    {
+      "filename": "images/children-practice-02.jpg",
+      "description": "Children practicing taekwondo kicks together during a Saturday sports activity",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Children_practicing_taekwondo_in_National_stadium_02.jpg",
+      "author": "Oluwatoyinp",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "outdoor",
+        "child-centered",
+        "action"
+      ],
+      "contentTags": [
+        "children",
+        "kicks",
+        "practice",
+        "balance",
+        "group"
+      ]
+    },
+    {
+      "filename": "images/children-practice-04.jpg",
+      "description": "Young taekwondo students practicing together in rows",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Children_practicing_taekwondo_in_National_stadium_04.jpg",
+      "author": "Oluwatoyinp",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "outdoor",
+        "child-centered",
+        "orderly"
+      ],
+      "contentTags": [
+        "children",
+        "class",
+        "practice",
+        "stance",
+        "listening"
+      ]
+    },
+    {
+      "filename": "images/children-practice-07.jpg",
+      "description": "Children in doboks practicing taekwondo movements during a group activity",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Children_practicing_taekwondo_in_National_stadium_07.jpg",
+      "author": "Oluwatoyinp",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "width": 2200,
+      "height": 1650,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "outdoor",
+        "child-centered",
+        "group"
+      ],
+      "contentTags": [
+        "children",
+        "respect",
+        "focus",
+        "practice",
+        "class"
+      ]
+    },
+    {
+      "filename": "images/children-form-koryo.jpg",
+      "description": "A young taekwondo student performing Koryo during a local tournament",
+      "source_url": "https://commons.wikimedia.org/wiki/File:TAEKWONDO_PRACTICIONER_KORYO.jpg",
+      "author": "Lucky Ambago Purok Otso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1552,
+      "height": 2200,
+      "imageType": "photo",
+      "styleTags": [
+        "indoor",
+        "focused",
+        "child-centered",
+        "tournament"
+      ],
+      "contentTags": [
+        "child",
+        "poomsae",
+        "form",
+        "stance",
+        "focus"
+      ]
+    },
+    {
+      "filename": "images/children-class-india.jpg",
+      "description": "A group of schoolchildren in taekwondo uniforms practicing together",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Taekwondo_CHIREC.jpg",
+      "author": "RTNS2016",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "bright",
+        "school",
+        "child-centered",
+        "group"
+      ],
+      "contentTags": [
+        "children",
+        "class",
+        "belts",
+        "practice",
+        "group"
+      ]
+    },
+    {
+      "filename": "images/basic-kick-practice.jpg",
+      "description": "Students practicing a basic taekwondo kick in a class setting",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Basic_Taekwondo.jpg",
+      "author": "Hidayatul Ni'mah 18",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2179,
+      "height": 1344,
+      "imageType": "photo",
+      "styleTags": [
+        "indoor",
+        "practice",
+        "action",
+        "instructional"
+      ],
+      "contentTags": [
+        "kick",
+        "practice",
+        "basics",
+        "class",
+        "movement"
+      ]
+    },
+    {
+      "filename": "images/sparring-headgear.jpg",
+      "description": "Taekwondo students wearing protective headgear during class",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Baldwin_Academy_Taekwondo.jpg",
+      "author": "Piyushraj25",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 2106,
+      "imageType": "photo",
+      "styleTags": [
+        "indoor",
+        "classroom",
+        "gear",
+        "child-centered"
+      ],
+      "contentTags": [
+        "headgear",
+        "protective gear",
+        "sparring",
+        "children",
+        "safety"
+      ]
+    },
+    {
+      "filename": "images/olympic-sparring.jpg",
+      "description": "Two taekwondo athletes sparring in protective gear during the 2008 Olympic Games",
+      "source_url": "https://commons.wikimedia.org/wiki/File:COOK_(GBR)_VS_ZHU_(CHN)_BM_-80KGM12.JPG",
+      "author": "Luketkd",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 2200,
+      "height": 1505,
+      "imageType": "photo",
+      "styleTags": [
+        "competition",
+        "action",
+        "indoor",
+        "sports-event"
+      ],
+      "contentTags": [
+        "olympics",
+        "sparring",
+        "protective gear",
+        "competition",
+        "rules"
+      ]
+    },
+    {
+      "filename": "images/jumping-side-kick-sunset.jpg",
+      "description": "A person performing a jumping side kick silhouetted against a sunset at Houlgate beach",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Taekwondo_Jumping_Side_Kick_at_Sunset,_Houlgate_Beach_-_01.jpg",
+      "author": "Benjamin Bellamy",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 2200,
+      "height": 1467,
+      "imageType": "photo",
+      "styleTags": [
+        "dramatic",
+        "silhouette",
+        "sunset",
+        "action"
+      ],
+      "contentTags": [
+        "jumping kick",
+        "side kick",
+        "movement",
+        "cover",
+        "balance"
+      ]
+    }
+  ]
+}

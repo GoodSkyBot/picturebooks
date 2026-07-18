@@ -1,0 +1,158 @@
+{
+  "title": "Taekwondo Feet, Taekwondo Focus",
+  "slug": "taekwondo",
+  "targetAge": 6,
+  "textScale": "large",
+  "category": "Sports",
+  "tags": [
+    "taekwondo",
+    "tae kwon do",
+    "taekwon-do",
+    "martial arts",
+    "Korea",
+    "kicks",
+    "poomsae",
+    "forms",
+    "sparring",
+    "dobok",
+    "belts",
+    "Olympics",
+    "Paralympics",
+    "protective gear"
+  ],
+  "theme": {
+    "primaryColor": "#155EAD",
+    "secondaryColor": "#F04F3E",
+    "backgroundColor": "#FFF3D6",
+    "accentColor": "#111827",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "bright dojang energy, careful focus, big-kick excitement"
+  },
+  "cover": {
+    "title": "Taekwondo Feet, Taekwondo Focus",
+    "subtitle": "A first look at kicks, forms, belts, and respect",
+    "image": "images/jumping-side-kick-sunset.jpg"
+  },
+  "narration": {
+    "voice": "coral",
+    "speed": 0.95,
+    "instructions": "Speak in a bright, encouraging storytelling voice for a 6-year-old, with clear pauses after Korean taekwondo words."
+  },
+  "pages": [
+    {
+      "text": "Taekwondo can begin with a bow. Your hands are still. Your eyes are ready. Your body says, I will listen, learn, and try.",
+      "extras": [
+        "Respect is part of practice."
+      ],
+      "images": [
+        {
+          "src": "images/children-practice-01.jpg",
+          "alt": "Children in white taekwondo uniforms practicing together outside at National Stadium.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "The word taekwondo has three pieces. Tae means foot. Kwon means fist. Do means way. Taekwondo is the way of feet and fists.",
+      "extras": [
+        "It is a Korean martial art."
+      ],
+      "images": [
+        {
+          "src": "images/basic-kick-practice.jpg",
+          "alt": "Students practicing a basic taekwondo kick in a class setting.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "A big kick starts small. Stand tall. Bend your knee. Hold your balance. Snap your foot out, then bring it back.",
+      "images": [
+        {
+          "src": "images/children-practice-04.jpg",
+          "alt": "Young taekwondo students practicing in rows while they follow instructions.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Taekwondo is famous for kicks. Some are fast. Some turn. Some jump. But every kick needs control, so the kicker can stop safely.",
+      "extras": [
+        "Strong kicks need strong listening."
+      ],
+      "images": [
+        {
+          "src": "images/children-practice-02.jpg",
+          "alt": "Children practicing taekwondo kicks together outdoors.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Sometimes students practice a form. A form is a pattern of moves: block, step, punch, turn, kick. It is like a dance made of focus.",
+      "extras": [
+        "Forms may be called poomsae."
+      ],
+      "images": [
+        {
+          "src": "images/children-form-koryo.jpg",
+          "alt": "A young taekwondo student performing a form during a local tournament.",
+          "orientation": "portrait",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Belts can show progress. A new belt does not mean the learning is finished. It means the student practiced, remembered, and is ready to learn more.",
+      "images": [
+        {
+          "src": "images/children-class-india.jpg",
+          "alt": "A group of schoolchildren in taekwondo uniforms and colored belts practicing together.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "When students spar, they use rules. They may wear pads and headgear. The gear helps them practice with a partner and stay safer.",
+      "extras": [
+        "Rules tell everyone what counts."
+      ],
+      "images": [
+        {
+          "src": "images/sparring-headgear.jpg",
+          "alt": "Taekwondo students wearing protective headgear during class.",
+          "orientation": "square",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "text": "Taekwondo grew from Korea into a sport people practice around the world. Athletes even compete at the Olympic and Paralympic Games.",
+      "extras": [
+        "Taekwondo became an Olympic medal sport in 2000."
+      ],
+      "images": [
+        {
+          "src": "images/olympic-sparring.jpg",
+          "alt": "Two Olympic taekwondo athletes sparring in protective gear during a match.",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "text": "Every expert was once a beginner. Bow. Breathe. Try one careful step. Then try again. That is taekwondo focus.",
+      "images": [
+        {
+          "src": "images/children-practice-07.jpg",
+          "alt": "Children in doboks practicing taekwondo movements together during a group activity.",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
