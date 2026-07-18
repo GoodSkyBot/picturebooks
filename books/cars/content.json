@@ -1,0 +1,333 @@
+{
+  "topic": "Cars",
+  "slug": "cars",
+  "targetAge": 4,
+  "sources": [
+    {
+      "title": "car - Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/car/352807",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Automobile - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/Automobile",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "automobile - Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/technology/automobile",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "All-Electric Vehicles - Alternative Fuels Data Center, U.S. Department of Energy",
+      "url": "https://afdc.energy.gov/vehicles/electric-basics-ev",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "Manual on Uniform Traffic Control Devices for Streets and Highways - Federal Highway Administration",
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "accessed": "2026-07-17"
+    },
+    {
+      "title": "OpenMoji License",
+      "url": "https://openmoji.org/library/",
+      "accessed": "2026-07-17"
+    }
+  ],
+  "researchNotes": [
+    {
+      "title": "What makes a car a car",
+      "text": "A car is a road vehicle with wheels that carries a small number of passengers. Cars are also called automobiles or motor vehicles. Trucks and buses are motor vehicles too, but they are usually larger and carry heavier loads or more people. For an age-4 book, the clearest defining ideas are: cars have wheels, carry people, and move using an engine or motor.",
+      "sources": [
+        0,
+        1,
+        2
+      ],
+      "relatedImages": [
+        "images/automobile.svg",
+        "images/oncoming-automobile.svg"
+      ]
+    },
+    {
+      "title": "Cars help people go places",
+      "text": "Cars changed travel by helping people move around a city or travel much farther than walking. They also changed where people live, because people can live farther from work, school, shops, parks, or family and travel by road. This can be simplified for preschoolers as: cars take people from one place to another.",
+      "sources": [
+        0,
+        2
+      ],
+      "relatedImages": [
+        "images/automobile.svg"
+      ]
+    },
+    {
+      "title": "Wheels, tires, and rolling",
+      "text": "Most cars have four wheels. The wheels and air-filled tires help the car roll and also cushion the ride. Tires have rough surfaces to help keep them from sliding on slippery or loose surfaces. For a young reader, the essential idea is concrete and visual: wheels roll round and round, and tires touch the road.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/wheel.svg"
+      ]
+    },
+    {
+      "title": "Seats and passengers",
+      "text": "Cars are designed primarily to carry passengers. Britannica Kids describes sedans as commonly seating four to five people, and Simple English Wikipedia notes that cars mainly transport people rather than cargo. This supports a simple passenger-focused page: people sit inside, doors close, and the car carries them along the road.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/seat.svg"
+      ]
+    },
+    {
+      "title": "How drivers make cars go, steer, and stop",
+      "text": "A driver operates a car by pressing pedals to make it go or stop and by turning the steering wheel to guide where the car goes. The brake pedal connects to brakes at the wheels that stop the vehicle. For age 4, this should not become a mechanical lesson; use simple action words: push, turn, slow, stop.",
+      "sources": [
+        0
+      ],
+      "relatedImages": [
+        "images/stop-sign.svg"
+      ]
+    },
+    {
+      "title": "Different kinds of cars",
+      "text": "Car bodies come in many types, including sedans, hatchbacks, sports cars, station wagons, minivans, SUVs, and racing cars. Some are made for family travel, some carry extra things, and some are specially designed to race at high speeds. The book can use this as a playful variety page without naming too many body styles.",
+      "sources": [
+        0,
+        1
+      ],
+      "relatedImages": [
+        "images/racing-car.svg",
+        "images/oncoming-automobile.svg"
+      ]
+    },
+    {
+      "title": "Fuel and electric power",
+      "text": "Many cars use gasoline in an internal-combustion engine. Electric cars use a battery pack to store electrical energy that powers an electric motor, and the battery is charged by plugging the vehicle into an electric power source. For an age-4 book, this can be explained as: some cars drink fuel, and some cars plug in to charge.",
+      "sources": [
+        0,
+        1,
+        3
+      ],
+      "relatedImages": [
+        "images/fuel-pump.svg",
+        "images/battery.svg"
+      ]
+    },
+    {
+      "title": "Safety belongs in the background",
+      "text": "Britannica Kids notes that car safety is an ongoing issue and that modern cars include devices such as seat belts and air bags to protect riders in a crash. The Federal Highway Administration's Manual on Uniform Traffic Control Devices is the U.S. standard reference for road signs and signals, supporting the use of familiar stop-sign language. For age 4, safety should be calm and caregiver-centered: buckle up, ride with a grown-up, and wait when there is a stop sign. Avoid frightening crash details in the main text.",
+      "sources": [
+        0,
+        4
+      ],
+      "relatedImages": [
+        "images/stop-sign.svg",
+        "images/seat.svg"
+      ]
+    }
+  ],
+  "handoffNotes": "The approved image set uses consistent OpenMoji SVG illustrations, which are simple, bright, and legible for preschool readers. Keep the book concrete and rhythmic; avoid deeper mechanics, pollution, crashes, or history beyond what supports a four-year-old's understanding.",
+  "images": [
+    {
+      "filename": "images/automobile.svg",
+      "description": "OpenMoji red automobile icon, side view.",
+      "source_url": "https://openmoji.org/library/emoji-1F697/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "car",
+        "cover",
+        "vehicle",
+        "transportation"
+      ]
+    },
+    {
+      "filename": "images/wheel.svg",
+      "description": "OpenMoji wheel icon.",
+      "source_url": "https://openmoji.org/library/emoji-1F6DE/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "wheel",
+        "tire",
+        "rolling",
+        "car part"
+      ]
+    },
+    {
+      "filename": "images/seat.svg",
+      "description": "OpenMoji chair seat icon used to represent car seats and passengers.",
+      "source_url": "https://openmoji.org/library/emoji-1FA91/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "seat",
+        "passenger",
+        "inside car",
+        "safety"
+      ]
+    },
+    {
+      "filename": "images/fuel-pump.svg",
+      "description": "OpenMoji fuel pump icon.",
+      "source_url": "https://openmoji.org/library/emoji-26FD/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "fuel",
+        "gasoline",
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "filename": "images/battery.svg",
+      "description": "OpenMoji low battery icon used to represent stored electric power.",
+      "source_url": "https://openmoji.org/library/emoji-1FAAB/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "battery",
+        "electric car",
+        "charging",
+        "energy"
+      ]
+    },
+    {
+      "filename": "images/stop-sign.svg",
+      "description": "OpenMoji stop sign icon.",
+      "source_url": "https://openmoji.org/library/emoji-1F6D1/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "stop sign",
+        "stopping",
+        "road sign",
+        "safety"
+      ]
+    },
+    {
+      "filename": "images/racing-car.svg",
+      "description": "OpenMoji racing car icon.",
+      "source_url": "https://openmoji.org/library/emoji-1F3CE/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "racing car",
+        "sports car",
+        "car type",
+        "fast car"
+      ]
+    },
+    {
+      "filename": "images/taxi.svg",
+      "description": "OpenMoji taxi icon.",
+      "source_url": "https://openmoji.org/library/emoji-1F695/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "taxi",
+        "car",
+        "city travel",
+        "transportation"
+      ]
+    },
+    {
+      "filename": "images/oncoming-automobile.svg",
+      "description": "OpenMoji blue oncoming automobile icon, front view.",
+      "source_url": "https://openmoji.org/library/emoji-1F698/",
+      "author": "OpenMoji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 72,
+      "height": 72,
+      "imageType": "illustration",
+      "styleTags": [
+        "bright icon",
+        "simple vector",
+        "child-friendly"
+      ],
+      "contentTags": [
+        "car",
+        "front view",
+        "car type",
+        "vehicle"
+      ]
+    }
+  ]
+}

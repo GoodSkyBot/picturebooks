@@ -1,0 +1,138 @@
+{
+  "title": "Cars Go Vroom",
+  "slug": "cars",
+  "targetAge": 4,
+  "category": "Vehicles",
+  "tags": [
+    "cars",
+    "car",
+    "automobile",
+    "auto",
+    "vehicle",
+    "wheels",
+    "tires",
+    "road",
+    "driving",
+    "electric car",
+    "fuel",
+    "safety",
+    "transportation"
+  ],
+  "theme": {
+    "primaryColor": "#E23B2E",
+    "secondaryColor": "#1E88E5",
+    "backgroundColor": "#FFF5D8",
+    "accentColor": "#F9C80E",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Nunito",
+    "vibe": "bright preschool road trip with vroom rhythm"
+  },
+  "cover": {
+    "title": "Cars Go Vroom",
+    "subtitle": "Roll, ride, stop, go",
+    "image": "images/automobile.svg"
+  },
+  "pages": [
+    {
+      "text": "This is a car. A car has wheels. A car carries people. Vroom, vroom, here we go!",
+      "images": [
+        {
+          "src": "images/automobile.svg",
+          "alt": "A bright red car shown from the side.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Round wheels roll on the road. Roll, roll, roll. The car moves forward.",
+      "extras": [
+        "Most cars have four wheels."
+      ],
+      "images": [
+        {
+          "src": "images/wheel.svg",
+          "alt": "A car wheel with a black tire.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "People sit inside the car. Doors close. Seat belts buckle. Click!",
+      "images": [
+        {
+          "src": "images/seat.svg",
+          "alt": "A simple seat icon representing a place for a passenger to sit.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "A driver turns the wheel. The car turns too. Left turn, right turn, slow turn.",
+      "images": [
+        {
+          "src": "images/oncoming-automobile.svg",
+          "alt": "A blue car shown from the front.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Some cars use fuel. Some cars plug in and charge. Both kinds need power to go.",
+      "images": [
+        {
+          "src": "images/fuel-pump.svg",
+          "alt": "A red fuel pump for cars that use gasoline.",
+          "orientation": "square",
+          "fit": "contain"
+        },
+        {
+          "src": "images/battery.svg",
+          "alt": "A battery icon representing electric power for a car.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Cars come in many shapes. Small cars. Big cars. Speedy racing cars. Beep, beep!",
+      "images": [
+        {
+          "src": "images/racing-car.svg",
+          "alt": "A small racing car icon.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "At a stop sign, cars stop. Wait, look, and listen with a grown-up.",
+      "images": [
+        {
+          "src": "images/stop-sign.svg",
+          "alt": "A red stop sign.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "text": "Cars can take us to the store, the park, or Grandma's house. Roll, ride, stop, go!",
+      "images": [
+        {
+          "src": "images/taxi.svg",
+          "alt": "A yellow taxi car ready for a ride.",
+          "orientation": "square",
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "backMatter": {
+    "showCredits": true,
+    "showSources": true
+  }
+}
