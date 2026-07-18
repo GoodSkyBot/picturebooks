@@ -104,6 +104,29 @@
         }
       }
     },
+    "narration": {
+      "type": "object",
+      "description": "Optional audio narration preferences. If omitted, the build script picks a stable automatic voice for this book.",
+      "additionalProperties": false,
+      "properties": {
+        "voice": {
+          "type": "string",
+          "enum": ["auto", "alloy", "ash", "ballad", "coral", "echo", "fable", "nova", "onyx", "sage", "shimmer", "verse", "marin", "cedar"],
+          "description": "Narration voice. Use auto for a stable per-book voice chosen from the model's supported voices."
+        },
+        "speed": {
+          "type": "number",
+          "minimum": 0.25,
+          "maximum": 4.0,
+          "description": "Narration speed. Values below 1.0 are slower; values above 1.0 are faster."
+        },
+        "instructions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Tone instructions for gpt-4o-mini-tts narration."
+        }
+      }
+    },
     "pages": {
       "type": "array",
       "minItems": 1,

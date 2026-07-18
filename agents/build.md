@@ -28,10 +28,14 @@ Read and follow before starting:
 Before building the site, generate audio narration for each page:
 
 ```
-.venv/bin/python scripts/generate_speech.py --slug {slug} --instructions {instructions}
+.venv/bin/python scripts/generate_speech.py --slug {slug} --voice {voice} --instructions {instructions}
 ```
 
-Use `--instructions` to set the narration tone based on the book's `vibe` and `targetAge` (e.g., `--instructions "Speak in a warm, playful storytelling voice for a 5-year-old."`). The script reads `book.json` and saves MP3 files to `books/{slug}/audio/` using the pattern `audio/page-{NN}-text.mp3` and `audio/page-{NN}-extra-{N}.mp3`.
+Choose a narration voice intentionally for the book's topic, mood, `targetAge`, and `theme.vibe`. The goal is library-wide variety with one consistent narrator inside each book. Pick the available voice you think best fits the subject and reading experience; for example, a calm nature book might want a softer, measured voice, while a playful sports or vehicle book might want a brighter, more energetic one. Available voices are `alloy`, `ash`, `ballad`, `coral`, `echo`, `fable`, `nova`, `onyx`, `sage`, `shimmer`, `verse`, `marin`, and `cedar`.
+
+If there is no clear topical or tonal reason to prefer one voice, use `--voice auto`. The script will choose a stable voice from the book's slug, title, `targetAge`, and `theme.vibe`, which works as a deterministic random fallback.
+
+Use `--instructions` to set the narration tone based on the book's `vibe` and `targetAge` (e.g., `--instructions "Speak in a warm, playful storytelling voice for a 5-year-old."`). You may also set `narration.voice`, `narration.speed`, and `narration.instructions` in `book.json` when the book itself should preserve a specific narration choice for future rebuilds; those values override CLI defaults for that book. The script reads `book.json` and saves MP3 files to `books/{slug}/audio/` using the pattern `audio/page-{NN}-text.mp3` and `audio/page-{NN}-extra-{N}.mp3`.
 
 ## Optimize Images
 

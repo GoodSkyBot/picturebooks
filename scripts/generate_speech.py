@@ -14,12 +14,15 @@ The --batch mode accepts a custom JSON file with an array of items:
       {
         "text": "Frogs are amphibians.",
         "output": "books/frogs/audio/page-01-text.mp3",
+                "voice": "nova",
+                "speed": 0.95,
         "instructions": "Speak in a warm storytelling voice for a 5-year-old."
       }
     ]
 
 Each item requires "text" and "output". The "instructions" field is optional
-and overrides the global --instructions flag for that item.
+and overrides the global --instructions flag for that item. The "voice" and
+"speed" fields are also optional and override the global flags for that item.
 
 Environment:
     OPENAI_API_KEY must be set in a .env file at the repo root or as an
@@ -27,12 +30,32 @@ Environment:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import sys
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import urlopen, Request
+
+
+GPT_4O_MINI_TTS_VOICES = [
+    "alloy",
+    "ash",
+    "ballad",
+    "coral",
+    "echo",
+    "fable",
+    "nova",
+    "onyx",
+    "sage",
+    "shimmer",
+    "verse",
+    "marin",
+    "cedar",
+]
+
+LEGACY_TTS_VOICES = ["alloy", "echo", "fable", "onyx", "nova", "shimmer"]
 
 
 def load_dotenv(path: Path) -> None:
@@ -60,6 +83,28 @@ def get_api_key() -> str:
         print("Error: OPENAI_API_KEY not found in .env or environment.", file=sys.stderr)
         sys.exit(1)
     return api_key
+
+
+def voices_for_model(model: str) -> list[str]:
+    if model in {"tts-1", "tts-1-hd"}:
+        return LEGACY_TTS_VOICES
+    return GPT_4O_MINI_TTS_VOICES
+
+
+def resolve_voice(voice: str, model: str, seed: str) -> str:
+    """Resolve an explicit voice or choose a stable automatic voice."""
+    voices = voices_for_model(model)
+    if voice != "auto":
+        if voice not in voices:
+            print(
+                f"Error: voice '{voice}' is not supported for model '{model}'. Options: {', '.join(voices)}.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        return voice
+
+    digest = hashlib.sha256(seed.encode("utf-8")).hexdigest()
+    return voices[int(digest, 16) % len(voices)]
 
 
 def generate_speech(
@@ -131,19 +176,32 @@ def process_batch(batch: list[dict], args: argparse.Namespace) -> None:
             sys.exit(1)
 
         instructions = item.get("instructions") or args.instructions
+        item_voice = resolve_voice(
+            item.get("voice") or args.voice,
+            args.model,
+            item.get("voiceSeed") or item.get("output") or text,
+        )
+        item_speed = item.get("speed", args.speed)
+
+        if not isinstance(item_speed, (int, float)) or not 0.25 <= item_speed <= 4.0:
+            print(
+                f"Error: batch item {i} speed must be between 0.25 and 4.0.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
 
         dest = Path(output)
         dest.parent.mkdir(parents=True, exist_ok=True)
 
-        print(f"[{i}/{total}] Generating: {dest}", file=sys.stderr)
+        print(f"[{i}/{total}] Generating: {dest} ({item_voice})", file=sys.stderr)
 
         audio_bytes = generate_speech(
             text=text,
             api_key=api_key,
             model=args.model,
-            voice=args.voice,
+            voice=item_voice,
             response_format=args.format,
-            speed=args.speed,
+            speed=item_speed,
             instructions=instructions,
         )
 
@@ -169,6 +227,13 @@ def batch_from_book(slug: str, audio_format: str) -> list[dict]:
     with open(book_path) as f:
         book = json.load(f)
 
+    narration = book.get("narration", {})
+    voice_seed = ":".join([
+        slug,
+        book.get("title", ""),
+        str(book.get("targetAge", "")),
+        book.get("theme", {}).get("vibe", ""),
+    ])
     audio_dir = f"books/{slug}/audio"
     batch: list[dict] = []
 
@@ -176,16 +241,22 @@ def batch_from_book(slug: str, audio_format: str) -> list[dict]:
         page_label = f"{page_num:02d}"
 
         if page.get("text"):
-            batch.append({
+            item = {
                 "text": page["text"],
                 "output": f"{audio_dir}/page-{page_label}-text.{audio_format}",
-            })
+                "voiceSeed": voice_seed,
+            }
+            item.update(narration)
+            batch.append(item)
 
         for extra_num, extra in enumerate(page.get("extras", []), start=1):
-            batch.append({
+            item = {
                 "text": extra,
                 "output": f"{audio_dir}/page-{page_label}-extra-{extra_num}.{audio_format}",
-            })
+                "voiceSeed": voice_seed,
+            }
+            item.update(narration)
+            batch.append(item)
 
     if not batch:
         print("Error: no text found in book.json pages.", file=sys.stderr)
@@ -209,8 +280,8 @@ def main():
     )
     parser.add_argument(
         "--voice",
-        default="coral",
-        help="Voice to use (default: coral). Options: alloy, ash, ballad, coral, echo, fable, nova, onyx, sage, shimmer, verse, marin, cedar.",
+        default="auto",
+        help="Voice to use (default: auto). Options: auto, alloy, ash, ballad, coral, echo, fable, nova, onyx, sage, shimmer, verse, marin, cedar.",
     )
     parser.add_argument(
         "--model",
