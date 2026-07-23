@@ -32,7 +32,7 @@
   "cover": {
     "title": "Taekwondo Feet, Taekwondo Focus",
     "subtitle": "A first look at kicks, forms, belts, and respect",
-    "image": "images/jumping-side-kick-sunset.jpg"
+    "image": "images/bright-child-friendly-nonfiction-picture-book-cover-image-of.png"
   },
   "narration": {
     "voice": "coral",
@@ -70,9 +70,10 @@
       "text": "A big kick starts small. Stand tall. Bend your knee. Hold your balance. Snap your foot out, then bring it back.",
       "images": [
         {
-          "src": "images/children-practice-04.jpg",
-          "alt": "Young taekwondo students practicing in rows while they follow instructions.",
-          "orientation": "landscape"
+          "src": "images/front-kick-four-movements-no-text.png",
+          "alt": "Four clear views of a child bending the knee, balancing, snapping a front kick, and pulling the foot back.",
+          "orientation": "landscape",
+          "fit": "contain"
         }
       ]
     },
@@ -83,9 +84,10 @@
       ],
       "images": [
         {
-          "src": "images/children-practice-02.jpg",
-          "alt": "Children practicing taekwondo kicks together outdoors.",
-          "orientation": "landscape"
+          "src": "images/jumping-side-kick-sunset.jpg",
+          "alt": "A taekwondo athlete performing a dramatic jumping side kick against a sunset sky.",
+          "orientation": "landscape",
+          "fit": "contain"
         }
       ]
     },
@@ -99,6 +101,7 @@
           "src": "images/children-form-koryo.jpg",
           "alt": "A young taekwondo student performing a form during a local tournament.",
           "orientation": "portrait",
+          "fit": "contain",
           "position": "top"
         }
       ]

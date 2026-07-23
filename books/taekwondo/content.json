@@ -411,6 +411,87 @@
         "cover",
         "balance"
       ]
+    },
+    {
+      "filename": "images/bright-child-friendly-nonfiction-picture-book-cover-image-of.png",
+      "description": "Bright, child-friendly nonfiction picture book cover image of a young taekwondo student in a white dobok and colored belt doing a controlled side kick in a clean, sunny dojang, smiling classmates watching respectfully, clear face and uniform, energetic but safe, warm colors, no text.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "cover",
+        "child",
+        "taekwondo",
+        "kick",
+        "dobok",
+        "focus"
+      ],
+      "styleTags": [
+        "bright",
+        "child-friendly",
+        "warm",
+        "dojang",
+        "nonfiction"
+      ]
+    },
+    {
+      "filename": "images/child-friendly-educational-image-showing-one-young-taekwondo.png",
+      "description": "Child-friendly educational image showing one young taekwondo student in a dobok practicing a basic front kick step by step: knee lifted, balanced body, foot snapping forward, then returning safely, with a calm instructor nearby in a bright practice room, clear motion cues, safe and encouraging mood.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1024,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "kick basics",
+        "balance",
+        "practice",
+        "child",
+        "dobok",
+        "instruction"
+      ],
+      "styleTags": [
+        "bright",
+        "educational",
+        "child-friendly",
+        "dojang",
+        "instructional"
+      ]
+    },
+    {
+      "filename": "images/front-kick-four-movements-no-text.png",
+      "description": "Simple child-friendly educational picture-book illustration in a bright uncluttered taekwondo practice room. Show the same young child in a plain white dobok four times from left to right as four large, clearly separated full-body poses: first standing with the kicking knee bent and lifted, second balancing steadily with knee lifted, third gently snapping a controlled front kick forward, fourth pulling the foot back to the bent-knee position. Keep every whole body and foot visible, consistent side view, anatomically clear, ample empty space, minimal background, safe encouraging mood, warm clean nonfiction illustration style. Absolutely no text, no words, no letters, no numbers, no labels, no captions, no signs, no logos, no emblems, no flags, no arrows, no icons, no symbols, no speech bubbles, no decorative marks, and no tiny background details that require reading.",
+      "source_url": "https://openai.com/policies/terms-of-use",
+      "author": "OpenAI gpt-image-2",
+      "license": "Generated (non-redistributable without rights)",
+      "license_url": "https://openai.com/policies/terms-of-use",
+      "width": 1536,
+      "height": 1024,
+      "imageType": "illustration",
+      "contentTags": [
+        "kick basics",
+        "bend",
+        "balance",
+        "snap",
+        "return",
+        "child",
+        "dobok",
+        "instruction"
+      ],
+      "styleTags": [
+        "bright",
+        "simple",
+        "child-friendly",
+        "dojang",
+        "uncluttered",
+        "no-text"
+      ]
     }
   ]
 }

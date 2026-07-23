@@ -211,6 +211,7 @@ a { color: var(--primary-color); }
 }
 
 @media (max-width: 479px) {
+  .nav-edge .nav-edge-prev, .nav-edge .nav-edge-next { display: none; }
   .tap-zone, .swipe-hint { display: block; }
   .cover-actions { top: 8px; right: 8px; }
   .btn-icon { width: 46px; height: 46px; border-radius: 15px; }
